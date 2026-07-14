@@ -1,0 +1,1475 @@
+
+Code	enseig.	Activité	Jour	Heure	début	Heure	fin	Semaine	Locaux	Type	créneau	Lib.	créneau						
+AC01	Cours	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	104	Groupe	actif	C									
+AC01	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	410	Groupe	actif	D	1								
+AC01	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	410	Groupe	actif	D	2								
+AC01	TP	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	404	Groupe	actif	T	1								
+AC01	TP	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	417	Groupe	actif	T	2								
+AC02	Cours	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	201	Groupe	actif	C									
+AC02	TD	Lundi	01:15:00 PM	04:15:00 PM	SI	CT	112	Groupe	actif	D	1								
+AC02	TD	Mardi	10:15:00 AM	01:15:00 PM	SI	CT	112	Groupe	actif	D	2								
+AC03	Cours	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	205	Groupe	actif	C									
+AC03	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	304	Groupe	actif	D	1								
+AC03	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	304	Groupe	actif	D	2								
+AC05	Cours	Jeudi	06:45:00 PM	08:45:00 PM	BF	A	100	Groupe	actif	C									
+AC05	Cours	Mardi	02:15:00 PM	04:15:00 PM	BF	A	205	Groupe	actif	C									
+AC05	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	B	217	Groupe	actif	D	1								
+AC05	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	B	217	Groupe	actif	D	2								
+AC05	TD	Vendredi	04:30:00 PM	06:30:00 PM	BF	B	217	Groupe	actif	D	3								
+AC05	TP	Mardi	10:15:00 AM	01:15:00 PM	semaine	B	BF	B	116	Groupe	actif	T	1						
+AC05	TP	Mardi	10:15:00 AM	01:15:00 PM	semaine	A	BF	B	116	Groupe	actif	T	1						
+AC05	TP	Mercredi	04:30:00 PM	07:30:00 PM	BF	B	116	Groupe	actif	T	2								
+AC05	TP	Vendredi	01:00:00 PM	04:00:00 PM	semaine	A	BF	B	114	Groupe	actif	T	3						
+AC05	TP	Vendredi	01:00:00 PM	04:00:00 PM	semaine	B	BF	B	114	Groupe	actif	T	3						
+AE01	Activité	annexe	Lundi	12:30:00 PM	02:00:00 PM	BF	A	405	Groupe	actif	D	1							
+AE01	Activité	annexe	Mardi	12:30:00 PM	02:00:00 PM	BF	A	405	Groupe	actif	D	2							
+AE01	Activité	annexe	Mercredi	12:30:00 PM	02:00:00 PM	BF	A	405	Groupe	actif	D	3							
+AE01	Activité	annexe	Jeudi	12:30:00 PM	02:00:00 PM	BF	A	405	Groupe	actif	D	4							
+AE02	Activité	annexe	Lundi	10:15:00 AM	12:15:00 PM	semaine	A	BF	A	314	Groupe	actif	D	1					
+AE02	Activité	annexe	Lundi	10:15:00 AM	12:15:00 PM	semaine	B	BF	A	314	Groupe	actif	D	1					
+AE02	Activité	annexe	Lundi	12:15:00 PM	02:15:00 PM	semaine	A	BF	A	314	Groupe	actif	D	2					
+AE02	Activité	annexe	Lundi	12:15:00 PM	02:15:00 PM	semaine	B	BF	A	314	Groupe	actif	D	2					
+AE03	Activité	annexe	Lundi	12:30:00 PM	02:00:00 PM	semaine	B	BF	A	100	Groupe	actif	D						
+AE03	Activité	annexe	Lundi	12:30:00 PM	02:00:00 PM	semaine	A	BF	A	100	Groupe	actif	D						
+AE12	Activité	annexe	Lundi	10:15:00 AM	12:15:00 PM	semaine	B	BF	A	314	Groupe	actif	D	1					
+AE12	Activité	annexe	Lundi	10:15:00 AM	12:15:00 PM	semaine	A	BF	A	314	Groupe	actif	D	1					
+AE12	Activité	annexe	Lundi	12:15:00 PM	02:15:00 PM	semaine	A	BF	A	314	Groupe	actif	D	2					
+AE12	Activité	annexe	Lundi	12:15:00 PM	02:15:00 PM	semaine	B	BF	A	314	Groupe	actif	D	2					
+AI01	Cours	Lundi	04:30:00 PM	06:30:00 PM	BF	A	205	Groupe	actif	C									
+AI01	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	309	Groupe	actif	D	1								
+AI01	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	309	Groupe	actif	D	2								
+AI01	TP	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	505,	BF	A	309	Groupe	actif	T	1					
+AI01	TP	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	309,	BF	A	505	Groupe	actif	T	2					
+
+
+
+AI02	Cours	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	205	Groupe	actif	C									
+AI02	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	304	Groupe	actif	D									
+AI02	TP	Vendredi	08:00:00 AM	10:00:00 AM	semaine	B	BF	B	217	Groupe	actif	T							
+AI02	TP	Vendredi	08:00:00 AM	10:00:00 AM	semaine	A	BF	B	217	Groupe	actif	T							
+AI03	Cours	Mardi	08:00:00 AM	12:00:00 PM	BF	B	100	Groupe	actif	C									
+AI04	Cours	Jeudi	10:15:00 AM	12:15:00 PM	PG	J	216,	BF	A	403	Groupe	actif	C						
+AI04	Cours	Vendredi	02:15:00 PM	04:15:00 PM	PG	J	216,	BF	A	403	Groupe	actif	C						
+AI05	Cours	Mercredi	10:15:00 AM	01:15:00 PM	BF	A	318A	Groupe	actif	C									
+AI05	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	309	Groupe	actif	D	1								
+AI05	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	309	Groupe	actif	D	2								
+AI09	Cours	Lundi	08:00:00 AM	10:00:00 AM	BF	A	106	Groupe	actif	C									
+AI09	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	B	113,	BF	A	403	Groupe	actif	D						
+AI10	Cours	Mardi	04:30:00 PM	07:30:00 PM	BF	A	206	Groupe	actif	C									
+AI10	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	B	217,	BF	A	309	Groupe	actif	D	1					
+AI10	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	B	217,	BF	A	309	Groupe	de	réserve	D	2				
+AI11	Cours	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	106	Groupe	actif	C									
+AI11	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	306	Groupe	actif	D									
+AI12	Cours	Mardi	08:00:00 AM	10:00:00 AM	BF	A	205	Groupe	actif	C									
+AI12	TD	Mercredi	04:30:00 PM	07:30:00 PM	BF	A	505,	BF	A	504	Groupe	actif	D						
+AI13	Cours	Lundi	04:30:00 PM	06:30:00 PM	BF	B	100	Groupe	actif	C									
+AI13	Cours	Vendredi	04:30:00 PM	06:30:00 PM	BF	B	100	Groupe	actif	C									
+AI14	Cours	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	206	Groupe	actif	C									
+AI14	TD	Jeudi	10:15:00 AM	01:15:00 PM	BF	A	304	Groupe	actif	D									
+AI15	Cours	Lundi	02:15:00 PM	04:15:00 PM	BF	A	205	Groupe	actif	C									
+AI15	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	506	Groupe	actif	D									
+AI22	Cours	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	205	Groupe	actif	C									
+AI22	TD	Mardi	08:00:00 AM	12:00:00 PM	PG	O	226	Groupe	actif	D									
+AI23	Cours	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	205	Groupe	actif	C									
+AI23	TD	Jeudi	01:15:00 PM	04:15:00 PM	BF	B	100	Groupe	actif	D									
+AI24	Cours	Mardi	04:30:00 PM	06:30:00 PM	PG	J	207A	Groupe	actif	C									
+AI24	Cours	Mercredi	04:30:00 PM	06:30:00 PM	PG	J	207A	Groupe	actif	C									
+AI29	Cours	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	108	Groupe	actif	C									
+AI29	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	403	Groupe	actif	D									
+AI29	TP	Mercredi	08:00:00 AM	10:00:00 AM	semaine	A	BF	A	505	Groupe	actif	T							
+AI29	TP	Mercredi	08:00:00 AM	10:00:00 AM	semaine	B	BF	A	505	Groupe	actif	T							
+AI30	Cours	Mardi	04:30:00 PM	06:30:00 PM	BF	A	100	Groupe	actif	C									
+AI30	TD	Lundi	04:30:00 PM	07:30:00 PM	BF	A	306	Groupe	actif	D									
+AI32	Cours	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	205	Groupe	actif	C									
+AI32	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	B	217	Groupe	actif	D									
+AI32	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	B	PG	J	216	Groupe	actif	T							
+
+
+
+AI32	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	A	PG	J	216	Groupe	actif	T							
+AI34	Cours	Mardi	10:15:00 AM	12:15:00 PM	BF	A	206	Groupe	actif	C									
+AI34	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	B	216	Groupe	actif	D									
+AI34	TP	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	505	Groupe	actif	T									
+AI35	Cours	Vendredi	04:30:00 PM	06:00:00 PM	PG	J	216,	SI	PEP	255	Groupe	actif	C						
+AI35	TD	Vendredi	08:00:00 AM	12:00:00 PM	PG	J	216,	SI	PEP	255	Groupe	actif	D						
+AI36	Cours	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	206	Groupe	actif	C									
+AI36	TD	Jeudi	02:30:00 PM	06:30:00 PM	BF	A	307	Groupe	actif	D									
+AI37	Cours	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	212	Groupe	actif	C									
+AI37	TD	Vendredi	01:15:00 PM	04:15:00 PM	PG	J	210A	Groupe	actif	D									
+AI38	Cours	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	206	Groupe	actif	C									
+AI38	TD	Jeudi	02:15:00 PM	04:15:00 PM	PG	O	112	Groupe	actif	D									
+AM01	Cours	Vendredi	04:30:00 PM	06:00:00 PM	BF	A	205	Groupe	actif	C									
+AM01	TD	Lundi	08:00:00 AM	12:00:00 PM	CR	P	103	Groupe	actif	D	1								
+AM01	TD	Mercredi	08:00:00 AM	12:00:00 PM	CR	P	103	Groupe	actif	D	2								
+AM02	Cours	Jeudi	08:00:00 AM	12:00:00 PM	PG	O	112	Groupe	actif	C									
+AM02	Cours	Lundi	04:30:00 PM	07:30:00 PM	PG	O	112	Groupe	actif	C									
+AM03	Cours	Mardi	04:30:00 PM	06:00:00 PM	BF	A	108	Groupe	actif	C									
+AM03	TD	Jeudi	10:15:00 AM	01:15:00 PM	BF	B	108,	BF	A	616	Groupe	actif	D	1					
+AM03	TD	Jeudi	04:30:00 PM	07:30:00 PM	BF	A	515,	BF	A	516	Groupe	actif	D	2					
+AM04	Cours	Mardi	02:15:00 PM	04:15:00 PM	BF	A	108	Groupe	actif	C									
+AM04	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	304	Groupe	actif	D	1								
+AM04	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	304	Groupe	actif	D	2								
+AM04	TP	Mardi	08:00:00 AM	12:00:00 PM	CR	F	333	Groupe	actif	T	1								
+AM04	TP	Jeudi	02:30:00 PM	06:30:00 PM	CR	F	333	Groupe	actif	T	2								
+AM08	Cours	Lundi	08:00:00 AM	10:00:00 AM	BF	A	206,	PG	J	115	Groupe	actif	C						
+AM08	TD	Mardi	10:15:00 AM	01:15:00 PM	BF	A	403,	PG	O	113	Groupe	actif	D						
+AM11	Cours	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	108	Groupe	actif	C									
+AM11	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	404	Groupe	actif	D	1								
+AM11	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	404	Groupe	actif	D	2								
+AM11	TP	Lundi	02:15:00 PM	04:15:00 PM	BF	A	515	Groupe	actif	T	1								
+AM11	TP	Lundi	04:30:00 PM	06:30:00 PM	BF	A	515	Groupe	actif	T	2								
+AM11	TP	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	510	Groupe	actif	T	3								
+AM14	Cours	Lundi	04:30:00 PM	06:30:00 PM	BF	A	206	Groupe	actif	C									
+AM14	Cours	Mercredi	02:15:00 PM	06:15:00 PM	BF	A	310	Groupe	actif	C									
+AM14	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	B	217	Groupe	actif	D	1								
+AM14	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	505	Groupe	de	réserve	D	2							
+AM15	Cours	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	100	Groupe	actif	C									
+AM15	TD	Mercredi	10:15:00 AM	01:15:00 PM	BF	A	404	Groupe	actif	D									
+AM15	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	A	CR	P	101,	CR	P	102	Groupe	actif	T				
+
+
+
+AM15	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	B	CR	P	101,	CR	P	102	Groupe	actif	T				
+AM20	Cours	Lundi	02:15:00 PM	04:15:00 PM	BF	A	206	Groupe	actif	C									
+AM20	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	509	Groupe	actif	D									
+AM21	Cours	Lundi	04:30:00 PM	06:30:00 PM	BF	A	200	Groupe	actif	C									
+AM21	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	420,	BF	A	509	Groupe	actif	D						
+AM22	Cours	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	318A	Groupe	actif	C									
+AM22	TD	Vendredi	04:30:00 PM	07:30:00 PM	BF	B	215	Groupe	actif	D									
+AM23	Cours	Jeudi	02:30:00 PM	06:30:00 PM	CR	P	101,	CR	P	103	Groupe	actif	C						
+AM23	Cours	Vendredi	08:00:00 AM	10:00:00 AM	CR	P	101,	CR	P	103	Groupe	actif	C						
+AM25	Cours	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	200	Groupe	actif	C									
+AM25	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	B	108,	BF	A	405	Groupe	actif	D						
+AM27	Cours	Jeudi	08:00:00 AM	12:00:00 PM	PG	J	219,	PG	O	228	Groupe	actif	C						
+AM27	TP	Mercredi	08:00:00 AM	10:00:00 AM	PG	O	112	Groupe	actif	T									
+AM29	Cours	Mardi	08:30:00 AM	10:00:00 AM	BF	A	204	Groupe	actif	C									
+AM29	TD	Vendredi	02:30:00 PM	06:30:00 PM	CR	P	103	Groupe	actif	D									
+AM41	TD	Jeudi	08:00:00 AM	09:00:00 AM	PG	J	102	Groupe	actif	D									
+AM41	TP	Jeudi	09:00:00 AM	12:00:00 PM	PG	J	102	Groupe	actif	T									
+AM42	Cours	Lundi	02:15:00 PM	04:15:00 PM	PG	O	229	Groupe	actif	C									
+AM42	TD	Lundi	04:30:00 PM	06:30:00 PM	PG	O	223	Groupe	actif	D									
+AM43	Cours	Mardi	08:00:00 AM	10:00:00 AM	BF	A	206	Groupe	actif	C									
+AM43	TD	Vendredi	01:00:00 PM	04:00:00 PM	BF	A	512,	BF	A	418	Groupe	actif	D						
+AM51	Cours	Lundi	02:15:00 PM	04:15:00 PM	BF	A	200	Groupe	actif	C									
+AM51	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	403	Groupe	actif	D									
+AM51	TP	Jeudi	02:30:00 PM	06:30:00 PM	CR	H	148,	CR	H	125	Groupe	actif	T						
+AP00	Atelier	Jeudi	08:30:00 AM	12:30:00 PM	PG	O	113,	PG	O	122	Groupe	actif	D	1					
+AP00	Atelier	Jeudi	01:30:00 PM	06:00:00 PM	PG	O	113,	PG	O	122	Groupe	actif	D	1					
+AP00	Atelier	Jeudi	08:30:00 AM	12:30:00 PM	PG	O	223,	PG	O	229	Groupe	actif	D	2					
+AP00	Atelier	Jeudi	01:30:00 PM	06:00:00 PM	PG	O	223,	PG	O	229	Groupe	actif	D	2					
+AP00	Atelier	Jeudi	08:30:00 AM	12:30:00 PM	PG	O	117	Groupe	de	réserve	D	3							
+AP00	Atelier	Jeudi	01:30:00 PM	06:00:00 PM	PG	O	117	Groupe	de	réserve	D	3							
+AP51	Atelier	Jeudi	02:30:00 PM	06:30:00 PM	PG	O	128,	PG	O	228	Groupe	actif	D						
+AP51	Atelier	Lundi	08:00:00 AM	12:00:00 PM	PG	O	128,	PG	O	228	Groupe	actif	D						
+AP52	Atelier	Lundi	02:30:00 PM	06:30:00 PM	PG	O	228	Groupe	actif	D									
+AP52	Atelier	Mercredi	08:00:00 AM	12:00:00 PM	PG	O	228	Groupe	actif	D									
+AP53	Atelier	Mardi	09:00:00 AM	01:00:00 PM	CR	P	103	Groupe	actif	D									
+AP53	Atelier	Mardi	02:30:00 PM	06:30:00 PM	CR	P	103	Groupe	actif	D									
+AR03	Cours	Mardi	09:00:00 AM	10:00:00 AM	BF	A	202	Groupe	actif	C									
+AR03	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	202	Groupe	actif	D									
+AR04	Cours	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	108	Groupe	actif	C									
+AR04	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	B	210	Groupe	actif	D	1								
+
+
+
+AR04	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	B	210	Groupe	actif	D	2								
+AV01	Cours	Vendredi	12:45:00 PM	01:45:00 PM	BF	A	200	Groupe	actif	C									
+AV01	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	B	114	Groupe	actif	D	1								
+AV01	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	B	114	Groupe	actif	D	2								
+BA03	Cours	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	108	Groupe	actif	C									
+BA03	TD	Lundi	10:15:00 AM	12:15:00 PM	PG	O	117,	PG	O	230	Groupe	actif	D	1					
+BA03	TD	Mercredi	08:00:00 AM	10:00:00 AM	PG	O	117,	PG	O	230	Groupe	actif	D	2					
+BA04	Cours	Lundi	08:00:00 AM	10:00:00 AM	BF	A	108	Groupe	actif	C									
+BA04	TD	Lundi	10:15:00 AM	12:15:00 PM	PG	O	113	Groupe	actif	D	1								
+BA04	TD	Lundi	02:15:00 PM	04:15:00 PM	PG	O	113	Groupe	actif	D	2								
+BA04	TD	Lundi	04:30:00 PM	06:30:00 PM	PG	O	113	Groupe	actif	D	3								
+BA05	Cours	Mercredi	02:15:00 PM	04:15:00 PM	PG	O	230	Groupe	actif	C									
+BA05	TD	Mercredi	04:30:00 PM	06:30:00 PM	PG	O	223	Groupe	actif	D									
+BA06	Cours	Vendredi	08:00:00 AM	10:00:00 AM	PG	O	223	Groupe	actif	C									
+BA06	TD	Vendredi	10:15:00 AM	12:15:00 PM	PG	O	223,	PG	O	230	Groupe	actif	D						
+BA08	Cours	Lundi	08:00:00 AM	10:00:00 AM	PG	O	230	Groupe	actif	C									
+BA08	TD	Lundi	10:15:00 AM	12:15:00 PM	PG	O	223	Groupe	actif	D									
+BA10	Cours	Mercredi	08:00:00 AM	10:00:00 AM	PG	O	229	Groupe	actif	C									
+BA10	TD	Mercredi	10:15:00 AM	12:15:00 PM	PG	O	223	Groupe	actif	D									
+BI02	Cours	Mardi	04:30:00 PM	06:30:00 PM	BF	A	202	Groupe	actif	C									
+BI02	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	505	Groupe	actif	D									
+BL10	Cours	Lundi	02:15:00 PM	04:15:00 PM	BF	A	100	Groupe	actif	C									
+BL10	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	309	Groupe	actif	D	1								
+BL10	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	417	Groupe	actif	D	2								
+BL10	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	417	Groupe	actif	D	3								
+BL10	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	B	PG	J	202	Groupe	actif	T	1						
+BL10	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	A	PG	J	202	Groupe	actif	T	1						
+BL10	TP	Jeudi	08:00:00 AM	12:00:00 PM	semaine	A	PG	J	202	Groupe	actif	T	2						
+BL10	TP	Jeudi	08:00:00 AM	12:00:00 PM	semaine	B	PG	J	202	Groupe	actif	T	2						
+BL10	TP	Vendredi	02:30:00 PM	06:30:00 PM	PG	J	202	Groupe	actif	T	3								
+BL16	Cours	Lundi	04:30:00 PM	06:30:00 PM	BF	A	202	Groupe	actif	C									
+BL16	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	B	216,	BF	A	419	Groupe	actif	D						
+BL17	Cours	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	200	Groupe	actif	C									
+BL17	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	418,	BF	B	217	Groupe	actif	D						
+BL17	TP	Jeudi	02:15:00 PM	06:15:00 PM	BF	B	113	Groupe	actif	T									
+BL20	Cours	Lundi	10:15:00 AM	12:15:00 PM	BF	A	106	Groupe	actif	C									
+BL20	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	304	Groupe	actif	D	1								
+BL20	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	419	Groupe	actif	D	2								
+BL20	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	419	Groupe	actif	D	3								
+BL20	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	419	Groupe	de	réserve	D	4							
+
+
+
+BL20	TP	Lundi	02:30:00 PM	06:30:00 PM	semaine	A	PG	J	202	Groupe	actif	T	1						
+BL20	TP	Lundi	02:30:00 PM	06:30:00 PM	semaine	B	PG	J	202	Groupe	actif	T	1						
+BL20	TP	Mardi	08:00:00 AM	12:00:00 PM	semaine	A	PG	J	202	Groupe	actif	T	2						
+BL20	TP	Mardi	08:00:00 AM	12:00:00 PM	semaine	B	PG	J	202	Groupe	actif	T	2						
+BL20	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	A	PG	J	202	Groupe	actif	T	3						
+BL20	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	B	PG	J	202	Groupe	actif	T	3						
+BL20	TP	Vendredi	08:00:00 AM	12:00:00 PM	PG	J	202	Groupe	actif	T	4								
+BL20	TP	Vendredi	08:00:00 AM	12:00:00 PM	PG	J	202	Groupe	de	réserve	T	5							
+BM03	Cours	Mardi	10:15:00 AM	12:15:00 PM	BF	A	200	Groupe	actif	C									
+BM03	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	B	104	Groupe	actif	D									
+BM03	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	A	BF	A	601	Groupe	actif	T							
+BM03	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	B	BF	A	601	Groupe	actif	T							
+BM04	Cours	Mardi	08:00:00 AM	10:00:00 AM	BF	A	108	Groupe	actif	C									
+BM04	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	B	215	Groupe	actif	D									
+BM04	TP	Lundi	02:15:00 PM	06:15:00 PM	semaine	A	BF	A	601	Groupe	actif	T							
+BM04	TP	Lundi	02:15:00 PM	06:15:00 PM	semaine	B	BF	A	601	Groupe	actif	T							
+BM05	Cours	Jeudi	10:15:00 AM	01:15:00 PM	BF	A	202	Groupe	actif	C									
+BM05	TP	Jeudi	02:15:00 PM	06:15:00 PM	semaine	B	BF	A	601	Groupe	actif	T							
+BM05	TP	Jeudi	02:15:00 PM	06:15:00 PM	semaine	A	BF	A	601	Groupe	actif	T							
+BM06	Cours	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	202	Groupe	actif	C									
+BM06	TD	Lundi	10:15:00 AM	11:45:00 AM	BF	A	509	Groupe	actif	D									
+BM06	TP	Mercredi	04:30:00 PM	06:30:00 PM	semaine	B	BF	A	509	Groupe	actif	T							
+BM06	TP	Mercredi	04:30:00 PM	06:30:00 PM	semaine	A	BF	A	509	Groupe	actif	T							
+BM07	Cours	Lundi	10:15:00 AM	12:15:00 PM	BF	A	202	Groupe	actif	C									
+BM07	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	400	Groupe	actif	D									
+BM07	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	B	PG	J	200	Groupe	actif	T	1						
+BM07	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	A	PG	J	200	Groupe	actif	T	1						
+BM07	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	A	PG	J	200	Groupe	actif	T	2						
+BM07	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	B	PG	J	200	Groupe	actif	T	2						
+BM07	TP	Vendredi	02:30:00 PM	06:30:00 PM	semaine	A	PG	J	200	Groupe	actif	T	3						
+BM07	TP	Vendredi	02:30:00 PM	06:30:00 PM	semaine	B	PG	J	200	Groupe	actif	T	3						
+BT03	Cours	Lundi	08:00:00 AM	10:00:00 AM	BF	A	202	Groupe	actif	C									
+BT03	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	417	Groupe	actif	D									
+BT03	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	A	PG	J	200	Groupe	actif	T	1						
+BT03	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	B	PG	J	200	Groupe	actif	T	1						
+BT03	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	A	PG	J	200	Groupe	actif	T	2						
+BT03	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	B	PG	J	200	Groupe	actif	T	2						
+BT03	TP	Vendredi	02:30:00 PM	06:30:00 PM	semaine	A	PG	J	200	Groupe	actif	T	3						
+BT03	TP	Vendredi	02:30:00 PM	06:30:00 PM	semaine	B	PG	J	200	Groupe	actif	T	3						
+BT07	Cours	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	200	Groupe	actif	C									
+
+
+
+BT07	TD	Jeudi	10:15:00 AM	01:15:00 PM	BF	A	420	Groupe	actif	D									
+BT09	Cours	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	200	Groupe	actif	C									
+BT09	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	418	Groupe	actif	D	1								
+BT09	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	410	Groupe	actif	D	2								
+BT09	TP	Jeudi	02:15:00 PM	06:15:00 PM	semaine	A	BF	A	406	Groupe	actif	T	1						
+BT09	TP	Jeudi	02:15:00 PM	06:15:00 PM	semaine	B	BF	A	406	Groupe	actif	T	1						
+BT09	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	B	BF	A	406	Groupe	actif	T	2						
+BT09	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	A	BF	A	406	Groupe	actif	T	2						
+CF04	Cours	Jeudi	10:15:00 AM	12:15:00 PM	PG	O	230	Groupe	actif	C									
+CF04	TD	Vendredi	01:15:00 PM	04:15:00 PM	PG	O	113	Groupe	actif	D									
+CM04	Cours	Jeudi	06:45:00 PM	08:45:00 PM	BF	A	205	Groupe	actif	C									
+CM04	Cours	Lundi	10:15:00 AM	12:15:00 PM	BF	A	104	Groupe	actif	C									
+CM04	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	B	215,	BF	A	418	Groupe	actif	D	1					
+CM04	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	B	215,	BF	A	404	Groupe	actif	D	2					
+CM04	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	B	215,	BF	A	309	Groupe	actif	D	3					
+CM04	TD	Vendredi	04:30:00 PM	06:30:00 PM	BF	A	509,	BF	A	309	Groupe	actif	D	4					
+CM05	Cours	Lundi	08:00:00 AM	10:00:00 AM	BF	A	104	Groupe	actif	C									
+CM05	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	505,	BF	A	516	Groupe	actif	D	1					
+CM05	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	505,	BF	A	309	Groupe	actif	D	2					
+CM05	TD	Vendredi	04:30:00 PM	06:30:00 PM	BF	A	505,	BF	A	403	Groupe	actif	D	3					
+CM06	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	B	216	Groupe	actif	D									
+CM11	Cours	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	100	Groupe	actif	C									
+CM11	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	A	403	Groupe	actif	D	1								
+CM11	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	403	Groupe	actif	D	2								
+CM11	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	405	Groupe	actif	D	3								
+CM11	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	309	Groupe	actif	D	4								
+CM11	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	404	Groupe	actif	D	5								
+CM11	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	403	Groupe	actif	D	6								
+CM11	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	B	ESCOM	ES	208	Groupe	actif	T	1						
+CM11	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	A	ESCOM	ES	208	Groupe	actif	T	1						
+CM11	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	B	ESCOM	ES	208	Groupe	actif	T	2						
+CM11	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	A	ESCOM	ES	208	Groupe	actif	T	2						
+CM11	TP	Vendredi	02:30:00 PM	06:30:00 PM	semaine	B	ESCOM	ES	208	Groupe	actif	T	3						
+CM11	TP	Vendredi	02:30:00 PM	06:30:00 PM	semaine	A	ESCOM	ES	208	Groupe	actif	T	3						
+CM12	Cours	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	106	Groupe	actif	C									
+CM12	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	405	Groupe	actif	D	1								
+CM12	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	403	Groupe	actif	D	2								
+CM13	Cours	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	318A	Groupe	actif	C									
+CM13	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	404	Groupe	actif	D	1								
+CM13	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	404	Groupe	actif	D	2								
+
+
+
+CM13	TP	Mercredi	02:30:00 PM	06:30:00 PM	ESCOM	ES	204	Groupe	actif	T	1								
+CM13	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	B	ESCOM	ES	204	Groupe	actif	T	2						
+CM13	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	A	ESCOM	ES	204	Groupe	actif	T	2						
+CM71	TP	Jeudi	01:30:00 PM	05:30:00 PM	CR	E	101	Groupe	actif	T									
+DF03	Cours	Lundi	02:15:00 PM	04:15:00 PM	BF	A	206	Groupe	actif	C									
+DF03	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	509	Groupe	actif	D									
+DF04	Cours	Lundi	04:30:00 PM	06:30:00 PM	BF	A	200	Groupe	actif	C									
+DF04	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	420,	BF	A	509	Groupe	actif	D						
+DI01	Cours	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	104,	PG	J	110,	PG	J	115,	PG	J	116	Groupe	actif	C
+DI02	Cours	Vendredi	08:00:00 AM	10:00:00 AM	PG	J	115,	PG	J	116	Groupe	actif	C						
+DI02	TD	Vendredi	10:15:00 AM	12:15:00 PM	PG	J	115,	PG	J	116	Groupe	actif	D	1					
+DI02	TD	Vendredi	02:15:00 PM	04:15:00 PM	PG	J	115,	PG	J	116	Groupe	actif	D	2					
+DI04	Cours	Jeudi	02:15:00 PM	04:15:00 PM	PG	J	115,	PG	J	116	Groupe	actif	C						
+DI04	TD	Jeudi	04:30:00 PM	06:30:00 PM	PG	J	115,	PG	J	116	Groupe	actif	D						
+DI05	Cours	Mardi	10:15:00 AM	12:15:00 PM	BF	A	104	Groupe	actif	C									
+DI05	TD	Mardi	02:15:00 PM	04:15:00 PM	SI	CI	207,	SI	CI	204	Groupe	actif	D	1					
+DI05	TD	Mardi	04:30:00 PM	06:30:00 PM	SI	CI	207,	SI	CI	204	Groupe	actif	D	2					
+DI08	Cours	Lundi	02:15:00 PM	04:15:00 PM	PG	J	115,	PG	J	116	Groupe	actif	C						
+DI08	TD	Lundi	04:30:00 PM	06:30:00 PM	PG	J	115,	PG	J	116	Groupe	actif	D						
+DS01	Cours	Mardi	01:00:00 PM	02:00:00 PM	PG	N	104	Groupe	actif	C									
+DS01	TP	Mardi	02:15:00 PM	04:15:00 PM	PG	J	102	Groupe	actif	T	1								
+DS01	TP	Mardi	04:30:00 PM	06:30:00 PM	PG	J	102	Groupe	actif	T	2								
+ED01	TD	Vendredi	08:00:00 AM	12:00:00 PM	BF	A	314	Groupe	actif	D									
+ED02	TD	Lundi	10:15:00 AM	01:15:00 PM	BF	A	304	Groupe	actif	D									
+ED04	TD	Jeudi	10:15:00 AM	01:15:00 PM	BF	A	314	Groupe	actif	D									
+ED04	TD	Mercredi	09:30:00 AM	12:30:00 PM	BF	A	314	Groupe	actif	D									
+EG01	Cours	Mercredi	10:15:00 AM	12:15:00 PM	PG	J	115,	PG	J	110	Groupe	actif	C						
+EG01	TD	Mercredi	02:15:00 PM	04:15:00 PM	PG	J	115,	PG	J	110	Groupe	actif	D						
+EI02	Cours	Vendredi	01:00:00 PM	02:00:00 PM	BF	A	106	Groupe	actif	C									
+EI02	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	616	Groupe	actif	D	1								
+EI02	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	616	Groupe	actif	D	2								
+EI04	Cours	Lundi	01:00:00 PM	02:00:00 PM	BF	A	200	Groupe	actif	C									
+EI04	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	417	Groupe	actif	D									
+EI05	Cours	Mardi	01:00:00 PM	02:00:00 PM	BF	A	517	Groupe	actif	C									
+EI05	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	517	Groupe	actif	D									
+EI07	Cours	Mercredi	01:00:00 PM	02:00:00 PM	BF	A	200	Groupe	actif	C									
+EI07	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	616	Groupe	actif	D	1								
+EI07	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	616	Groupe	actif	D	2								
+EN21	Cours	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	205	Groupe	actif	C									
+EN21	TD	Lundi	08:15:00 AM	09:45:00 AM	BF	A	418	Groupe	actif	D	1								
+
+
+
+EN21	TD	Lundi	10:45:00 AM	12:15:00 PM	BF	A	418	Groupe	actif	D	2								
+EN21	TD	Lundi	02:30:00 PM	04:00:00 PM	BF	A	418	Groupe	actif	D	3								
+EN21	TD	Lundi	04:45:00 PM	06:15:00 PM	BF	A	418	Groupe	actif	D	4								
+EN21	TP	Mercredi	08:00:00 AM	12:00:00 PM	semaine	B	PG	J	207B	Groupe	actif	T	1						
+EN21	TP	Mercredi	08:00:00 AM	12:00:00 PM	semaine	A	PG	J	207B	Groupe	actif	T	1						
+EN21	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	A	PG	J	207B	Groupe	actif	T	2						
+EN21	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	B	PG	J	207B	Groupe	actif	T	2						
+EN21	TP	Jeudi	08:00:00 AM	12:00:00 PM	semaine	A	PG	J	207B	Groupe	actif	T	3						
+EN21	TP	Jeudi	08:00:00 AM	12:00:00 PM	semaine	B	PG	J	207B	Groupe	actif	T	3						
+EN21	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	A	PG	J	207B	Groupe	actif	T	4						
+EN21	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	B	PG	J	207B	Groupe	actif	T	4						
+EV02	Cours	Mardi	08:00:00 AM	10:00:00 AM	BF	A	212	Groupe	actif	C									
+EV02	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	212	Groupe	actif	D									
+EV03	Cours	Mardi	02:15:00 PM	04:15:00 PM	BF	A	206	Groupe	actif	C									
+EV03	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	509	Groupe	actif	D									
+FE01	Cours	Mercredi	04:30:00 PM	05:30:00 PM	BF	A	206	Groupe	actif	C									
+FE01	TD	Mercredi	05:30:00 PM	06:30:00 PM	BF	A	206	Groupe	actif	D									
+FQ01	Cours	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	205	Groupe	actif	C									
+FQ01	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	404	Groupe	actif	D	1								
+FQ01	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	417	Groupe	actif	D	2								
+FQ01	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	417	Groupe	actif	D	3								
+FQ04	Cours	Mardi	02:15:00 PM	04:15:00 PM	SI	PEP	245,	SI	PEP	252,	SI	PEP	255	Groupe	actif	C			
+FQ04	TD	Mardi	04:30:00 PM	06:30:00 PM	SI	PEP	245,	SI	PEP	252,	SI	PEP	255	Groupe	actif	D			
+FR00	Activité	annexe	Jeudi	12:30:00 PM	02:00:00 PM	BF	A	212	Groupe	actif	D								
+GB00	Activité	annexe	Vendredi	12:30:00 PM	02:00:00 PM	BF	A	205	Groupe	actif	D								
+GE10	Cours	Mercredi	01:00:00 PM	02:00:00 PM	BF	A	100	Groupe	actif	C									
+GE10	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	A	616	Groupe	actif	D	1								
+GE10	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	616	Groupe	actif	D	2								
+GE10	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	616	Groupe	actif	D	3								
+GE10	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	616	Groupe	actif	D	4								
+GE10	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	304	Groupe	actif	D	5								
+GE13	Cours	Lundi	01:00:00 PM	02:00:00 PM	BF	A	204	Groupe	actif	C									
+GE13	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	204	Groupe	actif	D	1								
+GE13	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	204	Groupe	actif	D	2								
+GE15	Cours	Mardi	01:00:00 PM	02:00:00 PM	BF	A	201	Groupe	actif	C									
+GE15	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	616	Groupe	actif	D	1								
+GE15	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	616	Groupe	actif	D	2								
+GE20	Cours	Mercredi	01:00:00 PM	02:00:00 PM	BF	A	106	Groupe	actif	C									
+GE20	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	517	Groupe	actif	D	1								
+GE20	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	517	Groupe	actif	D	2								
+
+
+
+GE21	Cours	Mardi	01:00:00 PM	02:00:00 PM	BF	A	202	Groupe	actif	C									
+GE21	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	419	Groupe	actif	D	1								
+GE21	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	419	Groupe	actif	D	2								
+GE22	Cours	Mercredi	01:00:00 PM	02:00:00 PM	BF	A	104	Groupe	actif	C									
+GE22	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	602	Groupe	actif	D	1								
+GE22	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	602	Groupe	actif	D	2								
+GE22	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	602	Groupe	actif	D	3								
+GE22	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	420	Groupe	actif	D	4								
+GE22	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	602	Groupe	actif	D	5								
+GE22	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	420	Groupe	actif	D	6								
+GE25	Cours	Jeudi	01:00:00 PM	02:00:00 PM	BF	A	204	Groupe	actif	C									
+GE25	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	616	Groupe	actif	D									
+GE27	Cours	Jeudi	01:00:00 PM	02:00:00 PM	PG	O	230	Groupe	actif	C									
+GE27	TD	Jeudi	02:15:00 PM	04:15:00 PM	SI	PEP	245	Groupe	actif	D	1								
+GE27	TD	Vendredi	10:15:00 AM	12:15:00 PM	SI	PEP	245	Groupe	actif	D	2								
+GE28	Cours	Lundi	08:00:00 AM	10:00:00 AM	BF	A	310	Groupe	actif	C									
+GE28	TD	Lundi	10:15:00 AM	11:15:00 AM	BF	A	517	Groupe	actif	D	1								
+GE28	TD	Lundi	11:15:00 AM	12:15:00 PM	BF	A	517	Groupe	actif	D	2								
+GE36	Cours	Lundi	01:00:00 PM	02:00:00 PM	BF	A	106	Groupe	actif	C									
+GE36	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	517	Groupe	actif	D	1								
+GE36	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	420	Groupe	actif	D	2								
+GE36	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	420	Groupe	actif	D	3								
+GE37	Cours	Lundi	10:15:00 AM	12:15:00 PM	BF	A	205	Groupe	actif	C									
+GE37	TD	Lundi	01:15:00 PM	04:15:00 PM	SI	CI	205,	SI	CI	206	Groupe	actif	D	1					
+GE37	TD	Mercredi	09:00:00 AM	12:00:00 PM	SI	CI	207,	SI	CI	204	Groupe	actif	D	2					
+GE37	TD	Jeudi	09:00:00 AM	12:00:00 PM	SI	CI	207,	SI	CI	204	Groupe	actif	D	3					
+GE37	TD	Vendredi	02:15:00 PM	05:15:00 PM	SI	CI	206,	SI	CI	205	Groupe	actif	D	4					
+GE38	Cours	Mardi	01:00:00 PM	02:00:00 PM	SI	CI	205,	SI	CI	206	Groupe	actif	C						
+GE38	TD	Mardi	02:15:00 PM	05:15:00 PM	SI	CI	205,	SI	CI	206	Groupe	actif	D						
+GE39	Cours	Mardi	08:00:00 AM	09:00:00 AM	SI	CI	205,	SI	CI	206	Groupe	actif	C						
+GE39	TD	Mardi	09:00:00 AM	12:00:00 PM	SI	CI	205,	SI	CI	206	Groupe	actif	D						
+GE40	Cours	Mercredi	04:30:00 PM	06:30:00 PM	SI	CI	204,	SI	CI	207	Groupe	actif	C						
+GE40	TD	Mercredi	01:15:00 PM	04:15:00 PM	SI	CI	204,	SI	CI	207	Groupe	actif	D						
+GP00	Activité	annexe	Lundi	02:15:00 PM	06:15:00 PM	Groupe	actif	D											
+HE01	Cours	Vendredi	09:00:00 AM	10:00:00 AM	BF	A	106	Groupe	actif	C									
+HE01	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	517	Groupe	actif	D	1								
+HE01	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	517	Groupe	actif	D	2								
+HE03	Cours	Mardi	01:00:00 PM	02:00:00 PM	BF	A	108	Groupe	actif	C									
+HE03	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	418	Groupe	actif	D	1								
+HE03	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	418	Groupe	actif	D	2								
+
+
+
+HT01	Cours	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	212	Groupe	actif	C									
+HT01	TD	Mercredi	04:30:00 PM	05:30:00 PM	BF	A	212	Groupe	actif	D	1								
+HT01	TD	Mercredi	05:30:00 PM	06:30:00 PM	BF	A	212	Groupe	actif	D	2								
+HT04	Cours	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	212	Groupe	actif	C									
+HT04	TD	Mercredi	01:00:00 PM	02:00:00 PM	BF	A	212	Groupe	actif	D									
+HT05	Cours	Lundi	02:15:00 PM	04:15:00 PM	BF	B	210	Groupe	actif	C									
+HT05	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	B	210	Groupe	actif	D									
+IA01	Cours	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	205	Groupe	actif	C									
+IA01	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	420	Groupe	actif	D	1								
+IA01	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	420	Groupe	actif	D	2								
+IA01	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	420	Groupe	actif	D	3								
+IA01	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	420	Groupe	de	réserve	D	4							
+IA01	TP	Jeudi	08:00:00 AM	10:00:00 AM	semaine	A	BF	B	116	Groupe	actif	T	1						
+IA01	TP	Jeudi	08:00:00 AM	10:00:00 AM	semaine	B	BF	B	116	Groupe	actif	T	1						
+IA01	TP	Jeudi	10:15:00 AM	12:15:00 PM	semaine	A	BF	B	116	Groupe	actif	T	2						
+IA01	TP	Jeudi	10:15:00 AM	12:15:00 PM	semaine	B	BF	B	116	Groupe	actif	T	2						
+IA01	TP	Vendredi	04:30:00 PM	06:30:00 PM	semaine	A	BF	B	116	Groupe	actif	T	3						
+IA01	TP	Vendredi	04:30:00 PM	06:30:00 PM	semaine	B	BF	B	116	Groupe	actif	T	3						
+IA01	TP	Mardi	04:30:00 PM	06:30:00 PM	BF	B	215	Groupe	de	réserve	T	4							
+IA01	TP	Mardi	04:30:00 PM	06:30:00 PM	BF	B	215	Groupe	de	réserve	T	5							
+IA03	Cours	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	106	Groupe	actif	C									
+IA03	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	306	Groupe	actif	D									
+IA04	Cours	Mardi	04:30:00 PM	06:30:00 PM	BF	A	100	Groupe	actif	C									
+IA04	TD	Lundi	10:15:00 AM	01:15:00 PM	BF	A	306	Groupe	actif	D	1								
+IA04	TD	Mardi	10:15:00 AM	01:15:00 PM	BF	A	306	Groupe	actif	D	2								
+IC01	Cours	Mardi	01:00:00 PM	02:00:00 PM	BF	A	310	Groupe	actif	C									
+IC01	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	406	Groupe	actif	D	1								
+IC01	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	406	Groupe	actif	D	2								
+IC03	Cours	Mercredi	01:00:00 PM	02:00:00 PM	BF	A	202	Groupe	actif	C									
+IC03	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	406	Groupe	actif	D	1								
+IC03	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	406	Groupe	actif	D	2								
+IC06	Cours	Vendredi	01:00:00 PM	02:00:00 PM	BF	A	202	Groupe	actif	C									
+IC06	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	509	Groupe	actif	D									
+ICX1	Cours	Vendredi	01:00:00 PM	02:00:00 PM	PG	O	128	Groupe	actif	C									
+ICX1	TD	Vendredi	02:00:00 PM	06:00:00 PM	PG	O	128	Groupe	actif	D									
+ICX4	Cours	Mercredi	10:15:00 AM	11:15:00 AM	PG	O	122	Groupe	actif	C									
+ICX4	TD	Mercredi	11:15:00 AM	01:15:00 PM	PG	O	122	Groupe	actif	D									
+ICX6	Cours	Mercredi	06:30:00 PM	07:30:00 PM	PG	O	122	Groupe	actif	C									
+ICX6	TP	Mercredi	04:30:00 PM	06:30:00 PM	PG	O	122	Groupe	actif	T									
+ICX8	TD	Jeudi	02:15:00 PM	06:15:00 PM	SI	CI	205,	SI	CI	206	Groupe	actif	D						
+
+
+
+IDC2	Cours	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	206	Groupe	actif	C									
+IDC2	TD	Jeudi	04:30:00 PM	06:30:00 PM	PG	O	227	Groupe	actif	D									
+IDC3	Cours	Lundi	04:30:00 PM	05:30:00 PM	BF	A	212	Groupe	actif	C									
+IDC3	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	212	Groupe	actif	D									
+IDC5	Cours	Mardi	08:00:00 AM	10:00:00 AM	BF	A	108,	BF	A	314	Groupe	actif	C						
+IDC5	TP	Mardi	04:30:00 PM	06:30:00 PM	BF	A	601,	BF	B	216	Groupe	actif	T						
+IDC6	Cours	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	202	Groupe	actif	C									
+IDC6	TP	Mercredi	04:30:00 PM	06:30:00 PM	SI	CI	205,	SI	CI	206	Groupe	actif	T						
+INF1	Cours	Jeudi	02:15:00 PM	04:15:00 PM	CR	B	110	Groupe	actif	C									
+INF1	TD	Lundi	01:00:00 PM	04:00:00 PM	BF	B	217	Groupe	actif	D	1								
+INF1	TD	Lundi	04:30:00 PM	07:30:00 PM	BF	B	217	Groupe	actif	D	2								
+INF1	TD	Mardi	10:15:00 AM	01:15:00 PM	BF	B	215	Groupe	actif	D	3								
+INF1	TD	Mercredi	01:00:00 PM	04:00:00 PM	BF	B	217	Groupe	actif	D	4								
+INF1	TD	Mercredi	04:30:00 PM	07:30:00 PM	BF	B	215	Groupe	actif	D	5								
+INF1	TD	Jeudi	10:15:00 AM	01:15:00 PM	BF	B	216	Groupe	actif	D	6								
+INF1	TD	Vendredi	10:15:00 AM	01:15:00 PM	BF	B	216	Groupe	actif	D	7								
+INF2	Cours	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	100	Groupe	actif	C									
+INF2	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	306	Groupe	actif	D	1								
+INF2	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	306	Groupe	actif	D	2								
+INF2	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	306	Groupe	actif	D	3								
+INF2	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	306	Groupe	actif	D	4								
+INF2	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	306	Groupe	actif	D	5								
+INF2	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	306	Groupe	actif	D	6								
+INF2	TP	Lundi	02:15:00 PM	04:15:00 PM	semaine	A	BF	B	116	Groupe	actif	T	1						
+INF2	TP	Lundi	02:15:00 PM	04:15:00 PM	semaine	B	BF	B	116	Groupe	actif	T	1						
+INF2	TP	Lundi	04:30:00 PM	06:30:00 PM	semaine	A	BF	B	116	Groupe	actif	T	2						
+INF2	TP	Lundi	04:30:00 PM	06:30:00 PM	semaine	B	BF	B	116	Groupe	actif	T	2						
+INF2	TP	Mardi	02:15:00 PM	04:15:00 PM	semaine	B	BF	B	116	Groupe	actif	T	3						
+INF2	TP	Mardi	02:15:00 PM	04:15:00 PM	semaine	A	BF	B	116	Groupe	actif	T	3						
+INF2	TP	Mercredi	02:15:00 PM	04:15:00 PM	semaine	B	BF	B	116	Groupe	actif	T	4						
+INF2	TP	Mercredi	02:15:00 PM	04:15:00 PM	semaine	A	BF	B	116	Groupe	actif	T	4						
+INF2	TP	Jeudi	02:15:00 PM	04:15:00 PM	semaine	B	BF	B	116	Groupe	actif	T	5						
+INF2	TP	Jeudi	02:15:00 PM	04:15:00 PM	semaine	A	BF	B	116	Groupe	actif	T	5						
+INF2	TP	Vendredi	02:15:00 PM	04:15:00 PM	semaine	B	BF	B	116	Groupe	actif	T	6						
+INF2	TP	Vendredi	02:15:00 PM	04:15:00 PM	semaine	A	BF	B	116	Groupe	actif	T	6						
+IQ01	Cours	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	108	Groupe	actif	C									
+IQ01	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	405	Groupe	actif	D									
+IQ01	TP	Lundi	08:00:00 AM	10:00:00 AM	semaine	A	BF	A	505	Groupe	actif	T							
+IQ01	TP	Lundi	08:00:00 AM	10:00:00 AM	semaine	B	BF	A	505	Groupe	actif	T							
+IS00	Cours	Lundi	08:00:00 AM	10:00:00 AM	CR	B	110	Groupe	actif	C	1								
+
+
+
+IS00	Cours	Mercredi	08:00:00 AM	10:00:00 AM	CR	B	110	Groupe	actif	C	2								
+IS00	TD	Mercredi	04:30:00 PM	06:30:00 PM	semaine	B	Groupe	actif	D	1									
+IS00	TD	Mercredi	04:30:00 PM	06:30:00 PM	semaine	A	Groupe	actif	D	1									
+IS00	TD	Jeudi	04:30:00 PM	06:30:00 PM	semaine	B	Groupe	actif	D	2									
+IS00	TD	Jeudi	04:30:00 PM	06:30:00 PM	semaine	A	Groupe	actif	D	2									
+IS02	Cours	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	206	Groupe	actif	C									
+IS02	TD	Jeudi	10:15:00 AM	12:15:00 PM	SI	CT	112	Groupe	actif	D	1								
+IS02	TD	Jeudi	02:15:00 PM	04:15:00 PM	SI	CT	112	Groupe	actif	D	2								
+IS02	TD	Jeudi	04:30:00 PM	06:30:00 PM	SI	CT	112	Groupe	de	réserve	D	3							
+IS04	Cours	Lundi	01:00:00 PM	02:00:00 PM	BF	A	108	Groupe	actif	C									
+IS04	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	616	Groupe	actif	D	1								
+IS04	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	616	Groupe	actif	D	2								
+IS10	TD	Mercredi	04:30:00 PM	06:30:00 PM	Groupe	actif	D	1											
+IS10	TD	Jeudi	04:30:00 PM	06:30:00 PM	Groupe	actif	D	2											
+IS21	Atelier	Mercredi	06:45:00 PM	08:45:00 PM	BF	A	400	Groupe	actif	D									
+IS22	Atelier	Mercredi	06:45:00 PM	08:45:00 PM	BF	A	400	Groupe	actif	D									
+IS23	Atelier	Mercredi	06:45:00 PM	08:45:00 PM	BF	A	400	Groupe	actif	D									
+IS99	Activité	annexe	Mercredi	04:30:00 PM	06:30:00 PM	Groupe	actif	D	1										
+IS99	Activité	annexe	Jeudi	04:30:00 PM	06:30:00 PM	Groupe	actif	D	2										
+ISC0	Cours	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	206	Groupe	actif	C									
+ISC0	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	B	217	Groupe	actif	D									
+ISC1	Cours	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	106	Groupe	actif	C									
+ISC1	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	306	Groupe	actif	D									
+ISC1	TP	Mercredi	06:30:00 PM	07:30:00 PM	BF	A	306	Groupe	actif	T									
+ISC2	Cours	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	206	Groupe	actif	C									
+ISC2	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	400	Groupe	actif	D									
+ISC3	Cours	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	202	Groupe	actif	C									
+ISC3	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	306	Groupe	actif	D									
+LA00	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	C	203	Groupe	actif	D									
+LA01	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	C	211	Groupe	actif	D									
+LA02	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	C	107	Groupe	actif	D	1								
+LA02	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	C	107	Groupe	actif	D	2								
+LA02	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	C	107	Groupe	actif	D	3								
+LA02	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	C	107	Groupe	actif	D	4								
+LA03	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	C	203	Groupe	actif	D	1								
+LA03	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	C	203	Groupe	actif	D	2								
+LA03	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	C	211	Groupe	actif	D	3								
+LA03	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	C	211	Groupe	actif	D	4								
+LA03	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	C	211	Groupe	actif	D	5								
+LA04	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	C	211	Groupe	actif	D	1								
+
+
+
+LA04	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	414	Groupe	actif	D	2								
+LA04	TD	Mercredi	01:00:00 PM	02:00:00 PM	BF	C	211	Groupe	actif	T	1								
+LA04	TD	Jeudi	01:00:00 PM	02:00:00 PM	BF	C	211	Groupe	actif	T	2								
+LA11	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	C	104	Groupe	actif	D	1								
+LA11	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	C	104	Groupe	actif	D	2								
+LA11	TD	Mardi	09:00:00 AM	10:00:00 AM	BF	C	107	Groupe	actif	T	1								
+LA11	TD	Mardi	01:00:00 PM	02:00:00 PM	BF	C	107	Groupe	actif	T	2								
+LA12	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	C	104	Groupe	actif	D	1								
+LA12	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	B	213	Groupe	actif	D	2								
+LA12	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	C	211	Groupe	actif	D	3								
+LA12	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	C	107	Groupe	actif	D	4								
+LA12	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	C	104	Groupe	actif	D	5								
+LA12	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	C	111	Groupe	actif	D	6								
+LA12	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	C	111	Groupe	actif	D	7								
+LA13	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	C	200	Groupe	actif	D	1								
+LA13	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	C	104	Groupe	actif	D	10								
+LA13	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	C	104	Groupe	actif	D	11								
+LA13	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	C	104	Groupe	actif	D	12								
+LA13	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	C	107	Groupe	actif	D	13								
+LA13	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	C	107	Groupe	actif	D	14								
+LA13	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	C	200	Groupe	actif	D	15								
+LA13	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	C	114	Groupe	actif	D	16								
+LA13	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	414	Groupe	actif	D	17								
+LA13	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	C	114	Groupe	actif	D	18								
+LA13	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	C	104	Groupe	actif	D	19								
+LA13	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	C	114	Groupe	actif	D	2								
+LA13	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	C	111	Groupe	actif	D	20								
+LA13	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	C	211	Groupe	actif	D	21								
+LA13	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	C	104	Groupe	actif	D	22								
+LA13	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	C	107	Groupe	actif	D	23								
+LA13	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	C	104	Groupe	actif	D	3								
+LA13	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	C	211	Groupe	actif	D	4								
+LA13	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	C	107	Groupe	actif	D	5								
+LA13	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	C	111	Groupe	actif	D	6								
+LA13	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	C	114	Groupe	actif	D	7								
+LA13	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	C	107	Groupe	actif	D	8								
+LA13	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	C	114	Groupe	actif	D	9								
+LA14	Cours	Mercredi	01:00:00 PM	02:00:00 PM	BF	A	205	Groupe	actif	C									
+LA14	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	C	207	Groupe	actif	D	1								
+LA14	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	C	114	Groupe	actif	D	2								
+
+
+
+LA14	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	C	201	Groupe	actif	D	3								
+LA14	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	C	200	Groupe	actif	D	4								
+LA14	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	C	211	Groupe	actif	D	5								
+LA14	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	C	200	Groupe	actif	D	6								
+LA14	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	C	200	Groupe	actif	D	7								
+LA14	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	C	207	Groupe	actif	D	8								
+LA15	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	C	114	Groupe	actif	D									
+LA20	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	B	214	Groupe	actif	D									
+LA21	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	B	214	Groupe	actif	D	1								
+LA21	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	B	214	Groupe	actif	D	2								
+LA21	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	B	214	Groupe	actif	D	3								
+LA21	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	B	214	Groupe	actif	D	4								
+LA21	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	B	214	Groupe	actif	D	5								
+LA21	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	B	214	Groupe	actif	D	6								
+LA21	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	B	214	Groupe	actif	D	7								
+LA21	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	B	214	Groupe	de	réserve	D	8							
+LA22	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	B	213	Groupe	actif	D	1								
+LA22	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	414	Groupe	actif	D	2								
+LA22	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	B	213	Groupe	actif	D	3								
+LA22	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	B	213	Groupe	actif	D	4								
+LA22	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	C	203	Groupe	actif	D	5								
+LA22	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	B	213	Groupe	actif	D	6								
+LA22	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	B	213	Groupe	actif	D	7								
+LA22	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	B	213	Groupe	actif	D	8								
+LA23	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	B	214	Groupe	actif	D	1								
+LA23	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	B	214	Groupe	actif	D	2								
+LA23	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	C	104	Groupe	actif	D	3								
+LA23	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	C	104	Groupe	actif	D	4								
+LA24	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	B	213	Groupe	actif	D									
+LA24	TD	Lundi	01:00:00 PM	02:00:00 PM	BF	B	213	Groupe	actif	T									
+LA91	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	C	207	Groupe	actif	D	1								
+LA91	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	C	207	Groupe	de	réserve	D	2							
+LA91	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	C	207	Groupe	actif	T	1								
+LA91	TD	Mardi	10:15:00 AM	12:15:00 PM	SI	CT	113	Groupe	de	réserve	T	2							
+LA92	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	C	207	Groupe	actif	D	1								
+LA92	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	C	207	Groupe	actif	D	2								
+LA92	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	C	207	Groupe	actif	D	3								
+LA92	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	C	207	Groupe	de	réserve	D	4							
+LA92	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	C	207	Groupe	actif	T	1								
+LA92	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	C	107	Groupe	actif	T	2								
+
+
+
+LA92	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	C	207	Groupe	actif	T	3								
+LA92	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	C	207	Groupe	de	réserve	T	4							
+LA93	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	413	Groupe	actif	D	1								
+LA93	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	413	Groupe	actif	D	2								
+LA93	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	C	207	Groupe	actif	D	3								
+LA93	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	413	Groupe	actif	D	4								
+LA93	TD	Mardi	01:00:00 PM	02:00:00 PM	BF	C	111	Groupe	actif	T	1								
+LA93	TD	Jeudi	06:45:00 PM	07:45:00 PM	BF	C	104	Groupe	actif	T	2								
+LA93	TD	Vendredi	10:15:00 AM	11:15:00 AM	BF	A	413	Groupe	actif	T	3								
+LA93	TD	Vendredi	11:15:00 AM	12:15:00 PM	BF	A	413	Groupe	actif	T	4								
+LA94	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	413	Groupe	actif	D									
+LA95	TD	Vendredi	09:00:00 AM	10:00:00 AM	BF	A	413	Groupe	actif	D									
+LB24	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	C	104	Groupe	actif	D									
+LB24	TD	Mardi	01:00:00 PM	02:00:00 PM	BF	C	104	Groupe	actif	T									
+LC14	Cours	Mardi	01:00:00 PM	02:00:00 PM	BF	A	205	Groupe	actif	C									
+LC14	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	B	213	Groupe	actif	D	1								
+LC14	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	C	111	Groupe	actif	D	10								
+LC14	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	B	213	Groupe	actif	D	2								
+LC14	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	414	Groupe	actif	D	3								
+LC14	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	C	211	Groupe	actif	D	4								
+LC14	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	413	Groupe	actif	D	5								
+LC14	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	414	Groupe	actif	D	6								
+LC14	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	C	201	Groupe	actif	D	7								
+LC14	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	C	111	Groupe	actif	D	8								
+LC14	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	B	213	Groupe	actif	D	9								
+LC72	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	C	114	Groupe	actif	D	1								
+LC72	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	B	214	Groupe	actif	D	2								
+LC73	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	B	214	Groupe	actif	D	1								
+LC73	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	C	114	Groupe	actif	D	2								
+LC74	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	B	214	Groupe	actif	D									
+LD14	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	414	Groupe	actif	D	1								
+LD14	TD	Mardi	10:15:00 AM	12:15:00 PM	SI	PEP	245	Groupe	actif	D	2								
+LD14	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	C	107	Groupe	actif	D	3								
+LD14	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	C	107	Groupe	actif	D	4								
+LD14	TP	Jeudi	01:00:00 PM	02:00:00 PM	BF	A	318A	Groupe	actif	T	1								
+LD14	TP	Jeudi	01:00:00 PM	02:00:00 PM	BF	A	401	Groupe	actif	T	2								
+LG30	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	C	111	Groupe	actif	D	1								
+LG30	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	C	111	Groupe	actif	D	2								
+LG31	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	C	207	Groupe	actif	D									
+LG32	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	C	200	Groupe	actif	D									
+
+
+
+LG33	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	C	200	Groupe	actif	D									
+LG40	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	C	111	Groupe	actif	D	1								
+LG40	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	C	111	Groupe	actif	D	2								
+LG41	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	C	111	Groupe	actif	D									
+LG42	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	C	203	Groupe	actif	D									
+LG50	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	C	200	Groupe	actif	D	1								
+LG50	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	C	200	Groupe	actif	D	2								
+LG50	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	C	200	Groupe	actif	D	3								
+LG51	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	C	201	Groupe	actif	D	1								
+LG51	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	C	201	Groupe	actif	D	2								
+LG52	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	C	201	Groupe	actif	D									
+LG53	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	C	201	Groupe	actif	D									
+LG60	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	C	201	Groupe	actif	D	1								
+LG60	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	C	201	Groupe	actif	D	2								
+LG61	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	413	Groupe	actif	D	1								
+LG61	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	413	Groupe	actif	D	2								
+LG62	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	413	Groupe	actif	D									
+LG63	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	C	203	Groupe	actif	D									
+LH12	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	C	104	Groupe	actif	D	1								
+LH12	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	C	114	Groupe	actif	D	2								
+LH13	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	C	107	Groupe	actif	D	1								
+LH13	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	C	107	Groupe	actif	D	2								
+LH13	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	C	207	Groupe	de	réserve	D	3							
+LH14	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	413	Groupe	actif	D	1								
+LH14	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	413	Groupe	actif	D	2								
+LH15	Cours	Jeudi	01:00:00 PM	02:00:00 PM	BF	A	206	Groupe	actif	C									
+LH15	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	C	111	Groupe	actif	D	1								
+LH15	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	C	111	Groupe	actif	D	2								
+LH16	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	B	214	Groupe	actif	D	1								
+LH16	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	C	107	Groupe	actif	D	2								
+LH17	Cours	Mardi	01:00:00 PM	02:00:00 PM	BF	A	206	Groupe	actif	C									
+LH17	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	C	211	Groupe	actif	D	1								
+LH17	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	C	207	Groupe	actif	D	2								
+LH20	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	B	214	Groupe	actif	D									
+LH20	TD	Lundi	01:00:00 PM	02:00:00 PM	BF	B	214	Groupe	actif	T									
+LH21	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	B	214	Groupe	actif	D									
+LH21	TD	Mardi	01:00:00 PM	02:00:00 PM	BF	B	214	Groupe	actif	T									
+LO21	Cours	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	205	Groupe	actif	C									
+LO21	TD	Lundi	08:00:00 AM	12:00:00 PM	PG	O	226	Groupe	actif	D	1								
+LO21	TD	Mercredi	02:30:00 PM	06:30:00 PM	PG	O	226	Groupe	actif	D	2								
+
+
+
+LO21	TD	Vendredi	02:30:00 PM	06:30:00 PM	PG	O	226	Groupe	actif	D	3								
+LO23	Cours	Mardi	08:00:00 AM	10:00:00 AM	BF	A	205	Groupe	actif	C									
+LO23	TD	Mercredi	10:15:00 AM	01:15:00 PM	BF	A	505,	BF	A	504	Groupe	actif	D						
+MC02	Cours	Lundi	10:15:00 AM	12:15:00 PM	BF	A	206	Groupe	actif	C									
+MC02	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	B	113,	BF	B	210	Groupe	actif	D						
+MC02	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	A	CR	G	110A	Groupe	actif	T	1						
+MC02	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	B	CR	G	110A	Groupe	actif	T	1						
+MC02	TP	Mardi	08:00:00 AM	12:00:00 PM	CR	G	110A	Groupe	de	réserve	T	2							
+MC06	Cours	Lundi	02:15:00 PM	04:15:00 PM	BF	A	202	Groupe	actif	C									
+MC06	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	B	217	Groupe	actif	D									
+MC06	TP	Vendredi	02:30:00 PM	06:30:00 PM	semaine	A	CR	G	124	Groupe	actif	T							
+MC06	TP	Vendredi	02:30:00 PM	06:30:00 PM	semaine	B	CR	G	124	Groupe	actif	T							
+MI01	Cours	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	104	Groupe	actif	C									
+MI01	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	516	Groupe	actif	D	1								
+MI01	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	516	Groupe	actif	D	2								
+MI01	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	419	Groupe	actif	D	3								
+MI01	TP	Lundi	10:15:00 AM	12:15:00 PM	PG	J	207A	Groupe	actif	T	1								
+MI01	TP	Mardi	08:00:00 AM	10:00:00 AM	PG	J	207A	Groupe	actif	T	2								
+MI01	TP	Mercredi	02:15:00 PM	04:15:00 PM	PG	J	207A	Groupe	actif	T	3								
+MI01	TP	Vendredi	02:15:00 PM	04:15:00 PM	PG	J	207A	Groupe	actif	T	4								
+MI12	Cours	Vendredi	04:30:00 PM	06:00:00 PM	PG	J	216,	SI	PEP	255	Groupe	actif	C						
+MI12	TD	Vendredi	08:00:00 AM	12:00:00 PM	PG	J	216,	SI	PEP	255	Groupe	actif	D						
+ML01	Cours	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	205	Groupe	actif	C									
+ML01	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	A	509	Groupe	actif	D	1								
+ML01	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	B	215	Groupe	actif	D	2								
+ML01	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	509	Groupe	actif	D	3								
+ML01	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	509	Groupe	actif	D	4								
+ML01	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	509	Groupe	actif	D	5								
+MP03	Cours	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	318A	Groupe	actif	C									
+MP03	TD	Vendredi	04:30:00 PM	06:30:00 PM	BF	B	215	Groupe	actif	D									
+MQ01	Cours	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	205	Groupe	actif	C									
+MQ01	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	A	405	Groupe	actif	D	1								
+MQ01	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	405	Groupe	actif	D	2								
+MQ01	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	602	Groupe	actif	D	3								
+MQ01	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	518	Groupe	actif	D	4								
+MQ01	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	405	Groupe	actif	D	5								
+MQ01	TP	Lundi	01:00:00 PM	04:00:00 PM	semaine	A	CR	H	126	Groupe	actif	T	1						
+MQ01	TP	Lundi	01:00:00 PM	04:00:00 PM	semaine	B	CR	H	126	Groupe	actif	T	1						
+MQ01	TP	Mercredi	08:00:00 AM	11:00:00 AM	semaine	A	CR	H	126	Groupe	actif	T	2						
+MQ01	TP	Mercredi	08:00:00 AM	11:00:00 AM	semaine	B	CR	H	126	Groupe	actif	T	2						
+
+
+
+MQ01	TP	Mercredi	01:00:00 PM	04:00:00 PM	semaine	A	CR	H	126	Groupe	actif	T	3						
+MQ01	TP	Mercredi	01:00:00 PM	04:00:00 PM	semaine	B	CR	H	126	Groupe	actif	T	3						
+MQ01	TP	Jeudi	01:00:00 PM	04:00:00 PM	CR	H	126	Groupe	actif	T	4								
+MQ01	TP	Vendredi	01:00:00 PM	04:00:00 PM	semaine	A	CR	H	126	Groupe	actif	T	5						
+MQ01	TP	Vendredi	01:00:00 PM	04:00:00 PM	semaine	B	CR	H	126	Groupe	actif	T	5						
+MQ01	TP	Jeudi	01:00:00 PM	04:00:00 PM	CR	H	126	Groupe	de	réserve	T	6							
+MQ03	Cours	Lundi	08:00:00 AM	10:00:00 AM	BF	A	205	Groupe	actif	C									
+MQ03	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	516	Groupe	actif	D	1								
+MQ03	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	417	Groupe	actif	D	2								
+MQ03	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	516	Groupe	actif	D	3								
+MQ03	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	516	Groupe	actif	D	4								
+MQ03	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	419	Groupe	actif	D	5								
+MQ03	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	419	Groupe	actif	D	6								
+MQ03	TP	Mardi	08:00:00 AM	12:00:00 PM	semaine	B	PG	J	103	Groupe	actif	T	1						
+MQ03	TP	Mardi	08:00:00 AM	12:00:00 PM	semaine	A	PG	J	103	Groupe	actif	T	1						
+MQ03	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	B	PG	J	103	Groupe	actif	T	2						
+MQ03	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	A	PG	J	103	Groupe	actif	T	2						
+MQ03	TP	Jeudi	08:00:00 AM	12:00:00 PM	semaine	A	PG	J	103	Groupe	actif	T	3						
+MQ03	TP	Jeudi	08:00:00 AM	12:00:00 PM	semaine	B	PG	J	103	Groupe	actif	T	3						
+MQ03	TP	Jeudi	02:30:00 PM	06:30:00 PM	PG	J	103	Groupe	actif	T	4								
+MQ03	TP	Vendredi	02:30:00 PM	06:30:00 PM	semaine	A	PG	J	103	Groupe	actif	T	5						
+MQ03	TP	Vendredi	02:30:00 PM	06:30:00 PM	semaine	B	PG	J	103	Groupe	actif	T	5						
+MQ06	Cours	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	108	Groupe	actif	C									
+MQ06	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	314	Groupe	actif	D	1								
+MQ06	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	419	Groupe	actif	D	2								
+MQ06	TP	Mardi	08:00:00 AM	10:00:00 AM	BF	B	108	Groupe	actif	T	1								
+MQ06	TP	Jeudi	04:30:00 PM	06:30:00 PM	semaine	A	BF	A	510	Groupe	actif	T	2						
+MQ06	TP	Jeudi	04:30:00 PM	06:30:00 PM	semaine	B	BF	A	510	Groupe	actif	T	2						
+MQ12	Cours	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	200	Groupe	actif	C									
+MQ12	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	B	217	Groupe	actif	D									
+MQ13	Cours	Lundi	10:15:00 AM	12:15:00 PM	BF	A	200	Groupe	actif	C									
+MQ13	TD	Lundi	08:30:00 AM	10:00:00 AM	BF	B	216,	BF	A	406	Groupe	actif	D						
+MQ13	TP	Mardi	02:30:00 PM	06:30:00 PM	CR	F	327	Groupe	actif	T	1								
+MQ13	TP	Mardi	02:30:00 PM	06:30:00 PM	CR	F	327	Groupe	de	réserve	T	2							
+MQ16	Cours	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	200	Groupe	actif	C									
+MQ16	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	B	108	Groupe	actif	D									
+MQ16	TP	Jeudi	08:00:00 AM	10:00:00 AM	BF	B	108	Groupe	actif	T									
+MQ17	Cours	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	205	Groupe	actif	C									
+MQ17	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	517	Groupe	actif	D	1								
+MQ17	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	517	Groupe	actif	D	2								
+
+
+
+MQ17	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	602	Groupe	actif	D	3								
+MQ17	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	420	Groupe	actif	D	4								
+MQ17	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	420	Groupe	actif	D	5								
+MQ17	TD	Vendredi	04:30:00 PM	06:30:00 PM	BF	A	404	Groupe	actif	D	6								
+MQ17	TP	Lundi	08:00:00 AM	12:00:00 PM	semaine	B	CR	F	333	Groupe	actif	T	1						
+MQ17	TP	Lundi	08:00:00 AM	12:00:00 PM	semaine	A	CR	F	333	Groupe	actif	T	1						
+MQ17	TP	Lundi	02:30:00 PM	06:30:00 PM	semaine	A	CR	F	333	Groupe	actif	T	2						
+MQ17	TP	Lundi	02:30:00 PM	06:30:00 PM	semaine	B	CR	F	333	Groupe	actif	T	2						
+MQ17	TP	Mardi	02:30:00 PM	06:30:00 PM	semaine	B	CR	F	333	Groupe	actif	T	3						
+MQ17	TP	Mardi	02:30:00 PM	06:30:00 PM	semaine	A	CR	F	333	Groupe	actif	T	3						
+MQ17	TP	Mercredi	08:00:00 AM	12:00:00 PM	semaine	A	CR	F	333	Groupe	actif	T	4						
+MQ17	TP	Mercredi	08:00:00 AM	12:00:00 PM	semaine	B	CR	F	333	Groupe	actif	T	4						
+MQ17	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	A	CR	F	333	Groupe	actif	T	5						
+MQ17	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	B	CR	F	333	Groupe	actif	T	5						
+MQ17	TP	Jeudi	08:00:00 AM	12:00:00 PM	semaine	B	CR	F	333	Groupe	actif	T	6						
+MQ17	TP	Jeudi	08:00:00 AM	12:00:00 PM	semaine	A	CR	F	333	Groupe	actif	T	6						
+MQ17	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	A	CR	F	333	Groupe	actif	T	7						
+MQ17	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	B	CR	F	333	Groupe	actif	T	7						
+MQ20	Cours	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	318A	Groupe	actif	C									
+MQ20	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	318A	Groupe	actif	D	1								
+MQ20	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	306	Groupe	actif	D	2								
+MQ21	Cours	Lundi	02:15:00 PM	04:15:00 PM	BF	A	200	Groupe	actif	C									
+MQ21	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	403	Groupe	actif	D									
+MQ21	TP	Jeudi	02:30:00 PM	06:30:00 PM	CR	H	125,	CR	H	148	Groupe	actif	T						
+MS01	Cours	Lundi	08:00:00 AM	10:00:00 AM	BF	A	100	Groupe	actif	C									
+MS01	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	418	Groupe	actif	D	1								
+MS01	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	405	Groupe	actif	D	2								
+MS01	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	406	Groupe	actif	D	3								
+MS01	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	405	Groupe	de	réserve	D	4							
+MS01	TP	Jeudi	08:00:00 AM	12:00:00 PM	semaine	B	CR	F	151A	Groupe	actif	T	1						
+MS01	TP	Jeudi	08:00:00 AM	12:00:00 PM	semaine	A	CR	F	151A	Groupe	actif	T	1						
+MS01	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	A	CR	F	151A	Groupe	actif	T	2						
+MS01	TP	Jeudi	02:30:00 PM	06:30:00 PM	semaine	B	CR	F	151A	Groupe	actif	T	2						
+MS01	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	B	CR	F	151A	Groupe	actif	T	3						
+MS01	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	A	CR	F	151A	Groupe	actif	T	3						
+MS01	TP	Lundi	02:30:00 PM	06:30:00 PM	CR	F	151A	Groupe	de	réserve	T	4							
+MS01	TP	Lundi	02:30:00 PM	06:30:00 PM	CR	F	151A	Groupe	de	réserve	T	5							
+MS03	TD	Jeudi	08:00:00 AM	09:00:00 AM	PG	J	102	Groupe	actif	D									
+MS03	TP	Jeudi	09:00:00 AM	12:00:00 PM	PG	J	102	Groupe	actif	T									
+MT01	Cours	Lundi	08:00:00 AM	10:00:00 AM	BF	A	200	Groupe	actif	C									
+
+
+
+MT01	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	401	Groupe	actif	D									
+MT02	Cours	Jeudi	10:30:00 AM	12:00:00 PM	CR	B	110	Groupe	actif	C	1								
+MT02	Cours	Lundi	10:30:00 AM	12:00:00 PM	CR	B	110	Groupe	actif	C	1								
+MT02	Cours	Lundi	02:30:00 PM	04:00:00 PM	CR	B	110	Groupe	actif	C	2								
+MT02	Cours	Mardi	10:30:00 AM	12:00:00 PM	CR	B	110	Groupe	actif	C	2								
+MT02	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	A	410	Groupe	actif	D	1								
+MT02	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	410	Groupe	actif	D	10								
+MT02	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	410	Groupe	actif	D	11								
+MT02	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	410	Groupe	actif	D	12								
+MT02	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	410	Groupe	actif	D	13								
+MT02	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	410	Groupe	actif	D	14								
+MT02	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	518	Groupe	de	réserve	D	15							
+MT02	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	410	Groupe	actif	D	2								
+MT02	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	412	Groupe	actif	D	3								
+MT02	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	410	Groupe	actif	D	4								
+MT02	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	410	Groupe	actif	D	5								
+MT02	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	412	Groupe	actif	D	6								
+MT02	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	410	Groupe	actif	D	7								
+MT02	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	410	Groupe	actif	D	8								
+MT02	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	410	Groupe	actif	D	9								
+MT02	TD	Lundi	01:00:00 PM	02:00:00 PM	BF	A	410	Groupe	actif	T	1								
+MT02	TD	Jeudi	01:00:00 PM	02:00:00 PM	BF	A	410	Groupe	actif	T	10								
+MT02	TD	Jeudi	01:00:00 PM	02:00:00 PM	BF	A	412	Groupe	actif	T	11								
+MT02	TD	Jeudi	01:00:00 PM	02:00:00 PM	BF	A	504	Groupe	actif	T	12								
+MT02	TD	Vendredi	01:00:00 PM	02:00:00 PM	BF	A	410	Groupe	actif	T	13								
+MT02	TD	Vendredi	01:00:00 PM	02:00:00 PM	BF	A	412	Groupe	actif	T	14								
+MT02	TD	Mardi	01:00:00 PM	02:00:00 PM	BF	A	504	Groupe	de	réserve	T	15							
+MT02	TD	Lundi	01:00:00 PM	02:00:00 PM	BF	A	412	Groupe	actif	T	2								
+MT02	TD	Lundi	01:00:00 PM	02:00:00 PM	BF	A	504	Groupe	actif	T	3								
+MT02	TD	Lundi	01:00:00 PM	02:00:00 PM	BF	A	518	Groupe	actif	T	4								
+MT02	TD	Mardi	01:00:00 PM	02:00:00 PM	BF	A	410	Groupe	actif	T	5								
+MT02	TD	Mardi	01:00:00 PM	02:00:00 PM	BF	A	412	Groupe	actif	T	6								
+MT02	TD	Mercredi	01:00:00 PM	02:00:00 PM	BF	A	410	Groupe	actif	T	7								
+MT02	TD	Mercredi	01:00:00 PM	02:00:00 PM	BF	A	412	Groupe	actif	T	8								
+MT02	TD	Mercredi	01:00:00 PM	02:00:00 PM	BF	A	518	Groupe	actif	T	9								
+MT03	Cours	Lundi	04:45:00 PM	06:15:00 PM	SI	CT	120	Groupe	actif	C	1								
+MT03	Cours	Mercredi	10:30:00 AM	12:00:00 PM	CR	B	110	Groupe	actif	C	2								
+MT03	TD	Lundi	08:30:00 AM	10:00:00 AM	BF	A	412	Groupe	actif	D	1								
+MT03	TD	Mercredi	02:30:00 PM	04:00:00 PM	BF	A	412	Groupe	actif	D	10								
+MT03	TD	Mercredi	02:30:00 PM	04:00:00 PM	BF	A	518	Groupe	actif	D	11								
+
+
+
+MT03	TD	Mercredi	04:30:00 PM	06:00:00 PM	BF	A	412	Groupe	actif	D	12								
+MT03	TD	Mercredi	04:30:00 PM	06:00:00 PM	BF	A	518	Groupe	actif	D	13								
+MT03	TD	Jeudi	08:30:00 AM	10:00:00 AM	BF	A	412	Groupe	actif	D	14								
+MT03	TD	Jeudi	10:30:00 AM	12:00:00 PM	BF	A	412	Groupe	actif	D	15								
+MT03	TD	Jeudi	02:30:00 PM	04:00:00 PM	BF	A	412	Groupe	actif	D	16								
+MT03	TD	Jeudi	04:30:00 PM	06:00:00 PM	BF	A	412	Groupe	actif	D	17								
+MT03	TD	Vendredi	08:30:00 AM	10:00:00 AM	BF	A	412	Groupe	actif	D	18								
+MT03	TD	Vendredi	02:15:00 PM	03:45:00 PM	BF	A	518	Groupe	de	réserve	D	19							
+MT03	TD	Lundi	08:30:00 AM	10:00:00 AM	BF	A	504	Groupe	actif	D	2								
+MT03	TD	Lundi	10:30:00 AM	12:00:00 PM	BF	A	410	Groupe	actif	D	3								
+MT03	TD	Lundi	02:30:00 PM	04:00:00 PM	BF	A	412	Groupe	actif	D	4								
+MT03	TD	Mardi	08:30:00 AM	10:00:00 AM	BF	A	504	Groupe	actif	D	5								
+MT03	TD	Mardi	10:30:00 AM	12:00:00 PM	BF	A	412	Groupe	actif	D	6								
+MT03	TD	Mardi	02:30:00 PM	04:00:00 PM	BF	A	412	Groupe	actif	D	7								
+MT03	TD	Mardi	04:30:00 PM	06:00:00 PM	BF	A	412	Groupe	actif	D	8								
+MT03	TD	Mercredi	08:30:00 AM	10:00:00 AM	BF	A	504	Groupe	actif	D	9								
+MT09	Cours	Mardi	04:30:00 PM	06:30:00 PM	BF	A	205	Groupe	actif	C									
+MT09	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	417	Groupe	actif	D	1								
+MT09	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	419	Groupe	actif	D	2								
+MT09	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	403	Groupe	actif	D	3								
+MT09	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	417	Groupe	de	réserve	D	4							
+MT09	Sout.	Médiation	Mardi	06:30:00 PM	07:30:00 PM	BF	A	205	Groupe	actif	T								
+MT09	TP	Lundi	02:15:00 PM	04:15:00 PM	semaine	B	BF	B	215	Groupe	actif	T	1						
+MT09	TP	Lundi	02:15:00 PM	04:15:00 PM	semaine	A	BF	B	215	Groupe	actif	T	1						
+MT09	TP	Jeudi	10:15:00 AM	12:15:00 PM	semaine	A	BF	B	113	Groupe	actif	T	2						
+MT09	TP	Jeudi	10:15:00 AM	12:15:00 PM	semaine	B	BF	B	113	Groupe	actif	T	2						
+MT09	TP	Jeudi	02:15:00 PM	04:15:00 PM	semaine	A	BF	B	216	Groupe	actif	T	3						
+MT09	TP	Jeudi	02:15:00 PM	04:15:00 PM	semaine	B	BF	B	216	Groupe	actif	T	3						
+MT09	TP	Mardi	10:15:00 AM	12:15:00 PM	PG	O	227	Groupe	de	réserve	T	4							
+MT09	TP	Mardi	10:15:00 AM	12:15:00 PM	PG	O	227	Groupe	de	réserve	T	5							
+MT11	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	A	518	Groupe	actif	D	1								
+MT11	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	504	Groupe	actif	D	1								
+MT11	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	412	Groupe	actif	D	2								
+MT11	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	518	Groupe	actif	D	2								
+MT11	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	412	Groupe	actif	D	3								
+MT11	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	412	Groupe	actif	D	3								
+MT12	Cours	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	200	Groupe	actif	C									
+MT12	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	420	Groupe	actif	D	1								
+MT12	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	516	Groupe	actif	D	2								
+MT12	TP	Mercredi	02:15:00 PM	04:15:00 PM	semaine	B	BF	B	215	Groupe	actif	T	1						
+
+
+
+MT12	TP	Mercredi	02:15:00 PM	04:15:00 PM	semaine	A	BF	B	215	Groupe	actif	T	1						
+MT12	TP	Vendredi	10:15:00 AM	12:15:00 PM	semaine	B	BF	B	116	Groupe	actif	T	2						
+MT12	TP	Vendredi	10:15:00 AM	12:15:00 PM	semaine	A	BF	B	116	Groupe	actif	T	2						
+MT22	Cours	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	100	Groupe	actif	C									
+MT22	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	504	Groupe	actif	D	1								
+MT22	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	518	Groupe	actif	D	2								
+MT22	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	518	Groupe	actif	D	3								
+MT22	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	410	Groupe	actif	D	4								
+MT23	Cours	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	201	Groupe	actif	C	1								
+MT23	Cours	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	201	Groupe	actif	C	2								
+MT23	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	518	Groupe	actif	D	1								
+MT23	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	504	Groupe	actif	D	10								
+MT23	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	504	Groupe	actif	D	11								
+MT23	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	504	Groupe	actif	D	12								
+MT23	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	504	Groupe	actif	D	2								
+MT23	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	518	Groupe	actif	D	3								
+MT23	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	504	Groupe	actif	D	4								
+MT23	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	504	Groupe	actif	D	5								
+MT23	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	410	Groupe	actif	D	6								
+MT23	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	504	Groupe	actif	D	7								
+MT23	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	504	Groupe	actif	D	8								
+MT23	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	504	Groupe	actif	D	9								
+MT31	Cours	Lundi	08:00:00 AM	10:00:00 AM	BF	A	309	Groupe	actif	C									
+MT31	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	309	Groupe	actif	D									
+MT33	Cours	Mardi	10:15:00 AM	12:15:00 PM	BF	A	310	Groupe	actif	C									
+MT33	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	504	Groupe	actif	D									
+MT33	TP	Jeudi	08:00:00 AM	10:00:00 AM	semaine	A	BF	B	100	Groupe	actif	T							
+MT33	TP	Jeudi	08:00:00 AM	10:00:00 AM	semaine	B	BF	B	100	Groupe	actif	T							
+MT36	Cours	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	204	Groupe	actif	C									
+MT36	TD	Vendredi	04:30:00 PM	06:30:00 PM	BF	B	104,	BF	A	406	Groupe	actif	D						
+MTX2	Cours	Jeudi	10:30:00 AM	12:00:00 PM	CR	B	110	Groupe	actif	C	1								
+MTX2	Cours	Lundi	10:30:00 AM	12:00:00 PM	CR	B	110	Groupe	actif	C	1								
+MTX2	Cours	Lundi	02:30:00 PM	04:00:00 PM	CR	B	110	Groupe	actif	C	2								
+MTX2	Cours	Mardi	10:30:00 AM	12:00:00 PM	CR	B	110	Groupe	actif	C	2								
+MTX2	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	309	Groupe	actif	D									
+MTX2	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	309	Groupe	actif	T									
+MU01	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	109	Groupe	actif	D									
+MU03	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	109	Groupe	actif	D									
+NF02	Cours	Lundi	04:30:00 PM	06:00:00 PM	BF	A	108	Groupe	actif	C									
+NF02	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	403	Groupe	actif	D	1								
+
+
+
+NF02	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	404	Groupe	actif	D	2								
+NF02	TP	Mercredi	10:15:00 AM	12:15:00 PM	semaine	A	PG	J	210C	Groupe	actif	T	1						
+NF02	TP	Mercredi	10:15:00 AM	12:15:00 PM	semaine	B	PG	J	210C	Groupe	actif	T	1						
+NF02	TP	Vendredi	08:00:00 AM	10:00:00 AM	semaine	A	PG	J	210C	Groupe	actif	T	2						
+NF02	TP	Vendredi	08:00:00 AM	10:00:00 AM	semaine	B	PG	J	210C	Groupe	actif	T	2						
+NF04	Cours	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	106	Groupe	actif	C									
+NF04	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	B	215,	BF	A	406	Groupe	actif	D	1					
+NF04	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	B	215,	BF	A	602	Groupe	actif	D	2					
+NF04	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	505,	BF	A	309	Groupe	actif	D	3					
+NF05	TD	Lundi	08:00:00 AM	12:00:00 PM	BF	B	115	Groupe	actif	D	1								
+NF05	TD	Vendredi	02:30:00 PM	06:30:00 PM	BF	B	115	Groupe	actif	D	10								
+NF05	TD	Lundi	02:15:00 PM	06:15:00 PM	BF	B	115	Groupe	actif	D	2								
+NF05	TD	Mardi	08:00:00 AM	12:00:00 PM	BF	B	115	Groupe	actif	D	3								
+NF05	TD	Mardi	02:15:00 PM	06:15:00 PM	BF	B	115	Groupe	actif	D	4								
+NF05	TD	Mercredi	08:00:00 AM	12:00:00 PM	BF	B	115	Groupe	actif	D	5								
+NF05	TD	Mercredi	02:15:00 PM	06:15:00 PM	BF	B	115	Groupe	actif	D	6								
+NF05	TD	Jeudi	08:00:00 AM	12:00:00 PM	BF	B	115	Groupe	actif	D	7								
+NF05	TD	Jeudi	02:15:00 PM	06:15:00 PM	BF	B	115	Groupe	actif	D	8								
+NF05	TD	Vendredi	08:00:00 AM	12:00:00 PM	BF	B	115	Groupe	actif	D	9								
+NF16	Cours	Lundi	04:30:00 PM	06:30:00 PM	BF	A	205	Groupe	actif	C									
+NF16	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	406	Groupe	actif	D	1								
+NF16	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	404	Groupe	actif	D	2								
+NF16	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	418	Groupe	actif	D	3								
+NF16	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	418	Groupe	de	réserve	D	4							
+NF16	TP	Mardi	08:00:00 AM	10:00:00 AM	semaine	B	BF	B	216	Groupe	actif	T	1						
+NF16	TP	Mardi	08:00:00 AM	10:00:00 AM	semaine	A	BF	B	216	Groupe	actif	T	1						
+NF16	TP	Mardi	10:15:00 AM	12:15:00 PM	semaine	A	BF	B	113	Groupe	actif	T	2						
+NF16	TP	Mardi	10:15:00 AM	12:15:00 PM	semaine	B	BF	B	113	Groupe	actif	T	2						
+NF16	TP	Vendredi	08:00:00 AM	10:00:00 AM	semaine	A	BF	B	216	Groupe	actif	T	3						
+NF16	TP	Vendredi	08:00:00 AM	10:00:00 AM	semaine	B	BF	B	216	Groupe	actif	T	3						
+NF16	TP	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	509	Groupe	de	réserve	T	4							
+NF16	TP	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	509	Groupe	de	réserve	T	5							
+NF18	Cours	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	205	Groupe	actif	C									
+NF18	TD	Lundi	10:15:00 AM	01:15:00 PM	BF	B	100	Groupe	actif	D	1								
+NF18	TD	Lundi	01:15:00 PM	04:15:00 PM	BF	B	100	Groupe	actif	D	2								
+NF18	TD	Mercredi	10:15:00 AM	01:15:00 PM	BF	B	100	Groupe	de	réserve	D	3							
+NF22	Cours	Vendredi	08:30:00 AM	10:00:00 AM	BF	A	104	Groupe	actif	C									
+NF22	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	B	215	Groupe	actif	D	1								
+NF22	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	B	216	Groupe	actif	D	2								
+NF22	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	B	215	Groupe	actif	D	3								
+
+
+
+NF22	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	B	216	Groupe	actif	D	4								
+NF22	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	B	215	Groupe	actif	D	5								
+NF22	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	B	215	Groupe	actif	D	6								
+NF22	TP	Lundi	10:15:00 AM	12:15:00 PM	BF	B	113	Groupe	actif	T	1								
+NF22	TP	Mardi	08:00:00 AM	10:00:00 AM	BF	B	113	Groupe	actif	T	2								
+NF22	TP	Mardi	04:30:00 PM	06:30:00 PM	BF	B	113	Groupe	actif	T	3								
+NF22	TP	Mercredi	08:00:00 AM	10:00:00 AM	BF	B	113	Groupe	actif	T	4								
+NF22	TP	Mercredi	04:30:00 PM	06:30:00 PM	BF	B	113	Groupe	actif	T	5								
+NF22	TP	Vendredi	02:15:00 PM	04:15:00 PM	BF	B	113	Groupe	actif	T	6								
+NF23	TD	Lundi	08:00:00 AM	12:00:00 PM	BF	B	217	Groupe	actif	D									
+NF92	Cours	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	100	Groupe	actif	C									
+NF92	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	B	104	Groupe	actif	D	1								
+NF92	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	B	104	Groupe	actif	D	2								
+NF92	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	B	104	Groupe	actif	D	3								
+NF92	TP	Mercredi	10:15:00 AM	12:15:00 PM	semaine	B	BF	B	104	Groupe	actif	T	1						
+NF92	TP	Mercredi	10:15:00 AM	12:15:00 PM	semaine	A	BF	B	104	Groupe	actif	T	1						
+NF92	TP	Jeudi	10:15:00 AM	12:15:00 PM	semaine	A	BF	B	104	Groupe	actif	T	2						
+NF92	TP	Jeudi	10:15:00 AM	12:15:00 PM	semaine	B	BF	B	104	Groupe	actif	T	2						
+NF92	TP	Vendredi	10:15:00 AM	12:15:00 PM	semaine	B	BF	B	104	Groupe	actif	T	3						
+NF92	TP	Vendredi	10:15:00 AM	12:15:00 PM	semaine	A	BF	B	104	Groupe	actif	T	3						
+NF93	Cours	Lundi	08:00:00 AM	10:00:00 AM	BF	A	201	Groupe	actif	C									
+NF93	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	400	Groupe	actif	D	1								
+NF93	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	400	Groupe	actif	D	2								
+NF93	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	400	Groupe	actif	D	3								
+NF93	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	400	Groupe	actif	D	4								
+PH01	Cours	Mardi	09:00:00 AM	10:00:00 AM	BF	B	210	Groupe	actif	C									
+PH01	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	B	210	Groupe	actif	D									
+PH03	Cours	Mardi	10:15:00 AM	12:15:00 PM	BF	A	201	Groupe	actif	C									
+PH03	TD	Mardi	01:00:00 PM	02:00:00 PM	BF	A	314	Groupe	actif	D	1								
+PH03	TD	Mardi	02:15:00 PM	03:15:00 PM	BF	A	314	Groupe	actif	D	2								
+PH04	Cours	Mardi	10:15:00 AM	12:15:00 PM	BF	A	108	Groupe	actif	C									
+PH04	TD	Mardi	02:15:00 PM	03:15:00 PM	BF	A	405	Groupe	actif	D	1								
+PH04	TD	Mardi	03:15:00 PM	04:15:00 PM	BF	A	405	Groupe	actif	D	2								
+PH09	Cours	Lundi	02:15:00 PM	04:15:00 PM	BF	A	310	Groupe	actif	C									
+PH09	TD	Lundi	01:00:00 PM	02:00:00 PM	BF	A	616	Groupe	actif	D	1								
+PH09	TD	Lundi	04:30:00 PM	05:30:00 PM	BF	A	419	Groupe	actif	D	2								
+PH11	Cours	Mercredi	09:00:00 AM	10:00:00 AM	BF	A	602	Groupe	actif	C									
+PH11	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	602	Groupe	actif	D									
+PS04	Cours	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	212	Groupe	actif	C									
+PS04	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	404	Groupe	actif	D									
+
+
+
+PS04	TP	Lundi	02:30:00 PM	06:30:00 PM	semaine	B	ESCOM	ES	215	Groupe	actif	T							
+PS04	TP	Lundi	02:30:00 PM	06:30:00 PM	semaine	A	ESCOM	ES	215	Groupe	actif	T							
+PS12	Cours	Lundi	02:15:00 PM	04:15:00 PM	PG	O	229	Groupe	actif	C									
+PS12	TD	Lundi	04:30:00 PM	06:30:00 PM	PG	O	223	Groupe	actif	D									
+PS13	Cours	Mardi	08:00:00 AM	10:00:00 AM	BF	A	206	Groupe	actif	C									
+PS13	TD	Vendredi	01:00:00 PM	04:00:00 PM	BF	A	418,	BF	A	512	Groupe	actif	D						
+PS15	Cours	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	205	Groupe	actif	C									
+PS15	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	517	Groupe	actif	D	1								
+PS15	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	517	Groupe	actif	D	2								
+PS15	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	517	Groupe	actif	D	3								
+PS15	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	404	Groupe	actif	D	4								
+PS21	Cours	Vendredi	02:30:00 PM	04:00:00 PM	CR	B	110	Groupe	actif	C									
+PS21	TD	Lundi	08:00:00 AM	11:00:00 AM	SI	PEP	255	Groupe	actif	D	1								
+PS21	TD	Lundi	01:15:00 PM	04:15:00 PM	SI	PEP	255	Groupe	actif	D	2								
+PS21	TD	Lundi	04:30:00 PM	07:30:00 PM	SI	PEP	255	Groupe	actif	D	3								
+PS21	TD	Mardi	08:00:00 AM	11:00:00 AM	SI	PEP	255	Groupe	actif	D	4								
+PS21	TD	Mercredi	01:15:00 PM	04:15:00 PM	SI	PEP	255	Groupe	actif	D	5								
+PS21	TD	Mercredi	04:30:00 PM	07:30:00 PM	SI	PEP	255	Groupe	actif	D	6								
+PS21	TD	Jeudi	08:00:00 AM	11:00:00 AM	SI	PEP	255	Groupe	actif	D	7								
+PS21	TD	Jeudi	04:30:00 PM	07:30:00 PM	SI	PEP	255	Groupe	actif	D	8								
+PS22	Cours	Lundi	10:15:00 AM	12:15:00 PM	BF	A	100	Groupe	actif	C									
+PS22	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	406	Groupe	actif	D	1								
+PS22	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	304	Groupe	actif	D	2								
+PS22	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	406	Groupe	actif	D	3								
+PS22	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	304	Groupe	actif	D	4								
+PS22	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	516	Groupe	actif	D	5								
+PS23	Cours	Lundi	08:00:00 AM	10:00:00 AM	BF	A	204	Groupe	actif	C									
+PS23	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	518	Groupe	actif	D									
+PS90	Cours	Mardi	04:30:00 PM	06:30:00 PM	CR	B	110	Groupe	actif	C									
+PS93	Cours	Mardi	02:15:00 PM	04:15:00 PM	BF	A	100	Groupe	actif	C									
+PS93	TD	Lundi	08:00:00 AM	11:00:00 AM	SI	PEP	252	Groupe	actif	D	1								
+PS93	TD	Lundi	04:30:00 PM	07:30:00 PM	BF	A	401	Groupe	actif	D	2								
+PS93	TD	Mercredi	04:30:00 PM	07:30:00 PM	BF	A	401	Groupe	actif	D	3								
+PS93	TD	Vendredi	08:00:00 AM	11:00:00 AM	SI	PEP	252	Groupe	actif	D	4								
+PS93	TP	Mercredi	08:00:00 AM	11:00:00 AM	SI	PEP	173	Groupe	actif	T	1								
+PS93	TP	Mercredi	08:00:00 AM	11:00:00 AM	SI	PEP	173	Groupe	actif	T	2								
+PS93	TP	Mercredi	01:00:00 PM	04:00:00 PM	SI	PEP	173	Groupe	actif	T	3								
+PS93	TP	Mercredi	01:00:00 PM	04:00:00 PM	SI	PEP	173	Groupe	actif	T	4								
+PS93	TP	Jeudi	08:00:00 AM	11:00:00 AM	SI	PEP	173	Groupe	actif	T	5								
+PS93	TP	Jeudi	08:00:00 AM	11:00:00 AM	SI	PEP	173	Groupe	actif	T	6								
+
+
+
+PS93	TP	Jeudi	01:15:00 PM	04:15:00 PM	SI	PEP	173	Groupe	actif	T	7								
+PS93	TP	Jeudi	01:15:00 PM	04:15:00 PM	SI	PEP	173	Groupe	actif	T	8								
+PS93	TP	Lundi	01:00:00 PM	04:00:00 PM	SI	PEP	173	Groupe	de	réserve	T	9							
+RO05	Cours	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	200	Groupe	actif	C									
+RO05	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	504	Groupe	actif	D									
+RO06	Cours	Lundi	08:00:00 AM	10:00:00 AM	BF	A	106	Groupe	actif	C									
+RO06	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	B	216,	BF	A	406	Groupe	actif	D						
+RV01	Cours	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	206	Groupe	actif	C									
+RV01	TD	Vendredi	02:15:00 PM	04:15:00 PM	PG	O	112	Groupe	actif	D									
+SA12	TD	Jeudi	01:15:00 PM	04:15:00 PM	BF	A	400	Groupe	actif	D	1								
+SA12	TD	Jeudi	04:30:00 PM	07:30:00 PM	BF	A	400	Groupe	actif	D	2								
+SC11	Cours	Lundi	01:00:00 PM	02:00:00 PM	BF	A	420	Groupe	actif	C									
+SC11	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	420	Groupe	actif	D									
+SC12	Cours	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	106	Groupe	actif	C									
+SC12	TD	Mercredi	04:30:00 PM	05:30:00 PM	BF	A	419	Groupe	actif	D	1								
+SC12	TD	Mercredi	05:30:00 PM	06:30:00 PM	BF	A	419	Groupe	actif	D	2								
+SC21	Cours	Mardi	02:15:00 PM	04:15:00 PM	BF	A	104	Groupe	actif	C									
+SC21	TD	Mardi	04:30:00 PM	05:30:00 PM	BF	A	517	Groupe	actif	D	1								
+SC21	TD	Mardi	05:30:00 PM	06:30:00 PM	BF	A	517	Groupe	actif	D	2								
+SC22	Cours	Mardi	01:00:00 PM	02:00:00 PM	BF	A	602	Groupe	actif	C									
+SC22	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	602	Groupe	actif	D									
+SC23	Cours	Mardi	01:00:00 PM	02:00:00 PM	BF	A	318A	Groupe	actif	C									
+SC23	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	318A	Groupe	actif	D									
+SC25	Cours	Mardi	01:00:00 PM	02:00:00 PM	BF	A	100	Groupe	actif	C									
+SC25	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	417	Groupe	actif	D	1								
+SC25	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	417	Groupe	actif	D	2								
+SC27	Cours	Mardi	01:00:00 PM	02:00:00 PM	Groupe	actif	C												
+SC27	TD	Mardi	02:15:00 PM	04:15:00 PM	Groupe	actif	D												
+SF01	TD	Mardi	02:30:00 PM	04:00:00 PM	BF	C	207	Groupe	actif	D	1								
+SF01	TD	Mardi	04:30:00 PM	06:00:00 PM	BF	C	207	Groupe	actif	D	2								
+SF02	TD	Mardi	02:30:00 PM	04:00:00 PM	BF	C	207	Groupe	actif	D	1								
+SF02	TD	Mardi	04:30:00 PM	06:00:00 PM	BF	C	207	Groupe	actif	D	2								
+SH01	Cours	Vendredi	01:00:00 PM	02:00:00 PM	BF	A	108	Groupe	actif	C									
+SH01	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	405	Groupe	actif	D	1								
+SH01	TD	Vendredi	04:30:00 PM	06:30:00 PM	BF	A	405	Groupe	actif	D	2								
+SH03	Cours	Vendredi	01:00:00 PM	02:00:00 PM	PG	O	230	Groupe	actif	C									
+SH03	TD	Vendredi	08:00:00 AM	10:00:00 AM	SI	CI	204,	SI	CI	207	Groupe	actif	D						
+SH06	Cours	Mercredi	09:00:00 AM	10:00:00 AM	BF	A	616	Groupe	actif	C									
+SH06	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	616	Groupe	actif	D									
+SH07	Cours	Mercredi	10:15:00 AM	11:15:00 AM	SI	CI	206,	SI	CI	205	Groupe	actif	C						
+
+
+
+SH07	TD	Mercredi	11:15:00 AM	01:15:00 PM	SI	CI	206,	SI	CI	205	Groupe	actif	D	1					
+SH07	TD	Mercredi	02:15:00 PM	04:15:00 PM	SI	CI	206,	SI	CI	205	Groupe	actif	D	2					
+SH10	Cours	Vendredi	01:00:00 PM	02:00:00 PM	BF	A	100	Groupe	actif	C									
+SH10	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	304	Groupe	actif	D	1								
+SH10	TD	Vendredi	04:30:00 PM	06:30:00 PM	BF	A	304	Groupe	actif	D	2								
+SH26	Cours	Mercredi	10:15:00 AM	11:15:00 AM	BF	A	304	Groupe	actif	C									
+SH26	TD	Mercredi	11:15:00 AM	01:15:00 PM	BF	A	304	Groupe	actif	D									
+SH30	Cours	Vendredi	01:00:00 PM	02:00:00 PM	PG	O	229	Groupe	actif	C									
+SH30	TD	Vendredi	02:15:00 PM	04:15:00 PM	SI	CI	207,	SI	CI	204	Groupe	actif	D	1					
+SH30	TD	Vendredi	04:30:00 PM	06:30:00 PM	SI	CI	204,	SI	CI	207	Groupe	actif	D	2					
+SH40	Cours	Vendredi	02:15:00 PM	03:15:00 PM	BF	A	204	Groupe	actif	C									
+SH40	TD	Vendredi	03:15:00 PM	05:15:00 PM	BF	A	204	Groupe	actif	D									
+SI02	Cours	Vendredi	09:00:00 AM	10:00:00 AM	BF	A	204	Groupe	actif	C									
+SI02	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	602	Groupe	actif	D	1								
+SI02	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	602	Groupe	actif	D	2								
+SI02	TD	Vendredi	04:30:00 PM	06:30:00 PM	BF	A	602	Groupe	de	réserve	D	3							
+SI11	TD	Lundi	10:15:00 AM	01:15:00 PM	BF	A	400	Groupe	actif	D	1								
+SI11	TD	Lundi	10:15:00 AM	01:15:00 PM	BF	A	401	Groupe	actif	D	2								
+SI11	TD	Lundi	01:15:00 PM	04:15:00 PM	BF	A	401	Groupe	actif	D	3								
+SI11	TD	Lundi	01:15:00 PM	04:15:00 PM	BF	A	400	Groupe	actif	D	4								
+SI11	TD	Mardi	01:15:00 PM	04:15:00 PM	BF	A	400	Groupe	actif	D	5								
+SI11	TD	Mardi	04:30:00 PM	07:30:00 PM	BF	A	400	Groupe	actif	D	6								
+SI20	Cours	Mercredi	01:00:00 PM	02:00:00 PM	BF	A	206	Groupe	actif	C									
+SI20	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	B	210	Groupe	actif	D	1								
+SI20	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	B	210	Groupe	de	réserve	D	2							
+SI24	Cours	Vendredi	09:00:00 AM	10:00:00 AM	BF	A	318A	Groupe	actif	C									
+SI24	TD	Lundi	02:15:00 PM	04:15:00 PM	PG	O	227	Groupe	actif	D	1								
+SI24	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	B	113	Groupe	actif	D	2								
+SO04	Cours	Lundi	01:00:00 PM	02:00:00 PM	BF	A	318A	Groupe	actif	C									
+SO04	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	419	Groupe	actif	D	1								
+SO04	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	419	Groupe	actif	D	2								
+SO05	Cours	Mardi	01:00:00 PM	02:00:00 PM	BF	A	212	Groupe	actif	C									
+SO05	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	212	Groupe	actif	D	1								
+SO05	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	212	Groupe	actif	D	2								
+SO08	Cours	Mardi	01:00:00 PM	02:00:00 PM	BF	A	104	Groupe	actif	C									
+SO08	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	403	Groupe	actif	D	1								
+SO08	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	403	Groupe	actif	D	2								
+SP01	Cours	Mardi	10:15:00 AM	12:15:00 PM	SI	HS	ASP	Groupe	actif	C									
+SP01	TD	Lundi	02:15:00 PM	04:15:00 PM	SI	HS	ASP	Groupe	actif	D	1								
+SP01	TD	Mardi	02:15:00 PM	04:15:00 PM	SI	HS	ASP	Groupe	actif	D	2								
+
+
+
+SP22	Cours	Lundi	10:15:00 AM	12:15:00 PM	BF	A	318A	Groupe	actif	C									
+SP22	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	617	Groupe	actif	D	1								
+SP22	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	617	Groupe	actif	D	2								
+SPJE	Activité	annexe	Jeudi	02:15:00 PM	06:15:00 PM	Groupe	actif	D											
+SR01	Cours	Lundi	02:15:00 PM	04:15:00 PM	BF	A	205	Groupe	actif	C									
+SR01	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	506	Groupe	actif	D	1								
+SR01	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	506	Groupe	actif	D	2								
+SR01	TD	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	506	Groupe	actif	D	3								
+SR01	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	506	Groupe	actif	D	4								
+SR01	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	506	Groupe	de	réserve	D	5							
+SR04	Cours	Lundi	04:30:00 PM	07:30:00 PM	BF	A	104	Groupe	actif	C									
+SR04	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	506	Groupe	actif	D	1								
+SR04	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	506	Groupe	actif	D	2								
+SR07	Cours	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	212	Groupe	actif	C									
+SR07	TD	Vendredi	04:30:00 PM	07:30:00 PM	PG	J	210A	Groupe	actif	D									
+SR08	Cours	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	206	Groupe	actif	C									
+SR08	TD	Samedi	08:00:00 AM	11:00:00 AM	BF	A	309	Groupe	actif	D									
+SU01	Cours	Mardi	08:00:00 AM	10:00:00 AM	CR	B	110	Groupe	actif	C									
+SU01	TD	Mardi	10:15:00 AM	12:15:00 PM	PG	O	223	Groupe	actif	D	1								
+SU01	TD	Mardi	02:15:00 PM	04:15:00 PM	PG	O	223	Groupe	actif	D	2								
+SU01	TD	Mardi	04:30:00 PM	06:30:00 PM	PG	O	223	Groupe	actif	D	3								
+SV01	Cours	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	100	Groupe	actif	C									
+SV01	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	504	Groupe	actif	D	1								
+SV01	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	405	Groupe	actif	D	2								
+SV01	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	405	Groupe	actif	D	3								
+SV01	TP	Lundi	02:15:00 PM	06:15:00 PM	semaine	A	BF	A	607	Groupe	actif	T	1						
+SV01	TP	Lundi	02:15:00 PM	06:15:00 PM	semaine	B	BF	A	607	Groupe	actif	T	1						
+SV01	TP	Mardi	08:00:00 AM	12:00:00 PM	semaine	A	BF	A	607	Groupe	actif	T	2						
+SV01	TP	Mardi	08:00:00 AM	12:00:00 PM	semaine	B	BF	A	607	Groupe	actif	T	2						
+SV01	TP	Jeudi	02:15:00 PM	06:15:00 PM	semaine	B	BF	A	607	Groupe	actif	T	3						
+SV01	TP	Jeudi	02:15:00 PM	06:15:00 PM	semaine	A	BF	A	607	Groupe	actif	T	3						
+SY01	Cours	Mardi	10:15:00 AM	12:15:00 PM	BF	A	106	Groupe	actif	C									
+SY01	TD	Lundi	10:15:00 AM	12:15:00 PM	BF	A	403	Groupe	actif	D	1								
+SY01	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	404	Groupe	actif	D	2								
+SY02	Cours	Mardi	08:00:00 AM	10:00:00 AM	BF	A	100	Groupe	actif	C									
+SY02	TD	Mardi	04:30:00 PM	06:30:00 PM	BF	A	518	Groupe	actif	D	1								
+SY02	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	518	Groupe	actif	D	2								
+SY02	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	403	Groupe	actif	D	3								
+SY02	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	403	Groupe	actif	D	4								
+SY02	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	518	Groupe	actif	D	5								
+
+
+
+SY02	TP	Lundi	02:15:00 PM	04:15:00 PM	semaine	B	BF	B	216	Groupe	actif	T	1						
+SY02	TP	Lundi	02:15:00 PM	04:15:00 PM	semaine	A	BF	B	216	Groupe	actif	T	1						
+SY02	TP	Mercredi	08:00:00 AM	10:00:00 AM	semaine	B	BF	B	216	Groupe	actif	T	2						
+SY02	TP	Mercredi	08:00:00 AM	10:00:00 AM	semaine	A	BF	B	216	Groupe	actif	T	2						
+SY02	TP	Vendredi	04:30:00 PM	06:30:00 PM	BF	B	216	Groupe	actif	T	3								
+SY03	Cours	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	100	Groupe	actif	C									
+SY03	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	419	Groupe	actif	D	1								
+SY03	TD	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	417	Groupe	actif	D	2								
+SY03	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	418	Groupe	actif	D	3								
+SY03	TP	Lundi	08:00:00 AM	12:00:00 PM	semaine	B	CR	G	110B	Groupe	actif	T	1						
+SY03	TP	Lundi	08:00:00 AM	12:00:00 PM	semaine	A	CR	G	110B	Groupe	actif	T	1						
+SY03	TP	Mardi	02:30:00 PM	06:30:00 PM	semaine	A	CR	G	110B	Groupe	actif	T	2						
+SY03	TP	Mardi	02:30:00 PM	06:30:00 PM	semaine	B	CR	G	110B	Groupe	actif	T	2						
+SY03	TP	Mercredi	08:00:00 AM	12:00:00 PM	semaine	A	CR	G	110B	Groupe	actif	T	3						
+SY03	TP	Mercredi	08:00:00 AM	12:00:00 PM	semaine	B	CR	G	110B	Groupe	actif	T	3						
+SY05	Cours	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	106	Groupe	actif	C									
+SY05	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	509,	BF	A	419	Groupe	actif	D						
+SY06	Cours	Mardi	02:15:00 PM	04:15:00 PM	BF	A	205	Groupe	actif	C									
+SY06	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	B	217	Groupe	actif	D	1								
+SY06	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	B	217	Groupe	actif	D	2								
+SY06	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	B	217	Groupe	actif	D	3								
+SY06	TP	Lundi	10:15:00 AM	01:15:00 PM	semaine	A	BF	B	116	Groupe	actif	T	1						
+SY06	TP	Lundi	10:15:00 AM	01:15:00 PM	semaine	B	BF	B	116	Groupe	actif	T	1						
+SY06	TP	Mardi	04:30:00 PM	07:30:00 PM	semaine	B	BF	B	116	Groupe	actif	T	2						
+SY06	TP	Mardi	04:30:00 PM	07:30:00 PM	semaine	A	BF	B	116	Groupe	actif	T	2						
+SY06	TP	Mercredi	10:15:00 AM	01:15:00 PM	semaine	B	BF	B	116	Groupe	actif	T	3						
+SY06	TP	Mercredi	10:15:00 AM	01:15:00 PM	semaine	A	BF	B	116	Groupe	actif	T	3						
+SY08	Cours	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	100	Groupe	actif	C									
+SY08	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	A	516	Groupe	actif	D	1								
+SY08	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	405	Groupe	actif	D	2								
+SY08	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	420	Groupe	de	réserve	D	3							
+SY08	TP	Lundi	04:30:00 PM	06:30:00 PM	semaine	A	PG	J	216	Groupe	actif	T	1						
+SY08	TP	Lundi	04:30:00 PM	06:30:00 PM	semaine	B	PG	J	216	Groupe	actif	T	1						
+SY08	TP	Mardi	04:30:00 PM	06:30:00 PM	semaine	B	PG	J	216	Groupe	actif	T	2						
+SY08	TP	Mardi	04:30:00 PM	06:30:00 PM	semaine	A	PG	J	216	Groupe	actif	T	2						
+SY08	TP	Mardi	08:00:00 AM	10:00:00 AM	PG	J	216	Groupe	de	réserve	T	3							
+SY08	TP	Mardi	08:00:00 AM	10:00:00 AM	PG	J	216	Groupe	de	réserve	T	4							
+SY10	Cours	Mardi	04:30:00 PM	06:30:00 PM	BF	A	106	Groupe	actif	C									
+SY10	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	318A	Groupe	actif	D									
+SY10	TP	Jeudi	04:30:00 PM	06:30:00 PM	BF	B	215	Groupe	actif	T	1								
+
+
+
+SY10	TP	Jeudi	04:30:00 PM	06:30:00 PM	BF	B	216	Groupe	actif	T	2								
+SY14	Cours	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	205	Groupe	actif	C									
+SY14	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	509,	BF	A	516	Groupe	actif	D						
+SY14	TP	Lundi	08:00:00 AM	12:00:00 PM	semaine	B	PG	J	216	Groupe	actif	T							
+SY14	TP	Lundi	08:00:00 AM	12:00:00 PM	semaine	A	PG	J	216	Groupe	actif	T							
+SY19	Cours	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	106	Groupe	actif	C									
+SY19	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	509	Groupe	actif	D	1								
+SY19	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	509	Groupe	actif	D	2								
+SY27	Cours	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	206	Groupe	actif	C									
+SY27	TD	Jeudi	02:30:00 PM	06:30:00 PM	BF	A	307	Groupe	actif	D									
+SY28	Cours	Mardi	10:15:00 AM	12:15:00 PM	BF	A	206	Groupe	actif	C									
+SY28	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	B	216	Groupe	actif	D									
+SY28	TP	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	505	Groupe	actif	T									
+SY98	Cours	Lundi	10:30:00 AM	12:00:00 PM	BF	A	204	Groupe	actif	C									
+SY98	Cours	Mardi	10:30:00 AM	12:00:00 PM	BF	A	204	Groupe	actif	C									
+SY98	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	A	516	Groupe	actif	D									
+SY98	TD	Mardi	02:15:00 PM	04:15:00 PM	BF	A	516	Groupe	actif	T									
+TA02	Cours	Vendredi	02:15:00 PM	04:15:00 PM	PG	O	227	Groupe	actif	C									
+TA02	TD	Vendredi	04:30:00 PM	06:30:00 PM	PG	O	227	Groupe	actif	D									
+TA03	Cours	Mercredi	08:00:00 AM	12:00:00 PM	BF	A	310	Groupe	actif	C									
+TC00	Activité	annexe	Mardi	06:45:00 PM	08:45:00 PM	BF	A	100	Groupe	actif	D								
+TF01	Cours	Mardi	10:15:00 AM	12:15:00 PM	BF	A	205	Groupe	actif	C									
+TF01	TD	Lundi	08:00:00 AM	10:00:00 AM	BF	A	404	Groupe	actif	D	1								
+TF01	TD	Lundi	02:15:00 PM	04:15:00 PM	BF	A	406	Groupe	actif	D	2								
+TF01	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	418	Groupe	actif	D	3								
+TF01	TD	Jeudi	08:00:00 AM	10:00:00 AM	BF	A	406	Groupe	actif	D	4								
+TF01	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	406	Groupe	actif	D	5								
+TF01	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	417	Groupe	actif	D	6								
+TF01	TP	Lundi	04:30:00 PM	07:30:00 PM	semaine	A	CR	E	101B	Groupe	actif	T	1						
+TF01	TP	Lundi	04:30:00 PM	07:30:00 PM	semaine	B	CR	E	101B	Groupe	actif	T	1						
+TF01	TP	Mardi	01:00:00 PM	04:00:00 PM	semaine	B	CR	E	101B	Groupe	actif	T	2						
+TF01	TP	Mardi	01:00:00 PM	04:00:00 PM	semaine	A	CR	E	101B	Groupe	actif	T	2						
+TF01	TP	Mardi	04:30:00 PM	07:30:00 PM	semaine	A	CR	E	101B	Groupe	actif	T	3						
+TF01	TP	Mardi	04:30:00 PM	07:30:00 PM	semaine	B	CR	E	101B	Groupe	actif	T	3						
+TF01	TP	Mercredi	01:00:00 PM	04:00:00 PM	CR	E	101B	Groupe	actif	T	4								
+TF01	TP	Mercredi	04:30:00 PM	07:30:00 PM	semaine	A	CR	E	101B	Groupe	actif	T	5						
+TF01	TP	Mercredi	04:30:00 PM	07:30:00 PM	semaine	B	CR	E	101B	Groupe	actif	T	5						
+TF01	TP	Jeudi	01:00:00 PM	04:00:00 PM	semaine	A	CR	E	101B	Groupe	actif	T	6						
+TF01	TP	Jeudi	01:00:00 PM	04:00:00 PM	semaine	B	CR	E	101B	Groupe	actif	T	6						
+TF01	TP	Vendredi	01:00:00 PM	04:00:00 PM	semaine	B	CR	E	101B	Groupe	actif	T	7						
+
+
+
+TF01	TP	Vendredi	01:00:00 PM	04:00:00 PM	semaine	A	CR	E	101B	Groupe	actif	T	7						
+TF06	Cours	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	104	Groupe	actif	C									
+TF06	TD	Lundi	08:00:00 AM	10:00:00 AM	PG	O	229	Groupe	actif	D	1								
+TF06	TD	Lundi	10:15:00 AM	12:15:00 PM	PG	O	229	Groupe	actif	D	2								
+TF06	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	417	Groupe	actif	D	3								
+TF06	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	417	Groupe	actif	D	4								
+TF06	TD	Vendredi	04:30:00 PM	06:30:00 PM	BF	A	417	Groupe	actif	D	5								
+TF11	Cours	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	100	Groupe	actif	C									
+TF11	TD	Jeudi	10:15:00 AM	12:15:00 PM	BF	A	405	Groupe	actif	D	1								
+TF11	TD	Jeudi	02:15:00 PM	04:15:00 PM	BF	A	405	Groupe	actif	D	2								
+TF11	TD	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	405	Groupe	actif	D	3								
+TH02	Cours	Mardi	08:00:00 AM	10:00:00 AM	BF	A	200	Groupe	actif	C									
+TH02	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	516	Groupe	actif	D									
+TH04	Cours	Vendredi	08:00:00 AM	10:00:00 AM	BF	A	310	Groupe	actif	C									
+TH04	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	310	Groupe	actif	D									
+TM02	TD	Vendredi	08:00:00 AM	10:00:00 AM	SI	CI	103	Groupe	actif	D									
+TM02	TP	Vendredi	10:15:00 AM	12:15:00 PM	SI	CI	103	Groupe	actif	T									
+TN01	Cours	Vendredi	04:45:00 PM	05:45:00 PM	CR	B	110	Groupe	actif	C									
+TN01	TD	Lundi	08:00:00 AM	11:00:00 AM	BF	A	510	Groupe	actif	D	1								
+TN01	TD	Vendredi	01:00:00 PM	04:00:00 PM	BF	A	510	Groupe	actif	D	10								
+TN01	TD	Mardi	04:30:00 PM	07:30:00 PM	BF	A	510	Groupe	de	réserve	D	11							
+TN01	TD	Lundi	01:00:00 PM	04:00:00 PM	BF	A	510	Groupe	actif	D	2								
+TN01	TD	Lundi	04:30:00 PM	07:30:00 PM	BF	A	510	Groupe	actif	D	3								
+TN01	TD	Mardi	08:00:00 AM	11:00:00 AM	BF	A	510	Groupe	actif	D	4								
+TN01	TD	Mardi	01:00:00 PM	04:00:00 PM	BF	A	510	Groupe	actif	D	5								
+TN01	TD	Mercredi	08:00:00 AM	11:00:00 AM	BF	A	510	Groupe	actif	D	6								
+TN01	TD	Mercredi	01:00:00 PM	04:00:00 PM	BF	A	510	Groupe	actif	D	7								
+TN01	TD	Mercredi	04:30:00 PM	07:30:00 PM	BF	A	510	Groupe	actif	D	8								
+TN01	TD	Jeudi	01:00:00 PM	04:00:00 PM	BF	A	510	Groupe	actif	D	9								
+TN02	Cours	Lundi	02:15:00 PM	03:15:00 PM	BF	A	104	Groupe	actif	C									
+TN02	TD	Lundi	08:00:00 AM	11:00:00 AM	BF	A	512	Groupe	actif	D	1								
+TN02	TD	Lundi	04:30:00 PM	07:30:00 PM	BF	A	512	Groupe	actif	D	2								
+TN02	TD	Mercredi	01:15:00 PM	04:15:00 PM	BF	A	512	Groupe	actif	D	3								
+TN02	TD	Jeudi	01:15:00 PM	04:15:00 PM	BF	A	512	Groupe	actif	D	4								
+TN02	TD	Jeudi	04:30:00 PM	07:30:00 PM	BF	A	512	Groupe	actif	D	5								
+TN02	TD	Vendredi	08:00:00 AM	11:00:00 AM	BF	A	512	Groupe	actif	D	6								
+TN03	Cours	Mardi	04:30:00 PM	05:30:00 PM	BF	A	104	Groupe	actif	C									
+TN03	TD	Mardi	08:00:00 AM	09:00:00 AM	BF	A	405	Groupe	actif	D	1								
+TN03	TD	Mardi	09:00:00 AM	10:00:00 AM	BF	A	405	Groupe	actif	D	2								
+TN03	TD	Vendredi	02:15:00 PM	03:15:00 PM	BF	A	404	Groupe	actif	D	3								
+
+
+
+TN03	TD	Vendredi	03:15:00 PM	04:15:00 PM	BF	A	404	Groupe	actif	D	4								
+TN03	TP	Mercredi	08:00:00 AM	12:00:00 PM	GRENET	MG	GRENET	Groupe	actif	T	1								
+TN03	TP	Mercredi	02:15:00 PM	06:15:00 PM	GRENET	MG	GRENET	Groupe	actif	T	2								
+TN04	Activité	annexe	Lundi	08:15:00 AM	12:15:00 PM	CR	M	101	Groupe	actif	D	1							
+TN04	Activité	annexe	Vendredi	01:30:00 PM	05:30:00 PM	CR	M	101	Groupe	actif	D	10							
+TN04	Activité	annexe	Lundi	01:30:00 PM	05:30:00 PM	CR	M	101	Groupe	actif	D	2							
+TN04	Activité	annexe	Mardi	08:15:00 AM	12:15:00 PM	CR	M	101	Groupe	actif	D	3							
+TN04	Activité	annexe	Mardi	01:30:00 PM	05:30:00 PM	CR	M	101	Groupe	actif	D	4							
+TN04	Activité	annexe	Mercredi	08:15:00 AM	12:15:00 PM	CR	M	101	Groupe	actif	D	5							
+TN04	Activité	annexe	Mercredi	01:30:00 PM	05:30:00 PM	CR	M	101	Groupe	actif	D	6							
+TN04	Activité	annexe	Jeudi	08:15:00 AM	12:15:00 PM	CR	M	101	Groupe	actif	D	7							
+TN04	Activité	annexe	Jeudi	01:30:00 PM	05:30:00 PM	CR	M	101	Groupe	actif	D	8							
+TN04	Activité	annexe	Vendredi	08:15:00 AM	12:15:00 PM	CR	M	101	Groupe	actif	D	9							
+TN06	Cours	Lundi	04:30:00 PM	06:30:00 PM	BF	A	100	Groupe	actif	C									
+TN06	TD	Mardi	08:00:00 AM	10:00:00 AM	BF	A	406	Groupe	actif	D	1								
+TN06	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	A	417	Groupe	actif	D	2								
+TN06	TP	Jeudi	02:15:00 PM	06:15:00 PM	semaine	A	BF	A	411	Groupe	actif	T	1						
+TN06	TP	Jeudi	02:15:00 PM	06:15:00 PM	semaine	B	BF	A	411	Groupe	actif	T	1						
+TN06	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	B	BF	A	411	Groupe	actif	T	2						
+TN06	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	A	BF	A	411	Groupe	actif	T	2						
+TN08	Cours	Mardi	02:15:00 PM	04:15:00 PM	PG	J	116,	PG	J	115	Groupe	actif	C						
+TN08	TP	Mardi	04:30:00 PM	06:30:00 PM	PG	J	116,	PG	J	115	Groupe	actif	T						
+TN12	Cours	Lundi	02:15:00 PM	03:45:00 PM	BF	A	108	Groupe	actif	C									
+TN12	TD	Mardi	02:30:00 PM	06:30:00 PM	PG	O	112	Groupe	actif	D	1								
+TN12	TD	Mercredi	02:30:00 PM	06:30:00 PM	PG	O	112	Groupe	actif	D	2								
+TN12	TD	Vendredi	08:00:00 AM	12:00:00 PM	PG	O	112	Groupe	actif	D	3								
+TN14	Cours	Lundi	02:15:00 PM	04:15:00 PM	BF	A	304,	BF	B	108	Groupe	actif	C						
+TN14	TD	Lundi	04:30:00 PM	06:00:00 PM	BF	A	304,	BF	B	108	Groupe	actif	D						
+TN15	Cours	Jeudi	01:15:00 PM	04:15:00 PM	BF	A	200	Groupe	actif	C									
+TN20	Cours	Vendredi	04:30:00 PM	06:00:00 PM	BF	A	205	Groupe	actif	C									
+TN20	TD	Lundi	02:15:00 PM	06:15:00 PM	CR	P	103	Groupe	actif	D	1								
+TN20	TD	Mardi	08:00:00 AM	12:00:00 PM	BF	A	512	Groupe	actif	D	2								
+TN20	TD	Mardi	02:15:00 PM	06:15:00 PM	BF	A	512	Groupe	actif	D	3								
+TN20	TD	Mercredi	08:00:00 AM	12:00:00 PM	BF	A	512	Groupe	actif	D	4								
+TN20	TD	Mercredi	02:30:00 PM	06:30:00 PM	CR	P	103	Groupe	actif	D	5								
+TN20	TD	Jeudi	08:00:00 AM	12:00:00 PM	BF	A	512	Groupe	actif	D	6								
+TN21	Cours	Mardi	02:15:00 PM	04:15:00 PM	BF	A	200	Groupe	actif	C									
+TN21	TD	Vendredi	02:15:00 PM	04:15:00 PM	BF	B	108	Groupe	actif	D									
+TN22	Cours	Lundi	02:30:00 PM	04:00:00 PM	BF	A	106	Groupe	actif	C									
+TN22	TD	Mardi	08:00:00 AM	12:00:00 PM	BF	A	515	Groupe	actif	D	1								
+
+
+
+TN22	TD	Mercredi	08:00:00 AM	12:00:00 PM	BF	A	515	Groupe	actif	D	2								
+TN22	TD	Vendredi	08:00:00 AM	12:00:00 PM	BF	A	510	Groupe	actif	D	3								
+TN23	Cours	Mercredi	08:00:00 AM	10:00:00 AM	BF	A	100	Groupe	actif	C									
+TN23	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	420	Groupe	actif	D	1								
+TN23	TD	Mardi	10:15:00 AM	12:15:00 PM	BF	A	410	Groupe	actif	D	2								
+TN23	TD	Vendredi	10:15:00 AM	12:15:00 PM	BF	A	418	Groupe	actif	D	3								
+TN23	TP	Lundi	08:00:00 AM	12:00:00 PM	semaine	B	CR	P	102,	CR	P	101	Groupe	actif	T	1			
+TN23	TP	Lundi	08:00:00 AM	12:00:00 PM	semaine	A	CR	P	102,	CR	P	101	Groupe	actif	T	1			
+TN23	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	A	CR	P	102,	CR	P	101	Groupe	actif	T	2			
+TN23	TP	Mercredi	02:30:00 PM	06:30:00 PM	semaine	B	CR	P	102,	CR	P	101	Groupe	actif	T	2			
+TN23	TP	Jeudi	08:00:00 AM	12:00:00 PM	semaine	B	CR	P	102,	CR	P	101	Groupe	actif	T	3			
+TN23	TP	Jeudi	08:00:00 AM	12:00:00 PM	semaine	A	CR	P	102,	CR	P	101	Groupe	actif	T	3			
+TN25	Cours	Vendredi	10:15:00 AM	11:45:00 AM	CR	P	103	Groupe	actif	C									
+TN25	TD	Jeudi	08:00:00 AM	12:00:00 PM	CR	P	103,	CR	P	108A	Groupe	actif	D						
+TR91	Cours	Jeudi	04:30:00 PM	06:30:00 PM	BF	A	401	Groupe	actif	C									
+TR91	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	B	215,	BF	A	401	Groupe	actif	D						
+TS02	Cours	Lundi	02:15:00 PM	04:15:00 PM	BF	A	318A	Groupe	actif	C									
+TS02	TD	Lundi	04:30:00 PM	06:30:00 PM	BF	A	404	Groupe	actif	D									
+TSN1	Cours	Mardi	10:15:00 AM	12:15:00 PM	BF	A	100	Groupe	actif	C									
+TSN1	TD	Mercredi	02:15:00 PM	04:15:00 PM	SI	CI	103	Groupe	actif	D	1								
+TSN1	TD	Mercredi	04:30:00 PM	06:30:00 PM	SI	CI	103	Groupe	actif	D	2								
+UB02	Cours	Vendredi	08:00:00 AM	10:00:00 AM	PG	O	229	Groupe	actif	C									
+UB02	TD	Vendredi	10:15:00 AM	12:15:00 PM	PG	O	229	Groupe	actif	D									
+UB09	Cours	Lundi	10:15:00 AM	12:15:00 PM	BF	A	108	Groupe	actif	C									
+UB09	TD	Lundi	02:15:00 PM	04:15:00 PM	PG	O	117	Groupe	actif	D	1								
+UB09	TD	Lundi	04:30:00 PM	06:30:00 PM	PG	O	117	Groupe	actif	D	2								
+UB09	TP	Mardi	02:30:00 PM	06:30:00 PM	semaine	B	PG	O	117	Groupe	actif	T	1						
+UB09	TP	Mardi	02:30:00 PM	06:30:00 PM	semaine	A	PG	O	117	Groupe	actif	T	1						
+UB09	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	B	PG	O	117	Groupe	actif	T	2						
+UB09	TP	Vendredi	08:00:00 AM	12:00:00 PM	semaine	A	PG	O	117	Groupe	actif	T	2						
+UR02	Cours	Vendredi	02:15:00 PM	04:15:00 PM	BF	A	100	Groupe	actif	C									
+UR02	TD	Mercredi	02:15:00 PM	04:15:00 PM	PG	O	113	Groupe	actif	D	1								
+UR02	TD	Vendredi	08:00:00 AM	10:00:00 AM	PG	O	113	Groupe	actif	D	2								
+UR02	TD	Vendredi	10:15:00 AM	12:15:00 PM	PG	O	113	Groupe	actif	D	3								
+UR02	TD	Vendredi	04:30:00 PM	06:30:00 PM	PG	O	113	Groupe	actif	D	4								
+UR02	TD	Mardi	04:30:00 PM	06:30:00 PM	PG	O	113	Groupe	de	réserve	D	5							
+UR03	Cours	Mercredi	04:30:00 PM	06:30:00 PM	PG	O	229	Groupe	actif	C									
+UR03	TD	Mercredi	08:00:00 AM	10:00:00 AM	PG	O	223	Groupe	actif	D	1								
+UR03	TD	Mercredi	02:15:00 PM	04:15:00 PM	PG	O	223	Groupe	actif	D	2								
+UR06	Cours	Mercredi	02:15:00 PM	04:15:00 PM	PG	O	229	Groupe	actif	C									
+
+
+
+UR06	TD	Mercredi	08:00:00 AM	10:00:00 AM	PG	O	113	Groupe	actif	D	1								
+UR06	TD	Mercredi	10:15:00 AM	12:15:00 PM	PG	O	113	Groupe	actif	D	2								
+UR07	Cours	Vendredi	02:15:00 PM	04:15:00 PM	PG	O	230	Groupe	actif	C									
+UR07	TD	Vendredi	04:30:00 PM	06:30:00 PM	PG	O	223,	PG	O	230	Groupe	actif	D						
+UT01	Cours	Mardi	02:30:00 PM	04:00:00 PM	PG	O	128	Groupe	actif	C									
+UT01	TD	Mardi	04:30:00 PM	06:30:00 PM	PG	O	128	Groupe	actif	D									
+WE01	Cours	Mercredi	01:00:00 PM	02:00:00 PM	BF	A	108	Groupe	actif	C									
+WE01	TD	Mercredi	02:15:00 PM	04:15:00 PM	BF	B	100	Groupe	actif	D	1								
+WE01	TD	Mercredi	04:30:00 PM	06:30:00 PM	BF	B	100	Groupe	actif	D	2								
+WE01	TD	Mercredi	10:15:00 AM	12:15:00 PM	BF	A	403	Groupe	de	réserve	D	3							
+
