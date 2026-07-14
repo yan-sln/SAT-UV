@@ -10,10 +10,10 @@
 <body>
 <div class="conteneur">
     <h1>SAT-UV</h1>
-    <p class="sous-titre">Vérification de compatibilité des UVs - <a href="https://github.com/yan-sln/SAT-UV/blob/main/README.md" target="_blank" rel="noopener noreferrer">lien vers la doc</a></p>
+    <p class="sous-titre">Vérification de compatibilité des UVs (<a href="https://github.com/yan-sln/SAT-UV/blob/main/README.md" target="_blank" rel="noopener noreferrer">documentation</a>).</p>
 
     <div class="carte">
-        <h2>2. Sélectionner des enseignements</h2>
+        <h2>1. Sélectionner des enseignements</h2>
         <p class="aide" id="infoChargement">Chargement en cours…</p>
         <p class="aide" id="infoExclus"></p>
 
@@ -59,7 +59,7 @@
     </div>
 
     <div class="carte">
-        <h2>3. Sélectionner des enseignements de remplacement</h2>
+        <h2>2. Sélectionner des enseignements de remplacement</h2>
         <p class="aide">Testez si une UV supplémentaire reste compatible avec votre sélection principale, sans qu'elle compte dans le décompte ECTS.</p>
 
         <label for="filtreCategorieRemplacement">Filtrer par catégorie</label>
@@ -101,12 +101,12 @@
     </div>
 
     <div class="carte" id="zoneIncompatibles">
-        <h2>4. Enseignements compatibles / incompatibles</h2>
+        <h2>3. Enseignements compatibles / incompatibles</h2>
         <p class="aide" id="resumeCompatibilite"></p>
         <label for="compatiblesTexte">Encore compatibles avec la sélection actuelle</label>
-        <textarea id="compatiblesTexte" readonly placeholder="Les codes encore compatibles avec votre sélection apparaîtront ici au fur et à mesure."></textarea>
+        <textarea id="compatiblesTexte" readonly placeholder="Les UVs encore compatibles avec votre sélection apparaîtront ici au fur et à mesure."></textarea>
         <label for="incompatiblesTexte">Incompatibles avec la sélection actuelle</label>
-        <textarea id="incompatiblesTexte" readonly placeholder="Les codes incompatibles avec votre sélection apparaîtront ici au fur et à mesure."></textarea>
+        <textarea id="incompatiblesTexte" readonly placeholder="Les UVs incompatibles avec votre sélection apparaîtront ici au fur et à mesure."></textarea>
     </div>
 </div>
 <script src="model.js"></script>
