@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Vérification de compatibilité des UVs</title>
+<title>SAT-UV — Vérification de compatibilité d'emploi du temps</title>
 <link rel="stylesheet" href="style.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 </head>
 <body>
 <div class="conteneur">
     <h1>SAT-UV</h1>
-    <p class="sous-titre">Vérification de compatibilité d'emplois du temps.</p>
+    <p class="sous-titre">Vérification de compatibilité d'emplois du temps — calcul 100&nbsp;% côté navigateur.</p>
     <div class="carte">
         <h2>1. Base d'enseignements</h2>
-        <p class="aide" id="infoChargement">Chargement depuis ../input/input.csv…</p>
+        <p class="aide" id="infoChargement">Chargement de ../input/input.csv…</p>
         <p class="aide" id="infoExclus"></p>
         <p class="aide" id="infoNbEnseignements"></p>
     </div>
@@ -32,7 +32,7 @@
     </div>
     <div class="carte">
         <h2>3. Résultat</h2>
-        <span id="resultatBadge" class="resultat-badge neutre">-</span>
+        <span id="resultatBadge" class="resultat-badge neutre">—</span>
         <div id="detailMessage"></div>
     </div>
     <div class="carte" id="zoneIncompatibles">
@@ -48,7 +48,7 @@
 <script src="sat_model.js"></script>
 <script src="search.js"></script>
 <script>
-const CHEMIN_CSV = "../input/input.csv";
+const CHEMIN_CSV = "input/input.csv";
 
 let enseignements = {};
 let codesExclus = [];
@@ -83,7 +83,7 @@ function libelleOption(code) {
     const e = enseignements[code];
     const cat = e.categorie ? e.categorie : "Sans catégorie";
     const ects = e.ects !== null && e.ects !== undefined ? `${e.ects} ECTS` : "ECTS ?";
-    return `${code} - ${cat} (${ects})`;
+    return `${code} — ${cat} (${ects})`;
 }
 
 function remplirListe() {
@@ -152,7 +152,7 @@ function majInfoSelection() {
         if (ects === null || ects === undefined) inconnu = true;
         else totalEcts += ects;
     }
-    infoSelection.textContent = `${selection.length} enseignement(s) sélectionné(s) - ${totalEcts} ECTS${inconnu ? " (au moins un ECTS inconnu)" : ""}.`;
+    infoSelection.textContent = `${selection.length} enseignement(s) sélectionné(s) — ${totalEcts} ECTS${inconnu ? " (au moins un ECTS inconnu)" : ""}.`;
 }
 
 rechercheUv.addEventListener("input", filtrerListe);
@@ -160,7 +160,7 @@ filtreCategorie.addEventListener("change", filtrerListe);
 selectEns.addEventListener("change", majInfoSelection);
 
 function resetResultat() {
-    badge.textContent = "-";
+    badge.textContent = "—";
     badge.className = "resultat-badge neutre";
     detailMessage.textContent = "";
     compatiblesTexte.value = "";
@@ -170,7 +170,7 @@ function resetResultat() {
 btnVerifier.addEventListener("click", () => {
     const selection = Array.from(selectEns.selectedOptions).map(o => o.value);
     if (selection.length === 0) {
-        badge.textContent = "-";
+        badge.textContent = "—";
         badge.className = "resultat-badge neutre";
         detailMessage.textContent = "Sélectionnez au moins un enseignement.";
         compatiblesTexte.value = "";
