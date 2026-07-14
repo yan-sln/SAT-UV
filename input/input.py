@@ -104,6 +104,11 @@ def parse_line(line):
             else:
                 idx += 1
 
+        # Skip type créneau
+        if idx < len(parts):
+            idx += 1
+
+        # Read lib. créneau
         if idx < len(parts):
             lib_creneau = parts[idx]
 
