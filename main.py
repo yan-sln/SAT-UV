@@ -9,4 +9,4 @@ if __name__ == "__main__":
         "SC25"
     ]
 
-    tester("input/input.csv", selected)
+    tester("docs/input/input.csv", selected)
