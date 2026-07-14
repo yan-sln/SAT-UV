@@ -5,7 +5,7 @@
 async function charger(cheminCsv) {
     const { enseignements, codesExclus } = await chargerBase(cheminCsv);
     if (codesExclus.length > 0) {
-        console.log(`${codesExclus.length} enseignement(s) ignoré(s) (Cours à groupes multiples non géré) :`);
+        console.log(`${codesExclus.length} enseignement(s) ignoré(s) (cas non pris en charge) :`);
         console.log(codesExclus.join(", "));
     }
     return { enseignements, codesExclus };
@@ -34,7 +34,7 @@ function validerSelection(enseignements, codesExclus, selection) {
             inconnus.push(code);
         }
     }
-    if (exclusRedemandes.length) console.log('Codes ignorés car non gérés (Cours à groupes multiples) : ' + exclusRedemandes.join(', '));
+    if (exclusRedemandes.length) console.log('Codes ignorés car non gérés (cas non pris en charge) : ' + exclusRedemandes.join(', '));
     if (inconnus.length) console.log('Codes inconnus (absents de la base) : ' + inconnus.join(', '));
     return { valides, inconnus, exclusRedemandes };
 }

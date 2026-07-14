@@ -10,10 +10,10 @@
 <body>
 <div class="conteneur">
     <h1>SAT-UV</h1>
-    <p class="sous-titre">Vérification de compatibilité des UVs - <a href="https://github.com/yan-sln/SAT-UV/blob/main/README.md" target="_blank" rel="noopener noreferrer">documentation</a>.</p>
+    <p class="sous-titre">Vérification de compatibilité des UVs - <a href="https://github.com/yan-sln/SAT-UV/blob/main/README.md" target="_blank" rel="noopener noreferrer">lien vers la doc</a></p>
 
     <div class="carte">
-        <h2>1. Sélectionner des enseignements</h2>
+        <h2>2. Sélectionner des enseignements</h2>
         <p class="aide" id="infoChargement">Chargement en cours…</p>
         <p class="aide" id="infoExclus"></p>
 
@@ -59,7 +59,7 @@
     </div>
 
     <div class="carte">
-        <h2>2. Sélectionner des enseignements de remplacement</h2>
+        <h2>3. Sélectionner des enseignements de remplacement</h2>
         <p class="aide">Testez si une UV supplémentaire reste compatible avec votre sélection principale, sans qu'elle compte dans le décompte ECTS.</p>
 
         <label for="filtreCategorieRemplacement">Filtrer par catégorie</label>
@@ -101,7 +101,7 @@
     </div>
 
     <div class="carte" id="zoneIncompatibles">
-        <h2>3. Enseignements compatibles / incompatibles</h2>
+        <h2>4. Enseignements compatibles / incompatibles</h2>
         <p class="aide" id="resumeCompatibilite"></p>
         <label for="compatiblesTexte">Encore compatibles avec la sélection actuelle</label>
         <textarea id="compatiblesTexte" readonly placeholder="Les codes encore compatibles avec votre sélection apparaîtront ici au fur et à mesure."></textarea>
@@ -218,7 +218,7 @@ function initialiser() {
 
     infoChargement.textContent = `${toutesCodes.length} enseignements chargés`;
     infoExclus.textContent = codesExclus.length > 0
-        ? `${codesExclus.length} enseignement(s) ignoré(s) (Cours à groupes multiples non géré) : ${codesExclus.join(", ")}`
+        ? `${codesExclus.length} enseignement(s) ignoré(s) (cas non pris en charge) : ${codesExclus.join(", ")}`
         : "";
 
     selection = chargerSelectionSauvegardee();
@@ -482,7 +482,7 @@ function calculerEtAfficher() {
     validesPrincipal = valides;
     let avertissements = [];
     if (inconnus.length) avertissements.push("Codes inconnus ignorés : " + inconnus.join(", "));
-    if (exclusRedemandes.length) avertissements.push("Codes ignorés (Cours à groupes multiples) : " + exclusRedemandes.join(", "));
+    if (exclusRedemandes.length) avertissements.push("Codes ignorés (cas non pris en charge) : " + exclusRedemandes.join(", "));
 
     const { satisfiable, message } = testeEnsemble(enseignements, valides);
     if (!satisfiable) {
@@ -648,7 +648,7 @@ function calculerEtAfficherRemplacement() {
     if (selection.length === 0) {
         badgeRemplacement.textContent = "-";
         badgeRemplacement.className = "resultat-badge neutre";
-        detailMessageRemplacement.textContent = "Sélectionnez d'abord des enseignements principaux (bloc 2).";
+        detailMessageRemplacement.textContent = "Sélectionnez d'abord des enseignements principaux (bloc 1).";
         return;
     }
     if (selectionRemplacement.length === 0) {
