@@ -1,0 +1,387 @@
+Type	Code ens.	ECTS	Description
+CS	CM11	6	Chimie générale
+CS	CM12	6	Chimie physique minérale
+CS	CM13	6	Chimie des substances organiques et biologiques
+CS	MA90	4	Fonctions d'une variable réelle 1 (en autonomie)
+CS	MA91	4	Fonctions d'une variable réelle 2 (en autonomie)
+CS	MT01	6	Spécialité mathématiques
+CS	MT02	8	Analyse réelle I
+CS	MT03	5	Algèbre linéaire I
+CS	MT22	6	Fonctions de plusieurs variables réelles et applications
+CS	MT23	6	Algèbre linéaire et applications
+CS	NF16	6	Algorithmique et structure de données
+CS	NF93	6	Sciences de l'informatique
+CS	PS04	6	Thermodynamique
+CS	PS21	6	Mécanique physique
+CS	PS22	6	Dynamique des systèmes et des solides
+CS	PS23	6	Ondes et électromagnétisme
+CS	PS93	4	Optique géométrique
+CS	PS94	4	Electricité
+CS	SV01	6	De la biologie générale aux biotechnologies
+CS	SY01	6	Éléments de probabilités
+CS	TF11	6	Introduction aux phénomènes de transfert
+CS	TN06	6	Transmission des efforts en mécanique
+CS	UR02	6	Théories et pratiques de l'urbanisme contemporain
+CS	BA03	6	Matériaux de construction
+CS	BL10	6	Structures et physicochimie des molécules biologiques
+CS	BL20	6	Métabolisme et physiologie cellulaire
+CS	CM05	6	Thermodynamique chimique
+CS	EN21	6	Bases de l'électronique analogique
+CS	IA01	6	Intelligence artificielle : représentation
+CS	MQ01	6	Éléments de résistance des matériaux
+CS	MQ03	6	Mécanique des vibrations - I
+CS	MQ17	6	Introduction aux propriétés mécaniques et à l'ingénierie des matériaux
+CS	MQ20	6	Introduction à la mécanique des solides et des fluides
+CS	MT09	6	Analyse numérique
+CS	MT12	6	Techniques mathématiques pour l'ingénieur
+CS	NF04	6	Modélisation numérique des problèmes de l'ingénieur
+CS	PS15	6	Thermodynamique physique
+CS	SY02	7	Méthodes statistiques pour l'ingénieur
+CS	SY08	6	Modélisation des systèmes à évènements discrets
+CS	SY14	6	Éléments d'automatique
+CS	TF01	6	Mécanique des fluides incompressibles
+CS	TF06	6	Transfert de chaleur
+CS	UB10	6	Thermique urbaine
+CS	BL10	6	Structures et physicochimie des molécules biologiques
+CS	BL20	6	Métabolisme et physiologie cellulaire
+CS	CM11	6	Chimie générale
+CS	CM12	6	Chimie physique minérale
+CS	CM13	6	Chimie des substances organiques et biologiques
+CS	IA01	6	Intelligence artificielle : représentation
+CS	MA90	4	Fonctions d'une variable réelle 1 (en autonomie)
+CS	MA91	4	Fonctions d'une variable réelle 2 (en autonomie)
+CS	MQ01	6	Éléments de résistance des matériaux
+CS	MQ17	6	Introduction aux propriétés mécaniques et à l'ingénierie des matériaux
+CS	MQ20	6	Introduction à la mécanique des solides et des fluides
+CS	MT09	6	Analyse numérique
+CS	MT11	6	Révision d'analyse et d'algèbre
+CS	MT22	6	Fonctions de plusieurs variables réelles et applications
+CS	MT23	6	Algèbre linéaire et applications
+CS	MT31	3	Introduction à la logique mathématique
+CS	MT33	8	Algèbre : ensembles et groupes
+CS	MT36	6	Géométrie
+CS	MT37	3	Logiques, quelques approfondissements mathématiques et philosophiques
+CS	NF04	6	Modélisation numérique des problèmes de l'ingénieur
+CS	NF16	6	Algorithmique et structure de données
+CS	NF93	6	Sciences de l'informatique
+CS	PS04	6	Thermodynamique
+CS	PS21	6	Mécanique physique
+CS	PS22	6	Dynamique des systèmes et des solides
+CS	PS23	6	Ondes et électromagnétisme
+CS	PS93	4	Optique géométrique
+CS	PS94	4	Electricité
+CS	RO05	6	Modélisation de phénomènes aléatoires
+CS	SY01	6	Éléments de probabilités
+CS	SY02	7	Méthodes statistiques pour l'ingénieur
+CS	TF06	6	Transfert de chaleur
+CS	TF11	6	Introduction aux phénomènes de transfert
+CS	TN06	6	Transmission des efforts en mécanique
+CS	UB10	6	Thermique urbaine
+CS	UR02	6	Théories et pratiques de l'urbanisme contemporain
+CS	BL10	6	Structures et physicochimie des molécules biologiques
+CS	BL20	6	Métabolisme et physiologie cellulaire
+CS	EN21	6	Bases de l'électronique analogique
+CS	MQ17	6	Introduction aux propriétés mécaniques et à l'ingénierie des matériaux
+CS	MQ20	6	Introduction à la mécanique des solides et des fluides
+CS	MT09	6	Analyse numérique
+CS	MT11	6	Révision d'analyse et d'algèbre
+CS	MT12	6	Techniques mathématiques pour l'ingénieur
+CS	SY02	7	Méthodes statistiques pour l'ingénieur
+CS	CM05	6	Thermodynamique chimique
+CS	CM40	3	Catalyse hétérogène
+CS	MQ01	6	Éléments de résistance des matériaux
+CS	MT09	6	Analyse numérique
+CS	MT11	6	Révision d'analyse et d'algèbre
+CS	PS15	6	Thermodynamique physique
+CS	RR02	6	Réacteurs et opérations polyphasiques
+CS	SY02	7	Méthodes statistiques pour l'ingénieur
+CS	TF01	6	Mécanique des fluides incompressibles
+CS	TF06	6	Transfert de chaleur
+CS	AC01	5	Révision d'analyse et d'algèbre (apprentissage)
+CS	AC05	5	Traitement du signal (apprentissage)
+CS	AI01	6	Algorithmique et structure de données (apprentissage)
+CS	AI02	4	Intelligence artificielle : représentation des connaissances (apprentissage)
+CS	AI04	4	Modélisation et simulation des flux (apprentissage)
+CS	AI05	5	Architecture des réseaux (apprentissage)
+CS	AI09	5	Méthodes et outils pour l'optimisation et la simulation (apprentissage)
+CS	AI10	5	Conception et gestion de la chaîne logistique (apprentissage)
+CS	AI29	4	Informatique Quantique (apprentissage)
+CS	IA01	6	Intelligence artificielle : représentation
+CS	IQ01	6	Informatique quantique : concepts, algorithmes et applications
+CS	MT09	6	Analyse numérique
+CS	MT11	6	Révision d'analyse et d'algèbre
+CS	MT12	6	Techniques mathématiques pour l'ingénieur
+CS	NF16	6	Algorithmique et structure de données
+CS	RO05	6	Modélisation de phénomènes aléatoires
+CS	SR04	6	Réseaux informatiques
+CS	SY02	7	Méthodes statistiques pour l'ingénieur
+CS	SY06	6	Traitement du signal
+CS	SY08	6	Modélisation des systèmes à évènements discrets
+CS	SY14	6	Éléments d'automatique
+CS	AC01	5	Révision d'analyse et d'algèbre (apprentissage)
+CS	AC05	5	Traitement du signal (apprentissage)
+CS	AI01	6	Algorithmique et structure de données (apprentissage)
+CS	AI02	4	Intelligence artificielle : représentation des connaissances (apprentissage)
+CS	AI04	4	Modélisation et simulation des flux (apprentissage)
+CS	AI05	5	Architecture des réseaux (apprentissage)
+CS	AI09	5	Méthodes et outils pour l'optimisation et la simulation (apprentissage)
+CS	AI10	5	Conception et gestion de la chaîne logistique (apprentissage)
+CS	AI29	4	Informatique Quantique (apprentissage)
+CS	AC01	5	Révision d'analyse et d'algèbre (apprentissage)
+CS	AC05	5	Traitement du signal (apprentissage)
+CS	AM03	4	Dynamique des solides (apprentissage)
+CS	AM04	5	Introduction aux propriétés mécaniques des matériaux (apprentissage)
+CS	AM08	4	Mécanique des fluides incompressibles (apprentissage)
+CS	AM14	5	Mise en forme des matériaux (apprentissage)
+CS	EN21	6	Bases de l'électronique analogique
+CS	MQ01	6	Éléments de résistance des matériaux
+CS	MQ03	6	Mécanique des vibrations - I
+CS	MQ17	6	Introduction aux propriétés mécaniques et à l'ingénierie des matériaux
+CS	MT09	6	Analyse numérique
+CS	MT11	6	Révision d'analyse et d'algèbre
+CS	MT12	6	Techniques mathématiques pour l'ingénieur
+CS	NF04	6	Modélisation numérique des problèmes de l'ingénieur
+CS	SY02	7	Méthodes statistiques pour l'ingénieur
+CS	SY06	6	Traitement du signal
+CS	SY08	6	Modélisation des systèmes à évènements discrets
+CS	TF01	6	Mécanique des fluides incompressibles
+CS	TF06	6	Transfert de chaleur
+CS	AC01	5	Révision d'analyse et d'algèbre (apprentissage)
+CS	AC05	5	Traitement du signal (apprentissage)
+CS	AM03	4	Dynamique des solides (apprentissage)
+CS	AM04	5	Introduction aux propriétés mécaniques des matériaux (apprentissage)
+CS	AM08	4	Mécanique des fluides incompressibles (apprentissage)
+CS	AM14	5	Mise en forme des matériaux (apprentissage)
+CS	BA03	6	Matériaux de construction
+CS	MQ01	6	Éléments de résistance des matériaux
+CS	MQ20	6	Introduction à la mécanique des solides et des fluides
+CS	MT09	6	Analyse numérique
+CS	MT11	6	Révision d'analyse et d'algèbre
+CS	NF04	6	Modélisation numérique des problèmes de l'ingénieur
+CS	SY02	7	Méthodes statistiques pour l'ingénieur
+CS	TF01	6	Mécanique des fluides incompressibles
+CS	TF06	6	Transfert de chaleur
+CS	UB10	6	Thermique urbaine
+CS	UR02	6	Théories et pratiques de l'urbanisme contemporain
+TM	CM04	6	Procédés industriels
+TM	INF1	6	Algorithmique et programmation, niveau 1
+TM	INF2	6	Programmation et développements niveau 2
+TM	IS02	6	Techniques et méthodes d'évaluation environnementale
+TM	NF02	6	Du circuit intégré au microprocesseur
+TM	NF05	4	Compétences numériques
+TM	NF92	6	Traitement automatique de l'information
+TM	NP90	3	Nano-projets
+TM	PR00	5	Réalisation de projet
+TM	PS90	3	Introduction à la mesure
+TM	SU01	6	Introduction aux systèmes urbains
+TM	SY10	6	Logique floue : concepts et applications
+TM	TN01	6	Éléments de dessin technique
+TM	TN02	6	Introduction à la conception mécanique
+TM	TN03	6	Fabrication mécanique
+TM	TN04	4	Réalisation
+TM	TR91	2	Techniques de recherche d'information pour l'ingénieur
+TM	TX00	5	Étude expérimentale
+TM	BT09	6	Industries agro-alimentaires - qualités de l'aliment
+TM	GE37	6	Gestion de projet
+TM	LO21	6	Programmation et conception orientées objet
+TM	MI01	6	Structure d'un calculateur
+TM	MS01	6	Méthodes d'analyse physico-chimique
+TM	NA05	0	Compétences numériques
+TM	NF18	6	Conception de bases de données relationnelles et non relationnelles
+TM	NF22	6	Micro-ordinateurs et applications
+TM	SR01	6	Maîtrise des systèmes informatiques
+TM	SY03	6	Introduction aux systèmes d'entraînements électriques
+TM	TN20	6	CAO : modélisation géométrique
+TM	UR03	6	Maquette numérique architecturale et urbaine
+TM	UR06	6	Géomatique
+TM	AIRP1	5	Ateliers interdisciplinaires de résolution de problèmes 1
+TM	AP00	6	Atelier projet
+TM	BT09	6	Industries agro-alimentaires - qualités de l'aliment
+TM	DI05	6	Méthodologie et analyse de la valeur
+TM	EG01	6	Ergonomie
+TM	FQ01	6	Économie globale et maîtrise de la qualité
+TM	FQ04	6	Qualité et exigences réglementaires en génie biologique
+TM	GE37	6	Gestion de projet
+TM	HT05	6	Théories technologiques appliquées
+TM	INF1	6	Algorithmique et programmation, niveau 1
+TM	LO21	6	Programmation et conception orientées objet
+TM	MI01	6	Structure d'un calculateur
+TM	MS01	6	Méthodes d'analyse physico-chimique
+TM	NF02	6	Du circuit intégré au microprocesseur
+TM	NF05	4	Compétences numériques
+TM	NF18	6	Conception de bases de données relationnelles et non relationnelles
+TM	NF22	6	Micro-ordinateurs et applications
+TM	NF92	6	Traitement automatique de l'information
+TM	NP90	3	Nano-projets
+TM	PR00	5	Réalisation de projet
+TM	PS90	3	Introduction à la mesure
+TM	SR01	6	Maîtrise des systèmes informatiques
+TM	SU01	6	Introduction aux systèmes urbains
+TM	SY19	6	Apprentissage automatique (machine learning)
+TM	TN01	6	Éléments de dessin technique
+TM	TN02	6	Introduction à la conception mécanique
+TM	TN03	6	Fabrication mécanique
+TM	TN04	4	Réalisation
+TM	TR91	2	Techniques de recherche d'information pour l'ingénieur
+TM	TSN1	6	Technologie, sport et santé 1
+TM	TSN2	5	Technologie, sport et santé 2
+TM	TX00	5	Étude expérimentale
+TM	UR03	6	Maquette numérique architecturale et urbaine
+TM	UR06	6	Géomatique
+TM	BT09	6	Industries agro-alimentaires - qualités de l'aliment
+TM	FQ01	6	Économie globale et maîtrise de la qualité
+TM	FQ04	6	Qualité et exigences réglementaires en génie biologique
+TM	GE37	6	Gestion de projet
+TM	INF2	6	Programmation et développements niveau 2
+TM	MS01	6	Méthodes d'analyse physico-chimique
+TM	NF02	6	Du circuit intégré au microprocesseur
+TM	NF22	6	Micro-ordinateurs et applications
+TM	TSN1	6	Technologie, sport et santé 1
+TM	TSN2	5	Technologie, sport et santé 2
+TM	CM04	6	Procédés industriels
+TM	CM06	6	Calcul d'une opération industrielle
+TM	CM71	3	Travaux pratiques de gp (2)
+TM	FQ01	6	Économie globale et maîtrise de la qualité
+TM	GE37	6	Gestion de projet
+TM	NF22	6	Micro-ordinateurs et applications
+TM	TA02	6	Évaluation économique des procédés
+TM	AC02	4	Bases de la programmation (apprentissage)
+TM	AC03	4	Participer à une démarche qualité en entreprise (apprentissage)
+TM	AI22	5	Programmation et conception orientées objets (apprentissage)
+TM	AI23	5	Conception de bases de données relationnelles et non relationnelles (apprentissage)
+TM	AI24	4	Structure d'un calculateur (apprentissage)
+TM	AP00	6	Atelier projet
+TM	FQ01	6	Économie globale et maîtrise de la qualité
+TM	GE37	6	Gestion de projet
+TM	LO21	6	Programmation et conception orientées objet
+TM	LO23	6	Conduite de projet informatique
+TM	MI01	6	Structure d'un calculateur
+TM	NF18	6	Conception de bases de données relationnelles et non relationnelles
+TM	RO06	6	Simulation et techniques d'optimisation
+TM	RV01	6	Réalité virtuelle
+TM	SR01	6	Maîtrise des systèmes informatiques
+TM	AC02	4	Bases de la programmation (apprentissage)
+TM	AC03	4	Participer à une démarche qualité en entreprise (apprentissage)
+TM	AI22	5	Programmation et conception orientées objets (apprentissage)
+TM	AI23	5	Conception de bases de données relationnelles et non relationnelles (apprentissage)
+TM	AI24	4	Structure d'un calculateur (apprentissage)
+TM	AC02	4	Bases de la programmation (apprentissage)
+TM	AC03	4	Participer à une démarche qualité en entreprise (apprentissage)
+TM	AM01	6	Modélisation géométrique (apprentissage)
+TM	AM02	6	Introduction à la conception mécanique (apprentissage)
+TM	AM15	5	Technologie de fabrication (apprentissage)
+TM	AM27	4	Capteurs et instrumentation (apprentissage)
+TM	DI05	6	Méthodologie et analyse de la valeur
+TM	FQ01	6	Économie globale et maîtrise de la qualité
+TM	GE37	6	Gestion de projet
+TM	INF2	6	Programmation et développements niveau 2
+TM	MQ06	6	Modélisation des structures par éléments finis
+TM	NF02	6	Du circuit intégré au microprocesseur
+TM	NF18	6	Conception de bases de données relationnelles et non relationnelles
+TM	NF22	6	Micro-ordinateurs et applications
+TM	PR00	5	Réalisation de projet
+TM	SY03	6	Introduction aux systèmes d'entraînements électriques
+TM	SY10	6	Logique floue : concepts et applications
+TM	TN02	6	Introduction à la conception mécanique
+TM	TN12	6	Conception mécanique
+TM	TN20	6	CAO : modélisation géométrique
+TM	TN22	6	Éléments de bureau d'études
+TM	TN23	6	Techniques de fabrication
+TM	AC02	4	Bases de la programmation (apprentissage)
+TM	AC03	4	Participer à une démarche qualité en entreprise (apprentissage)
+TM	AM01	6	Modélisation géométrique (apprentissage)
+TM	AM02	6	Introduction à la conception mécanique (apprentissage)
+TM	AM15	5	Technologie de fabrication (apprentissage)
+TM	AM27	4	Capteurs et instrumentation (apprentissage)
+TM	AP00	6	Atelier projet
+TM	BA04	6	Conversion et gestion des énergies renouvelables
+TM	CF04	6	Mécanique des fluides numérique et couplages multiphysiques
+TM	DI05	6	Méthodologie et analyse de la valeur
+TM	FQ01	6	Économie globale et maîtrise de la qualité
+TM	GE37	6	Gestion de projet
+TM	INF2	6	Programmation et développements niveau 2
+TM	NF18	6	Conception de bases de données relationnelles et non relationnelles
+TM	PS12	6	Acoustique des salles : matériaux et modélisation
+TM	UR03	6	Maquette numérique architecturale et urbaine
+TM	UR06	6	Géomatique
+TSH	AV01	4	Initiation à l'analyse et à la réalisation audiovisuelle
+TSH	DD01	4	Séminaire développement durable
+TSH	DI01	4	Initiation au design industriel
+TSH	DI02	4	Initiation au design graphique
+TSH	DS01	4	Design acoustique
+TSH	FQ54	6	Résolution de problèmes techniques (en autonomie)
+TSH	IC03	4	Le numérique : des formats aux chaînes de production
+TSH	IC05	4	Technologies pour la documentation et l'indexation dans l'hypermédia
+TSH	IC06	4	Industrie et conception des jeux vidéo
+TSH	IC07	4	Techniques et technologies du musical et du sonore
+TSH	SI28	4	Écriture interactive et multimédia
+TSH	MU01	4	Pratique instrumentale d'ensemble
+TSH	MU02	8	Pratique instrumentale de haut niveau
+TSH	MU03	4	Pratique collective des musiques contemporaines
+TSH	SA11	4	Pratiques théatrales
+TSH	SA12	4	Les techniques de l'acteur
+TSH	SI02	4	Communication professionnelle de l'ingénieur
+TSH	SI06	4	La documentation cross-média pour les entreprises et les collectivités locales
+TSH	SI11	4	Expression orale - parole publique
+TSH	SI14	4	Parole publique en anglais
+TSH	SI20	4	Rhétorique et arts du discours
+TSH	SI90	4	Humanités numériques et controverses
+TSH	AIRP2	3	Ateliers interdisciplinaires de résolution de problèmes 2
+TSH	EI03	4	Interculturalité dans les organisations contemporaines
+TSH	EI04	4	Intelligence économique : stratégie d'entreprise, démarche et outils
+TSH	GE13	4	Les risques entre technique et société
+TSH	GE15	4	Initiation à la création et gestion d'entreprises innovantes
+TSH	GE25	4	Gestion et organisation de la production
+TSH	GE26	4	Management stratégique des ressources humaines
+TSH	GE27	4	Gestion financière de l'entreprise
+TSH	GE29	4	Gestion et management international de l'entreprise
+TSH	GE36	4	Marketing
+TSH	GE41	6	Technologie et management de l'innovation (en autonomie)
+TSH	MG01	4	Management en entreprise : styles de management, construction d'équipe et techniques de travail en groupe
+TSH	MG06	5	Les brevets au service de l'ingénieur (en autonomie)
+TSH	SP01	4	Un corps pour comprendre et apprendre
+TSH	SP02	4	Conduire un projet sportif
+TSH	SP22	4	S'apprendre pour mieux gérer
+TSH	AR04	4	Art, ville, architecture Concevoir
+TSH	HE01	4	Épistémologie et histoire des sciences
+TSH	HE03	4	Logique : histoire et formalisme
+TSH	HE04	4	Epistémologie et pratiques des modèles
+TSH	HT01	4	Culture et histoire des techniques
+TSH	PH01	4	Introduction à la philosophie
+TSH	PH02	4	L'ingénieur, le philosophe et le scientifique
+TSH	PH03	4	Penser la technique aujourd'hui
+TSH	PH10	4	Analyse phénoménologique des objets audiovisuels
+TSH	SC01	4	Séminaire interdisciplinaire de sciences et technologies cognitives
+TSH	SC11	4	Théorie des sciences cognitives : computation et énaction
+TSH	SC12	4	Technologie, cognition, perception
+TSH	SC22	4	Approches culturelles des techniques : genre, classe, espace
+TSH	SC24	4	Apprentissage et perception
+TSH	SC25	4	Cognition sociale : interactions et collectifs
+TSH	AR03	4	Art, société et techniques
+TSH	EI06	4	La Chine : histoire, culture et société
+TSH	IC01	4	Histoire et prospective des industries culturelles
+TSH	SC21	4	Linguistique et philosophie du langage
+TSH	SC23	4	Interaction sociale et usages du numérique
+TSH	SI01	4	Science et débat public
+TSH	SI07	4	Médias classiques et médias numériques
+TSH	SI22	4	Signes et contenus numériques
+TSH	SI24	4	Études des écritures numériques ordinaires
+TSH	AS01	4	Les collectifs de l'ingénieur contemporain
+TSH	BC01	4	Rédaction bibliographique de fin d'études
+TSH	EI05	4	Science, technologie et société dans l'union européenne
+TSH	GE10	4	Économie politique
+TSH	GE12	4	Géographie et économie des territoires
+TSH	GE20	4	Économie industrielle
+TSH	GE21	4	Économie et gestion de l'innovation et du numérique
+TSH	GE22	4	Économie internationale
+TSH	GE23	4	Transferts de technologies et développements
+TSH	GE24	4	Recherche et développement : ingénieur et investisseurs
+TSH	GE28	4	Économie et droit de la propriété intellectuelle (industrielle et artistique) dans une économie reposant sur la connaissance
+TSH	GE90	4	Organisation, innovation et international
+TSH	PH09	4	Éthiques : approche pluridisciplinaire
+TSH	SO04	4	Initiation au droit
+TSH	SO05	4	Sociologie, organisations et dynamiques des collectifs
+TSH	SO06	4	Organisation des systèmes de santé
+TSH	AS01	4	Les collectifs de l'ingénieur contemporain
+TSH	AS02	4	Accompagnement pour l'analyse des situations de l'ingénieur
+TSH	ICX7	4	Émergence des acteurs innovants dans l'entreprise
