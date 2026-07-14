@@ -9,7 +9,7 @@ Fonctions de haut niveau :
 """
 
 import parser as parser_module
-import sat_model
+import sat_model as sat_model
 
 
 def charger(chemin_csv: str):
