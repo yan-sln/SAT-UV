@@ -3,44 +3,110 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>SAT-UV — Vérification de compatibilité d'emploi du temps</title>
+<title>Vérification compatibilités UVs</title>
 <link rel="stylesheet" href="style.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 </head>
 <body>
 <div class="conteneur">
     <h1>SAT-UV</h1>
-    <p class="sous-titre">Vérification de compatibilité d'emplois du temps — calcul 100&nbsp;% côté navigateur.</p>
+    <p class="sous-titre">Vérification de compatibilité des UVs - <a href="https://github.com/yan-sln/SAT-UV/blob/main/README.md" target="_blank" rel="noopener noreferrer">documentation</a>.</p>
+
     <div class="carte">
-        <h2>1. Base d'enseignements</h2>
-        <p class="aide" id="infoChargement">Chargement de ./input/input.csv…</p>
+        <h2>1. Sélectionner des enseignements</h2>
+        <p class="aide" id="infoChargement">Chargement en cours…</p>
         <p class="aide" id="infoExclus"></p>
-        <p class="aide" id="infoNbEnseignements"></p>
-    </div>
-    <div class="carte">
-        <h2>2. Sélectionner des enseignements</h2>
-        <label for="rechercheUv">Rechercher (code ou catégorie)</label>
-        <input type="text" id="rechercheUv" placeholder="ex. AC01, réseaux, ouverture…" disabled />
+
         <label for="filtreCategorie">Filtrer par catégorie</label>
         <select id="filtreCategorie" disabled>
             <option value="">Toutes les catégories</option>
         </select>
-        <label for="selectEnseignements">Enseignements (Ctrl/Cmd + clic pour sélection multiple)</label>
-        <select id="selectEnseignements" multiple disabled></select>
-        <p class="aide" id="infoSelection">Chargement de la base en cours…</p>
-        <button id="btnVerifier" disabled>Vérifier la compatibilité</button>
-    </div>
-    <div class="carte">
-        <h2>3. Résultat</h2>
-        <span id="resultatBadge" class="resultat-badge neutre">—</span>
+
+        <div class="champ-autocomplete">
+            <label for="ajoutUv">Ajouter une UV (tapez le code puis Entrée)</label>
+            <input type="text" id="ajoutUv" placeholder="ex. AC01" autocomplete="off" disabled />
+            <div class="suggestions" id="suggestionsAjout" hidden></div>
+        </div>
+
+        <div class="entete-selection">
+            <p class="aide" id="infoSelection">Aucun enseignement sélectionné.</p>
+            <div class="actions-selection">
+                <button type="button" id="btnCopierSelection" class="bouton-secondaire" disabled>Copier la sélection</button>
+                <button type="button" id="btnTelechargerSelection" class="bouton-secondaire" disabled>Télécharger (.txt)</button>
+                <button type="button" id="btnToutSupprimer" class="bouton-secondaire bouton-danger" disabled>Tout supprimer</button>
+            </div>
+        </div>
+        <div class="tableau-selection" id="tableauSelection">
+            <div class="colonne-selection colonne-cs" data-colonne="CS">
+                <h3>CS</h3>
+                <div class="colonne-corps" id="colonneCS"></div>
+            </div>
+            <div class="colonne-selection colonne-tm" data-colonne="TM">
+                <h3>TM</h3>
+                <div class="colonne-corps" id="colonneTM"></div>
+            </div>
+            <div class="colonne-selection colonne-tsh" data-colonne="TSH">
+                <h3>TSH</h3>
+                <div class="colonne-corps" id="colonneTSH"></div>
+            </div>
+        </div>
+
+        <div class="entete-resultat">
+            <span id="resultatBadge" class="resultat-badge neutre">-</span>
+            <span id="ectsBadge" class="ects-badge">0 ECTS</span>
+        </div>
         <div id="detailMessage"></div>
     </div>
+
+    <div class="carte">
+        <h2>2. Sélectionner des enseignements de remplacement</h2>
+        <p class="aide">Testez si une UV supplémentaire reste compatible avec votre sélection principale, sans qu'elle compte dans le décompte ECTS.</p>
+
+        <label for="filtreCategorieRemplacement">Filtrer par catégorie</label>
+        <select id="filtreCategorieRemplacement" disabled>
+            <option value="">Toutes les catégories</option>
+        </select>
+
+        <div class="champ-autocomplete">
+            <label for="ajoutUvRemplacement">Ajouter une UV de remplacement (tapez le code puis Entrée)</label>
+            <input type="text" id="ajoutUvRemplacement" placeholder="ex. AC01" autocomplete="off" disabled />
+            <div class="suggestions" id="suggestionsAjoutRemplacement" hidden></div>
+        </div>
+
+        <div class="entete-selection">
+            <p class="aide" id="infoSelectionRemplacement">Aucun enseignement de remplacement sélectionné.</p>
+            <div class="actions-selection">
+                <button type="button" id="btnToutSupprimerRemplacement" class="bouton-secondaire bouton-danger" disabled>Tout supprimer</button>
+            </div>
+        </div>
+        <div class="tableau-selection" id="tableauSelectionRemplacement">
+            <div class="colonne-selection colonne-cs" data-colonne="CS">
+                <h3>CS</h3>
+                <div class="colonne-corps" id="colonneRemplacementCS"></div>
+            </div>
+            <div class="colonne-selection colonne-tm" data-colonne="TM">
+                <h3>TM</h3>
+                <div class="colonne-corps" id="colonneRemplacementTM"></div>
+            </div>
+            <div class="colonne-selection colonne-tsh" data-colonne="TSH">
+                <h3>TSH</h3>
+                <div class="colonne-corps" id="colonneRemplacementTSH"></div>
+            </div>
+        </div>
+
+        <div class="entete-resultat">
+            <span id="resultatBadgeRemplacement" class="resultat-badge neutre">-</span>
+        </div>
+        <div id="detailMessageRemplacement"></div>
+    </div>
+
     <div class="carte" id="zoneIncompatibles">
-        <h2>4. Enseignements compatibles / incompatibles</h2>
+        <h2>3. Enseignements compatibles / incompatibles</h2>
+        <p class="aide" id="resumeCompatibilite"></p>
         <label for="compatiblesTexte">Encore compatibles avec la sélection actuelle</label>
-        <textarea id="compatiblesTexte" readonly placeholder="Les codes encore compatibles avec votre sélection apparaîtront ici après vérification."></textarea>
+        <textarea id="compatiblesTexte" readonly placeholder="Les codes encore compatibles avec votre sélection apparaîtront ici au fur et à mesure."></textarea>
         <label for="incompatiblesTexte">Incompatibles avec la sélection actuelle</label>
-        <textarea id="incompatiblesTexte" readonly placeholder="Les codes incompatibles avec votre sélection apparaîtront ici après vérification."></textarea>
+        <textarea id="incompatiblesTexte" readonly placeholder="Les codes incompatibles avec votre sélection apparaîtront ici au fur et à mesure."></textarea>
     </div>
 </div>
 <script src="model.js"></script>
@@ -48,165 +114,561 @@
 <script src="sat_model.js"></script>
 <script src="search.js"></script>
 <script>
-const CHEMIN_CSV = "input/input.csv";
+const CHEMIN_CSV = "./input/input.csv";
+const CATEGORIE_SANS = "__SANS__";
+const CLE_STOCKAGE = "sat-uv-selection-v1";
 
 let enseignements = {};
 let codesExclus = [];
+let toutesCodes = [];
+let selection = []; // codes principaux sélectionnés, dans l'ordre d'ajout
+let selectionRemplacement = []; // codes de remplacement testés, dans l'ordre d'ajout
+let validesPrincipal = []; // dernière sélection principale validée (pour le test de remplacement)
+let suggestionsCourantes = [];
+let suggestionIndex = -1;
+let suggestionsCourantesRemplacement = [];
+let suggestionIndexRemplacement = -1;
 
 const infoChargement = document.getElementById("infoChargement");
-const rechercheUv = document.getElementById("rechercheUv");
-const filtreCategorie = document.getElementById("filtreCategorie");
-const selectEns = document.getElementById("selectEnseignements");
-const btnVerifier = document.getElementById("btnVerifier");
 const infoExclus = document.getElementById("infoExclus");
-const infoNb = document.getElementById("infoNbEnseignements");
+
+const filtreCategorie = document.getElementById("filtreCategorie");
+const ajoutUv = document.getElementById("ajoutUv");
+const suggestionsAjout = document.getElementById("suggestionsAjout");
+const btnToutSupprimer = document.getElementById("btnToutSupprimer");
+const btnCopierSelection = document.getElementById("btnCopierSelection");
+const btnTelechargerSelection = document.getElementById("btnTelechargerSelection");
 const infoSelection = document.getElementById("infoSelection");
 const badge = document.getElementById("resultatBadge");
+const ectsBadge = document.getElementById("ectsBadge");
 const detailMessage = document.getElementById("detailMessage");
+const resumeCompatibilite = document.getElementById("resumeCompatibilite");
 const compatiblesTexte = document.getElementById("compatiblesTexte");
 const incompatiblesTexte = document.getElementById("incompatiblesTexte");
+const colonnes = {
+    CS: document.getElementById("colonneCS"),
+    TM: document.getElementById("colonneTM"),
+    TSH: document.getElementById("colonneTSH"),
+};
+
+const filtreCategorieRemplacement = document.getElementById("filtreCategorieRemplacement");
+const ajoutUvRemplacement = document.getElementById("ajoutUvRemplacement");
+const suggestionsAjoutRemplacement = document.getElementById("suggestionsAjoutRemplacement");
+const btnToutSupprimerRemplacement = document.getElementById("btnToutSupprimerRemplacement");
+const infoSelectionRemplacement = document.getElementById("infoSelectionRemplacement");
+const badgeRemplacement = document.getElementById("resultatBadgeRemplacement");
+const detailMessageRemplacement = document.getElementById("detailMessageRemplacement");
+const colonnesRemplacement = {
+    CS: document.getElementById("colonneRemplacementCS"),
+    TM: document.getElementById("colonneRemplacementTM"),
+    TSH: document.getElementById("colonneRemplacementTSH"),
+};
 
 document.addEventListener("DOMContentLoaded", () => {
     charger(CHEMIN_CSV)
         .then(base => {
             enseignements = base.enseignements;
             codesExclus = base.codesExclus;
-            infoChargement.textContent = `Base chargée depuis ${CHEMIN_CSV}.`;
-            remplirListe();
+            initialiser();
         })
         .catch(err => {
             infoChargement.textContent = `Erreur lors du chargement de ${CHEMIN_CSV} : ${err.message}`;
         });
 });
 
-function libelleOption(code) {
-    const e = enseignements[code];
-    const cat = e.categorie ? e.categorie : "Sans catégorie";
-    const ects = e.ects !== null && e.ects !== undefined ? `${e.ects} ECTS` : "ECTS ?";
-    return `${code} — ${cat} (${ects})`;
+function colonnePour(categorie) {
+    if (categorie === "CS" || categorie === "TM") return categorie;
+    return "TSH"; // TSH et sans catégorie (pour le moment)
 }
 
-function remplirListe() {
-    const codes = Object.keys(enseignements).sort();
+function libelleCategorie(categorie) {
+    return categorie ? categorie : "sans catégorie";
+}
 
-    // Catégories disponibles
-    const categories = Array.from(new Set(codes.map(c => enseignements[c].categorie).filter(Boolean))).sort();
-    filtreCategorie.innerHTML = '<option value="">Toutes les catégories</option>';
-    for (const cat of categories) {
-        const option = document.createElement("option");
-        option.value = cat;
-        option.textContent = cat;
-        filtreCategorie.appendChild(option);
+function libelleOption(code) {
+    const e = enseignements[code];
+    const ects = e.ects !== null && e.ects !== undefined ? `${e.ects} ECTS` : "ECTS ?";
+    return `${code} - ${libelleCategorie(e.categorie)} (${ects})`;
+}
+
+function initialiser() {
+    toutesCodes = Object.keys(enseignements).sort();
+
+    // Catégories disponibles pour les filtres (principal + remplacement)
+    const categories = Array.from(new Set(toutesCodes.map(c => enseignements[c].categorie).filter(Boolean))).sort();
+    for (const select of [filtreCategorie, filtreCategorieRemplacement]) {
+        select.innerHTML = '<option value="">Toutes les catégories</option>';
+        for (const cat of categories) {
+            const option = document.createElement("option");
+            option.value = cat;
+            option.textContent = cat;
+            select.appendChild(option);
+        }
+        const optionSans = document.createElement("option");
+        optionSans.value = CATEGORIE_SANS;
+        optionSans.textContent = "Sans catégorie";
+        select.appendChild(optionSans);
     }
 
-    // Options du select principal
-    selectEns.innerHTML = "";
-    for (const code of codes) {
-        const option = document.createElement("option");
-        option.value = code;
-        option.textContent = libelleOption(code);
-        option.dataset.code = code;
-        option.dataset.categorie = enseignements[code].categorie || "";
-        selectEns.appendChild(option);
-    }
-
-    const actif = codes.length > 0;
-    selectEns.disabled = !actif;
-    rechercheUv.disabled = !actif;
+    const actif = toutesCodes.length > 0;
     filtreCategorie.disabled = !actif;
-    btnVerifier.disabled = !actif;
+    ajoutUv.disabled = !actif;
+    filtreCategorieRemplacement.disabled = !actif;
+    ajoutUvRemplacement.disabled = !actif;
 
-    infoNb.textContent = `${codes.length} enseignement(s) chargé(s).`;
+    infoChargement.textContent = `${toutesCodes.length} enseignements chargés`;
     infoExclus.textContent = codesExclus.length > 0
         ? `${codesExclus.length} enseignement(s) ignoré(s) (Cours à groupes multiples non géré) : ${codesExclus.join(", ")}`
         : "";
 
-    filtrerListe();
+    selection = chargerSelectionSauvegardee();
+    rafraichirSuggestions();
+    renderTableauSelection();
     majInfoSelection();
-    resetResultat();
+
+    rafraichirSuggestionsRemplacement();
+    renderTableauSelectionRemplacement();
+    majInfoSelectionRemplacement();
+
+    verifierEtAfficher();
 }
 
-function filtrerListe() {
-    const texte = rechercheUv.value.trim().toLowerCase();
+// --- Persistance locale (localStorage) ---
+// Seule la sélection principale est persistée : les UV de remplacement sont des essais temporaires.
+
+function chargerSelectionSauvegardee() {
+    try {
+        const brut = localStorage.getItem(CLE_STOCKAGE);
+        if (!brut) return [];
+        const codes = JSON.parse(brut);
+        if (!Array.isArray(codes)) return [];
+        return codes.filter(c => Object.prototype.hasOwnProperty.call(enseignements, c));
+    } catch (err) {
+        return [];
+    }
+}
+
+function sauvegarderSelection() {
+    try {
+        localStorage.setItem(CLE_STOCKAGE, JSON.stringify(selection));
+    } catch (err) {
+        // stockage indisponible (navigation privée, quota, etc.) : on ignore silencieusement
+    }
+}
+
+// =========================================================================
+// Bloc principal : sélection des enseignements
+// =========================================================================
+
+function rafraichirSuggestions() {
+    const texte = ajoutUv.value.trim().toLowerCase();
     const categorie = filtreCategorie.value;
-    for (const option of selectEns.options) {
-        if (option.selected) { option.hidden = false; continue; }
-        const code = option.dataset.code.toLowerCase();
-        const cat = option.dataset.categorie;
-        const correspondTexte = !texte || code.includes(texte) || cat.toLowerCase().includes(texte);
-        const correspondCategorie = !categorie || cat === categorie;
-        option.hidden = !(correspondTexte && correspondCategorie);
+    suggestionsCourantes = toutesCodes.filter(code => {
+        if (selection.includes(code)) return false;
+        if (texte && !code.toLowerCase().includes(texte)) return false;
+        if (categorie) {
+            const cat = enseignements[code].categorie;
+            if (categorie === CATEGORIE_SANS) { if (cat) return false; }
+            else if (cat !== categorie) return false;
+        }
+        return true;
+    }).slice(0, 8);
+    suggestionIndex = suggestionsCourantes.length ? 0 : -1;
+    renderSuggestions();
+}
+
+function renderSuggestions() {
+    suggestionsAjout.innerHTML = "";
+    if (suggestionsCourantes.length === 0 || document.activeElement !== ajoutUv) {
+        suggestionsAjout.hidden = true;
+        return;
+    }
+    suggestionsCourantes.forEach((code, i) => {
+        const item = document.createElement("div");
+        item.className = "suggestion-item" + (i === suggestionIndex ? " active" : "");
+        item.textContent = libelleOption(code);
+        item.addEventListener("mousedown", (e) => {
+            e.preventDefault(); // évite que le blur ne ferme la liste avant le clic
+            choisirSuggestion(code);
+        });
+        suggestionsAjout.appendChild(item);
+    });
+    suggestionsAjout.hidden = false;
+}
+
+function choisirSuggestion(code) {
+    ajouterSelection(code);
+    ajoutUv.value = "";
+    ajoutUv.focus();
+    rafraichirSuggestions();
+}
+
+ajoutUv.addEventListener("input", rafraichirSuggestions);
+ajoutUv.addEventListener("focus", rafraichirSuggestions);
+ajoutUv.addEventListener("blur", () => { suggestionsAjout.hidden = true; });
+ajoutUv.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowDown") {
+        if (suggestionsCourantes.length) {
+            e.preventDefault();
+            suggestionIndex = (suggestionIndex + 1) % suggestionsCourantes.length;
+            renderSuggestions();
+        }
+    } else if (e.key === "ArrowUp") {
+        if (suggestionsCourantes.length) {
+            e.preventDefault();
+            suggestionIndex = (suggestionIndex - 1 + suggestionsCourantes.length) % suggestionsCourantes.length;
+            renderSuggestions();
+        }
+    } else if (e.key === "Enter") {
+        e.preventDefault();
+        if (suggestionIndex >= 0 && suggestionsCourantes[suggestionIndex]) {
+            choisirSuggestion(suggestionsCourantes[suggestionIndex]);
+        } else {
+            const texte = ajoutUv.value.trim().toUpperCase();
+            const exact = toutesCodes.find(c => c.toUpperCase() === texte && !selection.includes(c));
+            if (exact) choisirSuggestion(exact);
+        }
+    } else if (e.key === "Escape") {
+        suggestionsAjout.hidden = true;
+    }
+});
+filtreCategorie.addEventListener("change", rafraichirSuggestions);
+
+function ajouterSelection(code) {
+    if (selection.includes(code)) return;
+    selection.push(code);
+    // Une UV ne peut pas être à la fois principale et "remplacement" en test
+    if (selectionRemplacement.includes(code)) {
+        selectionRemplacement = selectionRemplacement.filter(c => c !== code);
+        apresChangementSelectionRemplacement(false);
+    }
+    apresChangementSelection();
+}
+
+function retirerSelection(code) {
+    selection = selection.filter(c => c !== code);
+    apresChangementSelection();
+}
+
+btnToutSupprimer.addEventListener("click", () => {
+    if (selection.length === 0) return;
+    selection = [];
+    apresChangementSelection();
+});
+
+function apresChangementSelection() {
+    sauvegarderSelection();
+    rafraichirSuggestions();
+    renderTableauSelection();
+    majInfoSelection();
+    rafraichirSuggestionsRemplacement(); // les UV principales ne doivent plus apparaître comme remplacement
+    verifierEtAfficher();
+}
+
+function renderTableauSelection() {
+    for (const cle of Object.keys(colonnes)) colonnes[cle].innerHTML = "";
+    for (const code of selection) {
+        const e = enseignements[code];
+        const col = colonnePour(e.categorie);
+        const chip = document.createElement("div");
+        chip.className = `chip chip-${col.toLowerCase()}`;
+        const texte = document.createElement("span");
+        texte.className = "chip-texte";
+        const ects = e.ects !== null && e.ects !== undefined ? `${e.ects} ECTS` : "ECTS ?";
+        texte.textContent = e.categorie ? `${code} (${ects})` : `${code} (${ects}, sans catégorie)`;
+        const btnX = document.createElement("button");
+        btnX.type = "button";
+        btnX.className = "chip-supprimer";
+        btnX.setAttribute("aria-label", `Retirer ${code} de la sélection`);
+        btnX.textContent = "×";
+        btnX.addEventListener("click", () => retirerSelection(code));
+        chip.appendChild(texte);
+        chip.appendChild(btnX);
+        colonnes[col].appendChild(chip);
     }
 }
 
 function majInfoSelection() {
-    const selection = Array.from(selectEns.selectedOptions).map(o => o.value);
-    if (selection.length === 0) {
-        infoSelection.textContent = "Aucun enseignement sélectionné.";
-        return;
+    const vide = selection.length === 0;
+    btnToutSupprimer.disabled = vide;
+    btnCopierSelection.disabled = vide;
+    btnTelechargerSelection.disabled = vide;
+    infoSelection.textContent = vide
+        ? "Aucun enseignement sélectionné."
+        : `${selection.length} enseignement(s) sélectionné(s).`;
+}
+
+// --- Export / copie de la sélection principale ---
+
+function texteExportSelection() {
+    const lignes = [];
+    for (const cle of ["CS", "TM", "TSH"]) {
+        const codesCol = selection.filter(c => colonnePour(enseignements[c].categorie) === cle);
+        if (codesCol.length === 0) continue;
+        lignes.push(`${cle} :`);
+        for (const code of codesCol) {
+            const e = enseignements[code];
+            const ects = e.ects !== null && e.ects !== undefined ? `${e.ects} ECTS` : "ECTS ?";
+            lignes.push(`  - ${code} (${ects}${e.categorie ? "" : ", sans catégorie"})`);
+        }
+        lignes.push("");
     }
-    let totalEcts = 0;
+    const { total, inconnu } = totalEcts(selection);
+    lignes.push(`Total ECTS : ${total}${inconnu ? " (partiel, ECTS inconnu pour au moins une UV)" : ""}`);
+    return lignes.join("\n").trim();
+}
+
+btnCopierSelection.addEventListener("click", async () => {
+    const texte = texteExportSelection();
+    try {
+        await navigator.clipboard.writeText(texte);
+        const original = btnCopierSelection.textContent;
+        btnCopierSelection.textContent = "Copié !";
+        setTimeout(() => { btnCopierSelection.textContent = original; }, 1500);
+    } catch (err) {
+        window.prompt("Copie automatique indisponible. Copiez manuellement :", texte);
+    }
+});
+
+btnTelechargerSelection.addEventListener("click", () => {
+    const texte = texteExportSelection();
+    const blob = new Blob([texte], { type: "text/plain;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const lien = document.createElement("a");
+    lien.href = url;
+    lien.download = "selection-uv.txt";
+    document.body.appendChild(lien);
+    lien.click();
+    document.body.removeChild(lien);
+    URL.revokeObjectURL(url);
+});
+
+// --- Calcul ECTS / compatibilité (bloc principal) ---
+
+function totalEcts(codes) {
+    let total = 0;
     let inconnu = false;
-    for (const code of selection) {
+    for (const code of codes) {
         const ects = enseignements[code]?.ects;
         if (ects === null || ects === undefined) inconnu = true;
-        else totalEcts += ects;
+        else total += ects;
     }
-    infoSelection.textContent = `${selection.length} enseignement(s) sélectionné(s) — ${totalEcts} ECTS${inconnu ? " (au moins un ECTS inconnu)" : ""}.`;
+    return { total, inconnu };
 }
 
-rechercheUv.addEventListener("input", filtrerListe);
-filtreCategorie.addEventListener("change", filtrerListe);
-selectEns.addEventListener("change", majInfoSelection);
-
-function resetResultat() {
-    badge.textContent = "—";
-    badge.className = "resultat-badge neutre";
-    detailMessage.textContent = "";
-    compatiblesTexte.value = "";
-    incompatiblesTexte.value = "";
+let minuteurVerification = null;
+function verifierEtAfficher() {
+    clearTimeout(minuteurVerification);
+    minuteurVerification = setTimeout(calculerEtAfficher, 10);
 }
 
-btnVerifier.addEventListener("click", () => {
-    const selection = Array.from(selectEns.selectedOptions).map(o => o.value);
+function calculerEtAfficher() {
+    const { total, inconnu } = totalEcts(selection);
+    ectsBadge.textContent = `${total} ECTS${inconnu ? " (partiel)" : ""}`;
+
     if (selection.length === 0) {
-        badge.textContent = "—";
+        badge.textContent = "-";
         badge.className = "resultat-badge neutre";
         detailMessage.textContent = "Sélectionnez au moins un enseignement.";
+        resumeCompatibilite.textContent = "";
         compatiblesTexte.value = "";
         incompatiblesTexte.value = "";
+        validesPrincipal = [];
+        calculerEtAfficherRemplacement();
         return;
     }
-    btnVerifier.disabled = true;
-    btnVerifier.textContent = "Calcul en cours…";
-    setTimeout(() => {
-        try {
-            const { valides, inconnus, exclusRedemandes } = validerSelection(enseignements, codesExclus, selection);
-            let avertissements = [];
-            if (inconnus.length) avertissements.push("Codes inconnus ignorés : " + inconnus.join(", "));
-            if (exclusRedemandes.length) avertissements.push("Codes ignorés (Cours à groupes multiples) : " + exclusRedemandes.join(", "));
-            const { satisfiable, message } = testeEnsemble(enseignements, valides);
-            if (!satisfiable) {
-                badge.textContent = "UNSAT";
-                badge.className = "resultat-badge unsat";
-                const texte = message || "L'ensemble sélectionné est déjà insatisfaisable : retirez un code avant de chercher des compatibilités.";
-                detailMessage.textContent = [texte, ...avertissements].join("\n");
-                compatiblesTexte.value = "";
-                incompatiblesTexte.value = "";
-                return;
-            }
-            badge.textContent = "SAT";
-            badge.className = "resultat-badge sat";
-            detailMessage.textContent = avertissements.join("\n");
-            const { compatibles, incompatibles } = calculerCompatibilites(enseignements, valides);
-            compatiblesTexte.value = compatibles.length ? compatibles.map(libelleOption).join("\n") : "Aucun code encore compatible avec la sélection actuelle.";
-            incompatiblesTexte.value = incompatibles.length ? incompatibles.map(libelleOption).join("\n") : "Aucun code incompatible avec la sélection actuelle.";
-        } finally {
-            btnVerifier.disabled = false;
-            btnVerifier.textContent = "Vérifier la compatibilité";
+
+    const { valides, inconnus, exclusRedemandes } = validerSelection(enseignements, codesExclus, selection);
+    validesPrincipal = valides;
+    let avertissements = [];
+    if (inconnus.length) avertissements.push("Codes inconnus ignorés : " + inconnus.join(", "));
+    if (exclusRedemandes.length) avertissements.push("Codes ignorés (Cours à groupes multiples) : " + exclusRedemandes.join(", "));
+
+    const { satisfiable, message } = testeEnsemble(enseignements, valides);
+    if (!satisfiable) {
+        badge.textContent = "UNSAT";
+        badge.className = "resultat-badge unsat";
+        const texte = message || "L'ensemble sélectionné est déjà insatisfaisable : retirez un code pour continuer.";
+        detailMessage.textContent = [texte, ...avertissements].join("\n");
+        resumeCompatibilite.textContent = "";
+        compatiblesTexte.value = "";
+        incompatiblesTexte.value = "";
+        calculerEtAfficherRemplacement();
+        return;
+    }
+
+    badge.textContent = "SAT";
+    badge.className = "resultat-badge sat";
+    detailMessage.textContent = avertissements.join("\n");
+    const { compatibles, incompatibles } = calculerCompatibilites(enseignements, valides);
+    const totalRestant = compatibles.length + incompatibles.length;
+    resumeCompatibilite.textContent = totalRestant > 0
+        ? `${compatibles.length} UV encore compatible(s) sur ${totalRestant} restante(s) (hors sélection actuelle).`
+        : "";
+    compatiblesTexte.value = compatibles.length ? compatibles.map(libelleOption).join("\n") : "Aucun code encore compatible avec la sélection actuelle.";
+    incompatiblesTexte.value = incompatibles.length ? incompatibles.map(libelleOption).join("\n") : "Aucun code incompatible avec la sélection actuelle.";
+
+    calculerEtAfficherRemplacement();
+}
+
+// =========================================================================
+// Bloc "enseignements de remplacement" : même principe, sans ECTS
+// =========================================================================
+
+function rafraichirSuggestionsRemplacement() {
+    const texte = ajoutUvRemplacement.value.trim().toLowerCase();
+    const categorie = filtreCategorieRemplacement.value;
+    suggestionsCourantesRemplacement = toutesCodes.filter(code => {
+        if (selection.includes(code)) return false; // déjà dans la sélection principale
+        if (selectionRemplacement.includes(code)) return false;
+        if (texte && !code.toLowerCase().includes(texte)) return false;
+        if (categorie) {
+            const cat = enseignements[code].categorie;
+            if (categorie === CATEGORIE_SANS) { if (cat) return false; }
+            else if (cat !== categorie) return false;
         }
-    }, 10);
+        return true;
+    }).slice(0, 8);
+    suggestionIndexRemplacement = suggestionsCourantesRemplacement.length ? 0 : -1;
+    renderSuggestionsRemplacement();
+}
+
+function renderSuggestionsRemplacement() {
+    suggestionsAjoutRemplacement.innerHTML = "";
+    if (suggestionsCourantesRemplacement.length === 0 || document.activeElement !== ajoutUvRemplacement) {
+        suggestionsAjoutRemplacement.hidden = true;
+        return;
+    }
+    suggestionsCourantesRemplacement.forEach((code, i) => {
+        const item = document.createElement("div");
+        item.className = "suggestion-item" + (i === suggestionIndexRemplacement ? " active" : "");
+        item.textContent = libelleOption(code);
+        item.addEventListener("mousedown", (e) => {
+            e.preventDefault();
+            choisirSuggestionRemplacement(code);
+        });
+        suggestionsAjoutRemplacement.appendChild(item);
+    });
+    suggestionsAjoutRemplacement.hidden = false;
+}
+
+function choisirSuggestionRemplacement(code) {
+    ajouterSelectionRemplacement(code);
+    ajoutUvRemplacement.value = "";
+    ajoutUvRemplacement.focus();
+    rafraichirSuggestionsRemplacement();
+}
+
+ajoutUvRemplacement.addEventListener("input", rafraichirSuggestionsRemplacement);
+ajoutUvRemplacement.addEventListener("focus", rafraichirSuggestionsRemplacement);
+ajoutUvRemplacement.addEventListener("blur", () => { suggestionsAjoutRemplacement.hidden = true; });
+ajoutUvRemplacement.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowDown") {
+        if (suggestionsCourantesRemplacement.length) {
+            e.preventDefault();
+            suggestionIndexRemplacement = (suggestionIndexRemplacement + 1) % suggestionsCourantesRemplacement.length;
+            renderSuggestionsRemplacement();
+        }
+    } else if (e.key === "ArrowUp") {
+        if (suggestionsCourantesRemplacement.length) {
+            e.preventDefault();
+            suggestionIndexRemplacement = (suggestionIndexRemplacement - 1 + suggestionsCourantesRemplacement.length) % suggestionsCourantesRemplacement.length;
+            renderSuggestionsRemplacement();
+        }
+    } else if (e.key === "Enter") {
+        e.preventDefault();
+        if (suggestionIndexRemplacement >= 0 && suggestionsCourantesRemplacement[suggestionIndexRemplacement]) {
+            choisirSuggestionRemplacement(suggestionsCourantesRemplacement[suggestionIndexRemplacement]);
+        } else {
+            const texte = ajoutUvRemplacement.value.trim().toUpperCase();
+            const exact = toutesCodes.find(c => c.toUpperCase() === texte && !selection.includes(c) && !selectionRemplacement.includes(c));
+            if (exact) choisirSuggestionRemplacement(exact);
+        }
+    } else if (e.key === "Escape") {
+        suggestionsAjoutRemplacement.hidden = true;
+    }
 });
+filtreCategorieRemplacement.addEventListener("change", rafraichirSuggestionsRemplacement);
+
+function ajouterSelectionRemplacement(code) {
+    if (selectionRemplacement.includes(code)) return;
+    selectionRemplacement.push(code);
+    apresChangementSelectionRemplacement();
+}
+
+function retirerSelectionRemplacement(code) {
+    selectionRemplacement = selectionRemplacement.filter(c => c !== code);
+    apresChangementSelectionRemplacement();
+}
+
+btnToutSupprimerRemplacement.addEventListener("click", () => {
+    if (selectionRemplacement.length === 0) return;
+    selectionRemplacement = [];
+    apresChangementSelectionRemplacement();
+});
+
+function apresChangementSelectionRemplacement(recalculer = true) {
+    rafraichirSuggestionsRemplacement();
+    renderTableauSelectionRemplacement();
+    majInfoSelectionRemplacement();
+    if (recalculer) calculerEtAfficherRemplacement();
+}
+
+function renderTableauSelectionRemplacement() {
+    for (const cle of Object.keys(colonnesRemplacement)) colonnesRemplacement[cle].innerHTML = "";
+    for (const code of selectionRemplacement) {
+        const e = enseignements[code];
+        const col = colonnePour(e.categorie);
+        const chip = document.createElement("div");
+        chip.className = `chip chip-${col.toLowerCase()}`;
+        const texte = document.createElement("span");
+        texte.className = "chip-texte";
+        texte.textContent = e.categorie ? code : `${code} (sans catégorie)`;
+        const btnX = document.createElement("button");
+        btnX.type = "button";
+        btnX.className = "chip-supprimer";
+        btnX.setAttribute("aria-label", `Retirer ${code} des remplacements testés`);
+        btnX.textContent = "×";
+        btnX.addEventListener("click", () => retirerSelectionRemplacement(code));
+        chip.appendChild(texte);
+        chip.appendChild(btnX);
+        colonnesRemplacement[col].appendChild(chip);
+    }
+}
+
+function majInfoSelectionRemplacement() {
+    const vide = selectionRemplacement.length === 0;
+    btnToutSupprimerRemplacement.disabled = vide;
+    infoSelectionRemplacement.textContent = vide
+        ? "Aucun enseignement de remplacement sélectionné."
+        : `${selectionRemplacement.length} enseignement(s) de remplacement sélectionné(s).`;
+}
+
+function calculerEtAfficherRemplacement() {
+    if (selection.length === 0) {
+        badgeRemplacement.textContent = "-";
+        badgeRemplacement.className = "resultat-badge neutre";
+        detailMessageRemplacement.textContent = "Sélectionnez d'abord des enseignements principaux (bloc 2).";
+        return;
+    }
+    if (selectionRemplacement.length === 0) {
+        badgeRemplacement.textContent = "-";
+        badgeRemplacement.className = "resultat-badge neutre";
+        detailMessageRemplacement.textContent = "Ajoutez une UV pour tester sa compatibilité avec votre sélection principale.";
+        return;
+    }
+    const combinaison = [...validesPrincipal, ...selectionRemplacement];
+    const { satisfiable, message } = testeEnsemble(enseignements, combinaison);
+    if (!satisfiable) {
+        badgeRemplacement.textContent = "UNSAT";
+        badgeRemplacement.className = "resultat-badge unsat";
+        detailMessageRemplacement.textContent = message || "Cette combinaison n'est pas compatible avec votre sélection principale.";
+        return;
+    }
+    badgeRemplacement.textContent = "SAT";
+    badgeRemplacement.className = "resultat-badge sat";
+    detailMessageRemplacement.textContent = "";
+}
 </script>
 </body>
 </html>
