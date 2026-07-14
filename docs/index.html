@@ -3,35 +3,43 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>SAT-UV — Vérification de compatibilité d'emploi du temps</title>
+<title>Vérification de compatibilité des UVs</title>
 <link rel="stylesheet" href="style.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 </head>
 <body>
 <div class="conteneur">
     <h1>SAT-UV</h1>
-    <p class="sous-titre">Vérification de compatibilité d'emplois du temps — calcul 100&nbsp;% côté navigateur.</p>
+    <p class="sous-titre">Vérification de compatibilité d'emplois du temps.</p>
     <div class="carte">
-        <h2>1. Charger le fichier CSV</h2>
-        <label for="csvFile">Fichier d'export (input.csv)</label>
-        <input type="file" id="csvFile" accept=".csv" />
+        <h2>1. Base d'enseignements</h2>
+        <p class="aide" id="infoChargement">Chargement depuis ../input/input.csv…</p>
         <p class="aide" id="infoExclus"></p>
         <p class="aide" id="infoNbEnseignements"></p>
     </div>
     <div class="carte">
         <h2>2. Sélectionner des enseignements</h2>
+        <label for="rechercheUv">Rechercher (code ou catégorie)</label>
+        <input type="text" id="rechercheUv" placeholder="ex. AC01, réseaux, ouverture…" disabled />
+        <label for="filtreCategorie">Filtrer par catégorie</label>
+        <select id="filtreCategorie" disabled>
+            <option value="">Toutes les catégories</option>
+        </select>
         <label for="selectEnseignements">Enseignements (Ctrl/Cmd + clic pour sélection multiple)</label>
         <select id="selectEnseignements" multiple disabled></select>
-        <p class="aide">Chargez d'abord un fichier CSV pour remplir cette liste.</p>
+        <p class="aide" id="infoSelection">Chargement de la base en cours…</p>
         <button id="btnVerifier" disabled>Vérifier la compatibilité</button>
     </div>
     <div class="carte">
         <h2>3. Résultat</h2>
-        <span id="resultatBadge" class="resultat-badge neutre">—</span>
+        <span id="resultatBadge" class="resultat-badge neutre">-</span>
         <div id="detailMessage"></div>
     </div>
     <div class="carte" id="zoneIncompatibles">
-        <h2>4. Codes incompatibles avec la sélection actuelle</h2>
+        <h2>4. Enseignements compatibles / incompatibles</h2>
+        <label for="compatiblesTexte">Encore compatibles avec la sélection actuelle</label>
+        <textarea id="compatiblesTexte" readonly placeholder="Les codes encore compatibles avec votre sélection apparaîtront ici après vérification."></textarea>
+        <label for="incompatiblesTexte">Incompatibles avec la sélection actuelle</label>
         <textarea id="incompatiblesTexte" readonly placeholder="Les codes incompatibles avec votre sélection apparaîtront ici après vérification."></textarea>
     </div>
 </div>
@@ -40,60 +48,132 @@
 <script src="sat_model.js"></script>
 <script src="search.js"></script>
 <script>
+const CHEMIN_CSV = "../input/input.csv";
+
 let enseignements = {};
 let codesExclus = [];
-const inputFichier = document.getElementById("csvFile");
+
+const infoChargement = document.getElementById("infoChargement");
+const rechercheUv = document.getElementById("rechercheUv");
+const filtreCategorie = document.getElementById("filtreCategorie");
 const selectEns = document.getElementById("selectEnseignements");
 const btnVerifier = document.getElementById("btnVerifier");
 const infoExclus = document.getElementById("infoExclus");
 const infoNb = document.getElementById("infoNbEnseignements");
+const infoSelection = document.getElementById("infoSelection");
 const badge = document.getElementById("resultatBadge");
 const detailMessage = document.getElementById("detailMessage");
+const compatiblesTexte = document.getElementById("compatiblesTexte");
 const incompatiblesTexte = document.getElementById("incompatiblesTexte");
-inputFichier.addEventListener("change", (evt) => {
-    const fichier = evt.target.files[0];
-    if (!fichier) return;
-    const lecteur = new FileReader();
-    lecteur.onload = (e) => {
-        try {
-            const base = chargerBaseFromText(e.target.result);
+
+document.addEventListener("DOMContentLoaded", () => {
+    charger(CHEMIN_CSV)
+        .then(base => {
             enseignements = base.enseignements;
             codesExclus = base.codesExclus;
+            infoChargement.textContent = `Base chargée depuis ${CHEMIN_CSV}.`;
             remplirListe();
-        } catch (err) {
-            infoNb.textContent = "Erreur lors du chargement du CSV : " + err.message;
-        }
-    };
-    lecteur.onerror = () => { infoNb.textContent = "Impossible de lire le fichier sélectionné."; };
-    lecteur.readAsText(fichier, "utf-8");
+        })
+        .catch(err => {
+            infoChargement.textContent = `Erreur lors du chargement de ${CHEMIN_CSV} : ${err.message}`;
+        });
 });
+
+function libelleOption(code) {
+    const e = enseignements[code];
+    const cat = e.categorie ? e.categorie : "Sans catégorie";
+    const ects = e.ects !== null && e.ects !== undefined ? `${e.ects} ECTS` : "ECTS ?";
+    return `${code} - ${cat} (${ects})`;
+}
+
 function remplirListe() {
-    selectEns.innerHTML = "";
     const codes = Object.keys(enseignements).sort();
+
+    // Catégories disponibles
+    const categories = Array.from(new Set(codes.map(c => enseignements[c].categorie).filter(Boolean))).sort();
+    filtreCategorie.innerHTML = '<option value="">Toutes les catégories</option>';
+    for (const cat of categories) {
+        const option = document.createElement("option");
+        option.value = cat;
+        option.textContent = cat;
+        filtreCategorie.appendChild(option);
+    }
+
+    // Options du select principal
+    selectEns.innerHTML = "";
     for (const code of codes) {
         const option = document.createElement("option");
         option.value = code;
-        option.textContent = code;
+        option.textContent = libelleOption(code);
+        option.dataset.code = code;
+        option.dataset.categorie = enseignements[code].categorie || "";
         selectEns.appendChild(option);
     }
-    selectEns.disabled = codes.length === 0;
-    btnVerifier.disabled = codes.length === 0;
+
+    const actif = codes.length > 0;
+    selectEns.disabled = !actif;
+    rechercheUv.disabled = !actif;
+    filtreCategorie.disabled = !actif;
+    btnVerifier.disabled = !actif;
+
     infoNb.textContent = `${codes.length} enseignement(s) chargé(s).`;
-    infoExclus.textContent = codesExclus.length > 0 ? `${codesExclus.length} enseignement(s) ignoré(s) (Cours à groupes multiples non géré) : ${codesExclus.join(", ")}` : "";
+    infoExclus.textContent = codesExclus.length > 0
+        ? `${codesExclus.length} enseignement(s) ignoré(s) (Cours à groupes multiples non géré) : ${codesExclus.join(", ")}`
+        : "";
+
+    filtrerListe();
+    majInfoSelection();
     resetResultat();
 }
+
+function filtrerListe() {
+    const texte = rechercheUv.value.trim().toLowerCase();
+    const categorie = filtreCategorie.value;
+    for (const option of selectEns.options) {
+        if (option.selected) { option.hidden = false; continue; }
+        const code = option.dataset.code.toLowerCase();
+        const cat = option.dataset.categorie;
+        const correspondTexte = !texte || code.includes(texte) || cat.toLowerCase().includes(texte);
+        const correspondCategorie = !categorie || cat === categorie;
+        option.hidden = !(correspondTexte && correspondCategorie);
+    }
+}
+
+function majInfoSelection() {
+    const selection = Array.from(selectEns.selectedOptions).map(o => o.value);
+    if (selection.length === 0) {
+        infoSelection.textContent = "Aucun enseignement sélectionné.";
+        return;
+    }
+    let totalEcts = 0;
+    let inconnu = false;
+    for (const code of selection) {
+        const ects = enseignements[code]?.ects;
+        if (ects === null || ects === undefined) inconnu = true;
+        else totalEcts += ects;
+    }
+    infoSelection.textContent = `${selection.length} enseignement(s) sélectionné(s) - ${totalEcts} ECTS${inconnu ? " (au moins un ECTS inconnu)" : ""}.`;
+}
+
+rechercheUv.addEventListener("input", filtrerListe);
+filtreCategorie.addEventListener("change", filtrerListe);
+selectEns.addEventListener("change", majInfoSelection);
+
 function resetResultat() {
-    badge.textContent = "—";
+    badge.textContent = "-";
     badge.className = "resultat-badge neutre";
     detailMessage.textContent = "";
+    compatiblesTexte.value = "";
     incompatiblesTexte.value = "";
 }
+
 btnVerifier.addEventListener("click", () => {
     const selection = Array.from(selectEns.selectedOptions).map(o => o.value);
     if (selection.length === 0) {
-        badge.textContent = "—";
+        badge.textContent = "-";
         badge.className = "resultat-badge neutre";
         detailMessage.textContent = "Sélectionnez au moins un enseignement.";
+        compatiblesTexte.value = "";
         incompatiblesTexte.value = "";
         return;
     }
@@ -111,6 +191,7 @@ btnVerifier.addEventListener("click", () => {
                 badge.className = "resultat-badge unsat";
                 const texte = message || "L'ensemble sélectionné est déjà insatisfaisable : retirez un code avant de chercher des compatibilités.";
                 detailMessage.textContent = [texte, ...avertissements].join("\n");
+                compatiblesTexte.value = "";
                 incompatiblesTexte.value = "";
                 return;
             }
@@ -118,7 +199,8 @@ btnVerifier.addEventListener("click", () => {
             badge.className = "resultat-badge sat";
             detailMessage.textContent = avertissements.join("\n");
             const { compatibles, incompatibles } = calculerCompatibilites(enseignements, valides);
-            incompatiblesTexte.value = incompatibles.length ? incompatibles.join("\n") : "Aucun code incompatible avec la sélection actuelle.";
+            compatiblesTexte.value = compatibles.length ? compatibles.map(libelleOption).join("\n") : "Aucun code encore compatible avec la sélection actuelle.";
+            incompatiblesTexte.value = incompatibles.length ? incompatibles.map(libelleOption).join("\n") : "Aucun code incompatible avec la sélection actuelle.";
         } finally {
             btnVerifier.disabled = false;
             btnVerifier.textContent = "Vérifier la compatibilité";

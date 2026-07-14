@@ -78,6 +78,30 @@ select[multiple] {
     background: var(--couleur-carte);
 }
 
+input[type="text"],
+select:not([multiple]) {
+    width: 100%;
+    padding: 0.5rem 0.6rem;
+    border: 1px solid var(--couleur-bordure);
+    border-radius: var(--rayon);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+    background: var(--couleur-carte);
+    color: var(--couleur-texte);
+}
+
+input[type="text"]:disabled,
+select:disabled {
+    background: var(--couleur-fond);
+    color: var(--couleur-texte-secondaire);
+}
+
+#infoSelection {
+    font-size: 0.85rem;
+    color: var(--couleur-texte-secondaire);
+    margin-top: 0.5rem;
+}
+
 .aide {
     font-size: 0.8rem;
     color: var(--couleur-texte-secondaire);
@@ -140,7 +164,8 @@ button:disabled {
     margin-top: 0.5rem;
 }
 
-textarea#incompatiblesTexte {
+textarea#incompatiblesTexte,
+textarea#compatiblesTexte {
     width: 100%;
     min-height: 140px;
     border: 1px solid var(--couleur-bordure);
@@ -150,6 +175,7 @@ textarea#incompatiblesTexte {
     font-size: 0.85rem;
     resize: vertical;
     background: #fafafa;
+    margin-bottom: 1rem;
 }
 
 #infoExclus {

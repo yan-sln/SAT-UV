@@ -44,10 +44,12 @@ class Groupe {
 }
 
 class Enseignement {
-    constructor(code, cours = [], groupes = {}) {
+    constructor(code, cours = [], groupes = {}, categorie = "", ects = null) {
         this.code = code;
         this.cours = cours; // Creneau[] imposés
         this.groupes = groupes; // { activite: Groupe[] }
+        this.categorie = categorie; // ex: "Coeur", "Ouverture", ...
+        this.ects = ects; // nombre de crédits ECTS (number ou null si inconnu)
     }
     activitesAChoix() {
         return Object.entries(this.groupes);

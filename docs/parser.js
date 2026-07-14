@@ -55,7 +55,10 @@ function chargerBaseFromRows(rows) {
         for (const [activite, parLib] of Object.entries(groupesParActivite)) {
             groupes[activite] = Object.values(parLib);
         }
-        enseignements[code] = new Enseignement(code, cours, groupes);
+        const categorie = (lignes[0]["Type UV"] || "").trim();
+        const ectsBrut = lignes[0]["ECTS"];
+        const ects = ectsBrut !== undefined && ectsBrut !== "" && !isNaN(parseFloat(ectsBrut)) ? parseFloat(ectsBrut) : null;
+        enseignements[code] = new Enseignement(code, cours, groupes, categorie, ects);
     }
     codesExclus.sort();
     return { enseignements, codesExclus };

@@ -8,7 +8,7 @@ Particularités des données identifiées lors de l'analyse et prises en
 compte ici :
 
 1. Un "groupe" (TD/TP/Atelier) peut être constitué de PLUSIEURS créneaux
-   partageant le même (Code, Activité, Lib. créneau) — par exemple une
+   partageant le même (Code, Activité, Lib. créneau) - par exemple une
    séance "D" (TD) et une séance "T" sous le même numéro de groupe. On
    agrège donc toutes les lignes correspondantes, sans filtrer sur
    "Type créneau".

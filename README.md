@@ -8,3 +8,9 @@ Récupération de l'emploi du temps provisoire pour A26 sur l'ENT UTC
     https://ngapplis.utc.fr/ent4/
     document pdf "Creneaux-UV-A26-prov-V2.pdf"
 Contient l'ensemble des UV enseignées en A26 avec les créneaux (semaine, jour et heure) de chaque "Activité" (Cours, TD, TP, Atelier)
+
+# launch internal server
+```
+python3 -m http.server 8000
+http://localhost:8000/docs/index.html
+```
