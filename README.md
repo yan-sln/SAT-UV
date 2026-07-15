@@ -1,21 +1,16 @@
 # SAT-UV
 
 23h09, la France a perdu contre l'Espagne. En ces temps très durs, on vous propose avec @DamDeCaro, un outil de vérification de compatibilité d'emploi du temps pour le choix des UVs à l'UTC. En gros c'est IA02 appliqué à un fléau de l'UTC : le calcul de satisfiabilité est fait 100 % côté navigateur, via un mini-solveur SAT écrit en JavaScript.
-23h09, la France a perdu contre l'Espagne. En ces temps très durs, on vous propose avec @DamDeCaro, un outil de vérification de compatibilité d'emploi du temps pour le choix des UVs à l'UTC. En gros c'est IA02 appliqué à un fléau de l'UTC : le calcul de satisfiabilité est fait 100 % côté navigateur, via un mini-solveur SAT écrit en JavaScript.
 
 **Direct à l'outil : [https://yan-sln.github.io/SAT-UV/](https://yan-sln.github.io/SAT-UV/)**
-
-**Outil analogue de la DSI : [https://webapplis.utc.fr/smeappli/testuvsetu/index.xhtml](https://webapplis.utc.fr/smeappli/testuvsetu/index.xhtml)**
 
 **Outil analogue de la DSI : [https://webapplis.utc.fr/smeappli/testuvsetu/index.xhtml](https://webapplis.utc.fr/smeappli/testuvsetu/index.xhtml)**
 
 ## Sommaire
 
 - [Construction de UV_automne.csv](#construction-de-uv_automnecsv-nom-pas-ouf-mais-comme-le-match)
-- [Construction de UV_automne.csv](#construction-de-uv_automnecsv-nom-pas-ouf-mais-comme-le-match)
 - [Construction de input.csv](#construction-de-inputcsv)
 - [Utilisation](#utilisation)
-- [Base de faits](#base-de-faits-ia02)
 - [Base de faits](#base-de-faits-ia02)
 - [Modèle SAT](#modèle-sat)
 - [Simulateur d'emploi du temps](#simulateur-demploi-du-temps)
@@ -23,7 +18,6 @@
 - [Tests](#tests)
 - [Développement](#développement-pour-nos-gi)
 
-## Construction de UV_automne.csv (nom pas ouf, mais comme le match)
 ## Construction de UV_automne.csv (nom pas ouf, mais comme le match)
 
 Récupération de la liste des UVs disponibles à l'automne sur le catalogue des UV de 2021 disponible sur l'ENT UTC (ouep, on a que ça).
@@ -137,7 +131,6 @@ node --test
 - **`index.test.js`** — teste ce qui vit uniquement dans `index.html` (les deux contrôleurs de sélection factorisés, le switch principal/remplacement, le badge SAT/UNSAT combiné, l'export, la persistance `localStorage`) : c'est le seul endroit du code qui n'était couvert par aucun test avant.
 - **`csv_utils.js`** — mini-parseur CSV (gère les champs entre guillemets) utilisé uniquement par les tests, indépendant de PapaParse.
 
-## Développement, pour nos GI 
 ## Développement, pour nos GI 
 
 ### Lancer un serveur local pour tester
