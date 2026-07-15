@@ -4,6 +4,8 @@
 
 **Direct à l'outil : [https://yan-sln.github.io/SAT-UV/](https://yan-sln.github.io/SAT-UV/)**
 
+**Outil analogue de la DSI : [https://webapplis.utc.fr/smeappli/testuvsetu/index.xhtml](https://webapplis.utc.fr/smeappli/testuvsetu/index.xhtml)**
+
 ## Sommaire
 
 - [Construction de UV_automne.csv](#construction-de-uv_automnecsv-nom-pas-ouf-mais-comme-le-match)
