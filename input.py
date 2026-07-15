@@ -4,8 +4,8 @@
 import csv
 from datetime import datetime
 
-INPUT_FILE = "input/input.txt"
-OUTPUT_FILE = "input/input.csv"
+INPUT_FILE = "src/input.txt"
+OUTPUT_FILE = "docs/input/input.csv"
 
 
 def convert_12h_to_24h(time_str):
@@ -128,7 +128,7 @@ def charger_uv_automne():
     de code -> (type_uv, ects)"""
     uv_data = {}
     
-    with open("input/UV_automne.csv", encoding="utf-8") as f:
+    with open("src/UV_automne.csv", encoding="utf-8") as f:
         reader = csv.DictReader(f, delimiter="\t")
         for row in reader:
             code = row["Code ens."]
