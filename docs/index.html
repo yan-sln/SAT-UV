@@ -4,30 +4,65 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Vérification compatibilités UVs</title>
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style.css?v=10" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 </head>
 <body>
 <div class="conteneur">
     <h1>SAT-UV</h1>
     <p class="sous-titre">Vérification de compatibilité des UVs (<a href="https://github.com/yan-sln/SAT-UV/blob/main/README.md" target="_blank" rel="noopener noreferrer">documentation</a>).</p>
+    <p class="lien-catalogue">
+        <a class="bouton-jaune" href="https://webapplis.utc.fr/uvs/index.xhtml" target="_blank" rel="noopener noreferrer">Catalogue officiel des UV de l'UTC ↗</a>
+    </p>
 
-    <div class="carte">
+    <div class="carte" id="carteSelection">
         <h2>1. Sélectionner des enseignements</h2>
         <p class="aide" id="infoChargement">Chargement en cours…</p>
         <p class="aide" id="infoExclus"></p>
 
-        <label for="filtreCategorie">Filtrer par catégorie</label>
-        <select id="filtreCategorie" disabled>
-            <option value="">Toutes les catégories</option>
-        </select>
-
-        <div class="champ-autocomplete">
-            <label for="ajoutUv">Ajouter une UV (tapez le code puis Entrée)</label>
-            <input type="text" id="ajoutUv" placeholder="ex. AC01" autocomplete="off" disabled />
-            <div class="suggestions" id="suggestionsAjout" hidden></div>
+        <div class="mode-switch" role="group" aria-label="Choisir le type de sélection à modifier">
+            <button type="button" class="bouton-mode actif" id="modePrincipalBtn" data-mode="principal">Sélection principale</button>
+            <button type="button" class="bouton-mode" id="modeRemplacementBtn" data-mode="remplacement">Sélection de remplacement</button>
         </div>
 
+        <div id="controlesPrincipal">
+            <div class="champ-autocomplete">
+                <label for="ajoutUv">Ajouter une UV (tapez le code puis Entrée)</label>
+                <input type="text" id="ajoutUv" placeholder="ex. AC01" autocomplete="off" disabled />
+                <div class="suggestions" id="suggestionsAjout" hidden></div>
+            </div>
+        </div>
+
+        <div id="controlesRemplacement" hidden>
+            <p class="aide">Testez si une UV supplémentaire reste compatible avec votre sélection principale, sans qu'elle compte dans le décompte ECTS.</p>
+            <div class="champ-autocomplete">
+                <label for="ajoutUvRemplacement">Ajouter une UV de remplacement (tapez le code puis Entrée)</label>
+                <input type="text" id="ajoutUvRemplacement" placeholder="ex. AC01" autocomplete="off" disabled />
+                <div class="suggestions" id="suggestionsAjoutRemplacement" hidden></div>
+            </div>
+        </div>
+
+        <!-- Filtres partagés : mêmes réglages quel que soit le mode actif (principal/remplacement). -->
+        <div class="filtres-ligne">
+            <div class="filtre-groupe">
+                <span class="filtre-titre">Catégorie</span>
+                <div class="filtre-boutons" id="filtreCategorieBoutons" role="group" aria-label="Filtrer par catégorie"></div>
+            </div>
+            <div class="filtre-groupe">
+                <span class="filtre-titre">Spécialités</span>
+                <div class="filtre-boutons" id="filtreBrancheBoutons" role="group" aria-label="Filtrer par spécialité (plusieurs sélections possibles)"></div>
+            </div>
+            <div class="filtre-groupe">
+                <span class="filtre-titre">Diplomante</span>
+                <div class="filtre-boutons" id="filtreDiplomanteBoutons" role="group" aria-label="Filtrer par statut diplomante"></div>
+            </div>
+            <div class="filtre-groupe">
+                <span class="filtre-titre">Apprenti</span>
+                <div class="filtre-boutons" id="filtreApprentiBoutons" role="group" aria-label="Filtrer par statut apprenti"></div>
+            </div>
+        </div>
+
+        <h3 class="sous-section-titre">Sélection principale</h3>
         <div class="entete-selection">
             <p class="aide" id="infoSelection">Aucun enseignement sélectionné.</p>
             <div class="actions-selection">
@@ -56,23 +91,8 @@
             <span id="ectsBadge" class="ects-badge">0 ECTS</span>
         </div>
         <div id="detailMessage"></div>
-    </div>
 
-    <div class="carte">
-        <h2>2. Sélectionner des enseignements de remplacement</h2>
-        <p class="aide">Testez si une UV supplémentaire reste compatible avec votre sélection principale, sans qu'elle compte dans le décompte ECTS.</p>
-
-        <label for="filtreCategorieRemplacement">Filtrer par catégorie</label>
-        <select id="filtreCategorieRemplacement" disabled>
-            <option value="">Toutes les catégories</option>
-        </select>
-
-        <div class="champ-autocomplete">
-            <label for="ajoutUvRemplacement">Ajouter une UV de remplacement (tapez le code puis Entrée)</label>
-            <input type="text" id="ajoutUvRemplacement" placeholder="ex. AC01" autocomplete="off" disabled />
-            <div class="suggestions" id="suggestionsAjoutRemplacement" hidden></div>
-        </div>
-
+        <h3 class="sous-section-titre">Sélection de remplacement</h3>
         <div class="entete-selection">
             <p class="aide" id="infoSelectionRemplacement">Aucun enseignement de remplacement sélectionné.</p>
             <div class="actions-selection">
@@ -94,29 +114,52 @@
             </div>
         </div>
 
-        <div class="entete-resultat">
-            <span id="resultatBadgeRemplacement" class="resultat-badge neutre">-</span>
-        </div>
-        <div id="detailMessageRemplacement"></div>
+        <p class="astuce-clic sim-avertissement">Wesh wesh canne à pêche, essaie de cliquer sur une UV dans ton tableau pour voir ! <em>Les UV sont cliquables et permettent d'accéder directement à la page UVweb qui leur est liée.</em></p>
     </div>
 
     <div class="carte" id="zoneIncompatibles">
-        <h2>3. Enseignements compatibles / incompatibles</h2>
+        <h2>2. Tous les enseignements compatibles/incompatibles</h2>
         <p class="aide" id="resumeCompatibilite"></p>
-        <label for="compatiblesTexte">Encore compatibles avec la sélection actuelle</label>
-        <textarea id="compatiblesTexte" readonly placeholder="Les UVs encore compatibles avec votre sélection apparaîtront ici au fur et à mesure."></textarea>
-        <label for="incompatiblesTexte">Incompatibles avec la sélection actuelle</label>
-        <textarea id="incompatiblesTexte" readonly placeholder="Les UVs incompatibles avec votre sélection apparaîtront ici au fur et à mesure."></textarea>
+        <div class="compatibles-ligne">
+            <div class="compatibles-colonne">
+                <label for="compatiblesTexte">Encore compatibles avec la sélection actuelle</label>
+                <textarea id="compatiblesTexte" readonly placeholder="Les UVs encore compatibles avec votre sélection apparaîtront ici au fur et à mesure."></textarea>
+            </div>
+            <div class="compatibles-colonne">
+                <label for="incompatiblesTexte">Incompatibles avec la sélection actuelle</label>
+                <textarea id="incompatiblesTexte" readonly placeholder="Les UVs incompatibles avec votre sélection apparaîtront ici au fur et à mesure."></textarea>
+            </div>
+        </div>
     </div>
 </div>
-<script src="model.js"></script>
-<script src="parser.js"></script>
-<script src="sat_model.js"></script>
-<script src="search.js"></script>
+
+<div class="conteneur-simulateur">
+    <div class="carte" id="carteSimulateur">
+        <h2>3. Simulateur d'emploi du temps</h2>
+        <p class="aide">Essayez différentes combinaisons de créneaux pour votre sélection actuelle (bloc 1) et visualisez à quoi pourrait ressembler votre semaine si tous vos vœux étaient accordés.</p>
+        <p class="sim-avertissement">Les horaires affichés ici sont provisoires : ils peuvent encore être modifiés par l'administration de l'UTC. De plus, le résultat final ne dépend pas que de vos propres choix - il dépend aussi des choix des autres étudiant·es et du nombre de places disponibles dans chaque TD/TP. Ce simulateur donne un aperçu, pas une garantie.</p>
+        <div id="simulateurContenu">
+            <p class="aide">Sélectionnez au moins un enseignement compatible dans le bloc 1 pour activer le simulateur.</p>
+        </div>
+        <div class="sim-cta">
+            <a class="bouton-jaune" href="https://webapplis.utc.fr/smeappli/inscriptions/index.xhtml" target="_blank" rel="noopener">
+                Faire ma demande d'inscription aux UV sur le site de l'UTC ↗
+            </a>
+        </div>
+    </div>
+</div>
+<script src="model.js?v=3"></script>
+<script src="parser.js?v=3"></script>
+<script src="sat_model.js?v=3"></script>
+<script src="search.js?v=3"></script>
+<script src="simulateur.js?v=3"></script>
 <script>
 const CHEMIN_CSV = "./input/input.csv";
-const CATEGORIE_SANS = "__SANS__";
 const CLE_STOCKAGE = "sat-uv-selection-v1";
+const BASE_URL_FICHE_UV = "https://assos.utc.fr/uvweb/web/uv/";
+function urlFicheUV(code) {
+    return BASE_URL_FICHE_UV + encodeURIComponent(code);
+}
 
 let enseignements = {};
 let codesExclus = [];
@@ -124,15 +167,27 @@ let toutesCodes = [];
 let selection = []; // codes principaux sélectionnés, dans l'ordre d'ajout
 let selectionRemplacement = []; // codes de remplacement testés, dans l'ordre d'ajout
 let validesPrincipal = []; // dernière sélection principale validée (pour le test de remplacement)
-let suggestionsCourantes = [];
-let suggestionIndex = -1;
-let suggestionsCourantesRemplacement = [];
-let suggestionIndexRemplacement = -1;
+let avertissementsPrincipal = []; // avertissements (codes inconnus/exclus) affichés avec le badge combiné
+// Filtres partagés entre le mode principal et le mode remplacement (ils
+// restent identiques quand on bascule d'un mode à l'autre).
+let branchesSelectionnees = new Set(); // branches cochées, en minuscules
+let diplomanteFiltreValeur = ""; // "" | "oui" | "non"
+let categorieFiltreValeur = ""; // "" | nom de catégorie
+let apprentiFiltreValeur = ""; // "" | "oui" | "non"
 
 const infoChargement = document.getElementById("infoChargement");
 const infoExclus = document.getElementById("infoExclus");
 
-const filtreCategorie = document.getElementById("filtreCategorie");
+const carteSelection = document.getElementById("carteSelection");
+const modePrincipalBtn = document.getElementById("modePrincipalBtn");
+const modeRemplacementBtn = document.getElementById("modeRemplacementBtn");
+const controlesPrincipal = document.getElementById("controlesPrincipal");
+const controlesRemplacement = document.getElementById("controlesRemplacement");
+
+const filtreCategorieBoutons = document.getElementById("filtreCategorieBoutons");
+const filtreBrancheBoutons = document.getElementById("filtreBrancheBoutons");
+const filtreDiplomanteBoutons = document.getElementById("filtreDiplomanteBoutons");
+const filtreApprentiBoutons = document.getElementById("filtreApprentiBoutons");
 const ajoutUv = document.getElementById("ajoutUv");
 const suggestionsAjout = document.getElementById("suggestionsAjout");
 const btnToutSupprimer = document.getElementById("btnToutSupprimer");
@@ -151,13 +206,10 @@ const colonnes = {
     TSH: document.getElementById("colonneTSH"),
 };
 
-const filtreCategorieRemplacement = document.getElementById("filtreCategorieRemplacement");
 const ajoutUvRemplacement = document.getElementById("ajoutUvRemplacement");
 const suggestionsAjoutRemplacement = document.getElementById("suggestionsAjoutRemplacement");
 const btnToutSupprimerRemplacement = document.getElementById("btnToutSupprimerRemplacement");
 const infoSelectionRemplacement = document.getElementById("infoSelectionRemplacement");
-const badgeRemplacement = document.getElementById("resultatBadgeRemplacement");
-const detailMessageRemplacement = document.getElementById("detailMessageRemplacement");
 const colonnesRemplacement = {
     CS: document.getElementById("colonneRemplacementCS"),
     TM: document.getElementById("colonneRemplacementTM"),
@@ -185,35 +237,123 @@ function libelleCategorie(categorie) {
     return categorie ? categorie : "sans catégorie";
 }
 
-function libelleOption(code) {
+// Affichage d'une branche : conserve les acronymes tels quels (TC, GB, GP, GU, IM, GI),
+// met une majuscule initiale pour les mots plus longs (ex. "master" -> "Master").
+function libelleBranche(branche) {
+    if (/^[A-Za-z]{2,4}$/.test(branche) && branche === branche.toUpperCase()) return branche;
+    return branche.charAt(0).toUpperCase() + branche.slice(1).toLowerCase();
+}
+
+function libelleOption(code, branchesContexte = null) {
     const e = enseignements[code];
     const ects = e.ects !== null && e.ects !== undefined ? `${e.ects} ECTS` : "ECTS ?";
-    return `${code} - ${libelleCategorie(e.categorie)} (${ects})`;
+    const branches = (e.branches || []).length ? e.branches.map(libelleBranche).join("/") : null;
+    const suffixeBranches = branches ? ` [${branches}]` : "";
+    const liste = branchesContexte ? Array.from(branchesContexte) : [];
+    let suffixeDiplomante = "";
+    if (liste.length <= 1) {
+        const statutDiplomante = e.diplomantePour(liste[0] || null);
+        suffixeDiplomante = statutDiplomante === true ? " · diplomante"
+            : statutDiplomante === false ? " · non diplomante"
+            : "";
+    } else {
+        // plusieurs branches cochées : statut détaillé par branche
+        const parties = liste.map(b => {
+            const statut = e.diplomantePour(b);
+            const texte = statut === true ? "diplomante" : statut === false ? "non diplomante" : null;
+            return texte ? `${libelleBranche(b)}: ${texte}` : null;
+        }).filter(Boolean);
+        suffixeDiplomante = parties.length ? ` · ${parties.join(", ")}` : "";
+    }
+    return `${code} - ${libelleCategorie(e.categorie)} (${ects})${suffixeBranches}${suffixeDiplomante}`;
 }
+
+// --- Switch principal / remplacement ---
+// Un seul jeu de champs (recherche + filtres) est affiché à la fois ; les
+// deux jeux de contrôles restent dans le DOM (pour ne rien casser côté
+// logique), seul l'affichage bascule. Les deux tableaux de sélection, eux,
+// restent toujours visibles l'un sous l'autre.
+function basculerMode(mode) {
+    const versRemplacement = mode === "remplacement";
+    controlesPrincipal.hidden = versRemplacement;
+    controlesRemplacement.hidden = !versRemplacement;
+    modePrincipalBtn.classList.toggle("actif", !versRemplacement);
+    modeRemplacementBtn.classList.toggle("actif", versRemplacement);
+    carteSelection.classList.toggle("mode-remplacement", versRemplacement);
+    // Referme proprement toute suggestion ouverte sur le champ qu'on quitte.
+    if (versRemplacement) { ajoutUv.blur(); suggestionsAjout.hidden = true; }
+    else { ajoutUvRemplacement.blur(); suggestionsAjoutRemplacement.hidden = true; }
+}
+modePrincipalBtn.addEventListener("click", () => basculerMode("principal"));
+modeRemplacementBtn.addEventListener("click", () => basculerMode("remplacement"));
 
 function initialiser() {
     toutesCodes = Object.keys(enseignements).sort();
 
-    // Catégories disponibles pour les filtres (principal + remplacement)
-    const categories = Array.from(new Set(toutesCodes.map(c => enseignements[c].categorie).filter(Boolean))).sort();
-    for (const select of [filtreCategorie, filtreCategorieRemplacement]) {
-        select.innerHTML = '<option value="">Toutes les catégories</option>';
-        for (const cat of categories) {
-            const option = document.createElement("option");
-            option.value = cat;
-            option.textContent = cat;
-            select.appendChild(option);
-        }
-        const optionSans = document.createElement("option");
-        optionSans.value = CATEGORIE_SANS;
-        optionSans.textContent = "Sans catégorie";
-        select.appendChild(optionSans);
+    // Rafraîchit les deux listes de suggestions (seule celle du mode actif est
+    // visible, mais les deux doivent rester à jour puisque les filtres sont partagés).
+    function rafraichirLesDeux() {
+        controleurPrincipal.rafraichir();
+        controleurRemplacement.rafraichir();
     }
 
+    // Catégories disponibles pour le filtre (partagé entre les deux modes).
+    // Les UV sans catégorie n'ont plus leur propre filtre : elles apparaissent
+    // désormais dans les résultats de CS/TM/TSH, quel que soit celui choisi.
+    const categories = Array.from(new Set(toutesCodes.map(c => enseignements[c].categorie).filter(Boolean))).sort();
+    const optionsCategorie = [
+        { valeur: "", libelle: "Toutes" },
+        ...categories.map(cat => ({ valeur: cat, libelle: cat })),
+    ];
+    construireBoutonsUniques(filtreCategorieBoutons, optionsCategorie, categorieFiltreValeur, (v) => {
+        categorieFiltreValeur = v;
+        rafraichirLesDeux();
+    });
+
+    // Branches disponibles pour le filtre (partagé entre les deux modes).
+    // Clé = branche en minuscules (pour fusionner ex. "master"/"Master"), valeur = libellé affiché.
+    const branchesParCle = new Map();
+    for (const code of toutesCodes) {
+        for (const branche of enseignements[code].branches || []) {
+            const cle = branche.toLowerCase();
+            if (!branchesParCle.has(cle)) branchesParCle.set(cle, libelleBranche(branche));
+        }
+    }
+    // Ordre d'affichage voulu : TC en premier, puis les branches, puis les cursus master/edhec.
+    // Toute branche imprévue (pas dans cette liste) est ajoutée à la fin, par ordre alphabétique.
+    const ORDRE_BRANCHES = ["tc", "gb", "gi", "gp", "gu", "im", "master", "edhec"];
+    const branchesTriees = Array.from(branchesParCle.entries()).sort((a, b) => {
+        const iA = ORDRE_BRANCHES.indexOf(a[0]);
+        const iB = ORDRE_BRANCHES.indexOf(b[0]);
+        if (iA !== -1 && iB !== -1) return iA - iB;
+        if (iA !== -1) return -1;
+        if (iB !== -1) return 1;
+        return a[1].localeCompare(b[1], "fr");
+    });
+    construireBoutonsBranche(filtreBrancheBoutons, branchesTriees, branchesSelectionnees, rafraichirLesDeux);
+
+    const optionsDiplomante = [
+        { valeur: "", libelle: "Toutes" },
+        { valeur: "oui", libelle: "Diplomante" },
+        { valeur: "non", libelle: "Non diplomante" },
+    ];
+    construireBoutonsUniques(filtreDiplomanteBoutons, optionsDiplomante, diplomanteFiltreValeur, (v) => {
+        diplomanteFiltreValeur = v;
+        rafraichirLesDeux();
+    });
+
+    const optionsApprenti = [
+        { valeur: "", libelle: "Toutes" },
+        { valeur: "oui", libelle: "Apprenti" },
+        { valeur: "non", libelle: "Non apprenti" },
+    ];
+    construireBoutonsUniques(filtreApprentiBoutons, optionsApprenti, apprentiFiltreValeur, (v) => {
+        apprentiFiltreValeur = v;
+        rafraichirLesDeux();
+    });
+
     const actif = toutesCodes.length > 0;
-    filtreCategorie.disabled = !actif;
     ajoutUv.disabled = !actif;
-    filtreCategorieRemplacement.disabled = !actif;
     ajoutUvRemplacement.disabled = !actif;
 
     infoChargement.textContent = `${toutesCodes.length} enseignements chargés`;
@@ -222,13 +362,13 @@ function initialiser() {
         : "";
 
     selection = chargerSelectionSauvegardee();
-    rafraichirSuggestions();
-    renderTableauSelection();
-    majInfoSelection();
+    controleurPrincipal.rafraichir();
+    controleurPrincipal.renderTableau();
+    controleurPrincipal.majInfo();
 
-    rafraichirSuggestionsRemplacement();
-    renderTableauSelectionRemplacement();
-    majInfoSelectionRemplacement();
+    controleurRemplacement.rafraichir();
+    controleurRemplacement.renderTableau();
+    controleurRemplacement.majInfo();
 
     verifierEtAfficher();
 }
@@ -260,161 +400,353 @@ function sauvegarderSelection() {
 // Bloc principal : sélection des enseignements
 // =========================================================================
 
-function rafraichirSuggestions() {
-    const texte = ajoutUv.value.trim().toLowerCase();
-    const categorie = filtreCategorie.value;
-    suggestionsCourantes = toutesCodes.filter(code => {
-        if (selection.includes(code)) return false;
-        if (texte && !code.toLowerCase().includes(texte)) return false;
-        if (categorie) {
-            const cat = enseignements[code].categorie;
-            if (categorie === CATEGORIE_SANS) { if (cat) return false; }
-            else if (cat !== categorie) return false;
-        }
-        return true;
-    }).slice(0, 8);
-    suggestionIndex = suggestionsCourantes.length ? 0 : -1;
-    renderSuggestions();
-}
-
-function renderSuggestions() {
-    suggestionsAjout.innerHTML = "";
-    if (suggestionsCourantes.length === 0 || document.activeElement !== ajoutUv) {
-        suggestionsAjout.hidden = true;
-        return;
-    }
-    suggestionsCourantes.forEach((code, i) => {
-        const item = document.createElement("div");
-        item.className = "suggestion-item" + (i === suggestionIndex ? " active" : "");
-        item.textContent = libelleOption(code);
-        item.addEventListener("mousedown", (e) => {
-            e.preventDefault(); // évite que le blur ne ferme la liste avant le clic
-            choisirSuggestion(code);
+// Construit un groupe de boutons à bascule (multi-sélection) pour les branches.
+// `ensembleSelection` est un Set (muté en place) contenant les clés (minuscules) cochées.
+function construireBoutonsBranche(conteneur, branchesTriees, ensembleSelection, onChange) {
+    conteneur.innerHTML = "";
+    for (const [cle, libelle] of branchesTriees) {
+        const bouton = document.createElement("button");
+        bouton.type = "button";
+        bouton.className = "bouton-filtre" + (ensembleSelection.has(cle) ? " actif" : "");
+        bouton.textContent = libelle;
+        bouton.dataset.valeur = cle;
+        bouton.addEventListener("click", () => {
+            if (ensembleSelection.has(cle)) ensembleSelection.delete(cle);
+            else ensembleSelection.add(cle);
+            bouton.classList.toggle("actif");
+            onChange();
         });
-        suggestionsAjout.appendChild(item);
-    });
-    suggestionsAjout.hidden = false;
+        conteneur.appendChild(bouton);
+    }
 }
 
-function choisirSuggestion(code) {
-    ajouterSelection(code);
-    ajoutUv.value = "";
-    ajoutUv.focus();
-    rafraichirSuggestions();
+// Construit un groupe de boutons à choix UNIQUE (catégorie, diplomante...).
+// `options` = [{ valeur, libelle }], `valeurInitiale` détermine le bouton actif au départ.
+function construireBoutonsUniques(conteneur, options, valeurInitiale, onChange) {
+    conteneur.innerHTML = "";
+    for (const { valeur, libelle } of options) {
+        const bouton = document.createElement("button");
+        bouton.type = "button";
+        bouton.className = "bouton-filtre" + (valeur === valeurInitiale ? " actif" : "");
+        bouton.textContent = libelle;
+        bouton.dataset.valeur = valeur;
+        bouton.addEventListener("click", () => {
+            for (const b of conteneur.querySelectorAll("button")) b.classList.remove("actif");
+            bouton.classList.add("actif");
+            onChange(valeur);
+        });
+        conteneur.appendChild(bouton);
+    }
 }
 
-ajoutUv.addEventListener("input", rafraichirSuggestions);
-ajoutUv.addEventListener("focus", rafraichirSuggestions);
-ajoutUv.addEventListener("blur", () => { suggestionsAjout.hidden = true; });
-ajoutUv.addEventListener("keydown", (e) => {
-    if (e.key === "ArrowDown") {
-        if (suggestionsCourantes.length) {
-            e.preventDefault();
-            suggestionIndex = (suggestionIndex + 1) % suggestionsCourantes.length;
-            renderSuggestions();
+// UV d'apprentis : codes commençant par AC/AI/AM/LH/SH.
+const PREFIXES_APPRENTI = ["AC", "AI", "AM", "LH", "SH"];
+function estApprenti(code) {
+    return PREFIXES_APPRENTI.some(p => code.startsWith(p));
+}
+function correspondFiltreApprenti(code, apprentiFiltre) {
+    if (!apprentiFiltre) return true;
+    const apprenti = estApprenti(code);
+    if (apprentiFiltre === "oui") return apprenti;
+    if (apprentiFiltre === "non") return !apprenti;
+    return true;
+}
+
+// Filtre commun "branche(s)" + "diplomante" (partagé entre les deux blocs).
+// `branchesFiltre` est un Set de branches (clés minuscules) ; vide = toutes.
+function correspondFiltreBrancheDiplomante(code, branchesFiltre, diplomanteFiltre) {
+    const e = enseignements[code];
+    if (branchesFiltre.size > 0) {
+        let uneCorrespond = false;
+        for (const b of branchesFiltre) {
+            if (e.aBranche(b)) { uneCorrespond = true; break; }
         }
-    } else if (e.key === "ArrowUp") {
-        if (suggestionsCourantes.length) {
-            e.preventDefault();
-            suggestionIndex = (suggestionIndex - 1 + suggestionsCourantes.length) % suggestionsCourantes.length;
-            renderSuggestions();
-        }
-    } else if (e.key === "Enter") {
-        e.preventDefault();
-        if (suggestionIndex >= 0 && suggestionsCourantes[suggestionIndex]) {
-            choisirSuggestion(suggestionsCourantes[suggestionIndex]);
+        if (!uneCorrespond) return false;
+    }
+    if (diplomanteFiltre) {
+        if (branchesFiltre.size > 0) {
+            // vrai si le statut demandé correspond pour AU MOINS UNE des branches cochées
+            let ok = false;
+            for (const b of branchesFiltre) {
+                const valeur = e.diplomantePour(b);
+                if (diplomanteFiltre === "oui" && valeur === true) { ok = true; break; }
+                if (diplomanteFiltre === "non" && valeur === false) { ok = true; break; }
+            }
+            if (!ok) return false;
         } else {
-            const texte = ajoutUv.value.trim().toUpperCase();
-            const exact = toutesCodes.find(c => c.toUpperCase() === texte && !selection.includes(c));
-            if (exact) choisirSuggestion(exact);
+            const valeur = e.diplomantePour(null);
+            if (diplomanteFiltre === "oui" && valeur !== true) return false;
+            if (diplomanteFiltre === "non" && valeur !== false) return false;
         }
-    } else if (e.key === "Escape") {
-        suggestionsAjout.hidden = true;
     }
-});
-filtreCategorie.addEventListener("change", rafraichirSuggestions);
-
-function ajouterSelection(code) {
-    if (selection.includes(code)) return;
-    selection.push(code);
-    // Une UV ne peut pas être à la fois principale et "remplacement" en test
-    if (selectionRemplacement.includes(code)) {
-        selectionRemplacement = selectionRemplacement.filter(c => c !== code);
-        apresChangementSelectionRemplacement(false);
-    }
-    apresChangementSelection();
+    return true;
 }
 
-function retirerSelection(code) {
-    selection = selection.filter(c => c !== code);
-    apresChangementSelection();
+// =========================================================================
+// Contrôleur générique de sélection (recherche + suggestions + tableau).
+// Instancié une fois pour la sélection principale, une fois pour le
+// remplacement : évite de dupliquer à la main la même logique deux fois
+// (c'était le cas avant — voir historique du projet).
+// =========================================================================
+
+function creerControleurSelection(config) {
+    let suggestionsCourantes = [];
+    let suggestionIndex = -1;
+
+    function correspond(code) {
+        const texte = config.inputEl.value.trim().toLowerCase();
+        if (config.obtenirListe().includes(code)) return false;
+        if (config.exclureAutreListe && config.obtenirAutreListe().includes(code)) return false;
+        if (texte && !code.toLowerCase().includes(texte)) return false;
+        if (categorieFiltreValeur) {
+            const cat = enseignements[code].categorie;
+            // les UV sans catégorie apparaissent dans les résultats de n'importe quel filtre CS/TM/TSH
+            if (cat && cat !== categorieFiltreValeur) return false;
+        }
+        if (!correspondFiltreBrancheDiplomante(code, branchesSelectionnees, diplomanteFiltreValeur)) return false;
+        if (!correspondFiltreApprenti(code, apprentiFiltreValeur)) return false;
+        return true;
+    }
+
+    function rafraichir() {
+        suggestionsCourantes = toutesCodes.filter(correspond);
+        suggestionIndex = suggestionsCourantes.length ? 0 : -1;
+        render();
+    }
+
+    function render() {
+        config.suggestionsEl.innerHTML = "";
+        if (suggestionsCourantes.length === 0 || document.activeElement !== config.inputEl) {
+            config.suggestionsEl.hidden = true;
+            return;
+        }
+        suggestionsCourantes.forEach((code, i) => {
+            const item = document.createElement("div");
+            item.className = "suggestion-item" + (i === suggestionIndex ? " active" : "");
+            item.textContent = libelleOption(code, branchesSelectionnees);
+            item.addEventListener("mousedown", (e) => {
+                e.preventDefault(); // évite que le blur ne ferme la liste avant le clic
+                choisir(code);
+            });
+            config.suggestionsEl.appendChild(item);
+        });
+        config.suggestionsEl.hidden = false;
+    }
+
+    function choisir(code) {
+        ajouter(code);
+        config.inputEl.value = "";
+        config.inputEl.focus();
+        rafraichir();
+    }
+
+    function ajouter(code) {
+        const liste = config.obtenirListe();
+        if (liste.includes(code)) return;
+        config.definirListe([...liste, code]);
+        if (config.onAjoutRetireDeLAutre) config.onAjoutRetireDeLAutre(code);
+        config.onApresChangement();
+    }
+
+    function retirer(code) {
+        config.definirListe(config.obtenirListe().filter(c => c !== code));
+        config.onApresChangement();
+    }
+
+    function toutSupprimer() {
+        if (config.obtenirListe().length === 0) return;
+        config.definirListe([]);
+        config.onApresChangement();
+    }
+
+    function renderTableau() {
+        for (const cle of Object.keys(config.colonnes)) config.colonnes[cle].innerHTML = "";
+        for (const code of config.obtenirListe()) {
+            const e = enseignements[code];
+            const col = colonnePour(e.categorie);
+            const chip = document.createElement("div");
+            chip.className = `chip chip-${col.toLowerCase()}`;
+            const texte = document.createElement("span");
+            texte.className = "chip-texte";
+            const lienCode = document.createElement("a");
+            lienCode.href = urlFicheUV(code);
+            lienCode.target = "_blank";
+            lienCode.rel = "noopener";
+            lienCode.className = "chip-lien";
+            lienCode.title = `Voir la fiche de ${code} sur uvweb`;
+            lienCode.textContent = code;
+            texte.appendChild(lienCode);
+            texte.appendChild(document.createTextNode(config.formatSuffixeChip(e)));
+            const btnX = document.createElement("button");
+            btnX.type = "button";
+            btnX.className = "chip-supprimer";
+            btnX.setAttribute("aria-label", config.ariaLabelSuppression(code));
+            btnX.textContent = "×";
+            btnX.addEventListener("click", () => retirer(code));
+            chip.appendChild(texte);
+            chip.appendChild(btnX);
+            config.colonnes[col].appendChild(chip);
+        }
+    }
+
+    function majInfo() {
+        const n = config.obtenirListe().length;
+        const vide = n === 0;
+        config.btnToutSupprimer.disabled = vide;
+        config.infoEl.textContent = vide ? config.texteVide : config.texteCompte(n);
+        majBoutonsExport();
+    }
+
+    config.inputEl.addEventListener("input", rafraichir);
+    config.inputEl.addEventListener("focus", rafraichir);
+    config.inputEl.addEventListener("blur", () => { config.suggestionsEl.hidden = true; });
+    config.inputEl.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowDown") {
+            if (suggestionsCourantes.length) {
+                e.preventDefault();
+                suggestionIndex = (suggestionIndex + 1) % suggestionsCourantes.length;
+                render();
+            }
+        } else if (e.key === "ArrowUp") {
+            if (suggestionsCourantes.length) {
+                e.preventDefault();
+                suggestionIndex = (suggestionIndex - 1 + suggestionsCourantes.length) % suggestionsCourantes.length;
+                render();
+            }
+        } else if (e.key === "Enter") {
+            e.preventDefault();
+            if (suggestionIndex >= 0 && suggestionsCourantes[suggestionIndex]) {
+                choisir(suggestionsCourantes[suggestionIndex]);
+            } else {
+                const texte = config.inputEl.value.trim().toUpperCase();
+                const exact = toutesCodes.find(c => c.toUpperCase() === texte
+                    && !config.obtenirListe().includes(c)
+                    && (!config.exclureAutreListe || !config.obtenirAutreListe().includes(c)));
+                if (exact) choisir(exact);
+            }
+        } else if (e.key === "Escape") {
+            config.suggestionsEl.hidden = true;
+        }
+    });
+    config.btnToutSupprimer.addEventListener("click", toutSupprimer);
+
+    return { rafraichir, render, renderTableau, majInfo, ajouter, retirer };
 }
 
-btnToutSupprimer.addEventListener("click", () => {
-    if (selection.length === 0) return;
-    selection = [];
-    apresChangementSelection();
-});
+// --- Instance "sélection principale" ---
 
 function apresChangementSelection() {
     sauvegarderSelection();
-    rafraichirSuggestions();
-    renderTableauSelection();
-    majInfoSelection();
-    rafraichirSuggestionsRemplacement(); // les UV principales ne doivent plus apparaître comme remplacement
+    controleurPrincipal.rafraichir();
+    controleurPrincipal.renderTableau();
+    controleurPrincipal.majInfo();
+    controleurRemplacement.rafraichir(); // les UV principales ne doivent plus apparaître comme remplacement
     verifierEtAfficher();
 }
 
-function renderTableauSelection() {
-    for (const cle of Object.keys(colonnes)) colonnes[cle].innerHTML = "";
-    for (const code of selection) {
-        const e = enseignements[code];
-        const col = colonnePour(e.categorie);
-        const chip = document.createElement("div");
-        chip.className = `chip chip-${col.toLowerCase()}`;
-        const texte = document.createElement("span");
-        texte.className = "chip-texte";
+const controleurPrincipal = creerControleurSelection({
+    inputEl: ajoutUv,
+    suggestionsEl: suggestionsAjout,
+    colonnes,
+    btnToutSupprimer,
+    infoEl: infoSelection,
+    texteVide: "Aucun enseignement sélectionné.",
+    texteCompte: (n) => `${n} enseignement(s) sélectionné(s).`,
+    ariaLabelSuppression: (code) => `Retirer ${code} de la sélection`,
+    formatSuffixeChip: (e) => {
         const ects = e.ects !== null && e.ects !== undefined ? `${e.ects} ECTS` : "ECTS ?";
-        texte.textContent = e.categorie ? `${code} (${ects})` : `${code} (${ects}, sans catégorie)`;
-        const btnX = document.createElement("button");
-        btnX.type = "button";
-        btnX.className = "chip-supprimer";
-        btnX.setAttribute("aria-label", `Retirer ${code} de la sélection`);
-        btnX.textContent = "×";
-        btnX.addEventListener("click", () => retirerSelection(code));
-        chip.appendChild(texte);
-        chip.appendChild(btnX);
-        colonnes[col].appendChild(chip);
-    }
+        return e.categorie ? ` (${ects})` : ` (${ects}, sans catégorie)`;
+    },
+    obtenirListe: () => selection,
+    definirListe: (v) => { selection = v; },
+    exclureAutreListe: false, // une UV en remplacement peut toujours être "promue" en principal
+    obtenirAutreListe: () => selectionRemplacement,
+    // Une UV ne peut pas être à la fois principale et "remplacement" en test :
+    // si on la choisit côté principal, on la retire automatiquement des remplacements.
+    onAjoutRetireDeLAutre: (code) => {
+        if (selectionRemplacement.includes(code)) {
+            selectionRemplacement = selectionRemplacement.filter(c => c !== code);
+            apresChangementSelectionRemplacement(false); // pas de recalcul ici : verifierEtAfficher() s'en charge juste après
+        }
+    },
+    onApresChangement: apresChangementSelection,
+});
+
+// --- Instance "sélection de remplacement" ---
+
+function apresChangementSelectionRemplacement(recalculer = true) {
+    controleurRemplacement.rafraichir();
+    controleurRemplacement.renderTableau();
+    controleurRemplacement.majInfo();
+    if (recalculer) calculerEtAfficherRemplacement();
 }
 
-function majInfoSelection() {
-    const vide = selection.length === 0;
-    btnToutSupprimer.disabled = vide;
-    btnCopierSelection.disabled = vide;
-    btnTelechargerSelection.disabled = vide;
-    infoSelection.textContent = vide
-        ? "Aucun enseignement sélectionné."
-        : `${selection.length} enseignement(s) sélectionné(s).`;
+const controleurRemplacement = creerControleurSelection({
+    inputEl: ajoutUvRemplacement,
+    suggestionsEl: suggestionsAjoutRemplacement,
+    colonnes: colonnesRemplacement,
+    btnToutSupprimer: btnToutSupprimerRemplacement,
+    infoEl: infoSelectionRemplacement,
+    texteVide: "Aucun enseignement de remplacement sélectionné.",
+    texteCompte: (n) => `${n} enseignement(s) de remplacement sélectionné(s).`,
+    ariaLabelSuppression: (code) => `Retirer ${code} des remplacements testés`,
+    formatSuffixeChip: (e) => e.categorie ? "" : " (sans catégorie)",
+    obtenirListe: () => selectionRemplacement,
+    definirListe: (v) => { selectionRemplacement = v; },
+    exclureAutreListe: true, // on ne peut pas tester en remplacement une UV déjà principale
+    obtenirAutreListe: () => selection,
+    onApresChangement: () => apresChangementSelectionRemplacement(true),
+});
+
+// Copier/télécharger portent sur les deux listes réunies : actifs dès que l'une des deux n'est pas vide.
+function majBoutonsExport() {
+    const toutVide = selection.length === 0 && selectionRemplacement.length === 0;
+    btnCopierSelection.disabled = toutVide;
+    btnTelechargerSelection.disabled = toutVide;
 }
 
-// --- Export / copie de la sélection principale ---
+// --- Export / copie de la sélection complète (principale + remplacement) ---
 
 function texteExportSelection() {
     const lignes = [];
-    for (const cle of ["CS", "TM", "TSH"]) {
-        const codesCol = selection.filter(c => colonnePour(enseignements[c].categorie) === cle);
-        if (codesCol.length === 0) continue;
-        lignes.push(`${cle} :`);
-        for (const code of codesCol) {
-            const e = enseignements[code];
-            const ects = e.ects !== null && e.ects !== undefined ? `${e.ects} ECTS` : "ECTS ?";
-            lignes.push(`  - ${code} (${ects}${e.categorie ? "" : ", sans catégorie"})`);
+    lignes.push("=== Sélection principale ===");
+    lignes.push("");
+    if (selection.length === 0) {
+        lignes.push("(aucune)");
+        lignes.push("");
+    } else {
+        for (const cle of ["CS", "TM", "TSH"]) {
+            const codesCol = selection.filter(c => colonnePour(enseignements[c].categorie) === cle);
+            if (codesCol.length === 0) continue;
+            lignes.push(`${cle} :`);
+            for (const code of codesCol) {
+                const e = enseignements[code];
+                const ects = e.ects !== null && e.ects !== undefined ? `${e.ects} ECTS` : "ECTS ?";
+                lignes.push(`  - ${code} (${ects}${e.categorie ? "" : ", sans catégorie"})`);
+            }
+            lignes.push("");
         }
+        const { total, inconnu } = totalEcts(selection);
+        lignes.push(`Total ECTS : ${total}${inconnu ? " (partiel, ECTS inconnu pour au moins une UV)" : ""}`);
         lignes.push("");
     }
-    const { total, inconnu } = totalEcts(selection);
-    lignes.push(`Total ECTS : ${total}${inconnu ? " (partiel, ECTS inconnu pour au moins une UV)" : ""}`);
+
+    lignes.push("=== Sélection de remplacement ===");
+    lignes.push("");
+    if (selectionRemplacement.length === 0) {
+        lignes.push("(aucune)");
+    } else {
+        for (const cle of ["CS", "TM", "TSH"]) {
+            const codesCol = selectionRemplacement.filter(c => colonnePour(enseignements[c].categorie) === cle);
+            if (codesCol.length === 0) continue;
+            lignes.push(`${cle} :`);
+            for (const code of codesCol) {
+                const e = enseignements[code];
+                lignes.push(`  - ${code}${e.categorie ? "" : " (sans catégorie)"}`);
+            }
+            lignes.push("");
+        }
+    }
     return lignes.join("\n").trim();
 }
 
@@ -443,7 +775,7 @@ btnTelechargerSelection.addEventListener("click", () => {
     URL.revokeObjectURL(url);
 });
 
-// --- Calcul ECTS / compatibilité (bloc principal) ---
+// --- Calcul ECTS / compatibilité (sélection principale) ---
 
 function totalEcts(codes) {
     let total = 0;
@@ -467,207 +799,72 @@ function calculerEtAfficher() {
     ectsBadge.textContent = `${total} ECTS${inconnu ? " (partiel)" : ""}`;
 
     if (selection.length === 0) {
-        badge.textContent = "-";
-        badge.className = "resultat-badge neutre";
-        detailMessage.textContent = "Sélectionnez au moins un enseignement.";
+        avertissementsPrincipal = [];
         resumeCompatibilite.textContent = "";
         compatiblesTexte.value = "";
         incompatiblesTexte.value = "";
         validesPrincipal = [];
+        mettreAJourSimulateur([], false);
         calculerEtAfficherRemplacement();
         return;
     }
 
     const { valides, inconnus, exclusRedemandes } = validerSelection(enseignements, codesExclus, selection);
     validesPrincipal = valides;
-    let avertissements = [];
-    if (inconnus.length) avertissements.push("Codes inconnus ignorés : " + inconnus.join(", "));
-    if (exclusRedemandes.length) avertissements.push("Codes ignorés (cas non pris en charge) : " + exclusRedemandes.join(", "));
+    avertissementsPrincipal = [];
+    if (inconnus.length) avertissementsPrincipal.push("Codes inconnus ignorés : " + inconnus.join(", "));
+    if (exclusRedemandes.length) avertissementsPrincipal.push("Codes ignorés (cas non pris en charge) : " + exclusRedemandes.join(", "));
 
-    const { satisfiable, message } = testeEnsemble(enseignements, valides);
+    // Compatibles/incompatibles et simulateur portent sur la sélection principale
+    // seule (indépendamment de ce qui est testé côté remplacement) ; le badge
+    // SAT/UNSAT, lui, est géré par calculerEtAfficherRemplacement() ci-dessous
+    // car il reflète la combinaison principal + remplacement.
+    const { satisfiable } = testeEnsemble(enseignements, valides);
     if (!satisfiable) {
-        badge.textContent = "UNSAT";
-        badge.className = "resultat-badge unsat";
-        const texte = message || "L'ensemble sélectionné est déjà insatisfaisable : retirez un code pour continuer.";
-        detailMessage.textContent = [texte, ...avertissements].join("\n");
         resumeCompatibilite.textContent = "";
         compatiblesTexte.value = "";
         incompatiblesTexte.value = "";
+        mettreAJourSimulateur(valides, false);
         calculerEtAfficherRemplacement();
         return;
     }
 
-    badge.textContent = "SAT";
-    badge.className = "resultat-badge sat";
-    detailMessage.textContent = avertissements.join("\n");
     const { compatibles, incompatibles } = calculerCompatibilites(enseignements, valides);
     const totalRestant = compatibles.length + incompatibles.length;
     resumeCompatibilite.textContent = totalRestant > 0
         ? `${compatibles.length} UV encore compatible(s) sur ${totalRestant} restante(s) (hors sélection actuelle).`
         : "";
-    compatiblesTexte.value = compatibles.length ? compatibles.map(libelleOption).join("\n") : "Aucun code encore compatible avec la sélection actuelle.";
-    incompatiblesTexte.value = incompatibles.length ? incompatibles.map(libelleOption).join("\n") : "Aucun code incompatible avec la sélection actuelle.";
+    compatiblesTexte.value = compatibles.length ? compatibles.map(c => libelleOption(c, branchesSelectionnees)).join("\n") : "Aucun code encore compatible avec la sélection actuelle.";
+    incompatiblesTexte.value = incompatibles.length ? incompatibles.map(c => libelleOption(c, branchesSelectionnees)).join("\n") : "Aucun code incompatible avec la sélection actuelle.";
 
+    mettreAJourSimulateur(valides, true);
     calculerEtAfficherRemplacement();
 }
 
-// =========================================================================
-// Bloc "enseignements de remplacement" : même principe, sans ECTS
-// =========================================================================
-
-function rafraichirSuggestionsRemplacement() {
-    const texte = ajoutUvRemplacement.value.trim().toLowerCase();
-    const categorie = filtreCategorieRemplacement.value;
-    suggestionsCourantesRemplacement = toutesCodes.filter(code => {
-        if (selection.includes(code)) return false; // déjà dans la sélection principale
-        if (selectionRemplacement.includes(code)) return false;
-        if (texte && !code.toLowerCase().includes(texte)) return false;
-        if (categorie) {
-            const cat = enseignements[code].categorie;
-            if (categorie === CATEGORIE_SANS) { if (cat) return false; }
-            else if (cat !== categorie) return false;
-        }
-        return true;
-    }).slice(0, 8);
-    suggestionIndexRemplacement = suggestionsCourantesRemplacement.length ? 0 : -1;
-    renderSuggestionsRemplacement();
-}
-
-function renderSuggestionsRemplacement() {
-    suggestionsAjoutRemplacement.innerHTML = "";
-    if (suggestionsCourantesRemplacement.length === 0 || document.activeElement !== ajoutUvRemplacement) {
-        suggestionsAjoutRemplacement.hidden = true;
-        return;
-    }
-    suggestionsCourantesRemplacement.forEach((code, i) => {
-        const item = document.createElement("div");
-        item.className = "suggestion-item" + (i === suggestionIndexRemplacement ? " active" : "");
-        item.textContent = libelleOption(code);
-        item.addEventListener("mousedown", (e) => {
-            e.preventDefault();
-            choisirSuggestionRemplacement(code);
-        });
-        suggestionsAjoutRemplacement.appendChild(item);
-    });
-    suggestionsAjoutRemplacement.hidden = false;
-}
-
-function choisirSuggestionRemplacement(code) {
-    ajouterSelectionRemplacement(code);
-    ajoutUvRemplacement.value = "";
-    ajoutUvRemplacement.focus();
-    rafraichirSuggestionsRemplacement();
-}
-
-ajoutUvRemplacement.addEventListener("input", rafraichirSuggestionsRemplacement);
-ajoutUvRemplacement.addEventListener("focus", rafraichirSuggestionsRemplacement);
-ajoutUvRemplacement.addEventListener("blur", () => { suggestionsAjoutRemplacement.hidden = true; });
-ajoutUvRemplacement.addEventListener("keydown", (e) => {
-    if (e.key === "ArrowDown") {
-        if (suggestionsCourantesRemplacement.length) {
-            e.preventDefault();
-            suggestionIndexRemplacement = (suggestionIndexRemplacement + 1) % suggestionsCourantesRemplacement.length;
-            renderSuggestionsRemplacement();
-        }
-    } else if (e.key === "ArrowUp") {
-        if (suggestionsCourantesRemplacement.length) {
-            e.preventDefault();
-            suggestionIndexRemplacement = (suggestionIndexRemplacement - 1 + suggestionsCourantesRemplacement.length) % suggestionsCourantesRemplacement.length;
-            renderSuggestionsRemplacement();
-        }
-    } else if (e.key === "Enter") {
-        e.preventDefault();
-        if (suggestionIndexRemplacement >= 0 && suggestionsCourantesRemplacement[suggestionIndexRemplacement]) {
-            choisirSuggestionRemplacement(suggestionsCourantesRemplacement[suggestionIndexRemplacement]);
-        } else {
-            const texte = ajoutUvRemplacement.value.trim().toUpperCase();
-            const exact = toutesCodes.find(c => c.toUpperCase() === texte && !selection.includes(c) && !selectionRemplacement.includes(c));
-            if (exact) choisirSuggestionRemplacement(exact);
-        }
-    } else if (e.key === "Escape") {
-        suggestionsAjoutRemplacement.hidden = true;
-    }
-});
-filtreCategorieRemplacement.addEventListener("change", rafraichirSuggestionsRemplacement);
-
-function ajouterSelectionRemplacement(code) {
-    if (selectionRemplacement.includes(code)) return;
-    selectionRemplacement.push(code);
-    apresChangementSelectionRemplacement();
-}
-
-function retirerSelectionRemplacement(code) {
-    selectionRemplacement = selectionRemplacement.filter(c => c !== code);
-    apresChangementSelectionRemplacement();
-}
-
-btnToutSupprimerRemplacement.addEventListener("click", () => {
-    if (selectionRemplacement.length === 0) return;
-    selectionRemplacement = [];
-    apresChangementSelectionRemplacement();
-});
-
-function apresChangementSelectionRemplacement(recalculer = true) {
-    rafraichirSuggestionsRemplacement();
-    renderTableauSelectionRemplacement();
-    majInfoSelectionRemplacement();
-    if (recalculer) calculerEtAfficherRemplacement();
-}
-
-function renderTableauSelectionRemplacement() {
-    for (const cle of Object.keys(colonnesRemplacement)) colonnesRemplacement[cle].innerHTML = "";
-    for (const code of selectionRemplacement) {
-        const e = enseignements[code];
-        const col = colonnePour(e.categorie);
-        const chip = document.createElement("div");
-        chip.className = `chip chip-${col.toLowerCase()}`;
-        const texte = document.createElement("span");
-        texte.className = "chip-texte";
-        texte.textContent = e.categorie ? code : `${code} (sans catégorie)`;
-        const btnX = document.createElement("button");
-        btnX.type = "button";
-        btnX.className = "chip-supprimer";
-        btnX.setAttribute("aria-label", `Retirer ${code} des remplacements testés`);
-        btnX.textContent = "×";
-        btnX.addEventListener("click", () => retirerSelectionRemplacement(code));
-        chip.appendChild(texte);
-        chip.appendChild(btnX);
-        colonnesRemplacement[col].appendChild(chip);
-    }
-}
-
-function majInfoSelectionRemplacement() {
-    const vide = selectionRemplacement.length === 0;
-    btnToutSupprimerRemplacement.disabled = vide;
-    infoSelectionRemplacement.textContent = vide
-        ? "Aucun enseignement de remplacement sélectionné."
-        : `${selectionRemplacement.length} enseignement(s) de remplacement sélectionné(s).`;
-}
-
+// Pilote le badge SAT/UNSAT affiché à côté des ECTS (sélection principale) :
+// reflète la sélection principale seule tant qu'aucun remplacement n'est
+// testé, et la combinaison principal + remplacement dès qu'on en ajoute un.
 function calculerEtAfficherRemplacement() {
     if (selection.length === 0) {
-        badgeRemplacement.textContent = "-";
-        badgeRemplacement.className = "resultat-badge neutre";
-        detailMessageRemplacement.textContent = "Sélectionnez d'abord des enseignements principaux (bloc 1).";
-        return;
-    }
-    if (selectionRemplacement.length === 0) {
-        badgeRemplacement.textContent = "-";
-        badgeRemplacement.className = "resultat-badge neutre";
-        detailMessageRemplacement.textContent = "Ajoutez une UV pour tester sa compatibilité avec votre sélection principale.";
+        badge.textContent = "-";
+        badge.className = "resultat-badge neutre";
+        detailMessage.textContent = "Sélectionnez au moins un enseignement.";
         return;
     }
     const combinaison = [...validesPrincipal, ...selectionRemplacement];
     const { satisfiable, message } = testeEnsemble(enseignements, combinaison);
     if (!satisfiable) {
-        badgeRemplacement.textContent = "UNSAT";
-        badgeRemplacement.className = "resultat-badge unsat";
-        detailMessageRemplacement.textContent = message || "Cette combinaison n'est pas compatible avec votre sélection principale.";
+        badge.textContent = "UNSAT";
+        badge.className = "resultat-badge unsat";
+        const texte = message || (selectionRemplacement.length
+            ? "Cette combinaison n'est pas compatible avec votre sélection principale."
+            : "L'ensemble sélectionné est déjà insatisfaisable : retirez un code pour continuer.");
+        detailMessage.textContent = [texte, ...avertissementsPrincipal].join("\n");
         return;
     }
-    badgeRemplacement.textContent = "SAT";
-    badgeRemplacement.className = "resultat-badge sat";
-    detailMessageRemplacement.textContent = "";
+    badge.textContent = "SAT";
+    badge.className = "resultat-badge sat";
+    detailMessage.textContent = avertissementsPrincipal.join("\n");
 }
 </script>
 </body>

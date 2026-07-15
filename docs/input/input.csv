@@ -1,1326 +1,1326 @@
-Code enseig.,Spécialité,Diplomante,Activité,Jour,Heure début,Heure fin,Semaine,Lib. créneau,Type UV,ECTS
-AC01,"GU, IM",Oui,Cours,Vendredi,10:15,12:15,,C,CS,5
-AC01,"GU, IM",Oui,TD,Lundi,14:15,16:15,,D,CS,5
-AC01,"GU, IM",Oui,TD,Mardi,08:00,10:00,,D,CS,5
-AC01,"GU, IM",Oui,TP,Mercredi,08:00,10:00,,T,CS,5
-AC01,"GU, IM",Oui,TP,Jeudi,14:15,16:15,,T,CS,5
-AC02,"GU, IM",Oui,Cours,Vendredi,10:15,12:15,,C,TM,4
-AC02,"GU, IM",Oui,TD,Lundi,13:15,16:15,,D,TM,4
-AC02,"GU, IM",Oui,TD,Mardi,10:15,13:15,,D,TM,4
-AC03,"GU, IM",Oui,Cours,Mercredi,14:15,16:15,,C,TM,4
-AC03,"GU, IM",Oui,TD,Mardi,10:15,12:15,,D,TM,4
-AC03,"GU, IM",Oui,TD,Mercredi,16:30,18:30,,D,TM,4
-AC05,"GU, IM",Oui,Cours,Jeudi,18:45,20:45,,C,CS,5
-AC05,"GU, IM",Oui,Cours,Mardi,14:15,16:15,,C,CS,5
-AC05,"GU, IM",Oui,TD,Jeudi,08:00,10:00,,D,CS,5
-AC05,"GU, IM",Oui,TD,Vendredi,10:15,12:15,,D,CS,5
-AC05,"GU, IM",Oui,TD,Vendredi,16:30,18:30,,D,CS,5
-AC05,"GU, IM",Oui,TP,Mardi,10:15,13:15,B,T,CS,5
-AC05,"GU, IM",Oui,TP,Mardi,10:15,13:15,A,T,CS,5
-AC05,"GU, IM",Oui,TP,Mercredi,16:30,19:30,,T,CS,5
-AC05,"GU, IM",Oui,TP,Vendredi,13:00,16:00,A,T,CS,5
-AC05,"GU, IM",Oui,TP,Vendredi,13:00,16:00,B,T,CS,5
-AI01,GU,Oui,Cours,Lundi,16:30,18:30,,C,CS,6
-AI01,GU,Oui,TD,Mercredi,10:15,12:15,,D,CS,6
-AI01,GU,Oui,TD,Mercredi,16:30,18:30,,D,CS,6
-AI01,GU,Oui,TP,Jeudi,10:15,12:15,,T,CS,6
-AI01,GU,Oui,TP,Jeudi,16:30,18:30,,T,CS,6
-AI02,GU,Oui,Cours,Mercredi,08:00,10:00,,C,CS,4
-AI02,GU,Oui,TD,Jeudi,16:30,18:30,,D,CS,4
-AI02,GU,Oui,TP,Vendredi,08:00,10:00,B,T,CS,4
-AI02,GU,Oui,TP,Vendredi,08:00,10:00,A,T,CS,4
-AI03,GU,Oui,Cours,Mardi,08:00,12:00,,C,TM,4
-AI04,GU,Oui,Cours,Jeudi,10:15,12:15,,C,CS,4
-AI04,GU,Oui,Cours,Vendredi,14:15,16:15,,C,CS,4
-AI05,GU,Oui,Cours,Mercredi,10:15,13:15,,C,CS,5
-AI05,GU,Oui,TD,Lundi,14:15,16:15,,D,CS,5
-AI05,GU,Oui,TD,Vendredi,08:00,10:00,,D,CS,5
-AI09,GU,Oui,Cours,Lundi,08:00,10:00,,C,CS,5
-AI09,GU,Oui,TD,Lundi,14:15,16:15,,D,CS,5
-AI10,GU,Oui,Cours,Mardi,16:30,19:30,,C,CS,5
-AI10,GU,Oui,TD,Mardi,14:15,16:15,,D,CS,5
-AI10,GU,Oui,TD,Mardi,10:15,12:15,,D,CS,5
-AI11,GU,Oui,Cours,Mercredi,16:30,18:30,,C,TM,4
-AI11,GU,Oui,TD,Jeudi,14:15,16:15,,D,TM,4
-AI12,GU,Oui,Cours,Mardi,08:00,10:00,,C,TM,5
-AI12,GU,Oui,TD,Mercredi,16:30,19:30,,D,TM,5
-AI13,GU,Oui,Cours,Lundi,16:30,18:30,,C,TM,4
-AI13,GU,Oui,Cours,Vendredi,16:30,18:30,,C,TM,4
-AI14,GU,Oui,Cours,Jeudi,08:00,10:00,,C,TM,5
-AI14,GU,Oui,TD,Jeudi,10:15,13:15,,D,TM,5
-AI15,GU,Oui,Cours,Lundi,14:15,16:15,,C,TM,4
-AI15,GU,Oui,TD,Mardi,14:15,16:15,,D,TM,4
-AI22,GU,Oui,Cours,Vendredi,08:00,10:00,,C,TM,5
-AI22,GU,Oui,TD,Mardi,08:00,12:00,,D,TM,5
-AI23,GU,Oui,Cours,Jeudi,08:00,10:00,,C,TM,5
-AI23,GU,Oui,TD,Jeudi,13:15,16:15,,D,TM,5
-AI24,GU,Oui,Cours,Mardi,16:30,18:30,,C,TM,4
-AI24,GU,Oui,Cours,Mercredi,16:30,18:30,,C,TM,4
-AI29,GU,Oui,Cours,Vendredi,10:15,12:15,,C,CS,4
-AI29,GU,Oui,TD,Jeudi,16:30,18:30,,D,CS,4
-AI29,GU,Oui,TP,Mercredi,08:00,10:00,A,T,CS,4
-AI29,GU,Oui,TP,Mercredi,08:00,10:00,B,T,CS,4
-AI30,GU,Oui,Cours,Mardi,16:30,18:30,,C,TM,5
-AI30,GU,Oui,TD,Lundi,16:30,19:30,,D,TM,5
-AI32,GU,Oui,Cours,Jeudi,10:15,12:15,,C,CS,5
-AI32,GU,Oui,TD,Mardi,16:30,18:30,,D,CS,5
-AI32,GU,Oui,TP,Mercredi,14:30,18:30,B,T,CS,5
-AI32,GU,Oui,TP,Mercredi,14:30,18:30,A,T,CS,5
-AI34,GU,Oui,Cours,Mardi,10:15,12:15,,C,TM,5
-AI34,GU,Oui,TD,Mardi,14:15,16:15,,D,TM,5
-AI34,GU,Oui,TP,Vendredi,14:15,16:15,,T,TM,5
-AI35,GU,Oui,Cours,Vendredi,16:30,18:00,,C,TM,5
-AI35,GU,Oui,TD,Vendredi,08:00,12:00,,D,TM,5
-AI36,GU,Oui,Cours,Mercredi,14:15,16:15,,C,TM,5
-AI36,GU,Oui,TD,Jeudi,14:30,18:30,,D,TM,5
-AI37,GU,Oui,Cours,Vendredi,10:15,12:15,,C,TM,5
-AI37,GU,Oui,TD,Vendredi,13:15,16:15,,D,TM,5
-AI38,GU,Oui,Cours,Jeudi,10:15,12:15,,C,TM,5
-AI38,GU,Oui,TD,Jeudi,14:15,16:15,,D,TM,5
-AM01,IM,Oui,Cours,Vendredi,16:30,18:00,,C,TM,6
-AM01,IM,Oui,TD,Lundi,08:00,12:00,,D,TM,6
-AM01,IM,Oui,TD,Mercredi,08:00,12:00,,D,TM,6
-AM02,IM,Oui,Cours,Jeudi,08:00,12:00,,C,TM,6
-AM02,IM,Oui,Cours,Lundi,16:30,19:30,,C,TM,6
-AM03,IM,Oui,Cours,Mardi,16:30,18:00,,C,CS,4
-AM03,IM,Oui,TD,Jeudi,10:15,13:15,,D,CS,4
-AM03,IM,Oui,TD,Jeudi,16:30,19:30,,D,CS,4
-AM04,IM,Oui,Cours,Mardi,14:15,16:15,,C,CS,5
-AM04,IM,Oui,TD,Jeudi,08:00,10:00,,D,CS,5
-AM04,IM,Oui,TD,Vendredi,08:00,10:00,,D,CS,5
-AM04,IM,Oui,TP,Mardi,08:00,12:00,,T,CS,5
-AM04,IM,Oui,TP,Jeudi,14:30,18:30,,T,CS,5
-AM08,IM,Oui,Cours,Lundi,08:00,10:00,,C,CS,4
-AM08,IM,Oui,TD,Mardi,10:15,13:15,,D,CS,4
-AM11,IM,Oui,Cours,Vendredi,08:00,10:00,,C,TM,5
-AM11,IM,Oui,TD,Mardi,10:15,12:15,,D,TM,5
-AM11,IM,Oui,TD,Jeudi,10:15,12:15,,D,TM,5
-AM11,IM,Oui,TP,Lundi,14:15,16:15,,T,TM,5
-AM11,IM,Oui,TP,Lundi,16:30,18:30,,T,TM,5
-AM11,IM,Oui,TP,Jeudi,08:00,10:00,,T,TM,5
-AM14,IM,Oui,Cours,Lundi,16:30,18:30,,C,CS,5
-AM14,IM,Oui,Cours,Mercredi,14:15,18:15,,C,CS,5
-AM14,IM,Oui,TD,Mardi,08:00,10:00,,D,CS,5
-AM14,IM,Oui,TD,Mardi,14:15,16:15,,D,CS,5
-AM15,IM,Oui,Cours,Mercredi,08:00,10:00,,C,TM,5
-AM15,IM,Oui,TD,Mercredi,10:15,13:15,,D,TM,5
-AM15,IM,Oui,TP,Jeudi,14:30,18:30,A,T,TM,5
-AM15,IM,Oui,TP,Jeudi,14:30,18:30,B,T,TM,5
-AM20,IM,Oui,Cours,Lundi,14:15,16:15,,C,TM,4
-AM20,IM,Oui,TD,Vendredi,08:00,10:00,,D,TM,4
-AM21,IM,Oui,Cours,Lundi,16:30,18:30,,C,TM,5
-AM21,IM,Oui,TD,Mardi,08:00,10:00,,D,TM,5
-AM22,IM,Oui,Cours,Jeudi,10:15,12:15,,C,TM,5
-AM22,IM,Oui,TD,Vendredi,16:30,19:30,,D,TM,5
-AM23,IM,Oui,Cours,Jeudi,14:30,18:30,,C,TM,6
-AM23,IM,Oui,Cours,Vendredi,08:00,10:00,,C,TM,6
-AM25,IM,Oui,Cours,Mercredi,14:15,16:15,,C,CS,5
-AM25,IM,Oui,TD,Mardi,10:15,12:15,,D,CS,5
-AM27,IM,Oui,Cours,Jeudi,08:00,12:00,,C,TM,4
-AM27,IM,Oui,TP,Mercredi,08:00,10:00,,T,TM,4
-AM29,IM,Oui,Cours,Mardi,08:30,10:00,,C,TM,6
-AM29,IM,Oui,TD,Vendredi,14:30,18:30,,D,TM,6
-AM41,IM,Oui,TD,Jeudi,08:00,09:00,,D,TM,5
-AM41,IM,Oui,TP,Jeudi,09:00,12:00,,T,TM,5
-AM42,IM,Oui,Cours,Lundi,14:15,16:15,,C,TM,5
-AM42,IM,Oui,TD,Lundi,16:30,18:30,,D,TM,5
-AM43,IM,Oui,Cours,Mardi,08:00,10:00,,C,TM,5
-AM43,IM,Oui,TD,Vendredi,13:00,16:00,,D,TM,5
-AM51,IM,Oui,Cours,Lundi,14:15,16:15,,C,TM,5
-AM51,IM,Oui,TD,Lundi,16:30,18:30,,D,TM,5
-AM51,IM,Oui,TP,Jeudi,14:30,18:30,,T,TM,5
-AP00,GU,Oui,Atelier,Jeudi,08:30,12:30,,D,TM,6
-AP00,GU,Oui,Atelier,Jeudi,13:30,18:00,,D,TM,6
-AP00,GU,Oui,Atelier,Jeudi,08:30,12:30,,D,TM,6
-AP00,GU,Oui,Atelier,Jeudi,13:30,18:00,,D,TM,6
-AP00,GU,Oui,Atelier,Jeudi,08:30,12:30,,D,TM,6
-AP00,GU,Oui,Atelier,Jeudi,13:30,18:00,,D,TM,6
-AP51,IM,Oui,Atelier,Jeudi,14:30,18:30,,D,TM,8
-AP51,IM,Oui,Atelier,Lundi,08:00,12:00,,D,TM,8
-AP52,IM,Oui,Atelier,Lundi,14:30,18:30,,D,TM,8
-AP52,IM,Oui,Atelier,Mercredi,08:00,12:00,,D,TM,8
-AP53,IM,Oui,Atelier,Mardi,09:00,13:00,,D,TM,8
-AP53,IM,Oui,Atelier,Mardi,14:30,18:30,,D,TM,8
-AR03,TC,Oui,Cours,Mardi,09:00,10:00,,C,TSH,4
-AR03,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-AR04,,,Cours,Jeudi,10:15,12:15,,C,TSH,4
-AR04,,,TD,Jeudi,14:15,16:15,,D,TSH,4
-AR04,,,TD,Jeudi,16:30,18:30,,D,TSH,4
-AV01,TC,Oui,Cours,Vendredi,12:45,13:45,,C,TSH,4
-AV01,TC,Oui,TD,Vendredi,08:00,10:00,,D,TSH,4
-AV01,TC,Oui,TD,Vendredi,10:15,12:15,,D,TSH,4
-BA03,"GU, TC","GU: Oui, TC: Non",Cours,Mercredi,10:15,12:15,,C,CS,6
-BA03,"GU, TC","GU: Oui, TC: Non",TD,Lundi,10:15,12:15,,D,CS,6
-BA03,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,08:00,10:00,,D,CS,6
-BA04,"GP, GU",Oui,Cours,Lundi,08:00,10:00,,C,TM,6
-BA04,"GP, GU",Oui,TD,Lundi,10:15,12:15,,D,TM,6
-BA04,"GP, GU",Oui,TD,Lundi,14:15,16:15,,D,TM,6
-BA04,"GP, GU",Oui,TD,Lundi,16:30,18:30,,D,TM,6
-BA05,GU,Oui,Cours,Mercredi,14:15,16:15,,C,TM,6
-BA05,GU,Oui,TD,Mercredi,16:30,18:30,,D,TM,6
-BA06,GU,Oui,Cours,Vendredi,08:00,10:00,,C,TM,6
-BA06,GU,Oui,TD,Vendredi,10:15,12:15,,D,TM,6
-BA08,GU,Oui,Cours,Lundi,08:00,10:00,,C,TM,6
-BA08,GU,Oui,TD,Lundi,10:15,12:15,,D,TM,6
-BA10,GU,Oui,Cours,Mercredi,08:00,10:00,,C,TM,6
-BA10,GU,Oui,TD,Mercredi,10:15,12:15,,D,TM,6
-BI02,"GB, GU",Oui,Cours,Mardi,16:30,18:30,,C,TM,6
-BI02,"GB, GU",Oui,TD,Lundi,14:15,16:15,,D,TM,6
-BL10,"GB, TC","GB: Oui, TC: Non",Cours,Lundi,14:15,16:15,,C,CS,6
-BL10,"GB, TC","GB: Oui, TC: Non",TD,Lundi,16:30,18:30,,D,CS,6
-BL10,"GB, TC","GB: Oui, TC: Non",TD,Mardi,10:15,12:15,,D,CS,6
-BL10,"GB, TC","GB: Oui, TC: Non",TD,Mercredi,10:15,12:15,,D,CS,6
-BL10,"GB, TC","GB: Oui, TC: Non",TP,Mercredi,14:30,18:30,B,T,CS,6
-BL10,"GB, TC","GB: Oui, TC: Non",TP,Mercredi,14:30,18:30,A,T,CS,6
-BL10,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,08:00,12:00,A,T,CS,6
-BL10,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,08:00,12:00,B,T,CS,6
-BL10,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,14:30,18:30,,T,CS,6
-BL16,"GB, GP, GU",Oui,Cours,Lundi,16:30,18:30,,C,TM,6
-BL16,"GB, GP, GU",Oui,TD,Mercredi,14:15,16:15,,D,TM,6
-BL17,"GB, GU",Oui,Cours,Mercredi,16:30,18:30,,C,TM,6
-BL17,"GB, GU",Oui,TD,Mercredi,10:15,12:15,,D,TM,6
-BL17,"GB, GU",Oui,TP,Jeudi,14:15,18:15,,T,TM,6
-BL20,"GB, TC","GB: Oui, TC: Non",Cours,Lundi,10:15,12:15,,C,CS,6
-BL20,"GB, TC","GB: Oui, TC: Non",TD,Mardi,14:15,16:15,,D,CS,6
-BL20,"GB, TC","GB: Oui, TC: Non",TD,Mardi,16:30,18:30,,D,CS,6
-BL20,"GB, TC","GB: Oui, TC: Non",TD,Mercredi,08:00,10:00,,D,CS,6
-BL20,"GB, TC","GB: Oui, TC: Non",TD,Vendredi,14:15,16:15,,D,CS,6
-BL20,"GB, TC","GB: Oui, TC: Non",TP,Lundi,14:30,18:30,A,T,CS,6
-BL20,"GB, TC","GB: Oui, TC: Non",TP,Lundi,14:30,18:30,B,T,CS,6
-BL20,"GB, TC","GB: Oui, TC: Non",TP,Mardi,08:00,12:00,A,T,CS,6
-BL20,"GB, TC","GB: Oui, TC: Non",TP,Mardi,08:00,12:00,B,T,CS,6
-BL20,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,14:30,18:30,A,T,CS,6
-BL20,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,14:30,18:30,B,T,CS,6
-BL20,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,08:00,12:00,,T,CS,6
-BL20,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,08:00,12:00,,T,CS,6
-BM03,"GB, IM",Oui,Cours,Mardi,10:15,12:15,,C,TM,6
-BM03,"GB, IM",Oui,TD,Mercredi,14:15,16:15,,D,TM,6
-BM03,"GB, IM",Oui,TP,Vendredi,08:00,12:00,A,T,TM,6
-BM03,"GB, IM",Oui,TP,Vendredi,08:00,12:00,B,T,TM,6
-BM04,GB,Oui,Cours,Mardi,08:00,10:00,,C,TM,6
-BM04,GB,Oui,TD,Jeudi,08:00,10:00,,D,TM,6
-BM04,GB,Oui,TP,Lundi,14:15,18:15,A,T,TM,6
-BM04,GB,Oui,TP,Lundi,14:15,18:15,B,T,TM,6
-BM05,GB,Oui,Cours,Jeudi,10:15,13:15,,C,TM,6
-BM05,GB,Oui,TP,Jeudi,14:15,18:15,B,T,TM,6
-BM05,GB,Oui,TP,Jeudi,14:15,18:15,A,T,TM,6
-BM06,GB,Oui,Cours,Mercredi,10:15,12:15,,C,TM,6
-BM06,GB,Oui,TD,Lundi,10:15,11:45,,D,TM,6
-BM06,GB,Oui,TP,Mercredi,16:30,18:30,B,T,TM,6
-BM06,GB,Oui,TP,Mercredi,16:30,18:30,A,T,TM,6
-BM07,GB,Oui,Cours,Lundi,10:15,12:15,,C,TM,6
-BM07,GB,Oui,TD,Mercredi,14:15,16:15,,D,TM,6
-BM07,GB,Oui,TP,Jeudi,14:30,18:30,B,T,TM,6
-BM07,GB,Oui,TP,Jeudi,14:30,18:30,A,T,TM,6
-BM07,GB,Oui,TP,Vendredi,08:00,12:00,A,T,TM,6
-BM07,GB,Oui,TP,Vendredi,08:00,12:00,B,T,TM,6
-BM07,GB,Oui,TP,Vendredi,14:30,18:30,A,T,TM,6
-BM07,GB,Oui,TP,Vendredi,14:30,18:30,B,T,TM,6
-BT03,GB,Oui,Cours,Lundi,08:00,10:00,,C,TM,6
-BT03,GB,Oui,TD,Mercredi,08:00,10:00,,D,TM,6
-BT03,GB,Oui,TP,Jeudi,14:30,18:30,A,T,TM,6
-BT03,GB,Oui,TP,Jeudi,14:30,18:30,B,T,TM,6
-BT03,GB,Oui,TP,Vendredi,08:00,12:00,A,T,TM,6
-BT03,GB,Oui,TP,Vendredi,08:00,12:00,B,T,TM,6
-BT03,GB,Oui,TP,Vendredi,14:30,18:30,A,T,TM,6
-BT03,GB,Oui,TP,Vendredi,14:30,18:30,B,T,TM,6
-BT07,GB,Oui,Cours,Mercredi,08:00,10:00,,C,TM,7
-BT07,GB,Oui,TD,Jeudi,10:15,13:15,,D,TM,7
-BT09,"GB, TC","GB: Oui, TC: Non",Cours,Mercredi,10:15,12:15,,C,TM,6
-BT09,"GB, TC","GB: Oui, TC: Non",TD,Mercredi,14:15,16:15,,D,TM,6
-BT09,"GB, TC","GB: Oui, TC: Non",TD,Jeudi,10:15,12:15,,D,TM,6
-BT09,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,14:15,18:15,A,T,TM,6
-BT09,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,14:15,18:15,B,T,TM,6
-BT09,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,08:00,12:00,B,T,TM,6
-BT09,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,08:00,12:00,A,T,TM,6
-CF04,"GP, GU, IM",Oui,Cours,Jeudi,10:15,12:15,,C,TM,6
-CF04,"GP, GU, IM",Oui,TD,Vendredi,13:15,16:15,,D,TM,6
-CM04,"GP, TC",Oui,Cours,Jeudi,18:45,20:45,,C,TM,6
-CM04,"GP, TC",Oui,Cours,Lundi,10:15,12:15,,C,TM,6
-CM04,"GP, TC",Oui,TD,Mercredi,08:00,10:00,,D,TM,6
-CM04,"GP, TC",Oui,TD,Vendredi,08:00,10:00,,D,TM,6
-CM04,"GP, TC",Oui,TD,Vendredi,14:15,16:15,,D,TM,6
-CM04,"GP, TC",Oui,TD,Vendredi,16:30,18:30,,D,TM,6
-CM05,"GP, TC","GP: Oui, TC: Non",Cours,Lundi,08:00,10:00,,C,CS,6
-CM05,"GP, TC","GP: Oui, TC: Non",TD,Mercredi,14:15,16:15,,D,CS,6
-CM05,"GP, TC","GP: Oui, TC: Non",TD,Jeudi,08:00,10:00,,D,CS,6
-CM05,"GP, TC","GP: Oui, TC: Non",TD,Vendredi,16:30,18:30,,D,CS,6
-CM06,GP,Oui,TD,Mercredi,16:30,18:30,,D,TM,6
-CM11,TC,Oui,Cours,Vendredi,10:15,12:15,,C,CS,6
-CM11,TC,Oui,TD,Lundi,08:00,10:00,,D,CS,6
-CM11,TC,Oui,TD,Mardi,08:00,10:00,,D,CS,6
-CM11,TC,Oui,TD,Mardi,16:30,18:30,,D,CS,6
-CM11,TC,Oui,TD,Mercredi,08:00,10:00,,D,CS,6
-CM11,TC,Oui,TD,Jeudi,08:00,10:00,,D,CS,6
-CM11,TC,Oui,TD,Vendredi,08:00,10:00,,D,CS,6
-CM11,TC,Oui,TP,Mercredi,14:30,18:30,B,T,CS,6
-CM11,TC,Oui,TP,Mercredi,14:30,18:30,A,T,CS,6
-CM11,TC,Oui,TP,Jeudi,14:30,18:30,B,T,CS,6
-CM11,TC,Oui,TP,Jeudi,14:30,18:30,A,T,CS,6
-CM11,TC,Oui,TP,Vendredi,14:30,18:30,B,T,CS,6
-CM11,TC,Oui,TP,Vendredi,14:30,18:30,A,T,CS,6
-CM12,TC,Oui,Cours,Vendredi,10:15,12:15,,C,CS,6
-CM12,TC,Oui,TD,Mercredi,14:15,16:15,,D,CS,6
-CM12,TC,Oui,TD,Jeudi,14:15,16:15,,D,CS,6
-CM13,TC,Oui,Cours,Jeudi,08:00,10:00,,C,CS,6
-CM13,TC,Oui,TD,Lundi,10:15,12:15,,D,CS,6
-CM13,TC,Oui,TD,Lundi,14:15,16:15,,D,CS,6
-CM13,TC,Oui,TP,Mercredi,14:30,18:30,,T,CS,6
-CM13,TC,Oui,TP,Jeudi,14:30,18:30,B,T,CS,6
-CM13,TC,Oui,TP,Jeudi,14:30,18:30,A,T,CS,6
-CM71,GP,Oui,TP,Jeudi,13:30,17:30,,T,TM,3
-DF03,"GB, IM",Oui,Cours,Lundi,14:15,16:15,,C,TM,6
-DF03,"GB, IM",Oui,TD,Vendredi,08:00,10:00,,D,TM,6
-DF04,IM,Oui,Cours,Lundi,16:30,18:30,,C,TM,6
-DF04,IM,Oui,TD,Mardi,08:00,10:00,,D,TM,6
-DI01,TC,Oui,Cours,Jeudi,10:15,12:15,,C,TSH,4
-DI02,TC,Oui,Cours,Vendredi,08:00,10:00,,C,TSH,4
-DI02,TC,Oui,TD,Vendredi,10:15,12:15,,D,TSH,4
-DI02,TC,Oui,TD,Vendredi,14:15,16:15,,D,TSH,4
-DI04,IM,Oui,Cours,Jeudi,14:15,16:15,,C,TM,6
-DI04,IM,Oui,TD,Jeudi,16:30,18:30,,D,TM,6
-DI05,"GU, IM",Oui,Cours,Mardi,10:15,12:15,,C,TM,6
-DI05,"GU, IM",Oui,TD,Mardi,14:15,16:15,,D,TM,6
-DI05,"GU, IM",Oui,TD,Mardi,16:30,18:30,,D,TM,6
-DI08,IM,Oui,Cours,Lundi,14:15,16:15,,C,TM,6
-DI08,IM,Oui,TD,Lundi,16:30,18:30,,D,TM,6
-DS01,,,Cours,Mardi,13:00,14:00,,C,TSH,4
-DS01,,,TP,Mardi,14:15,16:15,,T,TSH,4
-DS01,,,TP,Mardi,16:30,18:30,,T,TSH,4
-ED01,edhec,,TD,Vendredi,08:00,12:00,,D,,4
-ED02,edhec,,TD,Lundi,10:15,13:15,,D,,4
-ED04,edhec,,TD,Jeudi,10:15,13:15,,D,,4
-ED04,edhec,,TD,Mercredi,09:30,12:30,,D,,4
-EG01,IM,Oui,Cours,Mercredi,10:15,12:15,,C,TM,6
-EG01,IM,Oui,TD,Mercredi,14:15,16:15,,D,TM,6
-EI02,,,Cours,Vendredi,13:00,14:00,,C,,4
-EI02,,,TD,Vendredi,08:00,10:00,,D,,
-EI02,,,TD,Vendredi,10:15,12:15,,D,,
-EI04,,,Cours,Lundi,13:00,14:00,,C,TSH,4
-EI04,,,TD,Lundi,14:15,16:15,,D,TSH,4
-EI05,,,Cours,Mardi,13:00,14:00,,C,TSH,4
-EI05,,,TD,Mardi,14:15,16:15,,D,TSH,4
-EI07,TC,Oui,Cours,Mercredi,13:00,14:00,,C,TSH,4
-EI07,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-EI07,TC,Oui,TD,Mercredi,16:30,18:30,,D,TSH,4
-EN21,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",Cours,Vendredi,10:15,12:15,,C,CS,6
-EN21,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TD,Lundi,08:15,09:45,,D,CS,6
-EN21,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TD,Lundi,10:45,12:15,,D,CS,6
-EN21,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TD,Lundi,14:30,16:00,,D,CS,6
-EN21,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TD,Lundi,16:45,18:15,,D,CS,6
-EN21,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,12:00,B,T,CS,6
-EN21,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,12:00,A,T,CS,6
-EN21,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Mercredi,14:30,18:30,A,T,CS,6
-EN21,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Mercredi,14:30,18:30,B,T,CS,6
-EN21,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Jeudi,08:00,12:00,A,T,CS,6
-EN21,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Jeudi,08:00,12:00,B,T,CS,6
-EN21,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Jeudi,14:30,18:30,A,T,CS,6
-EN21,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Jeudi,14:30,18:30,B,T,CS,6
-EV02,GP,Oui,Cours,Mardi,08:00,10:00,,C,TM,6
-EV02,GP,Oui,TD,Mardi,10:15,12:15,,D,TM,6
-EV03,"GP, GU",Oui,Cours,Mardi,14:15,16:15,,C,TM,6
-EV03,"GP, GU",Oui,TD,Mardi,16:30,18:30,,D,TM,6
-FE01,TC,Non,Cours,Mercredi,16:30,17:30,,C,TM,2
-FE01,TC,Non,TD,Mercredi,17:30,18:30,,D,TM,2
-FQ01,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Mercredi,14:15,16:15,,C,TM,6
-FQ01,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mardi,14:15,16:15,,D,TM,6
-FQ01,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,08:00,10:00,,D,TM,6
-FQ01,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,10:15,12:15,,D,TM,6
-FQ04,GB,Oui,Cours,Mardi,14:15,16:15,,C,TM,6
-FQ04,GB,Oui,TD,Mardi,16:30,18:30,,D,TM,6
-GE10,TC,Oui,Cours,Mercredi,13:00,14:00,,C,TSH,4
-GE10,TC,Oui,TD,Lundi,08:00,10:00,,D,TSH,4
-GE10,TC,Oui,TD,Lundi,10:15,12:15,,D,TSH,4
-GE10,TC,Oui,TD,Mardi,08:00,10:00,,D,TSH,4
-GE10,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-GE10,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-GE13,TC,Oui,Cours,Lundi,13:00,14:00,,C,TSH,4
-GE13,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-GE13,TC,Oui,TD,Lundi,16:30,18:30,,D,TSH,4
-GE15,TC,Oui,Cours,Mardi,13:00,14:00,,C,TSH,4
-GE15,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-GE15,TC,Oui,TD,Mardi,16:30,18:30,,D,TSH,4
-GE20,TC,Oui,Cours,Mercredi,13:00,14:00,,C,TSH,4
-GE20,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-GE20,TC,Oui,TD,Mercredi,16:30,18:30,,D,TSH,4
-GE21,TC,Oui,Cours,Mardi,13:00,14:00,,C,TSH,4
-GE21,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-GE21,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-GE22,TC,Oui,Cours,Mercredi,13:00,14:00,,C,TSH,4
-GE22,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-GE22,TC,Oui,TD,Lundi,16:30,18:30,,D,TSH,4
-GE22,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-GE22,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-GE22,TC,Oui,TD,Mercredi,16:30,18:30,,D,TSH,4
-GE22,TC,Oui,TD,Mercredi,16:30,18:30,,D,TSH,4
-GE25,,,Cours,Jeudi,13:00,14:00,,C,TSH,4
-GE25,,,TD,Jeudi,14:15,16:15,,D,TSH,4
-GE27,TC,Oui,Cours,Jeudi,13:00,14:00,,C,TSH,4
-GE27,TC,Oui,TD,Jeudi,14:15,16:15,,D,TSH,4
-GE27,TC,Oui,TD,Vendredi,10:15,12:15,,D,TSH,4
-GE28,TC,Oui,Cours,Lundi,08:00,10:00,,C,TSH,4
-GE28,TC,Oui,TD,Lundi,10:15,11:15,,D,TSH,4
-GE28,TC,Oui,TD,Lundi,11:15,12:15,,D,TSH,4
-GE36,TC,Oui,Cours,Lundi,13:00,14:00,,C,TSH,4
-GE36,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-GE36,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-GE36,TC,Oui,TD,Mardi,16:30,18:30,,D,TSH,4
-GE37,"GB, GP, GU, IM",Oui,Cours,Lundi,10:15,12:15,,C,TM,6
-GE37,"GB, GP, GU, IM",Oui,TD,Lundi,13:15,16:15,,D,TM,6
-GE37,"GB, GP, GU, IM",Oui,TD,Mercredi,09:00,12:00,,D,TM,6
-GE37,"GB, GP, GU, IM",Oui,TD,Jeudi,09:00,12:00,,D,TM,6
-GE37,"GB, GP, GU, IM",Oui,TD,Vendredi,14:15,17:15,,D,TM,6
-GE38,"GB, GP, GU, IM",Oui,Cours,Mardi,13:00,14:00,,C,TM,6
-GE38,"GB, GP, GU, IM",Oui,TD,Mardi,14:15,17:15,,D,TM,6
-GE39,"GB, GP, GU, IM",Oui,Cours,Mardi,08:00,09:00,,C,TM,6
-GE39,"GB, GP, GU, IM",Oui,TD,Mardi,09:00,12:00,,D,TM,6
-GE40,"GB, GP, GU, IM",Oui,Cours,Mercredi,16:30,18:30,,C,TM,6
-GE40,"GB, GP, GU, IM",Oui,TD,Mercredi,13:15,16:15,,D,TM,6
-HE01,TC,Oui,Cours,Vendredi,09:00,10:00,,C,TSH,4
-HE01,TC,Oui,TD,Vendredi,10:15,12:15,,D,TSH,4
-HE01,TC,Oui,TD,Vendredi,14:15,16:15,,D,TSH,4
-HE03,TC,Oui,Cours,Mardi,13:00,14:00,,C,TSH,4
-HE03,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-HE03,TC,Oui,TD,Mardi,16:30,18:30,,D,TSH,4
-HT01,,,Cours,Mercredi,14:15,16:15,,C,TSH,4
-HT01,,,TD,Mercredi,16:30,17:30,,D,TSH,4
-HT01,,,TD,Mercredi,17:30,18:30,,D,TSH,4
-HT04,,,Cours,Mercredi,10:15,12:15,,C,TSH,6
-HT04,,,TD,Mercredi,13:00,14:00,,D,TSH,6
-HT05,,,Cours,Lundi,14:15,16:15,,C,TM,6
-HT05,,,TD,Lundi,16:30,18:30,,D,TM,6
-IA01,"GU, TC","GU: Oui, TC: Non",Cours,Mercredi,08:00,10:00,,C,CS,6
-IA01,"GU, TC","GU: Oui, TC: Non",TD,Mardi,10:15,12:15,,D,CS,6
-IA01,"GU, TC","GU: Oui, TC: Non",TD,Jeudi,14:15,16:15,,D,CS,6
-IA01,"GU, TC","GU: Oui, TC: Non",TD,Jeudi,16:30,18:30,,D,CS,6
-IA01,"GU, TC","GU: Oui, TC: Non",TD,Vendredi,14:15,16:15,,D,CS,6
-IA01,"GU, TC","GU: Oui, TC: Non",TP,Jeudi,08:00,10:00,A,T,CS,6
-IA01,"GU, TC","GU: Oui, TC: Non",TP,Jeudi,08:00,10:00,B,T,CS,6
-IA01,"GU, TC","GU: Oui, TC: Non",TP,Jeudi,10:15,12:15,A,T,CS,6
-IA01,"GU, TC","GU: Oui, TC: Non",TP,Jeudi,10:15,12:15,B,T,CS,6
-IA01,"GU, TC","GU: Oui, TC: Non",TP,Vendredi,16:30,18:30,A,T,CS,6
-IA01,"GU, TC","GU: Oui, TC: Non",TP,Vendredi,16:30,18:30,B,T,CS,6
-IA01,"GU, TC","GU: Oui, TC: Non",TP,Mardi,16:30,18:30,,T,CS,6
-IA01,"GU, TC","GU: Oui, TC: Non",TP,Mardi,16:30,18:30,,T,CS,6
-IA03,GU,Oui,Cours,Mercredi,16:30,18:30,,C,TM,6
-IA03,GU,Oui,TD,Mercredi,14:15,16:15,,D,TM,6
-IA04,GU,Oui,Cours,Mardi,16:30,18:30,,C,TM,6
-IA04,GU,Oui,TD,Lundi,10:15,13:15,,D,TM,6
-IA04,GU,Oui,TD,Mardi,10:15,13:15,,D,TM,6
-IC01,TC,Oui,Cours,Mardi,13:00,14:00,,C,TSH,4
-IC01,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-IC01,TC,Oui,TD,Mardi,16:30,18:30,,D,TSH,4
-IC03,,,Cours,Mercredi,13:00,14:00,,C,TSH,4
-IC03,,,TD,Mercredi,14:15,16:15,,D,TSH,4
-IC03,,,TD,Mercredi,16:30,18:30,,D,TSH,4
-IC06,,,Cours,Vendredi,13:00,14:00,,C,TSH,4
-IC06,,,TD,Vendredi,14:15,16:15,,D,TSH,4
-ICX1,Master,,Cours,Vendredi,13:00,14:00,,C,TM,
-ICX1,Master,,TD,Vendredi,14:00,18:00,,D,TM,
-ICX4,,,Cours,Mercredi,10:15,11:15,,C,,
-ICX4,,,TD,Mercredi,11:15,13:15,,D,,
-ICX6,,,Cours,Mercredi,18:30,19:30,,C,,
-ICX6,,,TP,Mercredi,16:30,18:30,,T,,
-ICX8,master,,TD,Jeudi,14:15,18:15,,D,,
-IDC2,master,,Cours,Mercredi,10:15,12:15,,C,,
-IDC2,master,,TD,Jeudi,16:30,18:30,,D,,
-IDC3,master,,Cours,Lundi,16:30,17:30,,C,,
-IDC3,master,,TD,Lundi,14:15,16:15,,D,,
-IDC5,master,,Cours,Mardi,08:00,10:00,,C,,
-IDC5,master,,TP,Mardi,16:30,18:30,,T,,
-IDC6,master,,Cours,Mercredi,08:00,10:00,,C,,
-IDC6,master,,TP,Mercredi,16:30,18:30,,T,,
-INF1,TC,Oui,Cours,Jeudi,14:15,16:15,,C,TM,6
-INF1,TC,Oui,TD,Lundi,13:00,16:00,,D,TM,6
-INF1,TC,Oui,TD,Lundi,16:30,19:30,,D,TM,6
-INF1,TC,Oui,TD,Mardi,10:15,13:15,,D,TM,6
-INF1,TC,Oui,TD,Mercredi,13:00,16:00,,D,TM,6
-INF1,TC,Oui,TD,Mercredi,16:30,19:30,,D,TM,6
-INF1,TC,Oui,TD,Jeudi,10:15,13:15,,D,TM,6
-INF1,TC,Oui,TD,Vendredi,10:15,13:15,,D,TM,6
-INF2,"GB, GU, IM, TC",Oui,Cours,Vendredi,08:00,10:00,,C,TM,6
-INF2,"GB, GU, IM, TC",Oui,TD,Mardi,08:00,10:00,,D,TM,6
-INF2,"GB, GU, IM, TC",Oui,TD,Mardi,16:30,18:30,,D,TM,6
-INF2,"GB, GU, IM, TC",Oui,TD,Mercredi,08:00,10:00,,D,TM,6
-INF2,"GB, GU, IM, TC",Oui,TD,Mercredi,10:15,12:15,,D,TM,6
-INF2,"GB, GU, IM, TC",Oui,TD,Jeudi,16:30,18:30,,D,TM,6
-INF2,"GB, GU, IM, TC",Oui,TD,Vendredi,10:15,12:15,,D,TM,6
-INF2,"GB, GU, IM, TC",Oui,TP,Lundi,14:15,16:15,A,T,TM,6
-INF2,"GB, GU, IM, TC",Oui,TP,Lundi,14:15,16:15,B,T,TM,6
-INF2,"GB, GU, IM, TC",Oui,TP,Lundi,16:30,18:30,A,T,TM,6
-INF2,"GB, GU, IM, TC",Oui,TP,Lundi,16:30,18:30,B,T,TM,6
-INF2,"GB, GU, IM, TC",Oui,TP,Mardi,14:15,16:15,B,T,TM,6
-INF2,"GB, GU, IM, TC",Oui,TP,Mardi,14:15,16:15,A,T,TM,6
-INF2,"GB, GU, IM, TC",Oui,TP,Mercredi,14:15,16:15,B,T,TM,6
-INF2,"GB, GU, IM, TC",Oui,TP,Mercredi,14:15,16:15,A,T,TM,6
-INF2,"GB, GU, IM, TC",Oui,TP,Jeudi,14:15,16:15,B,T,TM,6
-INF2,"GB, GU, IM, TC",Oui,TP,Jeudi,14:15,16:15,A,T,TM,6
-INF2,"GB, GU, IM, TC",Oui,TP,Vendredi,14:15,16:15,B,T,TM,6
-INF2,"GB, GU, IM, TC",Oui,TP,Vendredi,14:15,16:15,A,T,TM,6
-IQ01,GU,Oui,Cours,Vendredi,10:15,12:15,,C,CS,6
-IQ01,GU,Oui,TD,Lundi,14:15,16:15,,D,CS,6
-IQ01,GU,Oui,TP,Lundi,08:00,10:00,A,T,CS,6
-IQ01,GU,Oui,TP,Lundi,08:00,10:00,B,T,CS,6
-IS00,TC,Oui,Cours,Lundi,08:00,10:00,,C,CS,2
-IS00,TC,Oui,Cours,Mercredi,08:00,10:00,,C,CS,2
-IS00,TC,Oui,TD,Mercredi,16:30,18:30,B,D,CS,2
-IS00,TC,Oui,TD,Mercredi,16:30,18:30,A,D,CS,2
-IS00,TC,Oui,TD,Jeudi,16:30,18:30,B,D,CS,2
-IS00,TC,Oui,TD,Jeudi,16:30,18:30,A,D,CS,2
-IS02,"GU, IM, TC",Oui,Cours,Vendredi,08:00,10:00,,C,TM,6
-IS02,"GU, IM, TC",Oui,TD,Jeudi,10:15,12:15,,D,TM,6
-IS02,"GU, IM, TC",Oui,TD,Jeudi,14:15,16:15,,D,TM,6
-IS02,"GU, IM, TC",Oui,TD,Jeudi,16:30,18:30,,D,TM,6
-IS04,TC,Oui,Cours,Lundi,13:00,14:00,,C,TSH,4
-IS04,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-IS04,TC,Oui,TD,Lundi,16:30,18:30,,D,TSH,4
-IS10,TC,Oui,TD,Mercredi,16:30,18:30,,D,TSH,4
-IS10,TC,Oui,TD,Jeudi,16:30,18:30,,D,TSH,4
-IS21,TC,Oui,Atelier,Mercredi,18:45,20:45,,D,CS,5
-IS22,TC,Oui,Atelier,Mercredi,18:45,20:45,,D,TM,5
-IS23,TC,Oui,Atelier,Mercredi,18:45,20:45,,D,TSH,5
-ISC0,master,,Cours,Jeudi,14:15,16:15,,C,,
-ISC0,master,,TD,Jeudi,16:30,18:30,,D,,
-ISC1,master,,Cours,Jeudi,10:15,12:15,,C,,
-ISC1,master,,TD,Mercredi,16:30,18:30,,D,,
-ISC1,master,,TP,Mercredi,18:30,19:30,,T,,
-ISC2,master,,Cours,Mercredi,08:00,10:00,,C,,
-ISC2,master,,TD,Mercredi,10:15,12:15,,D,,
-ISC3,master,,Cours,Vendredi,08:00,10:00,,C,,
-ISC3,master,,TD,Lundi,14:15,16:15,,D,,
-LA00,TC,Oui,TD,Lundi,10:15,12:15,,D,TSH,4
-LA01,TC,Oui,TD,Jeudi,10:15,12:15,,D,TSH,4
-LA02,TC,Oui,TD,Jeudi,10:15,12:15,,D,TSH,4
-LA02,TC,Oui,TD,Jeudi,14:15,16:15,,D,TSH,4
-LA02,TC,Oui,TD,Vendredi,08:00,10:00,,D,TSH,4
-LA02,TC,Oui,TD,Vendredi,10:15,12:15,,D,TSH,4
-LA03,TC,Oui,TD,Mardi,08:00,10:00,,D,TSH,4
-LA03,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-LA03,TC,Oui,TD,Mercredi,08:00,10:00,,D,TSH,4
-LA03,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
-LA03,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-LA04,TC,Oui,TD,Mardi,08:00,10:00,,D,TSH,4
-LA04,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-LA04,TC,Oui,TD,Mercredi,13:00,14:00,,T,TSH,4
-LA04,TC,Oui,TD,Jeudi,13:00,14:00,,T,TSH,4
-LA11,TC,Oui,TD,Jeudi,08:00,10:00,,D,TSH,4
-LA11,TC,Oui,TD,Jeudi,10:15,12:15,,D,TSH,4
-LA11,TC,Oui,TD,Mardi,09:00,10:00,,T,TSH,4
-LA11,TC,Oui,TD,Mardi,13:00,14:00,,T,TSH,4
-LA12,TC,Oui,TD,Lundi,16:30,18:30,,D,TSH,4
-LA12,TC,Oui,TD,Mardi,08:00,10:00,,D,TSH,4
-LA12,TC,Oui,TD,Mardi,16:30,18:30,,D,TSH,4
-LA12,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
-LA12,TC,Oui,TD,Mercredi,16:30,18:30,,D,TSH,4
-LA12,TC,Oui,TD,Mercredi,16:30,18:30,,D,TSH,4
-LA12,TC,Oui,TD,Jeudi,10:15,12:15,,D,TSH,4
-LA13,TC,Oui,TD,Lundi,10:15,12:15,,D,TSH,4
-LA13,TC,Oui,TD,Mardi,16:30,18:30,,D,TSH,4
-LA13,TC,Oui,TD,Mercredi,08:00,10:00,,D,TSH,4
-LA13,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-LA13,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-LA13,TC,Oui,TD,Mercredi,16:30,18:30,,D,TSH,4
-LA13,TC,Oui,TD,Jeudi,08:00,10:00,,D,TSH,4
-LA13,TC,Oui,TD,Jeudi,08:00,10:00,,D,TSH,4
-LA13,TC,Oui,TD,Jeudi,10:15,12:15,,D,TSH,4
-LA13,TC,Oui,TD,Jeudi,10:15,12:15,,D,TSH,4
-LA13,TC,Oui,TD,Jeudi,14:15,16:15,,D,TSH,4
-LA13,TC,Oui,TD,Lundi,10:15,12:15,,D,TSH,4
-LA13,TC,Oui,TD,Vendredi,10:15,12:15,,D,TSH,4
-LA13,TC,Oui,TD,Vendredi,10:15,12:15,,D,TSH,4
-LA13,TC,Oui,TD,Vendredi,14:15,16:15,,D,TSH,4
-LA13,TC,Oui,TD,Vendredi,14:15,16:15,,D,TSH,4
-LA13,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-LA13,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-LA13,TC,Oui,TD,Lundi,16:30,18:30,,D,TSH,4
-LA13,TC,Oui,TD,Lundi,16:30,18:30,,D,TSH,4
-LA13,TC,Oui,TD,Mardi,08:00,10:00,,D,TSH,4
-LA13,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-LA13,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-LA14,TC,Oui,Cours,Mercredi,13:00,14:00,,C,TSH,4
-LA14,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-LA14,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-LA14,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-LA14,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-LA14,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-LA14,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
-LA14,TC,Oui,TD,Jeudi,10:15,12:15,,D,TSH,4
-LA14,TC,Oui,TD,Jeudi,14:15,16:15,,D,TSH,4
-LA15,,,TD,Mardi,14:15,16:15,,D,TSH,4
-LA20,TC,Oui,TD,Mercredi,08:00,10:00,,D,TSH,4
-LA21,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-LA21,TC,Oui,TD,Mardi,16:30,18:30,,D,TSH,4
-LA21,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
-LA21,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-LA21,TC,Oui,TD,Mercredi,16:30,18:30,,D,TSH,4
-LA21,TC,Oui,TD,Jeudi,10:15,12:15,,D,TSH,4
-LA21,TC,Oui,TD,Jeudi,14:15,16:15,,D,TSH,4
-LA21,TC,Oui,TD,Jeudi,16:30,18:30,,D,TSH,4
-LA22,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-LA22,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-LA22,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-LA22,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-LA22,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
-LA22,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-LA22,TC,Oui,TD,Jeudi,10:15,12:15,,D,TSH,4
-LA22,TC,Oui,TD,Jeudi,14:15,16:15,,D,TSH,4
-LA23,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-LA23,TC,Oui,TD,Lundi,16:30,18:30,,D,TSH,4
-LA23,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-LA23,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-LA24,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
-LA24,TC,Oui,TD,Lundi,13:00,14:00,,T,TSH,4
-LA91,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
-LA91,TC,Oui,TD,Jeudi,10:15,12:15,,D,TSH,4
-LA91,TC,Oui,TD,Vendredi,10:15,12:15,,T,TSH,4
-LA91,TC,Oui,TD,Mardi,10:15,12:15,,T,TSH,4
-LA92,TC,Oui,TD,Lundi,08:00,10:00,,D,TSH,4
-LA92,TC,Oui,TD,Mardi,08:00,10:00,,D,TSH,4
-LA92,TC,Oui,TD,Mercredi,08:00,10:00,,D,TSH,4
-LA92,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-LA92,TC,Oui,TD,Jeudi,08:00,10:00,,T,TSH,4
-LA92,TC,Oui,TD,Jeudi,08:00,10:00,,T,TSH,4
-LA92,TC,Oui,TD,Vendredi,08:00,10:00,,T,TSH,4
-LA92,TC,Oui,TD,Vendredi,14:15,16:15,,T,TSH,4
-LA93,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
-LA93,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-LA93,TC,Oui,TD,Mercredi,16:30,18:30,,D,TSH,4
-LA93,TC,Oui,TD,Jeudi,10:15,12:15,,D,TSH,4
-LA93,TC,Oui,TD,Mardi,13:00,14:00,,T,TSH,4
-LA93,TC,Oui,TD,Jeudi,18:45,19:45,,T,TSH,4
-LA93,TC,Oui,TD,Vendredi,10:15,11:15,,T,TSH,4
-LA93,TC,Oui,TD,Vendredi,11:15,12:15,,T,TSH,4
-LA94,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-LA95,TC,Oui,TD,Vendredi,09:00,10:00,,D,TSH,4
-LB24,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
-LB24,TC,Oui,TD,Mardi,13:00,14:00,,T,TSH,4
-LC14,TC,Oui,Cours,Mardi,13:00,14:00,,C,TSH,4
-LC14,TC,Oui,TD,Lundi,08:00,10:00,,D,TSH,4
-LC14,TC,Oui,TD,Vendredi,14:15,16:15,,D,TSH,4
-LC14,TC,Oui,TD,Lundi,10:15,12:15,,D,TSH,4
-LC14,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-LC14,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-LC14,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-LC14,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
-LC14,TC,Oui,TD,Jeudi,10:15,12:15,,D,TSH,4
-LC14,TC,Oui,TD,Jeudi,14:15,16:15,,D,TSH,4
-LC14,TC,Oui,TD,Vendredi,10:15,12:15,,D,TSH,4
-LC72,,,TD,Vendredi,10:15,12:15,,D,TSH,4
-LC72,,,TD,Vendredi,14:15,16:15,,D,TSH,4
-LC73,,,TD,Vendredi,10:15,12:15,,D,TSH,4
-LC73,,,TD,Vendredi,14:15,16:15,,D,TSH,4
-LC74,,,TD,Vendredi,08:00,10:00,,D,TSH,4
-LD14,,,TD,Lundi,10:15,12:15,,D,TSH,4
-LD14,,,TD,Mardi,10:15,12:15,,D,TSH,4
-LD14,,,TD,Mardi,14:15,16:15,,D,TSH,4
-LD14,,,TD,Mardi,16:30,18:30,,D,TSH,4
-LD14,,,TP,Jeudi,13:00,14:00,,T,TSH,4
-LD14,,,TP,Jeudi,13:00,14:00,,T,TSH,4
-LG30,TC,Oui,TD,Mardi,08:00,10:00,,D,TSH,4
-LG30,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-LG31,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-LG32,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-LG33,TC,Oui,TD,Mardi,16:30,18:30,,D,TSH,4
-LG40,TC,Oui,TD,Mercredi,08:00,10:00,,D,TSH,4
-LG40,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-LG41,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
-LG42,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-LG50,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-LG50,TC,Oui,TD,Vendredi,10:15,12:15,,D,TSH,4
-LG50,TC,Oui,TD,Vendredi,14:15,16:15,,D,TSH,4
-LG51,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-LG51,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
-LG52,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-LG53,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-LG60,TC,Oui,TD,Lundi,08:00,10:00,,D,TSH,4
-LG60,TC,Oui,TD,Lundi,10:15,12:15,,D,TSH,4
-LG61,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-LG61,TC,Oui,TD,Lundi,16:30,18:30,,D,TSH,4
-LG62,TC,Oui,TD,Lundi,10:15,12:15,,D,TSH,4
-LG63,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-LH12,,,TD,Lundi,10:15,12:15,,D,TSH,4
-LH12,,,TD,Lundi,16:30,18:30,,D,TSH,4
-LH13,,,TD,Lundi,08:00,10:00,,D,TSH,4
-LH13,,,TD,Lundi,10:15,12:15,,D,TSH,4
-LH13,,,TD,Lundi,10:15,12:15,,D,TSH,4
-LH14,,,TD,Jeudi,14:15,16:15,,D,TSH,4
-LH14,,,TD,Jeudi,16:30,18:30,,D,TSH,4
-LH15,,,Cours,Jeudi,13:00,14:00,,C,TSH,4
-LH15,,,TD,Lundi,10:15,12:15,,D,TSH,4
-LH15,,,TD,Lundi,14:15,16:15,,D,TSH,4
-LH16,,,TD,Lundi,10:15,12:15,,D,TSH,4
-LH16,,,TD,Lundi,14:15,16:15,,D,TSH,4
-LH17,,,Cours,Mardi,13:00,14:00,,C,TSH,4
-LH17,,,TD,Lundi,10:15,12:15,,D,TSH,4
-LH17,,,TD,Lundi,16:30,18:30,,D,TSH,4
-LH20,,,TD,Lundi,08:00,10:00,,D,TSH,4
-LH20,,,TD,Lundi,13:00,14:00,,T,TSH,4
-LH21,,,TD,Mardi,10:15,12:15,,D,TSH,4
-LH21,,,TD,Mardi,13:00,14:00,,T,TSH,4
-LO21,"GU, TC","GU: Oui, TC: Non",Cours,Vendredi,08:00,10:00,,C,TM,6
-LO21,"GU, TC","GU: Oui, TC: Non",TD,Lundi,08:00,12:00,,D,TM,6
-LO21,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,14:30,18:30,,D,TM,6
-LO21,"GU, TC","GU: Oui, TC: Non",TD,Vendredi,14:30,18:30,,D,TM,6
-LO23,GU,Oui,Cours,Mardi,08:00,10:00,,C,TM,6
-LO23,GU,Oui,TD,Mercredi,10:15,13:15,,D,TM,6
-MC02,IM,Oui,Cours,Lundi,10:15,12:15,,C,TM,6
-MC02,IM,Oui,TD,Mercredi,10:15,12:15,,D,TM,6
-MC02,IM,Oui,TP,Vendredi,08:00,12:00,A,T,TM,6
-MC02,IM,Oui,TP,Vendredi,08:00,12:00,B,T,TM,6
-MC02,IM,Oui,TP,Mardi,08:00,12:00,,T,TM,6
-MC06,IM,Oui,Cours,Lundi,14:15,16:15,,C,TM,6
-MC06,IM,Oui,TD,Mercredi,08:00,10:00,,D,TM,6
-MC06,IM,Oui,TP,Vendredi,14:30,18:30,A,T,TM,6
-MC06,IM,Oui,TP,Vendredi,14:30,18:30,B,T,TM,6
-MI01,"GU, TC","GU: Oui, TC: Non",Cours,Mercredi,10:15,12:15,,C,TM,6
-MI01,"GU, TC","GU: Oui, TC: Non",TD,Jeudi,08:00,10:00,,D,TM,6
-MI01,"GU, TC","GU: Oui, TC: Non",TD,Jeudi,10:15,12:15,,D,TM,6
-MI01,"GU, TC","GU: Oui, TC: Non",TD,Jeudi,14:15,16:15,,D,TM,6
-MI01,"GU, TC","GU: Oui, TC: Non",TP,Lundi,10:15,12:15,,T,TM,6
-MI01,"GU, TC","GU: Oui, TC: Non",TP,Mardi,08:00,10:00,,T,TM,6
-MI01,"GU, TC","GU: Oui, TC: Non",TP,Mercredi,14:15,16:15,,T,TM,6
-MI01,"GU, TC","GU: Oui, TC: Non",TP,Vendredi,14:15,16:15,,T,TM,6
-MI12,GU,Oui,Cours,Vendredi,16:30,18:00,,C,TM,6
-MI12,GU,Oui,TD,Vendredi,08:00,12:00,,D,TM,6
-ML01,"GB, GU, IM",Oui,Cours,Jeudi,14:15,16:15,,C,CS,6
-ML01,"GB, GU, IM",Oui,TD,Lundi,08:00,10:00,,D,CS,6
-ML01,"GB, GU, IM",Oui,TD,Lundi,10:15,12:15,,D,CS,6
-ML01,"GB, GU, IM",Oui,TD,Mercredi,08:00,10:00,,D,CS,6
-ML01,"GB, GU, IM",Oui,TD,Mercredi,14:15,16:15,,D,CS,6
-ML01,"GB, GU, IM",Oui,TD,Jeudi,16:30,18:30,,D,CS,6
-MP03,IM,Oui,Cours,Jeudi,10:15,12:15,,C,TM,6
-MP03,IM,Oui,TD,Vendredi,16:30,18:30,,D,TM,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Mercredi,16:30,18:30,,C,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,08:00,10:00,,D,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,16:30,18:30,,D,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mardi,16:30,18:30,,D,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,10:15,12:15,,D,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Vendredi,10:15,12:15,,D,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Lundi,13:00,16:00,A,T,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Lundi,13:00,16:00,B,T,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,11:00,A,T,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,11:00,B,T,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,13:00,16:00,A,T,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,13:00,16:00,B,T,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Jeudi,13:00,16:00,,T,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,13:00,16:00,A,T,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,13:00,16:00,B,T,CS,6
-MQ01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Jeudi,13:00,16:00,,T,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",Cours,Lundi,08:00,10:00,,C,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TD,Lundi,10:15,12:15,,D,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TD,Lundi,16:30,18:30,,D,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TD,Mercredi,08:00,10:00,,D,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TD,Mercredi,10:15,12:15,,D,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TD,Vendredi,08:00,10:00,,D,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TD,Vendredi,10:15,12:15,,D,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TP,Mardi,08:00,12:00,B,T,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TP,Mardi,08:00,12:00,A,T,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TP,Mercredi,14:30,18:30,B,T,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TP,Mercredi,14:30,18:30,A,T,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TP,Jeudi,08:00,12:00,A,T,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TP,Jeudi,08:00,12:00,B,T,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TP,Jeudi,14:30,18:30,,T,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TP,Vendredi,14:30,18:30,A,T,CS,6
-MQ03,"IM, TC","IM: Oui, TC: Non",TP,Vendredi,14:30,18:30,B,T,CS,6
-MQ06,IM,Oui,Cours,Mercredi,14:15,16:15,,C,TM,6
-MQ06,IM,Oui,TD,Mardi,16:30,18:30,,D,TM,6
-MQ06,IM,Oui,TD,Jeudi,08:00,10:00,,D,TM,6
-MQ06,IM,Oui,TP,Mardi,08:00,10:00,,T,TM,6
-MQ06,IM,Oui,TP,Jeudi,16:30,18:30,A,T,TM,6
-MQ06,IM,Oui,TP,Jeudi,16:30,18:30,B,T,TM,6
-MQ12,"GB, IM",Oui,Cours,Vendredi,10:15,12:15,,C,TM,6
-MQ12,"GB, IM",Oui,TD,Mercredi,16:30,18:30,,D,TM,6
-MQ13,IM,Oui,Cours,Lundi,10:15,12:15,,C,TM,6
-MQ13,IM,Oui,TD,Lundi,08:30,10:00,,D,TM,6
-MQ13,IM,Oui,TP,Mardi,14:30,18:30,,T,TM,6
-MQ13,IM,Oui,TP,Mardi,14:30,18:30,,T,TM,6
-MQ16,IM,Oui,Cours,Vendredi,08:00,10:00,,C,TM,6
-MQ16,IM,Oui,TD,Vendredi,10:15,12:15,,D,TM,6
-MQ16,IM,Oui,TP,Jeudi,08:00,10:00,,T,TM,6
-MQ17,"GB, IM",Oui,Cours,Vendredi,14:15,16:15,,C,CS,6
-MQ17,"GB, IM",Oui,TD,Mardi,08:00,10:00,,D,CS,6
-MQ17,"GB, IM",Oui,TD,Mardi,10:15,12:15,,D,CS,6
-MQ17,"GB, IM",Oui,TD,Jeudi,14:15,16:15,,D,CS,6
-MQ17,"GB, IM",Oui,TD,Vendredi,08:00,10:00,,D,CS,6
-MQ17,"GB, IM",Oui,TD,Vendredi,10:15,12:15,,D,CS,6
-MQ17,"GB, IM",Oui,TD,Vendredi,16:30,18:30,,D,CS,6
-MQ17,"GB, IM",Oui,TP,Lundi,08:00,12:00,B,T,CS,6
-MQ17,"GB, IM",Oui,TP,Lundi,08:00,12:00,A,T,CS,6
-MQ17,"GB, IM",Oui,TP,Lundi,14:30,18:30,A,T,CS,6
-MQ17,"GB, IM",Oui,TP,Lundi,14:30,18:30,B,T,CS,6
-MQ17,"GB, IM",Oui,TP,Mardi,14:30,18:30,B,T,CS,6
-MQ17,"GB, IM",Oui,TP,Mardi,14:30,18:30,A,T,CS,6
-MQ17,"GB, IM",Oui,TP,Mercredi,08:00,12:00,A,T,CS,6
-MQ17,"GB, IM",Oui,TP,Mercredi,08:00,12:00,B,T,CS,6
-MQ17,"GB, IM",Oui,TP,Mercredi,14:30,18:30,A,T,CS,6
-MQ17,"GB, IM",Oui,TP,Mercredi,14:30,18:30,B,T,CS,6
-MQ17,"GB, IM",Oui,TP,Jeudi,08:00,12:00,B,T,CS,6
-MQ17,"GB, IM",Oui,TP,Jeudi,08:00,12:00,A,T,CS,6
-MQ17,"GB, IM",Oui,TP,Vendredi,08:00,12:00,A,T,CS,6
-MQ17,"GB, IM",Oui,TP,Vendredi,08:00,12:00,B,T,CS,6
-MQ20,"GB, TC","GB: Oui, TC: Non",Cours,Vendredi,10:15,12:15,,C,CS,6
-MQ20,"GB, TC","GB: Oui, TC: Non",TD,Mardi,10:15,12:15,,D,CS,6
-MQ20,"GB, TC","GB: Oui, TC: Non",TD,Vendredi,14:15,16:15,,D,CS,6
-MQ21,IM,Oui,Cours,Lundi,14:15,16:15,,C,TM,6
-MQ21,IM,Oui,TD,Lundi,16:30,18:30,,D,TM,6
-MQ21,IM,Oui,TP,Jeudi,14:30,18:30,,T,TM,6
-MS01,"GB, TC","GB: Oui, TC: Non",Cours,Lundi,08:00,10:00,,C,TM,6
-MS01,"GB, TC","GB: Oui, TC: Non",TD,Mardi,10:15,12:15,,D,TM,6
-MS01,"GB, TC","GB: Oui, TC: Non",TD,Mercredi,08:00,10:00,,D,TM,6
-MS01,"GB, TC","GB: Oui, TC: Non",TD,Vendredi,14:15,16:15,,D,TM,6
-MS01,"GB, TC","GB: Oui, TC: Non",TD,Lundi,10:15,12:15,,D,TM,6
-MS01,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,08:00,12:00,B,T,TM,6
-MS01,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,08:00,12:00,A,T,TM,6
-MS01,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,14:30,18:30,A,T,TM,6
-MS01,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,14:30,18:30,B,T,TM,6
-MS01,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,08:00,12:00,B,T,TM,6
-MS01,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,08:00,12:00,A,T,TM,6
-MS01,"GB, TC","GB: Oui, TC: Non",TP,Lundi,14:30,18:30,,T,TM,6
-MS01,"GB, TC","GB: Oui, TC: Non",TP,Lundi,14:30,18:30,,T,TM,6
-MS03,IM,Oui,TD,Jeudi,08:00,09:00,,D,TM,6
-MS03,IM,Oui,TP,Jeudi,09:00,12:00,,T,TM,6
-MT01,TC,Oui,Cours,Lundi,08:00,10:00,,C,CS,6
-MT01,TC,Oui,TD,Jeudi,10:15,12:15,,D,CS,6
-MT02,TC,Oui,Cours,Jeudi,10:30,12:00,,C,CS,8
-MT02,TC,Oui,Cours,Lundi,10:30,12:00,,C,CS,8
-MT02,TC,Oui,Cours,Lundi,14:30,16:00,,C,CS,8
-MT02,TC,Oui,Cours,Mardi,10:30,12:00,,C,CS,8
-MT02,TC,Oui,TD,Lundi,08:00,10:00,,D,CS,8
-MT02,TC,Oui,TD,Jeudi,08:00,10:00,,D,CS,8
-MT02,TC,Oui,TD,Jeudi,14:15,16:15,,D,CS,8
-MT02,TC,Oui,TD,Jeudi,16:30,18:30,,D,CS,8
-MT02,TC,Oui,TD,Vendredi,08:00,10:00,,D,CS,8
-MT02,TC,Oui,TD,Vendredi,14:15,16:15,,D,CS,8
-MT02,TC,Oui,TD,Jeudi,08:00,10:00,,D,CS,8
-MT02,TC,Oui,TD,Lundi,16:30,18:30,,D,CS,8
-MT02,TC,Oui,TD,Mardi,08:00,10:00,,D,CS,8
-MT02,TC,Oui,TD,Mardi,14:15,16:15,,D,CS,8
-MT02,TC,Oui,TD,Mardi,16:30,18:30,,D,CS,8
-MT02,TC,Oui,TD,Mercredi,08:00,10:00,,D,CS,8
-MT02,TC,Oui,TD,Mercredi,10:15,12:15,,D,CS,8
-MT02,TC,Oui,TD,Mercredi,14:15,16:15,,D,CS,8
-MT02,TC,Oui,TD,Mercredi,16:30,18:30,,D,CS,8
-MT02,TC,Oui,TD,Lundi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Jeudi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Jeudi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Jeudi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Vendredi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Vendredi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Mardi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Lundi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Lundi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Lundi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Mardi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Mardi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Mercredi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Mercredi,13:00,14:00,,T,CS,8
-MT02,TC,Oui,TD,Mercredi,13:00,14:00,,T,CS,8
-MT03,TC,Oui,Cours,Lundi,16:45,18:15,,C,CS,5
-MT03,TC,Oui,Cours,Mercredi,10:30,12:00,,C,CS,5
-MT03,TC,Oui,TD,Lundi,08:30,10:00,,D,CS,5
-MT03,TC,Oui,TD,Mercredi,14:30,16:00,,D,CS,5
-MT03,TC,Oui,TD,Mercredi,14:30,16:00,,D,CS,5
-MT03,TC,Oui,TD,Mercredi,16:30,18:00,,D,CS,5
-MT03,TC,Oui,TD,Mercredi,16:30,18:00,,D,CS,5
-MT03,TC,Oui,TD,Jeudi,08:30,10:00,,D,CS,5
-MT03,TC,Oui,TD,Jeudi,10:30,12:00,,D,CS,5
-MT03,TC,Oui,TD,Jeudi,14:30,16:00,,D,CS,5
-MT03,TC,Oui,TD,Jeudi,16:30,18:00,,D,CS,5
-MT03,TC,Oui,TD,Vendredi,08:30,10:00,,D,CS,5
-MT03,TC,Oui,TD,Vendredi,14:15,15:45,,D,CS,5
-MT03,TC,Oui,TD,Lundi,08:30,10:00,,D,CS,5
-MT03,TC,Oui,TD,Lundi,10:30,12:00,,D,CS,5
-MT03,TC,Oui,TD,Lundi,14:30,16:00,,D,CS,5
-MT03,TC,Oui,TD,Mardi,08:30,10:00,,D,CS,5
-MT03,TC,Oui,TD,Mardi,10:30,12:00,,D,CS,5
-MT03,TC,Oui,TD,Mardi,14:30,16:00,,D,CS,5
-MT03,TC,Oui,TD,Mardi,16:30,18:00,,D,CS,5
-MT03,TC,Oui,TD,Mercredi,08:30,10:00,,D,CS,5
-MT11,"GB, GP, GU, IM",Oui,TD,Lundi,08:00,10:00,,D,CS,6
-MT11,"GB, GP, GU, IM",Oui,TD,Mercredi,14:15,16:15,,D,CS,6
-MT11,"GB, GP, GU, IM",Oui,TD,Lundi,10:15,12:15,,D,CS,6
-MT11,"GB, GP, GU, IM",Oui,TD,Mercredi,08:00,10:00,,D,CS,6
-MT11,"GB, GP, GU, IM",Oui,TD,Lundi,16:30,18:30,,D,CS,6
-MT11,"GB, GP, GU, IM",Oui,TD,Mercredi,10:15,12:15,,D,CS,6
-MT12,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Jeudi,10:15,12:15,,C,CS,6
-MT12,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,10:15,12:15,,D,CS,6
-MT12,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mardi,16:30,18:30,,D,CS,6
-MT12,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,14:15,16:15,B,T,CS,6
-MT12,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,14:15,16:15,A,T,CS,6
-MT12,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,10:15,12:15,B,T,CS,6
-MT12,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,10:15,12:15,A,T,CS,6
-MT22,TC,Oui,Cours,Jeudi,10:15,12:15,,C,CS,6
-MT22,TC,Oui,TD,Lundi,10:15,12:15,,D,CS,6
-MT22,TC,Oui,TD,Lundi,14:15,16:15,,D,CS,6
-MT22,TC,Oui,TD,Jeudi,16:30,18:30,,D,CS,6
-MT22,TC,Oui,TD,Vendredi,10:15,12:15,,D,CS,6
-MT23,TC,Oui,Cours,Mercredi,10:15,12:15,,C,CS,6
-MT23,TC,Oui,Cours,Jeudi,10:15,12:15,,C,CS,6
-MT23,TC,Oui,TD,Lundi,10:15,12:15,,D,CS,6
-MT23,TC,Oui,TD,Vendredi,08:00,10:00,,D,CS,6
-MT23,TC,Oui,TD,Vendredi,10:15,12:15,,D,CS,6
-MT23,TC,Oui,TD,Vendredi,14:15,16:15,,D,CS,6
-MT23,TC,Oui,TD,Lundi,14:15,16:15,,D,CS,6
-MT23,TC,Oui,TD,Mardi,08:00,10:00,,D,CS,6
-MT23,TC,Oui,TD,Mardi,10:15,12:15,,D,CS,6
-MT23,TC,Oui,TD,Mardi,16:30,18:30,,D,CS,6
-MT23,TC,Oui,TD,Mercredi,08:00,10:00,,D,CS,6
-MT23,TC,Oui,TD,Jeudi,08:00,10:00,,D,CS,6
-MT23,TC,Oui,TD,Jeudi,14:15,16:15,,D,CS,6
-MT23,TC,Oui,TD,Jeudi,16:30,18:30,,D,CS,6
-MT31,,,Cours,Lundi,08:00,10:00,,C,CS,3
-MT31,,,TD,Lundi,10:15,12:15,,D,CS,3
-MT33,,,Cours,Mardi,10:15,12:15,,C,CS,8
-MT33,,,TD,Lundi,16:30,18:30,,D,CS,8
-MT33,,,TP,Jeudi,08:00,10:00,A,T,CS,8
-MT33,,,TP,Jeudi,08:00,10:00,B,T,CS,8
-MT36,,,Cours,Jeudi,10:15,12:15,,C,CS,6
-MT36,,,TD,Vendredi,16:30,18:30,,D,CS,6
-MTX2,,,Cours,Jeudi,10:30,12:00,,C,,
-MTX2,,,Cours,Lundi,10:30,12:00,,C,,
-MTX2,,,Cours,Lundi,14:30,16:00,,C,,
-MTX2,,,Cours,Mardi,10:30,12:00,,C,,
-MTX2,,,TD,Mardi,08:00,10:00,,D,,
-MTX2,,,TD,Mercredi,14:15,16:15,,T,,
-MU01,TC,Oui,TD,Vendredi,10:15,12:15,,D,TSH,4
-MU03,TC,Oui,TD,Jeudi,10:15,12:15,,D,TSH,4
-NF02,"GB, IM, TC",Oui,Cours,Lundi,16:30,18:00,,C,TM,6
-NF02,"GB, IM, TC",Oui,TD,Mercredi,08:00,10:00,,D,TM,6
-NF02,"GB, IM, TC",Oui,TD,Jeudi,16:30,18:30,,D,TM,6
-NF02,"GB, IM, TC",Oui,TP,Mercredi,10:15,12:15,A,T,TM,6
-NF02,"GB, IM, TC",Oui,TP,Mercredi,10:15,12:15,B,T,TM,6
-NF02,"GB, IM, TC",Oui,TP,Vendredi,08:00,10:00,A,T,TM,6
-NF02,"GB, IM, TC",Oui,TP,Vendredi,08:00,10:00,B,T,TM,6
-NF04,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Mercredi,10:15,12:15,,C,CS,6
-NF04,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,16:30,18:30,,D,CS,6
-NF04,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,10:15,12:15,,D,CS,6
-NF04,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,14:15,16:15,,D,CS,6
-NF05,TC,Oui,TD,Lundi,08:00,12:00,,D,TM,4
-NF05,TC,Oui,TD,Vendredi,14:30,18:30,,D,TM,4
-NF05,TC,Oui,TD,Lundi,14:15,18:15,,D,TM,4
-NF05,TC,Oui,TD,Mardi,08:00,12:00,,D,TM,4
-NF05,TC,Oui,TD,Mardi,14:15,18:15,,D,TM,4
-NF05,TC,Oui,TD,Mercredi,08:00,12:00,,D,TM,4
-NF05,TC,Oui,TD,Mercredi,14:15,18:15,,D,TM,4
-NF05,TC,Oui,TD,Jeudi,08:00,12:00,,D,TM,4
-NF05,TC,Oui,TD,Jeudi,14:15,18:15,,D,TM,4
-NF05,TC,Oui,TD,Vendredi,08:00,12:00,,D,TM,4
-NF16,"GB, GU, TC",Oui,Cours,Lundi,16:30,18:30,,C,CS,6
-NF16,"GB, GU, TC",Oui,TD,Mercredi,08:00,10:00,,D,CS,6
-NF16,"GB, GU, TC",Oui,TD,Mercredi,16:30,18:30,,D,CS,6
-NF16,"GB, GU, TC",Oui,TD,Jeudi,10:15,12:15,,D,CS,6
-NF16,"GB, GU, TC",Oui,TD,Jeudi,08:00,10:00,,D,CS,6
-NF16,"GB, GU, TC",Oui,TP,Mardi,08:00,10:00,B,T,CS,6
-NF16,"GB, GU, TC",Oui,TP,Mardi,08:00,10:00,A,T,CS,6
-NF16,"GB, GU, TC",Oui,TP,Mardi,10:15,12:15,A,T,CS,6
-NF16,"GB, GU, TC",Oui,TP,Mardi,10:15,12:15,B,T,CS,6
-NF16,"GB, GU, TC",Oui,TP,Vendredi,08:00,10:00,A,T,CS,6
-NF16,"GB, GU, TC",Oui,TP,Vendredi,08:00,10:00,B,T,CS,6
-NF16,"GB, GU, TC",Oui,TP,Vendredi,10:15,12:15,,T,CS,6
-NF16,"GB, GU, TC",Oui,TP,Vendredi,10:15,12:15,,T,CS,6
-NF18,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Jeudi,08:00,10:00,,C,TM,6
-NF18,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,10:15,13:15,,D,TM,6
-NF18,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,13:15,16:15,,D,TM,6
-NF18,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mercredi,10:15,13:15,,D,TM,6
-NF22,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",Cours,Vendredi,08:30,10:00,,C,TM,6
-NF22,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TD,Lundi,08:00,10:00,,D,TM,6
-NF22,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TD,Mardi,10:15,12:15,,D,TM,6
-NF22,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TD,Mardi,14:15,16:15,,D,TM,6
-NF22,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TD,Jeudi,08:00,10:00,,D,TM,6
-NF22,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TD,Jeudi,14:15,16:15,,D,TM,6
-NF22,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TD,Vendredi,10:15,12:15,,D,TM,6
-NF22,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TP,Lundi,10:15,12:15,,T,TM,6
-NF22,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TP,Mardi,08:00,10:00,,T,TM,6
-NF22,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TP,Mardi,16:30,18:30,,T,TM,6
-NF22,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,10:00,,T,TM,6
-NF22,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TP,Mercredi,16:30,18:30,,T,TM,6
-NF22,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TP,Vendredi,14:15,16:15,,T,TM,6
-NF23,GP,Oui,TD,Lundi,08:00,12:00,,D,TM,3
-NF92,TC,Oui,Cours,Mercredi,16:30,18:30,,C,TM,6
-NF92,TC,Oui,TD,Mercredi,08:00,10:00,,D,TM,6
-NF92,TC,Oui,TD,Jeudi,08:00,10:00,,D,TM,6
-NF92,TC,Oui,TD,Vendredi,08:00,10:00,,D,TM,6
-NF92,TC,Oui,TP,Mercredi,10:15,12:15,B,T,TM,6
-NF92,TC,Oui,TP,Mercredi,10:15,12:15,A,T,TM,6
-NF92,TC,Oui,TP,Jeudi,10:15,12:15,A,T,TM,6
-NF92,TC,Oui,TP,Jeudi,10:15,12:15,B,T,TM,6
-NF92,TC,Oui,TP,Vendredi,10:15,12:15,B,T,TM,6
-NF92,TC,Oui,TP,Vendredi,10:15,12:15,A,T,TM,6
-NF93,TC,Oui,Cours,Lundi,08:00,10:00,,C,CS,6
-NF93,TC,Oui,TD,Mercredi,08:00,10:00,,D,CS,6
-NF93,TC,Oui,TD,Jeudi,08:00,10:00,,D,CS,6
-NF93,TC,Oui,TD,Jeudi,10:15,12:15,,D,CS,6
-NF93,TC,Oui,TD,Vendredi,10:15,12:15,,D,CS,6
-PH01,TC,Oui,Cours,Mardi,09:00,10:00,,C,TSH,4
-PH01,TC,Oui,TD,Mardi,10:15,12:15,,D,TSH,4
-PH03,TC,Oui,Cours,Mardi,10:15,12:15,,C,TSH,4
-PH03,TC,Oui,TD,Mardi,13:00,14:00,,D,TSH,4
-PH03,TC,Oui,TD,Mardi,14:15,15:15,,D,TSH,4
-PH04,TC,Oui,Cours,Mardi,10:15,12:15,,C,TSH,4
-PH04,TC,Oui,TD,Mardi,14:15,15:15,,D,TSH,4
-PH04,TC,Oui,TD,Mardi,15:15,16:15,,D,TSH,4
-PH09,,,Cours,Lundi,14:15,16:15,,C,TSH,4
-PH09,,,TD,Lundi,13:00,14:00,,D,TSH,4
-PH09,,,TD,Lundi,16:30,17:30,,D,TSH,4
-PH11,TC,Oui,Cours,Mercredi,09:00,10:00,,C,TSH,4
-PH11,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
-PS04,TC,Oui,Cours,Mercredi,08:00,10:00,,C,CS,6
-PS04,TC,Oui,TD,Mardi,08:00,10:00,,D,CS,6
-PS04,TC,Oui,TP,Lundi,14:30,18:30,B,T,CS,6
-PS04,TC,Oui,TP,Lundi,14:30,18:30,A,T,CS,6
-PS12,"GU, IM",Oui,Cours,Lundi,14:15,16:15,,C,TM,6
-PS12,"GU, IM",Oui,TD,Lundi,16:30,18:30,,D,TM,6
-PS13,IM,Oui,Cours,Mardi,08:00,10:00,,C,TM,6
-PS13,IM,Oui,TD,Vendredi,13:00,16:00,,D,TM,6
-PS15,"GP, TC","GP: Oui, TC: Non",Cours,Mercredi,10:15,12:15,,C,CS,6
-PS15,"GP, TC","GP: Oui, TC: Non",TD,Jeudi,08:00,10:00,,D,CS,6
-PS15,"GP, TC","GP: Oui, TC: Non",TD,Jeudi,10:15,12:15,,D,CS,6
-PS15,"GP, TC","GP: Oui, TC: Non",TD,Jeudi,14:15,16:15,,D,CS,6
-PS15,"GP, TC","GP: Oui, TC: Non",TD,Vendredi,10:15,12:15,,D,CS,6
-PS21,TC,Oui,Cours,Vendredi,14:30,16:00,,C,CS,6
-PS21,TC,Oui,TD,Lundi,08:00,11:00,,D,CS,6
-PS21,TC,Oui,TD,Lundi,13:15,16:15,,D,CS,6
-PS21,TC,Oui,TD,Lundi,16:30,19:30,,D,CS,6
-PS21,TC,Oui,TD,Mardi,08:00,11:00,,D,CS,6
-PS21,TC,Oui,TD,Mercredi,13:15,16:15,,D,CS,6
-PS21,TC,Oui,TD,Mercredi,16:30,19:30,,D,CS,6
-PS21,TC,Oui,TD,Jeudi,08:00,11:00,,D,CS,6
-PS21,TC,Oui,TD,Jeudi,16:30,19:30,,D,CS,6
-PS22,TC,Oui,Cours,Lundi,10:15,12:15,,C,CS,6
-PS22,TC,Oui,TD,Mardi,10:15,12:15,,D,CS,6
-PS22,TC,Oui,TD,Mercredi,08:00,10:00,,D,CS,6
-PS22,TC,Oui,TD,Mercredi,10:15,12:15,,D,CS,6
-PS22,TC,Oui,TD,Jeudi,14:15,16:15,,D,CS,6
-PS22,TC,Oui,TD,Vendredi,08:00,10:00,,D,CS,6
-PS23,TC,Oui,Cours,Lundi,08:00,10:00,,C,CS,6
-PS23,TC,Oui,TD,Mardi,14:15,16:15,,D,CS,6
-PS90,TC,Oui,Cours,Mardi,16:30,18:30,,C,TM,3
-PS93,TC,Oui,Cours,Mardi,14:15,16:15,,C,CS,4
-PS93,TC,Oui,TD,Lundi,08:00,11:00,,D,CS,4
-PS93,TC,Oui,TD,Lundi,16:30,19:30,,D,CS,4
-PS93,TC,Oui,TD,Mercredi,16:30,19:30,,D,CS,4
-PS93,TC,Oui,TD,Vendredi,08:00,11:00,,D,CS,4
-PS93,TC,Oui,TP,Mercredi,08:00,11:00,,T,CS,4
-PS93,TC,Oui,TP,Mercredi,08:00,11:00,,T,CS,4
-PS93,TC,Oui,TP,Mercredi,13:00,16:00,,T,CS,4
-PS93,TC,Oui,TP,Mercredi,13:00,16:00,,T,CS,4
-PS93,TC,Oui,TP,Jeudi,08:00,11:00,,T,CS,4
-PS93,TC,Oui,TP,Jeudi,08:00,11:00,,T,CS,4
-PS93,TC,Oui,TP,Jeudi,13:15,16:15,,T,CS,4
-PS93,TC,Oui,TP,Jeudi,13:15,16:15,,T,CS,4
-PS93,TC,Oui,TP,Lundi,13:00,16:00,,T,CS,4
-RO05,GU,Oui,Cours,Jeudi,08:00,10:00,,C,CS,6
-RO05,GU,Oui,TD,Jeudi,10:15,12:15,,D,CS,6
-RO06,GU,Oui,Cours,Lundi,08:00,10:00,,C,TM,6
-RO06,GU,Oui,TD,Lundi,10:15,12:15,,D,TM,6
-RV01,GU,Oui,Cours,Jeudi,10:15,12:15,,C,TM,6
-RV01,GU,Oui,TD,Vendredi,14:15,16:15,,D,TM,6
-SA12,TC,Oui,TD,Jeudi,13:15,16:15,,D,TSH,4
-SA12,TC,Oui,TD,Jeudi,16:30,19:30,,D,TSH,4
-SC11,TC,Oui,Cours,Lundi,13:00,14:00,,C,TSH,4
-SC11,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-SC12,TC,Oui,Cours,Mercredi,14:15,16:15,,C,TSH,4
-SC12,TC,Oui,TD,Mercredi,16:30,17:30,,D,TSH,4
-SC12,TC,Oui,TD,Mercredi,17:30,18:30,,D,TSH,4
-SC21,TC,Oui,Cours,Mardi,14:15,16:15,,C,TSH,4
-SC21,TC,Oui,TD,Mardi,16:30,17:30,,D,TSH,4
-SC21,TC,Oui,TD,Mardi,17:30,18:30,,D,TSH,4
-SC22,,,Cours,Mardi,13:00,14:00,,C,TSH,4
-SC22,,,TD,Mardi,14:15,16:15,,D,TSH,4
-SC23,TC,Oui,Cours,Mardi,13:00,14:00,,C,TSH,4
-SC23,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-SC25,TC,Oui,Cours,Mardi,13:00,14:00,,C,TSH,4
-SC25,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-SC25,TC,Oui,TD,Mardi,16:30,18:30,,D,TSH,4
-SC27,TC,Oui,Cours,Mardi,13:00,14:00,,C,TSH,4
-SC27,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-SF01,,,TD,Mardi,14:30,16:00,,D,,
-SF01,,,TD,Mardi,16:30,18:00,,D,,
-SF02,,,TD,Mardi,14:30,16:00,,D,,
-SF02,,,TD,Mardi,16:30,18:00,,D,,
-SH01,GI,,Cours,Vendredi,13:00,14:00,,C,TSH,4
-SH01,GI,,TD,Vendredi,14:15,16:15,,D,TSH,4
-SH01,GI,,TD,Vendredi,16:30,18:30,,D,TSH,4
-SH03,,,Cours,Vendredi,13:00,14:00,,C,,
-SH03,,,TD,Vendredi,08:00,10:00,,D,,
-SH06,,,Cours,Mercredi,09:00,10:00,,C,,
-SH06,,,TD,Mercredi,10:15,12:15,,D,,
-SH07,,,Cours,Mercredi,10:15,11:15,,C,,
-SH07,,,TD,Mercredi,11:15,13:15,,D,,
-SH07,,,TD,Mercredi,14:15,16:15,,D,,
-SH10,,,Cours,Vendredi,13:00,14:00,,C,,
-SH10,,,TD,Vendredi,14:15,16:15,,D,,
-SH10,,,TD,Vendredi,16:30,18:30,,D,TSH,4
-SH26,,,Cours,Mercredi,10:15,11:15,,C,,
-SH26,,,TD,Mercredi,11:15,13:15,,D,,
-SH30,,,Cours,Vendredi,13:00,14:00,,C,,
-SH30,,,TD,Vendredi,14:15,16:15,,D,,
-SH30,,,TD,Vendredi,16:30,18:30,,D,,
-SH40,,,Cours,Vendredi,14:15,15:15,,C,TSH,4
-SH40,,,TD,Vendredi,15:15,17:15,,D,TSH,4
-SI02,,,Cours,Vendredi,09:00,10:00,,C,TSH,4
-SI02,,,TD,Vendredi,10:15,12:15,,D,TSH,4
-SI02,,,TD,Vendredi,14:15,16:15,,D,TSH,4
-SI02,,,TD,Vendredi,16:30,18:30,,D,TSH,4
-SI11,TC,Oui,TD,Lundi,10:15,13:15,,D,TSH,4
-SI11,TC,Oui,TD,Lundi,10:15,13:15,,D,TSH,4
-SI11,TC,Oui,TD,Lundi,13:15,16:15,,D,TSH,4
-SI11,TC,Oui,TD,Lundi,13:15,16:15,,D,TSH,4
-SI11,TC,Oui,TD,Mardi,13:15,16:15,,D,TSH,4
-SI11,TC,Oui,TD,Mardi,16:30,19:30,,D,TSH,4
-SI20,,,Cours,Mercredi,13:00,14:00,,C,TSH,4
-SI20,,,TD,Mercredi,14:15,16:15,,D,TSH,4
-SI20,,,TD,Mercredi,16:30,18:30,,D,TSH,4
-SI24,TC,Oui,Cours,Vendredi,09:00,10:00,,C,TSH,4
-SI24,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-SI24,TC,Oui,TD,Vendredi,10:15,12:15,,D,TSH,4
-SO04,TC,Oui,Cours,Lundi,13:00,14:00,,C,TSH,4
-SO04,TC,Oui,TD,Lundi,10:15,12:15,,D,TSH,4
-SO04,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-SO05,TC,Oui,Cours,Mardi,13:00,14:00,,C,TSH,4
-SO05,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-SO05,TC,Oui,TD,Mardi,16:30,18:30,,D,TSH,4
-SO08,TC,Oui,Cours,Mardi,13:00,14:00,,C,TSH,4
-SO08,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-SO08,TC,Oui,TD,Mardi,16:30,18:30,,D,TSH,4
-SP01,TC,Oui,Cours,Mardi,10:15,12:15,,C,TSH,4
-SP01,TC,Oui,TD,Lundi,14:15,16:15,,D,TSH,4
-SP01,TC,Oui,TD,Mardi,14:15,16:15,,D,TSH,4
-SP22,,,Cours,Lundi,10:15,12:15,,C,TSH,4
-SP22,,,TD,Lundi,14:15,16:15,,D,TSH,4
-SP22,,,TD,Lundi,16:30,18:30,,D,TSH,4
-SR01,"GU, TC","GU: Oui, TC: Non",Cours,Lundi,14:15,16:15,,C,TM,6
-SR01,"GU, TC","GU: Oui, TC: Non",TD,Lundi,16:30,18:30,,D,TM,6
-SR01,"GU, TC","GU: Oui, TC: Non",TD,Mardi,16:30,18:30,,D,TM,6
-SR01,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,08:00,10:00,,D,TM,6
-SR01,"GU, TC","GU: Oui, TC: Non",TD,Vendredi,10:15,12:15,,D,TM,6
-SR01,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,10:15,12:15,,D,TM,6
-SR04,GU,Oui,Cours,Lundi,16:30,19:30,,C,CS,6
-SR04,GU,Oui,TD,Jeudi,14:15,16:15,,D,CS,6
-SR04,GU,Oui,TD,Jeudi,16:30,18:30,,D,CS,6
-SR07,GU,Oui,Cours,Vendredi,10:15,12:15,,C,TM,6
-SR07,GU,Oui,TD,Vendredi,16:30,19:30,,D,TM,6
-SR08,GU,Oui,Cours,Jeudi,08:00,10:00,,C,TM,6
-SR08,GU,Oui,TD,Samedi,08:00,11:00,,D,TM,6
-SU01,TC,Oui,Cours,Mardi,08:00,10:00,,C,TM,6
-SU01,TC,Oui,TD,Mardi,10:15,12:15,,D,TM,6
-SU01,TC,Oui,TD,Mardi,14:15,16:15,,D,TM,6
-SU01,TC,Oui,TD,Mardi,16:30,18:30,,D,TM,6
-SV01,TC,Oui,Cours,Mercredi,14:15,16:15,,C,CS,6
-SV01,TC,Oui,TD,Mardi,14:15,16:15,,D,CS,6
-SV01,TC,Oui,TD,Mercredi,10:15,12:15,,D,CS,6
-SV01,TC,Oui,TD,Mercredi,16:30,18:30,,D,CS,6
-SV01,TC,Oui,TP,Lundi,14:15,18:15,A,T,CS,6
-SV01,TC,Oui,TP,Lundi,14:15,18:15,B,T,CS,6
-SV01,TC,Oui,TP,Mardi,08:00,12:00,A,T,CS,6
-SV01,TC,Oui,TP,Mardi,08:00,12:00,B,T,CS,6
-SV01,TC,Oui,TP,Jeudi,14:15,18:15,B,T,CS,6
-SV01,TC,Oui,TP,Jeudi,14:15,18:15,A,T,CS,6
-SY01,TC,Oui,Cours,Mardi,10:15,12:15,,C,CS,6
-SY01,TC,Oui,TD,Lundi,10:15,12:15,,D,CS,6
-SY01,TC,Oui,TD,Jeudi,14:15,16:15,,D,CS,6
-SY02,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Mardi,08:00,10:00,,C,CS,7
-SY02,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mardi,16:30,18:30,,D,CS,7
-SY02,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mercredi,10:15,12:15,,D,CS,7
-SY02,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mercredi,14:15,16:15,,D,CS,7
-SY02,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,08:00,10:00,,D,CS,7
-SY02,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,14:15,16:15,,D,CS,7
-SY02,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Lundi,14:15,16:15,B,T,CS,7
-SY02,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Lundi,14:15,16:15,A,T,CS,7
-SY02,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,10:00,B,T,CS,7
-SY02,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,10:00,A,T,CS,7
-SY02,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,16:30,18:30,,T,CS,7
-SY03,"IM, TC","IM: Oui, TC: Non",Cours,Jeudi,08:00,10:00,,C,TM,6
-SY03,"IM, TC","IM: Oui, TC: Non",TD,Mardi,08:00,10:00,,D,TM,6
-SY03,"IM, TC","IM: Oui, TC: Non",TD,Jeudi,16:30,18:30,,D,TM,6
-SY03,"IM, TC","IM: Oui, TC: Non",TD,Vendredi,08:00,10:00,,D,TM,6
-SY03,"IM, TC","IM: Oui, TC: Non",TP,Lundi,08:00,12:00,B,T,TM,6
-SY03,"IM, TC","IM: Oui, TC: Non",TP,Lundi,08:00,12:00,A,T,TM,6
-SY03,"IM, TC","IM: Oui, TC: Non",TP,Mardi,14:30,18:30,A,T,TM,6
-SY03,"IM, TC","IM: Oui, TC: Non",TP,Mardi,14:30,18:30,B,T,TM,6
-SY03,"IM, TC","IM: Oui, TC: Non",TP,Mercredi,08:00,12:00,A,T,TM,6
-SY03,"IM, TC","IM: Oui, TC: Non",TP,Mercredi,08:00,12:00,B,T,TM,6
-SY05,"GB, GP",Oui,Cours,Jeudi,08:00,10:00,,C,TM,6
-SY05,"GB, GP",Oui,TD,Jeudi,10:15,12:15,,D,TM,6
-SY06,"GB, GU, IM",Oui,Cours,Mardi,14:15,16:15,,C,CS,6
-SY06,"GB, GU, IM",Oui,TD,Jeudi,10:15,12:15,,D,CS,6
-SY06,"GB, GU, IM",Oui,TD,Jeudi,14:15,16:15,,D,CS,6
-SY06,"GB, GU, IM",Oui,TD,Vendredi,14:15,16:15,,D,CS,6
-SY06,"GB, GU, IM",Oui,TP,Lundi,10:15,13:15,A,T,CS,6
-SY06,"GB, GU, IM",Oui,TP,Lundi,10:15,13:15,B,T,CS,6
-SY06,"GB, GU, IM",Oui,TP,Mardi,16:30,19:30,B,T,CS,6
-SY06,"GB, GU, IM",Oui,TP,Mardi,16:30,19:30,A,T,CS,6
-SY06,"GB, GU, IM",Oui,TP,Mercredi,10:15,13:15,B,T,CS,6
-SY06,"GB, GU, IM",Oui,TP,Mercredi,10:15,13:15,A,T,CS,6
-SY08,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",Cours,Jeudi,16:30,18:30,,C,CS,6
-SY08,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TD,Mercredi,16:30,18:30,,D,CS,6
-SY08,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TD,Jeudi,08:00,10:00,,D,CS,6
-SY08,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TD,Mercredi,10:15,12:15,,D,CS,6
-SY08,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TP,Lundi,16:30,18:30,A,T,CS,6
-SY08,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TP,Lundi,16:30,18:30,B,T,CS,6
-SY08,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TP,Mardi,16:30,18:30,B,T,CS,6
-SY08,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TP,Mardi,16:30,18:30,A,T,CS,6
-SY08,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TP,Mardi,08:00,10:00,,T,CS,6
-SY08,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TP,Mardi,08:00,10:00,,T,CS,6
-SY10,"GU, IM, TC",Oui,Cours,Mardi,16:30,18:30,,C,TM,6
-SY10,"GU, IM, TC",Oui,TD,Jeudi,14:15,16:15,,D,TM,6
-SY10,"GU, IM, TC",Oui,TP,Jeudi,16:30,18:30,,T,TM,6
-SY10,"GU, IM, TC",Oui,TP,Jeudi,16:30,18:30,,T,TM,6
-SY14,"GU, TC","GU: Oui, TC: Non",Cours,Jeudi,10:15,12:15,,C,CS,6
-SY14,"GU, TC","GU: Oui, TC: Non",TD,Jeudi,14:15,16:15,,D,CS,6
-SY14,"GU, TC","GU: Oui, TC: Non",TP,Lundi,08:00,12:00,B,T,CS,6
-SY14,"GU, TC","GU: Oui, TC: Non",TP,Lundi,08:00,12:00,A,T,CS,6
-SY19,"GB, GU",Oui,Cours,Mercredi,08:00,10:00,,C,TM,6
-SY19,"GB, GU",Oui,TD,Mardi,10:15,12:15,,D,TM,6
-SY19,"GB, GU",Oui,TD,Mercredi,10:15,12:15,,D,TM,6
-SY27,GU,Oui,Cours,Mercredi,14:15,16:15,,C,TM,6
-SY27,GU,Oui,TD,Jeudi,14:30,18:30,,D,TM,6
-SY28,GU,Oui,Cours,Mardi,10:15,12:15,,C,TM,6
-SY28,GU,Oui,TD,Mardi,14:15,16:15,,D,TM,6
-SY28,GU,Oui,TP,Vendredi,14:15,16:15,,T,TM,6
-SY98,,,Cours,Lundi,10:30,12:00,,C,CS,
-SY98,,,Cours,Mardi,10:30,12:00,,C,CS,
-SY98,,,TD,Lundi,08:00,10:00,,D,CS,
-SY98,,,TD,Mardi,14:15,16:15,,T,CS,
-TA02,GP,Oui,Cours,Vendredi,14:15,16:15,,C,TM,6
-TA02,GP,Oui,TD,Vendredi,16:30,18:30,,D,TM,6
-TA03,,,Cours,Mercredi,08:00,12:00,,C,,
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Mardi,10:15,12:15,,C,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,08:00,10:00,,D,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,14:15,16:15,,D,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mardi,08:00,10:00,,D,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,08:00,10:00,,D,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,10:15,12:15,,D,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Vendredi,08:00,10:00,,D,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Lundi,16:30,19:30,A,T,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Lundi,16:30,19:30,B,T,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mardi,13:00,16:00,B,T,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mardi,13:00,16:00,A,T,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mardi,16:30,19:30,A,T,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mardi,16:30,19:30,B,T,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,13:00,16:00,,T,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,16:30,19:30,A,T,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,16:30,19:30,B,T,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Jeudi,13:00,16:00,A,T,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Jeudi,13:00,16:00,B,T,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,13:00,16:00,B,T,CS,6
-TF01,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,13:00,16:00,A,T,CS,6
-TF06,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Mercredi,08:00,10:00,,C,CS,6
-TF06,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,08:00,10:00,,D,CS,6
-TF06,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,10:15,12:15,,D,CS,6
-TF06,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Vendredi,10:15,12:15,,D,CS,6
-TF06,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Vendredi,14:15,16:15,,D,CS,6
-TF06,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Vendredi,16:30,18:30,,D,CS,6
-TF11,TC,Oui,Cours,Mercredi,10:15,12:15,,C,CS,6
-TF11,TC,Oui,TD,Jeudi,10:15,12:15,,D,CS,6
-TF11,TC,Oui,TD,Jeudi,14:15,16:15,,D,CS,6
-TF11,TC,Oui,TD,Vendredi,08:00,10:00,,D,CS,6
-TH02,GP,Oui,Cours,Mardi,08:00,10:00,,C,TM,6
-TH02,GP,Oui,TD,Mardi,10:15,12:15,,D,TM,6
-TH04,GP,Oui,Cours,Vendredi,08:00,10:00,,C,TM,6
-TH04,GP,Oui,TD,Vendredi,10:15,12:15,,D,TM,6
-TM02,TC,Oui,TD,Vendredi,08:00,10:00,,D,TM,5
-TM02,TC,Oui,TP,Vendredi,10:15,12:15,,T,TM,5
-TN01,TC,Oui,Cours,Vendredi,16:45,17:45,,C,TM,6
-TN01,TC,Oui,TD,Lundi,08:00,11:00,,D,TM,6
-TN01,TC,Oui,TD,Vendredi,13:00,16:00,,D,TM,6
-TN01,TC,Oui,TD,Mardi,16:30,19:30,,D,TM,6
-TN01,TC,Oui,TD,Lundi,13:00,16:00,,D,TM,6
-TN01,TC,Oui,TD,Lundi,16:30,19:30,,D,TM,6
-TN01,TC,Oui,TD,Mardi,08:00,11:00,,D,TM,6
-TN01,TC,Oui,TD,Mardi,13:00,16:00,,D,TM,6
-TN01,TC,Oui,TD,Mercredi,08:00,11:00,,D,TM,6
-TN01,TC,Oui,TD,Mercredi,13:00,16:00,,D,TM,6
-TN01,TC,Oui,TD,Mercredi,16:30,19:30,,D,TM,6
-TN01,TC,Oui,TD,Jeudi,13:00,16:00,,D,TM,6
-TN02,"IM, TC",Oui,Cours,Lundi,14:15,15:15,,C,TM,6
-TN02,"IM, TC",Oui,TD,Lundi,08:00,11:00,,D,TM,6
-TN02,"IM, TC",Oui,TD,Lundi,16:30,19:30,,D,TM,6
-TN02,"IM, TC",Oui,TD,Mercredi,13:15,16:15,,D,TM,6
-TN02,"IM, TC",Oui,TD,Jeudi,13:15,16:15,,D,TM,6
-TN02,"IM, TC",Oui,TD,Jeudi,16:30,19:30,,D,TM,6
-TN02,"IM, TC",Oui,TD,Vendredi,08:00,11:00,,D,TM,6
-TN03,TC,Oui,Cours,Mardi,16:30,17:30,,C,TM,6
-TN03,TC,Oui,TD,Mardi,08:00,09:00,,D,TM,6
-TN03,TC,Oui,TD,Mardi,09:00,10:00,,D,TM,6
-TN03,TC,Oui,TD,Vendredi,14:15,15:15,,D,TM,6
-TN03,TC,Oui,TD,Vendredi,15:15,16:15,,D,TM,6
-TN03,TC,Oui,TP,Mercredi,08:00,12:00,,T,TM,6
-TN03,TC,Oui,TP,Mercredi,14:15,18:15,,T,TM,6
-TN06,TC,Oui,Cours,Lundi,16:30,18:30,,C,CS,6
-TN06,TC,Oui,TD,Mardi,08:00,10:00,,D,CS,6
-TN06,TC,Oui,TD,Mercredi,14:15,16:15,,D,CS,6
-TN06,TC,Oui,TP,Jeudi,14:15,18:15,A,T,CS,6
-TN06,TC,Oui,TP,Jeudi,14:15,18:15,B,T,CS,6
-TN06,TC,Oui,TP,Vendredi,08:00,12:00,B,T,CS,6
-TN06,TC,Oui,TP,Vendredi,08:00,12:00,A,T,CS,6
-TN08,IM,Oui,Cours,Mardi,14:15,16:15,,C,TM,6
-TN08,IM,Oui,TP,Mardi,16:30,18:30,,T,TM,6
-TN12,IM,Oui,Cours,Lundi,14:15,15:45,,C,TM,6
-TN12,IM,Oui,TD,Mardi,14:30,18:30,,D,TM,6
-TN12,IM,Oui,TD,Mercredi,14:30,18:30,,D,TM,6
-TN12,IM,Oui,TD,Vendredi,08:00,12:00,,D,TM,6
-TN14,IM,Oui,Cours,Lundi,14:15,16:15,,C,TM,6
-TN14,IM,Oui,TD,Lundi,16:30,18:00,,D,TM,6
-TN15,,,Cours,Jeudi,13:15,16:15,,C,,
-TN20,"IM, TC","IM: Oui, TC: Non",Cours,Vendredi,16:30,18:00,,C,TM,6
-TN20,"IM, TC","IM: Oui, TC: Non",TD,Lundi,14:15,18:15,,D,TM,6
-TN20,"IM, TC","IM: Oui, TC: Non",TD,Mardi,08:00,12:00,,D,TM,6
-TN20,"IM, TC","IM: Oui, TC: Non",TD,Mardi,14:15,18:15,,D,TM,6
-TN20,"IM, TC","IM: Oui, TC: Non",TD,Mercredi,08:00,12:00,,D,TM,6
-TN20,"IM, TC","IM: Oui, TC: Non",TD,Mercredi,14:30,18:30,,D,TM,6
-TN20,"IM, TC","IM: Oui, TC: Non",TD,Jeudi,08:00,12:00,,D,TM,6
-TN21,IM,Oui,Cours,Mardi,14:15,16:15,,C,TM,6
-TN21,IM,Oui,TD,Vendredi,14:15,16:15,,D,TM,6
-TN22,IM,Oui,Cours,Lundi,14:30,16:00,,C,TM,6
-TN22,IM,Oui,TD,Mardi,08:00,12:00,,D,TM,6
-TN22,IM,Oui,TD,Mercredi,08:00,12:00,,D,TM,6
-TN22,IM,Oui,TD,Vendredi,08:00,12:00,,D,TM,6
-TN23,IM,Oui,Cours,Mercredi,08:00,10:00,,C,TM,6
-TN23,IM,Oui,TD,Lundi,16:30,18:30,,D,TM,6
-TN23,IM,Oui,TD,Mardi,10:15,12:15,,D,TM,6
-TN23,IM,Oui,TD,Vendredi,10:15,12:15,,D,TM,6
-TN23,IM,Oui,TP,Lundi,08:00,12:00,B,T,TM,6
-TN23,IM,Oui,TP,Lundi,08:00,12:00,A,T,TM,6
-TN23,IM,Oui,TP,Mercredi,14:30,18:30,A,T,TM,6
-TN23,IM,Oui,TP,Mercredi,14:30,18:30,B,T,TM,6
-TN23,IM,Oui,TP,Jeudi,08:00,12:00,B,T,TM,6
-TN23,IM,Oui,TP,Jeudi,08:00,12:00,A,T,TM,6
-TN25,IM,Oui,Cours,Vendredi,10:15,11:45,,C,TM,6
-TN25,IM,Oui,TD,Jeudi,08:00,12:00,,D,TM,6
-TR91,TC,Oui,Cours,Jeudi,16:30,18:30,,C,TM,2
-TR91,TC,Oui,TD,Mercredi,10:15,12:15,,D,TM,2
-TS02,GP,Oui,Cours,Lundi,14:15,16:15,,C,CS,6
-TS02,GP,Oui,TD,Lundi,16:30,18:30,,D,CS,6
-TSN1,GB,Oui,Cours,Mardi,10:15,12:15,,C,TM,6
-TSN1,GB,Oui,TD,Mercredi,14:15,16:15,,D,TM,6
-TSN1,GB,Oui,TD,Mercredi,16:30,18:30,,D,TM,6
-UB02,GU,Oui,Cours,Vendredi,08:00,10:00,,C,TM,6
-UB02,GU,Oui,TD,Vendredi,10:15,12:15,,D,TM,6
-UB09,GU,Oui,Cours,Lundi,10:15,12:15,,C,CS,6
-UB09,GU,Oui,TD,Lundi,14:15,16:15,,D,CS,6
-UB09,GU,Oui,TD,Lundi,16:30,18:30,,D,CS,6
-UB09,GU,Oui,TP,Mardi,14:30,18:30,B,T,CS,6
-UB09,GU,Oui,TP,Mardi,14:30,18:30,A,T,CS,6
-UB09,GU,Oui,TP,Vendredi,08:00,12:00,B,T,CS,6
-UB09,GU,Oui,TP,Vendredi,08:00,12:00,A,T,CS,6
-UR02,"GU, TC",Oui,Cours,Vendredi,14:15,16:15,,C,CS,6
-UR02,"GU, TC",Oui,TD,Mercredi,14:15,16:15,,D,CS,6
-UR02,"GU, TC",Oui,TD,Vendredi,08:00,10:00,,D,CS,6
-UR02,"GU, TC",Oui,TD,Vendredi,10:15,12:15,,D,CS,6
-UR02,"GU, TC",Oui,TD,Vendredi,16:30,18:30,,D,CS,6
-UR02,"GU, TC",Oui,TD,Mardi,16:30,18:30,,D,CS,6
-UR03,"GU, TC","GU: Oui, TC: Non",Cours,Mercredi,16:30,18:30,,C,TM,6
-UR03,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,08:00,10:00,,D,TM,6
-UR03,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,14:15,16:15,,D,TM,6
-UR06,"GU, TC","GU: Oui, TC: Non",Cours,Mercredi,14:15,16:15,,C,TM,6
-UR06,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,08:00,10:00,,D,TM,6
-UR06,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,10:15,12:15,,D,TM,6
-UR07,GU,Oui,Cours,Vendredi,14:15,16:15,,C,TM,6
-UR07,GU,Oui,TD,Vendredi,16:30,18:30,,D,TM,6
-UT01,,,Cours,Mardi,14:30,16:00,,C,,
-UT01,,,TD,Mardi,16:30,18:30,,D,,
-WE01,TC,Oui,Cours,Mercredi,13:00,14:00,,C,TSH,4
-WE01,TC,Oui,TD,Mercredi,14:15,16:15,,D,TSH,4
-WE01,TC,Oui,TD,Mercredi,16:30,18:30,,D,TSH,4
-WE01,TC,Oui,TD,Mercredi,10:15,12:15,,D,TSH,4
+Code enseig.,Type UV,ECTS,Spécialité,Diplomante,Activité,Jour,Heure début,Heure fin,Semaine,Lib. créneau
+AC01,CS,5,"GU, IM",Oui,Cours,Vendredi,10:15,12:15,,
+AC01,CS,5,"GU, IM",Oui,TD,Lundi,14:15,16:15,,1
+AC01,CS,5,"GU, IM",Oui,TD,Mardi,08:00,10:00,,2
+AC01,CS,5,"GU, IM",Oui,TP,Mercredi,08:00,10:00,,1
+AC01,CS,5,"GU, IM",Oui,TP,Jeudi,14:15,16:15,,2
+AC05,CS,5,"GU, IM",Oui,Cours,Jeudi,18:45,20:45,,
+AC05,CS,5,"GU, IM",Oui,Cours,Mardi,14:15,16:15,,
+AC05,CS,5,"GU, IM",Oui,TD,Jeudi,08:00,10:00,,1
+AC05,CS,5,"GU, IM",Oui,TD,Vendredi,10:15,12:15,,2
+AC05,CS,5,"GU, IM",Oui,TD,Vendredi,16:30,18:30,,3
+AC05,CS,5,"GU, IM",Oui,TP,Mardi,10:15,13:15,B,1
+AC05,CS,5,"GU, IM",Oui,TP,Mardi,10:15,13:15,A,1
+AC05,CS,5,"GU, IM",Oui,TP,Mercredi,16:30,19:30,,2
+AC05,CS,5,"GU, IM",Oui,TP,Vendredi,13:00,16:00,A,3
+AC05,CS,5,"GU, IM",Oui,TP,Vendredi,13:00,16:00,B,3
+AI01,CS,6,GU,Oui,Cours,Lundi,16:30,18:30,,
+AI01,CS,6,GU,Oui,TD,Mercredi,10:15,12:15,,1
+AI01,CS,6,GU,Oui,TD,Mercredi,16:30,18:30,,2
+AI01,CS,6,GU,Oui,TP,Jeudi,10:15,12:15,,1
+AI01,CS,6,GU,Oui,TP,Jeudi,16:30,18:30,,2
+AI02,CS,4,GU,Oui,Cours,Mercredi,08:00,10:00,,
+AI02,CS,4,GU,Oui,TD,Jeudi,16:30,18:30,,
+AI02,CS,4,GU,Oui,TP,Vendredi,08:00,10:00,B,
+AI02,CS,4,GU,Oui,TP,Vendredi,08:00,10:00,A,
+AI04,CS,4,GU,Oui,Cours,Jeudi,10:15,12:15,,
+AI04,CS,4,GU,Oui,Cours,Vendredi,14:15,16:15,,
+AI05,CS,5,GU,Oui,Cours,Mercredi,10:15,13:15,,
+AI05,CS,5,GU,Oui,TD,Lundi,14:15,16:15,,1
+AI05,CS,5,GU,Oui,TD,Vendredi,08:00,10:00,,2
+AI09,CS,5,GU,Oui,Cours,Lundi,08:00,10:00,,
+AI09,CS,5,GU,Oui,TD,Lundi,14:15,16:15,,
+AI10,CS,5,GU,Oui,Cours,Mardi,16:30,19:30,,
+AI10,CS,5,GU,Oui,TD,Mardi,14:15,16:15,,1
+AI10,CS,5,GU,Oui,TD,Mardi,10:15,12:15,,2
+AI29,CS,4,GU,Oui,Cours,Vendredi,10:15,12:15,,
+AI29,CS,4,GU,Oui,TD,Jeudi,16:30,18:30,,
+AI29,CS,4,GU,Oui,TP,Mercredi,08:00,10:00,A,
+AI29,CS,4,GU,Oui,TP,Mercredi,08:00,10:00,B,
+AI32,CS,5,GU,Oui,Cours,Jeudi,10:15,12:15,,
+AI32,CS,5,GU,Oui,TD,Mardi,16:30,18:30,,
+AI32,CS,5,GU,Oui,TP,Mercredi,14:30,18:30,B,
+AI32,CS,5,GU,Oui,TP,Mercredi,14:30,18:30,A,
+AM03,CS,4,IM,Oui,Cours,Mardi,16:30,18:00,,
+AM03,CS,4,IM,Oui,TD,Jeudi,10:15,13:15,,1
+AM03,CS,4,IM,Oui,TD,Jeudi,16:30,19:30,,2
+AM04,CS,5,IM,Oui,Cours,Mardi,14:15,16:15,,
+AM04,CS,5,IM,Oui,TD,Jeudi,08:00,10:00,,1
+AM04,CS,5,IM,Oui,TD,Vendredi,08:00,10:00,,2
+AM04,CS,5,IM,Oui,TP,Mardi,08:00,12:00,,1
+AM04,CS,5,IM,Oui,TP,Jeudi,14:30,18:30,,2
+AM08,CS,4,IM,Oui,Cours,Lundi,08:00,10:00,,
+AM08,CS,4,IM,Oui,TD,Mardi,10:15,13:15,,
+AM14,CS,5,IM,Oui,Cours,Lundi,16:30,18:30,,
+AM14,CS,5,IM,Oui,Cours,Mercredi,14:15,18:15,,
+AM14,CS,5,IM,Oui,TD,Mardi,08:00,10:00,,1
+AM14,CS,5,IM,Oui,TD,Mardi,14:15,16:15,,2
+AM25,CS,5,IM,Oui,Cours,Mercredi,14:15,16:15,,
+AM25,CS,5,IM,Oui,TD,Mardi,10:15,12:15,,
+BA03,CS,6,"GU, TC","GU: Oui, TC: Non",Cours,Mercredi,10:15,12:15,,
+BA03,CS,6,"GU, TC","GU: Oui, TC: Non",TD,Lundi,10:15,12:15,,1
+BA03,CS,6,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,08:00,10:00,,2
+BL10,CS,6,"GB, TC","GB: Oui, TC: Non",Cours,Lundi,14:15,16:15,,
+BL10,CS,6,"GB, TC","GB: Oui, TC: Non",TD,Lundi,16:30,18:30,,1
+BL10,CS,6,"GB, TC","GB: Oui, TC: Non",TD,Mardi,10:15,12:15,,2
+BL10,CS,6,"GB, TC","GB: Oui, TC: Non",TD,Mercredi,10:15,12:15,,3
+BL10,CS,6,"GB, TC","GB: Oui, TC: Non",TP,Mercredi,14:30,18:30,B,1
+BL10,CS,6,"GB, TC","GB: Oui, TC: Non",TP,Mercredi,14:30,18:30,A,1
+BL10,CS,6,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,08:00,12:00,A,2
+BL10,CS,6,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,08:00,12:00,B,2
+BL10,CS,6,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,14:30,18:30,,3
+BL20,CS,6,"GB, TC","GB: Oui, TC: Non",Cours,Lundi,10:15,12:15,,
+BL20,CS,6,"GB, TC","GB: Oui, TC: Non",TD,Mardi,14:15,16:15,,1
+BL20,CS,6,"GB, TC","GB: Oui, TC: Non",TD,Mardi,16:30,18:30,,2
+BL20,CS,6,"GB, TC","GB: Oui, TC: Non",TD,Mercredi,08:00,10:00,,3
+BL20,CS,6,"GB, TC","GB: Oui, TC: Non",TD,Vendredi,14:15,16:15,,4
+BL20,CS,6,"GB, TC","GB: Oui, TC: Non",TP,Lundi,14:30,18:30,A,1
+BL20,CS,6,"GB, TC","GB: Oui, TC: Non",TP,Lundi,14:30,18:30,B,1
+BL20,CS,6,"GB, TC","GB: Oui, TC: Non",TP,Mardi,08:00,12:00,A,2
+BL20,CS,6,"GB, TC","GB: Oui, TC: Non",TP,Mardi,08:00,12:00,B,2
+BL20,CS,6,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,14:30,18:30,A,3
+BL20,CS,6,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,14:30,18:30,B,3
+BL20,CS,6,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,08:00,12:00,,4
+BL20,CS,6,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,08:00,12:00,,5
+CM05,CS,6,"GP, TC","GP: Oui, TC: Non",Cours,Lundi,08:00,10:00,,
+CM05,CS,6,"GP, TC","GP: Oui, TC: Non",TD,Mercredi,14:15,16:15,,1
+CM05,CS,6,"GP, TC","GP: Oui, TC: Non",TD,Jeudi,08:00,10:00,,2
+CM05,CS,6,"GP, TC","GP: Oui, TC: Non",TD,Vendredi,16:30,18:30,,3
+CM11,CS,6,TC,Oui,Cours,Vendredi,10:15,12:15,,
+CM11,CS,6,TC,Oui,TD,Lundi,08:00,10:00,,1
+CM11,CS,6,TC,Oui,TD,Mardi,08:00,10:00,,2
+CM11,CS,6,TC,Oui,TD,Mardi,16:30,18:30,,3
+CM11,CS,6,TC,Oui,TD,Mercredi,08:00,10:00,,4
+CM11,CS,6,TC,Oui,TD,Jeudi,08:00,10:00,,5
+CM11,CS,6,TC,Oui,TD,Vendredi,08:00,10:00,,6
+CM11,CS,6,TC,Oui,TP,Mercredi,14:30,18:30,B,1
+CM11,CS,6,TC,Oui,TP,Mercredi,14:30,18:30,A,1
+CM11,CS,6,TC,Oui,TP,Jeudi,14:30,18:30,B,2
+CM11,CS,6,TC,Oui,TP,Jeudi,14:30,18:30,A,2
+CM11,CS,6,TC,Oui,TP,Vendredi,14:30,18:30,B,3
+CM11,CS,6,TC,Oui,TP,Vendredi,14:30,18:30,A,3
+CM12,CS,6,TC,Oui,Cours,Vendredi,10:15,12:15,,
+CM12,CS,6,TC,Oui,TD,Mercredi,14:15,16:15,,1
+CM12,CS,6,TC,Oui,TD,Jeudi,14:15,16:15,,2
+CM13,CS,6,TC,Oui,Cours,Jeudi,08:00,10:00,,
+CM13,CS,6,TC,Oui,TD,Lundi,10:15,12:15,,1
+CM13,CS,6,TC,Oui,TD,Lundi,14:15,16:15,,2
+CM13,CS,6,TC,Oui,TP,Mercredi,14:30,18:30,,1
+CM13,CS,6,TC,Oui,TP,Jeudi,14:30,18:30,B,2
+CM13,CS,6,TC,Oui,TP,Jeudi,14:30,18:30,A,2
+EN21,CS,6,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",Cours,Vendredi,10:15,12:15,,
+EN21,CS,6,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TD,Lundi,08:15,09:45,,1
+EN21,CS,6,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TD,Lundi,10:45,12:15,,2
+EN21,CS,6,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TD,Lundi,14:30,16:00,,3
+EN21,CS,6,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TD,Lundi,16:45,18:15,,4
+EN21,CS,6,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,12:00,B,1
+EN21,CS,6,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,12:00,A,1
+EN21,CS,6,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Mercredi,14:30,18:30,A,2
+EN21,CS,6,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Mercredi,14:30,18:30,B,2
+EN21,CS,6,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Jeudi,08:00,12:00,A,3
+EN21,CS,6,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Jeudi,08:00,12:00,B,3
+EN21,CS,6,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Jeudi,14:30,18:30,A,4
+EN21,CS,6,"GB, IM, TC","GB: Oui, IM: Oui, TC: Non",TP,Jeudi,14:30,18:30,B,4
+IA01,CS,6,"GU, TC","GU: Oui, TC: Non",Cours,Mercredi,08:00,10:00,,
+IA01,CS,6,"GU, TC","GU: Oui, TC: Non",TD,Mardi,10:15,12:15,,1
+IA01,CS,6,"GU, TC","GU: Oui, TC: Non",TD,Jeudi,14:15,16:15,,2
+IA01,CS,6,"GU, TC","GU: Oui, TC: Non",TD,Jeudi,16:30,18:30,,3
+IA01,CS,6,"GU, TC","GU: Oui, TC: Non",TD,Vendredi,14:15,16:15,,4
+IA01,CS,6,"GU, TC","GU: Oui, TC: Non",TP,Jeudi,08:00,10:00,A,1
+IA01,CS,6,"GU, TC","GU: Oui, TC: Non",TP,Jeudi,08:00,10:00,B,1
+IA01,CS,6,"GU, TC","GU: Oui, TC: Non",TP,Jeudi,10:15,12:15,A,2
+IA01,CS,6,"GU, TC","GU: Oui, TC: Non",TP,Jeudi,10:15,12:15,B,2
+IA01,CS,6,"GU, TC","GU: Oui, TC: Non",TP,Vendredi,16:30,18:30,A,3
+IA01,CS,6,"GU, TC","GU: Oui, TC: Non",TP,Vendredi,16:30,18:30,B,3
+IA01,CS,6,"GU, TC","GU: Oui, TC: Non",TP,Mardi,16:30,18:30,,4
+IA01,CS,6,"GU, TC","GU: Oui, TC: Non",TP,Mardi,16:30,18:30,,5
+IQ01,CS,6,GU,Oui,Cours,Vendredi,10:15,12:15,,
+IQ01,CS,6,GU,Oui,TD,Lundi,14:15,16:15,,
+IQ01,CS,6,GU,Oui,TP,Lundi,08:00,10:00,A,
+IQ01,CS,6,GU,Oui,TP,Lundi,08:00,10:00,B,
+IS00,CS,2,TC,Oui,Cours,Lundi,08:00,10:00,,1
+IS00,CS,2,TC,Oui,Cours,Mercredi,08:00,10:00,,2
+IS00,CS,2,TC,Oui,TD,Mercredi,16:30,18:30,B,1
+IS00,CS,2,TC,Oui,TD,Mercredi,16:30,18:30,A,1
+IS00,CS,2,TC,Oui,TD,Jeudi,16:30,18:30,B,2
+IS00,CS,2,TC,Oui,TD,Jeudi,16:30,18:30,A,2
+IS21,CS,5,TC,Oui,Atelier,Mercredi,18:45,20:45,,
+ML01,CS,6,"GB, GU, IM",Oui,Cours,Jeudi,14:15,16:15,,
+ML01,CS,6,"GB, GU, IM",Oui,TD,Lundi,08:00,10:00,,1
+ML01,CS,6,"GB, GU, IM",Oui,TD,Lundi,10:15,12:15,,2
+ML01,CS,6,"GB, GU, IM",Oui,TD,Mercredi,08:00,10:00,,3
+ML01,CS,6,"GB, GU, IM",Oui,TD,Mercredi,14:15,16:15,,4
+ML01,CS,6,"GB, GU, IM",Oui,TD,Jeudi,16:30,18:30,,5
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Mercredi,16:30,18:30,,
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,08:00,10:00,,1
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,16:30,18:30,,2
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mardi,16:30,18:30,,3
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,10:15,12:15,,4
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Vendredi,10:15,12:15,,5
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Lundi,13:00,16:00,A,1
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Lundi,13:00,16:00,B,1
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,11:00,A,2
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,11:00,B,2
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,13:00,16:00,A,3
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,13:00,16:00,B,3
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Jeudi,13:00,16:00,,4
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,13:00,16:00,A,5
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,13:00,16:00,B,5
+MQ01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Jeudi,13:00,16:00,,6
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",Cours,Lundi,08:00,10:00,,
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TD,Lundi,10:15,12:15,,1
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TD,Lundi,16:30,18:30,,2
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TD,Mercredi,08:00,10:00,,3
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TD,Mercredi,10:15,12:15,,4
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TD,Vendredi,08:00,10:00,,5
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TD,Vendredi,10:15,12:15,,6
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TP,Mardi,08:00,12:00,B,1
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TP,Mardi,08:00,12:00,A,1
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TP,Mercredi,14:30,18:30,B,2
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TP,Mercredi,14:30,18:30,A,2
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TP,Jeudi,08:00,12:00,A,3
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TP,Jeudi,08:00,12:00,B,3
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TP,Jeudi,14:30,18:30,,4
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TP,Vendredi,14:30,18:30,A,5
+MQ03,CS,6,"IM, TC","IM: Oui, TC: Non",TP,Vendredi,14:30,18:30,B,5
+MQ17,CS,6,"GB, IM",Oui,Cours,Vendredi,14:15,16:15,,
+MQ17,CS,6,"GB, IM",Oui,TD,Mardi,08:00,10:00,,1
+MQ17,CS,6,"GB, IM",Oui,TD,Mardi,10:15,12:15,,2
+MQ17,CS,6,"GB, IM",Oui,TD,Jeudi,14:15,16:15,,3
+MQ17,CS,6,"GB, IM",Oui,TD,Vendredi,08:00,10:00,,4
+MQ17,CS,6,"GB, IM",Oui,TD,Vendredi,10:15,12:15,,5
+MQ17,CS,6,"GB, IM",Oui,TD,Vendredi,16:30,18:30,,6
+MQ17,CS,6,"GB, IM",Oui,TP,Lundi,08:00,12:00,B,1
+MQ17,CS,6,"GB, IM",Oui,TP,Lundi,08:00,12:00,A,1
+MQ17,CS,6,"GB, IM",Oui,TP,Lundi,14:30,18:30,A,2
+MQ17,CS,6,"GB, IM",Oui,TP,Lundi,14:30,18:30,B,2
+MQ17,CS,6,"GB, IM",Oui,TP,Mardi,14:30,18:30,B,3
+MQ17,CS,6,"GB, IM",Oui,TP,Mardi,14:30,18:30,A,3
+MQ17,CS,6,"GB, IM",Oui,TP,Mercredi,08:00,12:00,A,4
+MQ17,CS,6,"GB, IM",Oui,TP,Mercredi,08:00,12:00,B,4
+MQ17,CS,6,"GB, IM",Oui,TP,Mercredi,14:30,18:30,A,5
+MQ17,CS,6,"GB, IM",Oui,TP,Mercredi,14:30,18:30,B,5
+MQ17,CS,6,"GB, IM",Oui,TP,Jeudi,08:00,12:00,B,6
+MQ17,CS,6,"GB, IM",Oui,TP,Jeudi,08:00,12:00,A,6
+MQ17,CS,6,"GB, IM",Oui,TP,Vendredi,08:00,12:00,A,7
+MQ17,CS,6,"GB, IM",Oui,TP,Vendredi,08:00,12:00,B,7
+MQ20,CS,6,"GB, TC","GB: Oui, TC: Non",Cours,Vendredi,10:15,12:15,,
+MQ20,CS,6,"GB, TC","GB: Oui, TC: Non",TD,Mardi,10:15,12:15,,1
+MQ20,CS,6,"GB, TC","GB: Oui, TC: Non",TD,Vendredi,14:15,16:15,,2
+MT01,CS,6,TC,Oui,Cours,Lundi,08:00,10:00,,
+MT01,CS,6,TC,Oui,TD,Jeudi,10:15,12:15,,
+MT02,CS,8,TC,Oui,Cours,Jeudi,10:30,12:00,,1
+MT02,CS,8,TC,Oui,Cours,Lundi,10:30,12:00,,1
+MT02,CS,8,TC,Oui,Cours,Lundi,14:30,16:00,,2
+MT02,CS,8,TC,Oui,Cours,Mardi,10:30,12:00,,2
+MT02,CS,8,TC,Oui,TD,Lundi,08:00,10:00,,1
+MT02,CS,8,TC,Oui,TD,Jeudi,08:00,10:00,,10
+MT02,CS,8,TC,Oui,TD,Jeudi,14:15,16:15,,11
+MT02,CS,8,TC,Oui,TD,Jeudi,16:30,18:30,,12
+MT02,CS,8,TC,Oui,TD,Vendredi,08:00,10:00,,13
+MT02,CS,8,TC,Oui,TD,Vendredi,14:15,16:15,,14
+MT02,CS,8,TC,Oui,TD,Jeudi,08:00,10:00,,15
+MT02,CS,8,TC,Oui,TD,Lundi,16:30,18:30,,2
+MT02,CS,8,TC,Oui,TD,Mardi,08:00,10:00,,3
+MT02,CS,8,TC,Oui,TD,Mardi,14:15,16:15,,4
+MT02,CS,8,TC,Oui,TD,Mardi,16:30,18:30,,5
+MT02,CS,8,TC,Oui,TD,Mercredi,08:00,10:00,,6
+MT02,CS,8,TC,Oui,TD,Mercredi,10:15,12:15,,7
+MT02,CS,8,TC,Oui,TD,Mercredi,14:15,16:15,,8
+MT02,CS,8,TC,Oui,TD,Mercredi,16:30,18:30,,9
+MT02,CS,8,TC,Oui,TD,Lundi,13:00,14:00,,1
+MT02,CS,8,TC,Oui,TD,Jeudi,13:00,14:00,,10
+MT02,CS,8,TC,Oui,TD,Jeudi,13:00,14:00,,11
+MT02,CS,8,TC,Oui,TD,Jeudi,13:00,14:00,,12
+MT02,CS,8,TC,Oui,TD,Vendredi,13:00,14:00,,13
+MT02,CS,8,TC,Oui,TD,Vendredi,13:00,14:00,,14
+MT02,CS,8,TC,Oui,TD,Mardi,13:00,14:00,,15
+MT02,CS,8,TC,Oui,TD,Lundi,13:00,14:00,,2
+MT02,CS,8,TC,Oui,TD,Lundi,13:00,14:00,,3
+MT02,CS,8,TC,Oui,TD,Lundi,13:00,14:00,,4
+MT02,CS,8,TC,Oui,TD,Mardi,13:00,14:00,,5
+MT02,CS,8,TC,Oui,TD,Mardi,13:00,14:00,,6
+MT02,CS,8,TC,Oui,TD,Mercredi,13:00,14:00,,7
+MT02,CS,8,TC,Oui,TD,Mercredi,13:00,14:00,,8
+MT02,CS,8,TC,Oui,TD,Mercredi,13:00,14:00,,9
+MT03,CS,5,TC,Oui,Cours,Lundi,16:45,18:15,,1
+MT03,CS,5,TC,Oui,Cours,Mercredi,10:30,12:00,,2
+MT03,CS,5,TC,Oui,TD,Lundi,08:30,10:00,,1
+MT03,CS,5,TC,Oui,TD,Mercredi,14:30,16:00,,10
+MT03,CS,5,TC,Oui,TD,Mercredi,14:30,16:00,,11
+MT03,CS,5,TC,Oui,TD,Mercredi,16:30,18:00,,12
+MT03,CS,5,TC,Oui,TD,Mercredi,16:30,18:00,,13
+MT03,CS,5,TC,Oui,TD,Jeudi,08:30,10:00,,14
+MT03,CS,5,TC,Oui,TD,Jeudi,10:30,12:00,,15
+MT03,CS,5,TC,Oui,TD,Jeudi,14:30,16:00,,16
+MT03,CS,5,TC,Oui,TD,Jeudi,16:30,18:00,,17
+MT03,CS,5,TC,Oui,TD,Vendredi,08:30,10:00,,18
+MT03,CS,5,TC,Oui,TD,Vendredi,14:15,15:45,,19
+MT03,CS,5,TC,Oui,TD,Lundi,08:30,10:00,,2
+MT03,CS,5,TC,Oui,TD,Lundi,10:30,12:00,,3
+MT03,CS,5,TC,Oui,TD,Lundi,14:30,16:00,,4
+MT03,CS,5,TC,Oui,TD,Mardi,08:30,10:00,,5
+MT03,CS,5,TC,Oui,TD,Mardi,10:30,12:00,,6
+MT03,CS,5,TC,Oui,TD,Mardi,14:30,16:00,,7
+MT03,CS,5,TC,Oui,TD,Mardi,16:30,18:00,,8
+MT03,CS,5,TC,Oui,TD,Mercredi,08:30,10:00,,9
+MT11,CS,6,"GB, GP, GU, IM",Oui,TD,Lundi,08:00,10:00,,1
+MT11,CS,6,"GB, GP, GU, IM",Oui,TD,Mercredi,14:15,16:15,,1
+MT11,CS,6,"GB, GP, GU, IM",Oui,TD,Lundi,10:15,12:15,,2
+MT11,CS,6,"GB, GP, GU, IM",Oui,TD,Mercredi,08:00,10:00,,2
+MT11,CS,6,"GB, GP, GU, IM",Oui,TD,Lundi,16:30,18:30,,3
+MT11,CS,6,"GB, GP, GU, IM",Oui,TD,Mercredi,10:15,12:15,,3
+MT12,CS,6,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Jeudi,10:15,12:15,,
+MT12,CS,6,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,10:15,12:15,,1
+MT12,CS,6,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mardi,16:30,18:30,,2
+MT12,CS,6,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,14:15,16:15,B,1
+MT12,CS,6,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,14:15,16:15,A,1
+MT12,CS,6,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,10:15,12:15,B,2
+MT12,CS,6,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,10:15,12:15,A,2
+MT22,CS,6,TC,Oui,Cours,Jeudi,10:15,12:15,,
+MT22,CS,6,TC,Oui,TD,Lundi,10:15,12:15,,1
+MT22,CS,6,TC,Oui,TD,Lundi,14:15,16:15,,2
+MT22,CS,6,TC,Oui,TD,Jeudi,16:30,18:30,,3
+MT22,CS,6,TC,Oui,TD,Vendredi,10:15,12:15,,4
+MT23,CS,6,TC,Oui,Cours,Mercredi,10:15,12:15,,1
+MT23,CS,6,TC,Oui,Cours,Jeudi,10:15,12:15,,2
+MT23,CS,6,TC,Oui,TD,Lundi,10:15,12:15,,1
+MT23,CS,6,TC,Oui,TD,Vendredi,08:00,10:00,,10
+MT23,CS,6,TC,Oui,TD,Vendredi,10:15,12:15,,11
+MT23,CS,6,TC,Oui,TD,Vendredi,14:15,16:15,,12
+MT23,CS,6,TC,Oui,TD,Lundi,14:15,16:15,,2
+MT23,CS,6,TC,Oui,TD,Mardi,08:00,10:00,,3
+MT23,CS,6,TC,Oui,TD,Mardi,10:15,12:15,,4
+MT23,CS,6,TC,Oui,TD,Mardi,16:30,18:30,,5
+MT23,CS,6,TC,Oui,TD,Mercredi,08:00,10:00,,6
+MT23,CS,6,TC,Oui,TD,Jeudi,08:00,10:00,,7
+MT23,CS,6,TC,Oui,TD,Jeudi,14:15,16:15,,8
+MT23,CS,6,TC,Oui,TD,Jeudi,16:30,18:30,,9
+MT31,CS,3,,,Cours,Lundi,08:00,10:00,,
+MT31,CS,3,,,TD,Lundi,10:15,12:15,,
+MT33,CS,8,,,Cours,Mardi,10:15,12:15,,
+MT33,CS,8,,,TD,Lundi,16:30,18:30,,
+MT33,CS,8,,,TP,Jeudi,08:00,10:00,A,
+MT33,CS,8,,,TP,Jeudi,08:00,10:00,B,
+MT36,CS,6,,,Cours,Jeudi,10:15,12:15,,
+MT36,CS,6,,,TD,Vendredi,16:30,18:30,,
+NF04,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Mercredi,10:15,12:15,,
+NF04,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,16:30,18:30,,1
+NF04,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,10:15,12:15,,2
+NF04,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,14:15,16:15,,3
+NF16,CS,6,"GB, GU, TC",Oui,Cours,Lundi,16:30,18:30,,
+NF16,CS,6,"GB, GU, TC",Oui,TD,Mercredi,08:00,10:00,,1
+NF16,CS,6,"GB, GU, TC",Oui,TD,Mercredi,16:30,18:30,,2
+NF16,CS,6,"GB, GU, TC",Oui,TD,Jeudi,10:15,12:15,,3
+NF16,CS,6,"GB, GU, TC",Oui,TD,Jeudi,08:00,10:00,,4
+NF16,CS,6,"GB, GU, TC",Oui,TP,Mardi,08:00,10:00,B,1
+NF16,CS,6,"GB, GU, TC",Oui,TP,Mardi,08:00,10:00,A,1
+NF16,CS,6,"GB, GU, TC",Oui,TP,Mardi,10:15,12:15,A,2
+NF16,CS,6,"GB, GU, TC",Oui,TP,Mardi,10:15,12:15,B,2
+NF16,CS,6,"GB, GU, TC",Oui,TP,Vendredi,08:00,10:00,A,3
+NF16,CS,6,"GB, GU, TC",Oui,TP,Vendredi,08:00,10:00,B,3
+NF16,CS,6,"GB, GU, TC",Oui,TP,Vendredi,10:15,12:15,,4
+NF16,CS,6,"GB, GU, TC",Oui,TP,Vendredi,10:15,12:15,,5
+NF93,CS,6,TC,Oui,Cours,Lundi,08:00,10:00,,
+NF93,CS,6,TC,Oui,TD,Mercredi,08:00,10:00,,1
+NF93,CS,6,TC,Oui,TD,Jeudi,08:00,10:00,,2
+NF93,CS,6,TC,Oui,TD,Jeudi,10:15,12:15,,3
+NF93,CS,6,TC,Oui,TD,Vendredi,10:15,12:15,,4
+PS04,CS,6,TC,Oui,Cours,Mercredi,08:00,10:00,,
+PS04,CS,6,TC,Oui,TD,Mardi,08:00,10:00,,
+PS04,CS,6,TC,Oui,TP,Lundi,14:30,18:30,B,
+PS04,CS,6,TC,Oui,TP,Lundi,14:30,18:30,A,
+PS15,CS,6,"GP, TC","GP: Oui, TC: Non",Cours,Mercredi,10:15,12:15,,
+PS15,CS,6,"GP, TC","GP: Oui, TC: Non",TD,Jeudi,08:00,10:00,,1
+PS15,CS,6,"GP, TC","GP: Oui, TC: Non",TD,Jeudi,10:15,12:15,,2
+PS15,CS,6,"GP, TC","GP: Oui, TC: Non",TD,Jeudi,14:15,16:15,,3
+PS15,CS,6,"GP, TC","GP: Oui, TC: Non",TD,Vendredi,10:15,12:15,,4
+PS21,CS,6,TC,Oui,Cours,Vendredi,14:30,16:00,,
+PS21,CS,6,TC,Oui,TD,Lundi,08:00,11:00,,1
+PS21,CS,6,TC,Oui,TD,Lundi,13:15,16:15,,2
+PS21,CS,6,TC,Oui,TD,Lundi,16:30,19:30,,3
+PS21,CS,6,TC,Oui,TD,Mardi,08:00,11:00,,4
+PS21,CS,6,TC,Oui,TD,Mercredi,13:15,16:15,,5
+PS21,CS,6,TC,Oui,TD,Mercredi,16:30,19:30,,6
+PS21,CS,6,TC,Oui,TD,Jeudi,08:00,11:00,,7
+PS21,CS,6,TC,Oui,TD,Jeudi,16:30,19:30,,8
+PS22,CS,6,TC,Oui,Cours,Lundi,10:15,12:15,,
+PS22,CS,6,TC,Oui,TD,Mardi,10:15,12:15,,1
+PS22,CS,6,TC,Oui,TD,Mercredi,08:00,10:00,,2
+PS22,CS,6,TC,Oui,TD,Mercredi,10:15,12:15,,3
+PS22,CS,6,TC,Oui,TD,Jeudi,14:15,16:15,,4
+PS22,CS,6,TC,Oui,TD,Vendredi,08:00,10:00,,5
+PS23,CS,6,TC,Oui,Cours,Lundi,08:00,10:00,,
+PS23,CS,6,TC,Oui,TD,Mardi,14:15,16:15,,
+PS93,CS,4,TC,Oui,Cours,Mardi,14:15,16:15,,
+PS93,CS,4,TC,Oui,TD,Lundi,08:00,11:00,,1
+PS93,CS,4,TC,Oui,TD,Lundi,16:30,19:30,,2
+PS93,CS,4,TC,Oui,TD,Mercredi,16:30,19:30,,3
+PS93,CS,4,TC,Oui,TD,Vendredi,08:00,11:00,,4
+PS93,CS,4,TC,Oui,TP,Mercredi,08:00,11:00,,1
+PS93,CS,4,TC,Oui,TP,Mercredi,08:00,11:00,,2
+PS93,CS,4,TC,Oui,TP,Mercredi,13:00,16:00,,3
+PS93,CS,4,TC,Oui,TP,Mercredi,13:00,16:00,,4
+PS93,CS,4,TC,Oui,TP,Jeudi,08:00,11:00,,5
+PS93,CS,4,TC,Oui,TP,Jeudi,08:00,11:00,,6
+PS93,CS,4,TC,Oui,TP,Jeudi,13:15,16:15,,7
+PS93,CS,4,TC,Oui,TP,Jeudi,13:15,16:15,,8
+PS93,CS,4,TC,Oui,TP,Lundi,13:00,16:00,,9
+RO05,CS,6,GU,Oui,Cours,Jeudi,08:00,10:00,,
+RO05,CS,6,GU,Oui,TD,Jeudi,10:15,12:15,,
+SR04,CS,6,GU,Oui,Cours,Lundi,16:30,19:30,,
+SR04,CS,6,GU,Oui,TD,Jeudi,14:15,16:15,,1
+SR04,CS,6,GU,Oui,TD,Jeudi,16:30,18:30,,2
+SV01,CS,6,TC,Oui,Cours,Mercredi,14:15,16:15,,
+SV01,CS,6,TC,Oui,TD,Mardi,14:15,16:15,,1
+SV01,CS,6,TC,Oui,TD,Mercredi,10:15,12:15,,2
+SV01,CS,6,TC,Oui,TD,Mercredi,16:30,18:30,,3
+SV01,CS,6,TC,Oui,TP,Lundi,14:15,18:15,A,1
+SV01,CS,6,TC,Oui,TP,Lundi,14:15,18:15,B,1
+SV01,CS,6,TC,Oui,TP,Mardi,08:00,12:00,A,2
+SV01,CS,6,TC,Oui,TP,Mardi,08:00,12:00,B,2
+SV01,CS,6,TC,Oui,TP,Jeudi,14:15,18:15,B,3
+SV01,CS,6,TC,Oui,TP,Jeudi,14:15,18:15,A,3
+SY01,CS,6,TC,Oui,Cours,Mardi,10:15,12:15,,
+SY01,CS,6,TC,Oui,TD,Lundi,10:15,12:15,,1
+SY01,CS,6,TC,Oui,TD,Jeudi,14:15,16:15,,2
+SY02,CS,7,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Mardi,08:00,10:00,,
+SY02,CS,7,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mardi,16:30,18:30,,1
+SY02,CS,7,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mercredi,10:15,12:15,,2
+SY02,CS,7,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mercredi,14:15,16:15,,3
+SY02,CS,7,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,08:00,10:00,,4
+SY02,CS,7,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,14:15,16:15,,5
+SY02,CS,7,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Lundi,14:15,16:15,B,1
+SY02,CS,7,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Lundi,14:15,16:15,A,1
+SY02,CS,7,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,10:00,B,2
+SY02,CS,7,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,10:00,A,2
+SY02,CS,7,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,16:30,18:30,,3
+SY06,CS,6,"GB, GU, IM",Oui,Cours,Mardi,14:15,16:15,,
+SY06,CS,6,"GB, GU, IM",Oui,TD,Jeudi,10:15,12:15,,1
+SY06,CS,6,"GB, GU, IM",Oui,TD,Jeudi,14:15,16:15,,2
+SY06,CS,6,"GB, GU, IM",Oui,TD,Vendredi,14:15,16:15,,3
+SY06,CS,6,"GB, GU, IM",Oui,TP,Lundi,10:15,13:15,A,1
+SY06,CS,6,"GB, GU, IM",Oui,TP,Lundi,10:15,13:15,B,1
+SY06,CS,6,"GB, GU, IM",Oui,TP,Mardi,16:30,19:30,B,2
+SY06,CS,6,"GB, GU, IM",Oui,TP,Mardi,16:30,19:30,A,2
+SY06,CS,6,"GB, GU, IM",Oui,TP,Mercredi,10:15,13:15,B,3
+SY06,CS,6,"GB, GU, IM",Oui,TP,Mercredi,10:15,13:15,A,3
+SY08,CS,6,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",Cours,Jeudi,16:30,18:30,,
+SY08,CS,6,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TD,Mercredi,16:30,18:30,,1
+SY08,CS,6,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TD,Jeudi,08:00,10:00,,2
+SY08,CS,6,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TD,Mercredi,10:15,12:15,,3
+SY08,CS,6,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TP,Lundi,16:30,18:30,A,1
+SY08,CS,6,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TP,Lundi,16:30,18:30,B,1
+SY08,CS,6,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TP,Mardi,16:30,18:30,B,2
+SY08,CS,6,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TP,Mardi,16:30,18:30,A,2
+SY08,CS,6,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TP,Mardi,08:00,10:00,,3
+SY08,CS,6,"GU, IM, TC","GU: Oui, IM: Oui, TC: Non",TP,Mardi,08:00,10:00,,4
+SY14,CS,6,"GU, TC","GU: Oui, TC: Non",Cours,Jeudi,10:15,12:15,,
+SY14,CS,6,"GU, TC","GU: Oui, TC: Non",TD,Jeudi,14:15,16:15,,
+SY14,CS,6,"GU, TC","GU: Oui, TC: Non",TP,Lundi,08:00,12:00,B,
+SY14,CS,6,"GU, TC","GU: Oui, TC: Non",TP,Lundi,08:00,12:00,A,
+SY98,CS,,,,Cours,Lundi,10:30,12:00,,
+SY98,CS,,,,Cours,Mardi,10:30,12:00,,
+SY98,CS,,,,TD,Lundi,08:00,10:00,,
+SY98,CS,,,,TD,Mardi,14:15,16:15,,
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Mardi,10:15,12:15,,
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,08:00,10:00,,1
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,14:15,16:15,,2
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mardi,08:00,10:00,,3
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,08:00,10:00,,4
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,10:15,12:15,,5
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Vendredi,08:00,10:00,,6
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Lundi,16:30,19:30,A,1
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Lundi,16:30,19:30,B,1
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mardi,13:00,16:00,B,2
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mardi,13:00,16:00,A,2
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mardi,16:30,19:30,A,3
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mardi,16:30,19:30,B,3
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,13:00,16:00,,4
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,16:30,19:30,A,5
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Mercredi,16:30,19:30,B,5
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Jeudi,13:00,16:00,A,6
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Jeudi,13:00,16:00,B,6
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,13:00,16:00,B,7
+TF01,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TP,Vendredi,13:00,16:00,A,7
+TF06,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Mercredi,08:00,10:00,,
+TF06,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,08:00,10:00,,1
+TF06,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,10:15,12:15,,2
+TF06,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Vendredi,10:15,12:15,,3
+TF06,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Vendredi,14:15,16:15,,4
+TF06,CS,6,"GP, GU, IM, TC","GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Vendredi,16:30,18:30,,5
+TF11,CS,6,TC,Oui,Cours,Mercredi,10:15,12:15,,
+TF11,CS,6,TC,Oui,TD,Jeudi,10:15,12:15,,1
+TF11,CS,6,TC,Oui,TD,Jeudi,14:15,16:15,,2
+TF11,CS,6,TC,Oui,TD,Vendredi,08:00,10:00,,3
+TN06,CS,6,TC,Oui,Cours,Lundi,16:30,18:30,,
+TN06,CS,6,TC,Oui,TD,Mardi,08:00,10:00,,1
+TN06,CS,6,TC,Oui,TD,Mercredi,14:15,16:15,,2
+TN06,CS,6,TC,Oui,TP,Jeudi,14:15,18:15,A,1
+TN06,CS,6,TC,Oui,TP,Jeudi,14:15,18:15,B,1
+TN06,CS,6,TC,Oui,TP,Vendredi,08:00,12:00,B,2
+TN06,CS,6,TC,Oui,TP,Vendredi,08:00,12:00,A,2
+TS02,CS,6,GP,Oui,Cours,Lundi,14:15,16:15,,
+TS02,CS,6,GP,Oui,TD,Lundi,16:30,18:30,,
+UB09,CS,6,GU,Oui,Cours,Lundi,10:15,12:15,,
+UB09,CS,6,GU,Oui,TD,Lundi,14:15,16:15,,1
+UB09,CS,6,GU,Oui,TD,Lundi,16:30,18:30,,2
+UB09,CS,6,GU,Oui,TP,Mardi,14:30,18:30,B,1
+UB09,CS,6,GU,Oui,TP,Mardi,14:30,18:30,A,1
+UB09,CS,6,GU,Oui,TP,Vendredi,08:00,12:00,B,2
+UB09,CS,6,GU,Oui,TP,Vendredi,08:00,12:00,A,2
+UR02,CS,6,"GU, TC",Oui,Cours,Vendredi,14:15,16:15,,
+UR02,CS,6,"GU, TC",Oui,TD,Mercredi,14:15,16:15,,1
+UR02,CS,6,"GU, TC",Oui,TD,Vendredi,08:00,10:00,,2
+UR02,CS,6,"GU, TC",Oui,TD,Vendredi,10:15,12:15,,3
+UR02,CS,6,"GU, TC",Oui,TD,Vendredi,16:30,18:30,,4
+UR02,CS,6,"GU, TC",Oui,TD,Mardi,16:30,18:30,,5
+AC02,TM,4,"GU, IM",Oui,Cours,Vendredi,10:15,12:15,,
+AC02,TM,4,"GU, IM",Oui,TD,Lundi,13:15,16:15,,1
+AC02,TM,4,"GU, IM",Oui,TD,Mardi,10:15,13:15,,2
+AC03,TM,4,"GU, IM",Oui,Cours,Mercredi,14:15,16:15,,
+AC03,TM,4,"GU, IM",Oui,TD,Mardi,10:15,12:15,,1
+AC03,TM,4,"GU, IM",Oui,TD,Mercredi,16:30,18:30,,2
+AI03,TM,4,GU,Oui,Cours,Mardi,08:00,12:00,,
+AI11,TM,4,GU,Oui,Cours,Mercredi,16:30,18:30,,
+AI11,TM,4,GU,Oui,TD,Jeudi,14:15,16:15,,
+AI12,TM,5,GU,Oui,Cours,Mardi,08:00,10:00,,
+AI12,TM,5,GU,Oui,TD,Mercredi,16:30,19:30,,
+AI13,TM,4,GU,Oui,Cours,Lundi,16:30,18:30,,
+AI13,TM,4,GU,Oui,Cours,Vendredi,16:30,18:30,,
+AI14,TM,5,GU,Oui,Cours,Jeudi,08:00,10:00,,
+AI14,TM,5,GU,Oui,TD,Jeudi,10:15,13:15,,
+AI15,TM,4,GU,Oui,Cours,Lundi,14:15,16:15,,
+AI15,TM,4,GU,Oui,TD,Mardi,14:15,16:15,,
+AI22,TM,5,GU,Oui,Cours,Vendredi,08:00,10:00,,
+AI22,TM,5,GU,Oui,TD,Mardi,08:00,12:00,,
+AI23,TM,5,GU,Oui,Cours,Jeudi,08:00,10:00,,
+AI23,TM,5,GU,Oui,TD,Jeudi,13:15,16:15,,
+AI24,TM,4,GU,Oui,Cours,Mardi,16:30,18:30,,
+AI24,TM,4,GU,Oui,Cours,Mercredi,16:30,18:30,,
+AI30,TM,5,GU,Oui,Cours,Mardi,16:30,18:30,,
+AI30,TM,5,GU,Oui,TD,Lundi,16:30,19:30,,
+AI34,TM,5,GU,Oui,Cours,Mardi,10:15,12:15,,
+AI34,TM,5,GU,Oui,TD,Mardi,14:15,16:15,,
+AI34,TM,5,GU,Oui,TP,Vendredi,14:15,16:15,,
+AI35,TM,5,GU,Oui,Cours,Vendredi,16:30,18:00,,
+AI35,TM,5,GU,Oui,TD,Vendredi,08:00,12:00,,
+AI36,TM,5,GU,Oui,Cours,Mercredi,14:15,16:15,,
+AI36,TM,5,GU,Oui,TD,Jeudi,14:30,18:30,,
+AI37,TM,5,GU,Oui,Cours,Vendredi,10:15,12:15,,
+AI37,TM,5,GU,Oui,TD,Vendredi,13:15,16:15,,
+AI38,TM,5,GU,Oui,Cours,Jeudi,10:15,12:15,,
+AI38,TM,5,GU,Oui,TD,Jeudi,14:15,16:15,,
+AM01,TM,6,IM,Oui,Cours,Vendredi,16:30,18:00,,
+AM01,TM,6,IM,Oui,TD,Lundi,08:00,12:00,,1
+AM01,TM,6,IM,Oui,TD,Mercredi,08:00,12:00,,2
+AM02,TM,6,IM,Oui,Cours,Jeudi,08:00,12:00,,
+AM02,TM,6,IM,Oui,Cours,Lundi,16:30,19:30,,
+AM11,TM,5,IM,Oui,Cours,Vendredi,08:00,10:00,,
+AM11,TM,5,IM,Oui,TD,Mardi,10:15,12:15,,1
+AM11,TM,5,IM,Oui,TD,Jeudi,10:15,12:15,,2
+AM11,TM,5,IM,Oui,TP,Lundi,14:15,16:15,,1
+AM11,TM,5,IM,Oui,TP,Lundi,16:30,18:30,,2
+AM11,TM,5,IM,Oui,TP,Jeudi,08:00,10:00,,3
+AM15,TM,5,IM,Oui,Cours,Mercredi,08:00,10:00,,
+AM15,TM,5,IM,Oui,TD,Mercredi,10:15,13:15,,
+AM15,TM,5,IM,Oui,TP,Jeudi,14:30,18:30,A,
+AM15,TM,5,IM,Oui,TP,Jeudi,14:30,18:30,B,
+AM20,TM,4,IM,Oui,Cours,Lundi,14:15,16:15,,
+AM20,TM,4,IM,Oui,TD,Vendredi,08:00,10:00,,
+AM21,TM,5,IM,Oui,Cours,Lundi,16:30,18:30,,
+AM21,TM,5,IM,Oui,TD,Mardi,08:00,10:00,,
+AM22,TM,5,IM,Oui,Cours,Jeudi,10:15,12:15,,
+AM22,TM,5,IM,Oui,TD,Vendredi,16:30,19:30,,
+AM23,TM,6,IM,Oui,Cours,Jeudi,14:30,18:30,,
+AM23,TM,6,IM,Oui,Cours,Vendredi,08:00,10:00,,
+AM27,TM,4,IM,Oui,Cours,Jeudi,08:00,12:00,,
+AM27,TM,4,IM,Oui,TP,Mercredi,08:00,10:00,,
+AM29,TM,6,IM,Oui,Cours,Mardi,08:30,10:00,,
+AM29,TM,6,IM,Oui,TD,Vendredi,14:30,18:30,,
+AM41,TM,5,IM,Oui,TD,Jeudi,08:00,09:00,,
+AM41,TM,5,IM,Oui,TP,Jeudi,09:00,12:00,,
+AM42,TM,5,IM,Oui,Cours,Lundi,14:15,16:15,,
+AM42,TM,5,IM,Oui,TD,Lundi,16:30,18:30,,
+AM43,TM,5,IM,Oui,Cours,Mardi,08:00,10:00,,
+AM43,TM,5,IM,Oui,TD,Vendredi,13:00,16:00,,
+AM51,TM,5,IM,Oui,Cours,Lundi,14:15,16:15,,
+AM51,TM,5,IM,Oui,TD,Lundi,16:30,18:30,,
+AM51,TM,5,IM,Oui,TP,Jeudi,14:30,18:30,,
+AP00,TM,6,GU,Oui,Atelier,Jeudi,08:30,12:30,,1
+AP00,TM,6,GU,Oui,Atelier,Jeudi,13:30,18:00,,1
+AP00,TM,6,GU,Oui,Atelier,Jeudi,08:30,12:30,,2
+AP00,TM,6,GU,Oui,Atelier,Jeudi,13:30,18:00,,2
+AP00,TM,6,GU,Oui,Atelier,Jeudi,08:30,12:30,,3
+AP00,TM,6,GU,Oui,Atelier,Jeudi,13:30,18:00,,3
+AP51,TM,8,IM,Oui,Atelier,Jeudi,14:30,18:30,,
+AP51,TM,8,IM,Oui,Atelier,Lundi,08:00,12:00,,
+AP52,TM,8,IM,Oui,Atelier,Lundi,14:30,18:30,,
+AP52,TM,8,IM,Oui,Atelier,Mercredi,08:00,12:00,,
+AP53,TM,8,IM,Oui,Atelier,Mardi,09:00,13:00,,
+AP53,TM,8,IM,Oui,Atelier,Mardi,14:30,18:30,,
+BA04,TM,6,"GP, GU",Oui,Cours,Lundi,08:00,10:00,,
+BA04,TM,6,"GP, GU",Oui,TD,Lundi,10:15,12:15,,1
+BA04,TM,6,"GP, GU",Oui,TD,Lundi,14:15,16:15,,2
+BA04,TM,6,"GP, GU",Oui,TD,Lundi,16:30,18:30,,3
+BA05,TM,6,GU,Oui,Cours,Mercredi,14:15,16:15,,
+BA05,TM,6,GU,Oui,TD,Mercredi,16:30,18:30,,
+BA06,TM,6,GU,Oui,Cours,Vendredi,08:00,10:00,,
+BA06,TM,6,GU,Oui,TD,Vendredi,10:15,12:15,,
+BA08,TM,6,GU,Oui,Cours,Lundi,08:00,10:00,,
+BA08,TM,6,GU,Oui,TD,Lundi,10:15,12:15,,
+BA10,TM,6,GU,Oui,Cours,Mercredi,08:00,10:00,,
+BA10,TM,6,GU,Oui,TD,Mercredi,10:15,12:15,,
+BI02,TM,6,"GB, GU",Oui,Cours,Mardi,16:30,18:30,,
+BI02,TM,6,"GB, GU",Oui,TD,Lundi,14:15,16:15,,
+BL16,TM,6,"GB, GP, GU",Oui,Cours,Lundi,16:30,18:30,,
+BL16,TM,6,"GB, GP, GU",Oui,TD,Mercredi,14:15,16:15,,
+BL17,TM,6,"GB, GU",Oui,Cours,Mercredi,16:30,18:30,,
+BL17,TM,6,"GB, GU",Oui,TD,Mercredi,10:15,12:15,,
+BL17,TM,6,"GB, GU",Oui,TP,Jeudi,14:15,18:15,,
+BM03,TM,6,"GB, IM",Oui,Cours,Mardi,10:15,12:15,,
+BM03,TM,6,"GB, IM",Oui,TD,Mercredi,14:15,16:15,,
+BM03,TM,6,"GB, IM",Oui,TP,Vendredi,08:00,12:00,A,
+BM03,TM,6,"GB, IM",Oui,TP,Vendredi,08:00,12:00,B,
+BM04,TM,6,GB,Oui,Cours,Mardi,08:00,10:00,,
+BM04,TM,6,GB,Oui,TD,Jeudi,08:00,10:00,,
+BM04,TM,6,GB,Oui,TP,Lundi,14:15,18:15,A,
+BM04,TM,6,GB,Oui,TP,Lundi,14:15,18:15,B,
+BM05,TM,6,GB,Oui,Cours,Jeudi,10:15,13:15,,
+BM05,TM,6,GB,Oui,TP,Jeudi,14:15,18:15,B,
+BM05,TM,6,GB,Oui,TP,Jeudi,14:15,18:15,A,
+BM06,TM,6,GB,Oui,Cours,Mercredi,10:15,12:15,,
+BM06,TM,6,GB,Oui,TD,Lundi,10:15,11:45,,
+BM06,TM,6,GB,Oui,TP,Mercredi,16:30,18:30,B,
+BM06,TM,6,GB,Oui,TP,Mercredi,16:30,18:30,A,
+BM07,TM,6,GB,Oui,Cours,Lundi,10:15,12:15,,
+BM07,TM,6,GB,Oui,TD,Mercredi,14:15,16:15,,
+BM07,TM,6,GB,Oui,TP,Jeudi,14:30,18:30,B,1
+BM07,TM,6,GB,Oui,TP,Jeudi,14:30,18:30,A,1
+BM07,TM,6,GB,Oui,TP,Vendredi,08:00,12:00,A,2
+BM07,TM,6,GB,Oui,TP,Vendredi,08:00,12:00,B,2
+BM07,TM,6,GB,Oui,TP,Vendredi,14:30,18:30,A,3
+BM07,TM,6,GB,Oui,TP,Vendredi,14:30,18:30,B,3
+BT03,TM,6,GB,Oui,Cours,Lundi,08:00,10:00,,
+BT03,TM,6,GB,Oui,TD,Mercredi,08:00,10:00,,
+BT03,TM,6,GB,Oui,TP,Jeudi,14:30,18:30,A,1
+BT03,TM,6,GB,Oui,TP,Jeudi,14:30,18:30,B,1
+BT03,TM,6,GB,Oui,TP,Vendredi,08:00,12:00,A,2
+BT03,TM,6,GB,Oui,TP,Vendredi,08:00,12:00,B,2
+BT03,TM,6,GB,Oui,TP,Vendredi,14:30,18:30,A,3
+BT03,TM,6,GB,Oui,TP,Vendredi,14:30,18:30,B,3
+BT07,TM,7,GB,Oui,Cours,Mercredi,08:00,10:00,,
+BT07,TM,7,GB,Oui,TD,Jeudi,10:15,13:15,,
+BT09,TM,6,"GB, TC","GB: Oui, TC: Non",Cours,Mercredi,10:15,12:15,,
+BT09,TM,6,"GB, TC","GB: Oui, TC: Non",TD,Mercredi,14:15,16:15,,1
+BT09,TM,6,"GB, TC","GB: Oui, TC: Non",TD,Jeudi,10:15,12:15,,2
+BT09,TM,6,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,14:15,18:15,A,1
+BT09,TM,6,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,14:15,18:15,B,1
+BT09,TM,6,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,08:00,12:00,B,2
+BT09,TM,6,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,08:00,12:00,A,2
+CF04,TM,6,"GP, GU, IM",Oui,Cours,Jeudi,10:15,12:15,,
+CF04,TM,6,"GP, GU, IM",Oui,TD,Vendredi,13:15,16:15,,
+CM04,TM,6,"GP, TC",Oui,Cours,Jeudi,18:45,20:45,,
+CM04,TM,6,"GP, TC",Oui,Cours,Lundi,10:15,12:15,,
+CM04,TM,6,"GP, TC",Oui,TD,Mercredi,08:00,10:00,,1
+CM04,TM,6,"GP, TC",Oui,TD,Vendredi,08:00,10:00,,2
+CM04,TM,6,"GP, TC",Oui,TD,Vendredi,14:15,16:15,,3
+CM04,TM,6,"GP, TC",Oui,TD,Vendredi,16:30,18:30,,4
+CM06,TM,6,GP,Oui,TD,Mercredi,16:30,18:30,,
+CM71,TM,3,GP,Oui,TP,Jeudi,13:30,17:30,,
+DF03,TM,6,"GB, IM",Oui,Cours,Lundi,14:15,16:15,,
+DF03,TM,6,"GB, IM",Oui,TD,Vendredi,08:00,10:00,,
+DF04,TM,6,IM,Oui,Cours,Lundi,16:30,18:30,,
+DF04,TM,6,IM,Oui,TD,Mardi,08:00,10:00,,
+DI04,TM,6,IM,Oui,Cours,Jeudi,14:15,16:15,,
+DI04,TM,6,IM,Oui,TD,Jeudi,16:30,18:30,,
+DI05,TM,6,"GU, IM",Oui,Cours,Mardi,10:15,12:15,,
+DI05,TM,6,"GU, IM",Oui,TD,Mardi,14:15,16:15,,1
+DI05,TM,6,"GU, IM",Oui,TD,Mardi,16:30,18:30,,2
+DI08,TM,6,IM,Oui,Cours,Lundi,14:15,16:15,,
+DI08,TM,6,IM,Oui,TD,Lundi,16:30,18:30,,
+EG01,TM,6,IM,Oui,Cours,Mercredi,10:15,12:15,,
+EG01,TM,6,IM,Oui,TD,Mercredi,14:15,16:15,,
+EV02,TM,6,GP,Oui,Cours,Mardi,08:00,10:00,,
+EV02,TM,6,GP,Oui,TD,Mardi,10:15,12:15,,
+EV03,TM,6,"GP, GU",Oui,Cours,Mardi,14:15,16:15,,
+EV03,TM,6,"GP, GU",Oui,TD,Mardi,16:30,18:30,,
+FE01,TM,2,TC,Non,Cours,Mercredi,16:30,17:30,,
+FE01,TM,2,TC,Non,TD,Mercredi,17:30,18:30,,
+FQ01,TM,6,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Mercredi,14:15,16:15,,
+FQ01,TM,6,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mardi,14:15,16:15,,1
+FQ01,TM,6,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,08:00,10:00,,2
+FQ01,TM,6,"GB, GP, GU, IM, TC","GB: Oui, GP: Oui, GU: Oui, IM: Oui, TC: Non",TD,Jeudi,10:15,12:15,,3
+FQ04,TM,6,GB,Oui,Cours,Mardi,14:15,16:15,,
+FQ04,TM,6,GB,Oui,TD,Mardi,16:30,18:30,,
+GE37,TM,6,"GB, GP, GU, IM",Oui,Cours,Lundi,10:15,12:15,,
+GE37,TM,6,"GB, GP, GU, IM",Oui,TD,Lundi,13:15,16:15,,1
+GE37,TM,6,"GB, GP, GU, IM",Oui,TD,Mercredi,09:00,12:00,,2
+GE37,TM,6,"GB, GP, GU, IM",Oui,TD,Jeudi,09:00,12:00,,3
+GE37,TM,6,"GB, GP, GU, IM",Oui,TD,Vendredi,14:15,17:15,,4
+GE38,TM,6,"GB, GP, GU, IM",Oui,Cours,Mardi,13:00,14:00,,
+GE38,TM,6,"GB, GP, GU, IM",Oui,TD,Mardi,14:15,17:15,,
+GE39,TM,6,"GB, GP, GU, IM",Oui,Cours,Mardi,08:00,09:00,,
+GE39,TM,6,"GB, GP, GU, IM",Oui,TD,Mardi,09:00,12:00,,
+GE40,TM,6,"GB, GP, GU, IM",Oui,Cours,Mercredi,16:30,18:30,,
+GE40,TM,6,"GB, GP, GU, IM",Oui,TD,Mercredi,13:15,16:15,,
+HT05,TM,6,,,Cours,Lundi,14:15,16:15,,
+HT05,TM,6,,,TD,Lundi,16:30,18:30,,
+IA03,TM,6,GU,Oui,Cours,Mercredi,16:30,18:30,,
+IA03,TM,6,GU,Oui,TD,Mercredi,14:15,16:15,,
+IA04,TM,6,GU,Oui,Cours,Mardi,16:30,18:30,,
+IA04,TM,6,GU,Oui,TD,Lundi,10:15,13:15,,1
+IA04,TM,6,GU,Oui,TD,Mardi,10:15,13:15,,2
+ICX1,TM,,Master,,Cours,Vendredi,13:00,14:00,,
+ICX1,TM,,Master,,TD,Vendredi,14:00,18:00,,
+INF1,TM,6,TC,Oui,Cours,Jeudi,14:15,16:15,,
+INF1,TM,6,TC,Oui,TD,Lundi,13:00,16:00,,1
+INF1,TM,6,TC,Oui,TD,Lundi,16:30,19:30,,2
+INF1,TM,6,TC,Oui,TD,Mardi,10:15,13:15,,3
+INF1,TM,6,TC,Oui,TD,Mercredi,13:00,16:00,,4
+INF1,TM,6,TC,Oui,TD,Mercredi,16:30,19:30,,5
+INF1,TM,6,TC,Oui,TD,Jeudi,10:15,13:15,,6
+INF1,TM,6,TC,Oui,TD,Vendredi,10:15,13:15,,7
+INF2,TM,6,"GB, GU, IM, TC",Oui,Cours,Vendredi,08:00,10:00,,
+INF2,TM,6,"GB, GU, IM, TC",Oui,TD,Mardi,08:00,10:00,,1
+INF2,TM,6,"GB, GU, IM, TC",Oui,TD,Mardi,16:30,18:30,,2
+INF2,TM,6,"GB, GU, IM, TC",Oui,TD,Mercredi,08:00,10:00,,3
+INF2,TM,6,"GB, GU, IM, TC",Oui,TD,Mercredi,10:15,12:15,,4
+INF2,TM,6,"GB, GU, IM, TC",Oui,TD,Jeudi,16:30,18:30,,5
+INF2,TM,6,"GB, GU, IM, TC",Oui,TD,Vendredi,10:15,12:15,,6
+INF2,TM,6,"GB, GU, IM, TC",Oui,TP,Lundi,14:15,16:15,A,1
+INF2,TM,6,"GB, GU, IM, TC",Oui,TP,Lundi,14:15,16:15,B,1
+INF2,TM,6,"GB, GU, IM, TC",Oui,TP,Lundi,16:30,18:30,A,2
+INF2,TM,6,"GB, GU, IM, TC",Oui,TP,Lundi,16:30,18:30,B,2
+INF2,TM,6,"GB, GU, IM, TC",Oui,TP,Mardi,14:15,16:15,B,3
+INF2,TM,6,"GB, GU, IM, TC",Oui,TP,Mardi,14:15,16:15,A,3
+INF2,TM,6,"GB, GU, IM, TC",Oui,TP,Mercredi,14:15,16:15,B,4
+INF2,TM,6,"GB, GU, IM, TC",Oui,TP,Mercredi,14:15,16:15,A,4
+INF2,TM,6,"GB, GU, IM, TC",Oui,TP,Jeudi,14:15,16:15,B,5
+INF2,TM,6,"GB, GU, IM, TC",Oui,TP,Jeudi,14:15,16:15,A,5
+INF2,TM,6,"GB, GU, IM, TC",Oui,TP,Vendredi,14:15,16:15,B,6
+INF2,TM,6,"GB, GU, IM, TC",Oui,TP,Vendredi,14:15,16:15,A,6
+IS02,TM,6,"GU, IM, TC",Oui,Cours,Vendredi,08:00,10:00,,
+IS02,TM,6,"GU, IM, TC",Oui,TD,Jeudi,10:15,12:15,,1
+IS02,TM,6,"GU, IM, TC",Oui,TD,Jeudi,14:15,16:15,,2
+IS02,TM,6,"GU, IM, TC",Oui,TD,Jeudi,16:30,18:30,,3
+IS22,TM,5,TC,Oui,Atelier,Mercredi,18:45,20:45,,
+LO21,TM,6,"GU, TC","GU: Oui, TC: Non",Cours,Vendredi,08:00,10:00,,
+LO21,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Lundi,08:00,12:00,,1
+LO21,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,14:30,18:30,,2
+LO21,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Vendredi,14:30,18:30,,3
+LO23,TM,6,GU,Oui,Cours,Mardi,08:00,10:00,,
+LO23,TM,6,GU,Oui,TD,Mercredi,10:15,13:15,,
+MC02,TM,6,IM,Oui,Cours,Lundi,10:15,12:15,,
+MC02,TM,6,IM,Oui,TD,Mercredi,10:15,12:15,,
+MC02,TM,6,IM,Oui,TP,Vendredi,08:00,12:00,A,1
+MC02,TM,6,IM,Oui,TP,Vendredi,08:00,12:00,B,1
+MC02,TM,6,IM,Oui,TP,Mardi,08:00,12:00,,2
+MC06,TM,6,IM,Oui,Cours,Lundi,14:15,16:15,,
+MC06,TM,6,IM,Oui,TD,Mercredi,08:00,10:00,,
+MC06,TM,6,IM,Oui,TP,Vendredi,14:30,18:30,A,
+MC06,TM,6,IM,Oui,TP,Vendredi,14:30,18:30,B,
+MI01,TM,6,"GU, TC","GU: Oui, TC: Non",Cours,Mercredi,10:15,12:15,,
+MI01,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Jeudi,08:00,10:00,,1
+MI01,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Jeudi,10:15,12:15,,2
+MI01,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Jeudi,14:15,16:15,,3
+MI01,TM,6,"GU, TC","GU: Oui, TC: Non",TP,Lundi,10:15,12:15,,1
+MI01,TM,6,"GU, TC","GU: Oui, TC: Non",TP,Mardi,08:00,10:00,,2
+MI01,TM,6,"GU, TC","GU: Oui, TC: Non",TP,Mercredi,14:15,16:15,,3
+MI01,TM,6,"GU, TC","GU: Oui, TC: Non",TP,Vendredi,14:15,16:15,,4
+MI12,TM,6,GU,Oui,Cours,Vendredi,16:30,18:00,,
+MI12,TM,6,GU,Oui,TD,Vendredi,08:00,12:00,,
+MP03,TM,6,IM,Oui,Cours,Jeudi,10:15,12:15,,
+MP03,TM,6,IM,Oui,TD,Vendredi,16:30,18:30,,
+MQ06,TM,6,IM,Oui,Cours,Mercredi,14:15,16:15,,
+MQ06,TM,6,IM,Oui,TD,Mardi,16:30,18:30,,1
+MQ06,TM,6,IM,Oui,TD,Jeudi,08:00,10:00,,2
+MQ06,TM,6,IM,Oui,TP,Mardi,08:00,10:00,,1
+MQ06,TM,6,IM,Oui,TP,Jeudi,16:30,18:30,A,2
+MQ06,TM,6,IM,Oui,TP,Jeudi,16:30,18:30,B,2
+MQ12,TM,6,"GB, IM",Oui,Cours,Vendredi,10:15,12:15,,
+MQ12,TM,6,"GB, IM",Oui,TD,Mercredi,16:30,18:30,,
+MQ13,TM,6,IM,Oui,Cours,Lundi,10:15,12:15,,
+MQ13,TM,6,IM,Oui,TD,Lundi,08:30,10:00,,
+MQ13,TM,6,IM,Oui,TP,Mardi,14:30,18:30,,1
+MQ13,TM,6,IM,Oui,TP,Mardi,14:30,18:30,,2
+MQ16,TM,6,IM,Oui,Cours,Vendredi,08:00,10:00,,
+MQ16,TM,6,IM,Oui,TD,Vendredi,10:15,12:15,,
+MQ16,TM,6,IM,Oui,TP,Jeudi,08:00,10:00,,
+MQ21,TM,6,IM,Oui,Cours,Lundi,14:15,16:15,,
+MQ21,TM,6,IM,Oui,TD,Lundi,16:30,18:30,,
+MQ21,TM,6,IM,Oui,TP,Jeudi,14:30,18:30,,
+MS01,TM,6,"GB, TC","GB: Oui, TC: Non",Cours,Lundi,08:00,10:00,,
+MS01,TM,6,"GB, TC","GB: Oui, TC: Non",TD,Mardi,10:15,12:15,,1
+MS01,TM,6,"GB, TC","GB: Oui, TC: Non",TD,Mercredi,08:00,10:00,,2
+MS01,TM,6,"GB, TC","GB: Oui, TC: Non",TD,Vendredi,14:15,16:15,,3
+MS01,TM,6,"GB, TC","GB: Oui, TC: Non",TD,Lundi,10:15,12:15,,4
+MS01,TM,6,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,08:00,12:00,B,1
+MS01,TM,6,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,08:00,12:00,A,1
+MS01,TM,6,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,14:30,18:30,A,2
+MS01,TM,6,"GB, TC","GB: Oui, TC: Non",TP,Jeudi,14:30,18:30,B,2
+MS01,TM,6,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,08:00,12:00,B,3
+MS01,TM,6,"GB, TC","GB: Oui, TC: Non",TP,Vendredi,08:00,12:00,A,3
+MS01,TM,6,"GB, TC","GB: Oui, TC: Non",TP,Lundi,14:30,18:30,,4
+MS01,TM,6,"GB, TC","GB: Oui, TC: Non",TP,Lundi,14:30,18:30,,5
+MS03,TM,6,IM,Oui,TD,Jeudi,08:00,09:00,,
+MS03,TM,6,IM,Oui,TP,Jeudi,09:00,12:00,,
+NF02,TM,6,"GB, IM, TC",Oui,Cours,Lundi,16:30,18:00,,
+NF02,TM,6,"GB, IM, TC",Oui,TD,Mercredi,08:00,10:00,,1
+NF02,TM,6,"GB, IM, TC",Oui,TD,Jeudi,16:30,18:30,,2
+NF02,TM,6,"GB, IM, TC",Oui,TP,Mercredi,10:15,12:15,A,1
+NF02,TM,6,"GB, IM, TC",Oui,TP,Mercredi,10:15,12:15,B,1
+NF02,TM,6,"GB, IM, TC",Oui,TP,Vendredi,08:00,10:00,A,2
+NF02,TM,6,"GB, IM, TC",Oui,TP,Vendredi,08:00,10:00,B,2
+NF05,TM,4,TC,Oui,TD,Lundi,08:00,12:00,,1
+NF05,TM,4,TC,Oui,TD,Vendredi,14:30,18:30,,10
+NF05,TM,4,TC,Oui,TD,Lundi,14:15,18:15,,2
+NF05,TM,4,TC,Oui,TD,Mardi,08:00,12:00,,3
+NF05,TM,4,TC,Oui,TD,Mardi,14:15,18:15,,4
+NF05,TM,4,TC,Oui,TD,Mercredi,08:00,12:00,,5
+NF05,TM,4,TC,Oui,TD,Mercredi,14:15,18:15,,6
+NF05,TM,4,TC,Oui,TD,Jeudi,08:00,12:00,,7
+NF05,TM,4,TC,Oui,TD,Jeudi,14:15,18:15,,8
+NF05,TM,4,TC,Oui,TD,Vendredi,08:00,12:00,,9
+NF18,TM,6,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",Cours,Jeudi,08:00,10:00,,
+NF18,TM,6,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,10:15,13:15,,1
+NF18,TM,6,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TD,Lundi,13:15,16:15,,2
+NF18,TM,6,"GB, GU, IM, TC","GB: Oui, GU: Oui, IM: Oui, TC: Non",TD,Mercredi,10:15,13:15,,3
+NF22,TM,6,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",Cours,Vendredi,08:30,10:00,,
+NF22,TM,6,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TD,Lundi,08:00,10:00,,1
+NF22,TM,6,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TD,Mardi,10:15,12:15,,2
+NF22,TM,6,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TD,Mardi,14:15,16:15,,3
+NF22,TM,6,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TD,Jeudi,08:00,10:00,,4
+NF22,TM,6,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TD,Jeudi,14:15,16:15,,5
+NF22,TM,6,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TD,Vendredi,10:15,12:15,,6
+NF22,TM,6,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TP,Lundi,10:15,12:15,,1
+NF22,TM,6,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TP,Mardi,08:00,10:00,,2
+NF22,TM,6,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TP,Mardi,16:30,18:30,,3
+NF22,TM,6,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TP,Mercredi,08:00,10:00,,4
+NF22,TM,6,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TP,Mercredi,16:30,18:30,,5
+NF22,TM,6,"GB, GP, IM, TC","GB: Oui, GP: Oui, IM: Oui, TC: Non",TP,Vendredi,14:15,16:15,,6
+NF23,TM,3,GP,Oui,TD,Lundi,08:00,12:00,,
+NF92,TM,6,TC,Oui,Cours,Mercredi,16:30,18:30,,
+NF92,TM,6,TC,Oui,TD,Mercredi,08:00,10:00,,1
+NF92,TM,6,TC,Oui,TD,Jeudi,08:00,10:00,,2
+NF92,TM,6,TC,Oui,TD,Vendredi,08:00,10:00,,3
+NF92,TM,6,TC,Oui,TP,Mercredi,10:15,12:15,B,1
+NF92,TM,6,TC,Oui,TP,Mercredi,10:15,12:15,A,1
+NF92,TM,6,TC,Oui,TP,Jeudi,10:15,12:15,A,2
+NF92,TM,6,TC,Oui,TP,Jeudi,10:15,12:15,B,2
+NF92,TM,6,TC,Oui,TP,Vendredi,10:15,12:15,B,3
+NF92,TM,6,TC,Oui,TP,Vendredi,10:15,12:15,A,3
+PS12,TM,6,"GU, IM",Oui,Cours,Lundi,14:15,16:15,,
+PS12,TM,6,"GU, IM",Oui,TD,Lundi,16:30,18:30,,
+PS13,TM,6,IM,Oui,Cours,Mardi,08:00,10:00,,
+PS13,TM,6,IM,Oui,TD,Vendredi,13:00,16:00,,
+PS90,TM,3,TC,Oui,Cours,Mardi,16:30,18:30,,
+RO06,TM,6,GU,Oui,Cours,Lundi,08:00,10:00,,
+RO06,TM,6,GU,Oui,TD,Lundi,10:15,12:15,,
+RV01,TM,6,GU,Oui,Cours,Jeudi,10:15,12:15,,
+RV01,TM,6,GU,Oui,TD,Vendredi,14:15,16:15,,
+SR01,TM,6,"GU, TC","GU: Oui, TC: Non",Cours,Lundi,14:15,16:15,,
+SR01,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Lundi,16:30,18:30,,1
+SR01,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Mardi,16:30,18:30,,2
+SR01,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,08:00,10:00,,3
+SR01,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Vendredi,10:15,12:15,,4
+SR01,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,10:15,12:15,,5
+SR07,TM,6,GU,Oui,Cours,Vendredi,10:15,12:15,,
+SR07,TM,6,GU,Oui,TD,Vendredi,16:30,19:30,,
+SR08,TM,6,GU,Oui,Cours,Jeudi,08:00,10:00,,
+SR08,TM,6,GU,Oui,TD,Samedi,08:00,11:00,,
+SU01,TM,6,TC,Oui,Cours,Mardi,08:00,10:00,,
+SU01,TM,6,TC,Oui,TD,Mardi,10:15,12:15,,1
+SU01,TM,6,TC,Oui,TD,Mardi,14:15,16:15,,2
+SU01,TM,6,TC,Oui,TD,Mardi,16:30,18:30,,3
+SY03,TM,6,"IM, TC","IM: Oui, TC: Non",Cours,Jeudi,08:00,10:00,,
+SY03,TM,6,"IM, TC","IM: Oui, TC: Non",TD,Mardi,08:00,10:00,,1
+SY03,TM,6,"IM, TC","IM: Oui, TC: Non",TD,Jeudi,16:30,18:30,,2
+SY03,TM,6,"IM, TC","IM: Oui, TC: Non",TD,Vendredi,08:00,10:00,,3
+SY03,TM,6,"IM, TC","IM: Oui, TC: Non",TP,Lundi,08:00,12:00,B,1
+SY03,TM,6,"IM, TC","IM: Oui, TC: Non",TP,Lundi,08:00,12:00,A,1
+SY03,TM,6,"IM, TC","IM: Oui, TC: Non",TP,Mardi,14:30,18:30,A,2
+SY03,TM,6,"IM, TC","IM: Oui, TC: Non",TP,Mardi,14:30,18:30,B,2
+SY03,TM,6,"IM, TC","IM: Oui, TC: Non",TP,Mercredi,08:00,12:00,A,3
+SY03,TM,6,"IM, TC","IM: Oui, TC: Non",TP,Mercredi,08:00,12:00,B,3
+SY05,TM,6,"GB, GP",Oui,Cours,Jeudi,08:00,10:00,,
+SY05,TM,6,"GB, GP",Oui,TD,Jeudi,10:15,12:15,,
+SY10,TM,6,"GU, IM, TC",Oui,Cours,Mardi,16:30,18:30,,
+SY10,TM,6,"GU, IM, TC",Oui,TD,Jeudi,14:15,16:15,,
+SY10,TM,6,"GU, IM, TC",Oui,TP,Jeudi,16:30,18:30,,1
+SY10,TM,6,"GU, IM, TC",Oui,TP,Jeudi,16:30,18:30,,2
+SY19,TM,6,"GB, GU",Oui,Cours,Mercredi,08:00,10:00,,
+SY19,TM,6,"GB, GU",Oui,TD,Mardi,10:15,12:15,,1
+SY19,TM,6,"GB, GU",Oui,TD,Mercredi,10:15,12:15,,2
+SY27,TM,6,GU,Oui,Cours,Mercredi,14:15,16:15,,
+SY27,TM,6,GU,Oui,TD,Jeudi,14:30,18:30,,
+SY28,TM,6,GU,Oui,Cours,Mardi,10:15,12:15,,
+SY28,TM,6,GU,Oui,TD,Mardi,14:15,16:15,,
+SY28,TM,6,GU,Oui,TP,Vendredi,14:15,16:15,,
+TA02,TM,6,GP,Oui,Cours,Vendredi,14:15,16:15,,
+TA02,TM,6,GP,Oui,TD,Vendredi,16:30,18:30,,
+TH02,TM,6,GP,Oui,Cours,Mardi,08:00,10:00,,
+TH02,TM,6,GP,Oui,TD,Mardi,10:15,12:15,,
+TH04,TM,6,GP,Oui,Cours,Vendredi,08:00,10:00,,
+TH04,TM,6,GP,Oui,TD,Vendredi,10:15,12:15,,
+TM02,TM,5,TC,Oui,TD,Vendredi,08:00,10:00,,
+TM02,TM,5,TC,Oui,TP,Vendredi,10:15,12:15,,
+TN01,TM,6,TC,Oui,Cours,Vendredi,16:45,17:45,,
+TN01,TM,6,TC,Oui,TD,Lundi,08:00,11:00,,1
+TN01,TM,6,TC,Oui,TD,Vendredi,13:00,16:00,,10
+TN01,TM,6,TC,Oui,TD,Mardi,16:30,19:30,,11
+TN01,TM,6,TC,Oui,TD,Lundi,13:00,16:00,,2
+TN01,TM,6,TC,Oui,TD,Lundi,16:30,19:30,,3
+TN01,TM,6,TC,Oui,TD,Mardi,08:00,11:00,,4
+TN01,TM,6,TC,Oui,TD,Mardi,13:00,16:00,,5
+TN01,TM,6,TC,Oui,TD,Mercredi,08:00,11:00,,6
+TN01,TM,6,TC,Oui,TD,Mercredi,13:00,16:00,,7
+TN01,TM,6,TC,Oui,TD,Mercredi,16:30,19:30,,8
+TN01,TM,6,TC,Oui,TD,Jeudi,13:00,16:00,,9
+TN02,TM,6,"IM, TC",Oui,Cours,Lundi,14:15,15:15,,
+TN02,TM,6,"IM, TC",Oui,TD,Lundi,08:00,11:00,,1
+TN02,TM,6,"IM, TC",Oui,TD,Lundi,16:30,19:30,,2
+TN02,TM,6,"IM, TC",Oui,TD,Mercredi,13:15,16:15,,3
+TN02,TM,6,"IM, TC",Oui,TD,Jeudi,13:15,16:15,,4
+TN02,TM,6,"IM, TC",Oui,TD,Jeudi,16:30,19:30,,5
+TN02,TM,6,"IM, TC",Oui,TD,Vendredi,08:00,11:00,,6
+TN03,TM,6,TC,Oui,Cours,Mardi,16:30,17:30,,
+TN03,TM,6,TC,Oui,TD,Mardi,08:00,09:00,,1
+TN03,TM,6,TC,Oui,TD,Mardi,09:00,10:00,,2
+TN03,TM,6,TC,Oui,TD,Vendredi,14:15,15:15,,3
+TN03,TM,6,TC,Oui,TD,Vendredi,15:15,16:15,,4
+TN03,TM,6,TC,Oui,TP,Mercredi,08:00,12:00,,1
+TN03,TM,6,TC,Oui,TP,Mercredi,14:15,18:15,,2
+TN08,TM,6,IM,Oui,Cours,Mardi,14:15,16:15,,
+TN08,TM,6,IM,Oui,TP,Mardi,16:30,18:30,,
+TN12,TM,6,IM,Oui,Cours,Lundi,14:15,15:45,,
+TN12,TM,6,IM,Oui,TD,Mardi,14:30,18:30,,1
+TN12,TM,6,IM,Oui,TD,Mercredi,14:30,18:30,,2
+TN12,TM,6,IM,Oui,TD,Vendredi,08:00,12:00,,3
+TN14,TM,6,IM,Oui,Cours,Lundi,14:15,16:15,,
+TN14,TM,6,IM,Oui,TD,Lundi,16:30,18:00,,
+TN20,TM,6,"IM, TC","IM: Oui, TC: Non",Cours,Vendredi,16:30,18:00,,
+TN20,TM,6,"IM, TC","IM: Oui, TC: Non",TD,Lundi,14:15,18:15,,1
+TN20,TM,6,"IM, TC","IM: Oui, TC: Non",TD,Mardi,08:00,12:00,,2
+TN20,TM,6,"IM, TC","IM: Oui, TC: Non",TD,Mardi,14:15,18:15,,3
+TN20,TM,6,"IM, TC","IM: Oui, TC: Non",TD,Mercredi,08:00,12:00,,4
+TN20,TM,6,"IM, TC","IM: Oui, TC: Non",TD,Mercredi,14:30,18:30,,5
+TN20,TM,6,"IM, TC","IM: Oui, TC: Non",TD,Jeudi,08:00,12:00,,6
+TN21,TM,6,IM,Oui,Cours,Mardi,14:15,16:15,,
+TN21,TM,6,IM,Oui,TD,Vendredi,14:15,16:15,,
+TN22,TM,6,IM,Oui,Cours,Lundi,14:30,16:00,,
+TN22,TM,6,IM,Oui,TD,Mardi,08:00,12:00,,1
+TN22,TM,6,IM,Oui,TD,Mercredi,08:00,12:00,,2
+TN22,TM,6,IM,Oui,TD,Vendredi,08:00,12:00,,3
+TN23,TM,6,IM,Oui,Cours,Mercredi,08:00,10:00,,
+TN23,TM,6,IM,Oui,TD,Lundi,16:30,18:30,,1
+TN23,TM,6,IM,Oui,TD,Mardi,10:15,12:15,,2
+TN23,TM,6,IM,Oui,TD,Vendredi,10:15,12:15,,3
+TN23,TM,6,IM,Oui,TP,Lundi,08:00,12:00,B,1
+TN23,TM,6,IM,Oui,TP,Lundi,08:00,12:00,A,1
+TN23,TM,6,IM,Oui,TP,Mercredi,14:30,18:30,A,2
+TN23,TM,6,IM,Oui,TP,Mercredi,14:30,18:30,B,2
+TN23,TM,6,IM,Oui,TP,Jeudi,08:00,12:00,B,3
+TN23,TM,6,IM,Oui,TP,Jeudi,08:00,12:00,A,3
+TN25,TM,6,IM,Oui,Cours,Vendredi,10:15,11:45,,
+TN25,TM,6,IM,Oui,TD,Jeudi,08:00,12:00,,
+TR91,TM,2,TC,Oui,Cours,Jeudi,16:30,18:30,,
+TR91,TM,2,TC,Oui,TD,Mercredi,10:15,12:15,,
+TSN1,TM,6,GB,Oui,Cours,Mardi,10:15,12:15,,
+TSN1,TM,6,GB,Oui,TD,Mercredi,14:15,16:15,,1
+TSN1,TM,6,GB,Oui,TD,Mercredi,16:30,18:30,,2
+UB02,TM,6,GU,Oui,Cours,Vendredi,08:00,10:00,,
+UB02,TM,6,GU,Oui,TD,Vendredi,10:15,12:15,,
+UR03,TM,6,"GU, TC","GU: Oui, TC: Non",Cours,Mercredi,16:30,18:30,,
+UR03,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,08:00,10:00,,1
+UR03,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,14:15,16:15,,2
+UR06,TM,6,"GU, TC","GU: Oui, TC: Non",Cours,Mercredi,14:15,16:15,,
+UR06,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,08:00,10:00,,1
+UR06,TM,6,"GU, TC","GU: Oui, TC: Non",TD,Mercredi,10:15,12:15,,2
+UR07,TM,6,GU,Oui,Cours,Vendredi,14:15,16:15,,
+UR07,TM,6,GU,Oui,TD,Vendredi,16:30,18:30,,
+AR03,TSH,4,TC,Oui,Cours,Mardi,09:00,10:00,,
+AR03,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,
+AR04,TSH,4,,,Cours,Jeudi,10:15,12:15,,
+AR04,TSH,4,,,TD,Jeudi,14:15,16:15,,1
+AR04,TSH,4,,,TD,Jeudi,16:30,18:30,,2
+AV01,TSH,4,TC,Oui,Cours,Vendredi,12:45,13:45,,
+AV01,TSH,4,TC,Oui,TD,Vendredi,08:00,10:00,,1
+AV01,TSH,4,TC,Oui,TD,Vendredi,10:15,12:15,,2
+DI01,TSH,4,TC,Oui,Cours,Jeudi,10:15,12:15,,
+DI02,TSH,4,TC,Oui,Cours,Vendredi,08:00,10:00,,
+DI02,TSH,4,TC,Oui,TD,Vendredi,10:15,12:15,,1
+DI02,TSH,4,TC,Oui,TD,Vendredi,14:15,16:15,,2
+DS01,TSH,4,,,Cours,Mardi,13:00,14:00,,
+DS01,TSH,4,,,TP,Mardi,14:15,16:15,,1
+DS01,TSH,4,,,TP,Mardi,16:30,18:30,,2
+EI04,TSH,4,,,Cours,Lundi,13:00,14:00,,
+EI04,TSH,4,,,TD,Lundi,14:15,16:15,,
+EI05,TSH,4,,,Cours,Mardi,13:00,14:00,,
+EI05,TSH,4,,,TD,Mardi,14:15,16:15,,
+EI07,TSH,4,TC,Oui,Cours,Mercredi,13:00,14:00,,
+EI07,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,1
+EI07,TSH,4,TC,Oui,TD,Mercredi,16:30,18:30,,2
+GE10,TSH,4,TC,Oui,Cours,Mercredi,13:00,14:00,,
+GE10,TSH,4,TC,Oui,TD,Lundi,08:00,10:00,,1
+GE10,TSH,4,TC,Oui,TD,Lundi,10:15,12:15,,2
+GE10,TSH,4,TC,Oui,TD,Mardi,08:00,10:00,,3
+GE10,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,4
+GE10,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,5
+GE13,TSH,4,TC,Oui,Cours,Lundi,13:00,14:00,,
+GE13,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,1
+GE13,TSH,4,TC,Oui,TD,Lundi,16:30,18:30,,2
+GE15,TSH,4,TC,Oui,Cours,Mardi,13:00,14:00,,
+GE15,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,1
+GE15,TSH,4,TC,Oui,TD,Mardi,16:30,18:30,,2
+GE20,TSH,4,TC,Oui,Cours,Mercredi,13:00,14:00,,
+GE20,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,1
+GE20,TSH,4,TC,Oui,TD,Mercredi,16:30,18:30,,2
+GE21,TSH,4,TC,Oui,Cours,Mardi,13:00,14:00,,
+GE21,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,1
+GE21,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,2
+GE22,TSH,4,TC,Oui,Cours,Mercredi,13:00,14:00,,
+GE22,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,1
+GE22,TSH,4,TC,Oui,TD,Lundi,16:30,18:30,,2
+GE22,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,3
+GE22,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,4
+GE22,TSH,4,TC,Oui,TD,Mercredi,16:30,18:30,,5
+GE22,TSH,4,TC,Oui,TD,Mercredi,16:30,18:30,,6
+GE25,TSH,4,,,Cours,Jeudi,13:00,14:00,,
+GE25,TSH,4,,,TD,Jeudi,14:15,16:15,,
+GE27,TSH,4,TC,Oui,Cours,Jeudi,13:00,14:00,,
+GE27,TSH,4,TC,Oui,TD,Jeudi,14:15,16:15,,1
+GE27,TSH,4,TC,Oui,TD,Vendredi,10:15,12:15,,2
+GE28,TSH,4,TC,Oui,Cours,Lundi,08:00,10:00,,
+GE28,TSH,4,TC,Oui,TD,Lundi,10:15,11:15,,1
+GE28,TSH,4,TC,Oui,TD,Lundi,11:15,12:15,,2
+GE36,TSH,4,TC,Oui,Cours,Lundi,13:00,14:00,,
+GE36,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,1
+GE36,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,2
+GE36,TSH,4,TC,Oui,TD,Mardi,16:30,18:30,,3
+HE01,TSH,4,TC,Oui,Cours,Vendredi,09:00,10:00,,
+HE01,TSH,4,TC,Oui,TD,Vendredi,10:15,12:15,,1
+HE01,TSH,4,TC,Oui,TD,Vendredi,14:15,16:15,,2
+HE03,TSH,4,TC,Oui,Cours,Mardi,13:00,14:00,,
+HE03,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,1
+HE03,TSH,4,TC,Oui,TD,Mardi,16:30,18:30,,2
+HT01,TSH,4,,,Cours,Mercredi,14:15,16:15,,
+HT01,TSH,4,,,TD,Mercredi,16:30,17:30,,1
+HT01,TSH,4,,,TD,Mercredi,17:30,18:30,,2
+HT04,TSH,6,,,Cours,Mercredi,10:15,12:15,,
+HT04,TSH,6,,,TD,Mercredi,13:00,14:00,,
+IC01,TSH,4,TC,Oui,Cours,Mardi,13:00,14:00,,
+IC01,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,1
+IC01,TSH,4,TC,Oui,TD,Mardi,16:30,18:30,,2
+IC03,TSH,4,,,Cours,Mercredi,13:00,14:00,,
+IC03,TSH,4,,,TD,Mercredi,14:15,16:15,,1
+IC03,TSH,4,,,TD,Mercredi,16:30,18:30,,2
+IC06,TSH,4,,,Cours,Vendredi,13:00,14:00,,
+IC06,TSH,4,,,TD,Vendredi,14:15,16:15,,
+IS04,TSH,4,TC,Oui,Cours,Lundi,13:00,14:00,,
+IS04,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,1
+IS04,TSH,4,TC,Oui,TD,Lundi,16:30,18:30,,2
+IS10,TSH,4,TC,Oui,TD,Mercredi,16:30,18:30,,1
+IS10,TSH,4,TC,Oui,TD,Jeudi,16:30,18:30,,2
+IS23,TSH,5,TC,Oui,Atelier,Mercredi,18:45,20:45,,
+LA00,TSH,4,TC,Oui,TD,Lundi,10:15,12:15,,
+LA01,TSH,4,TC,Oui,TD,Jeudi,10:15,12:15,,
+LA02,TSH,4,TC,Oui,TD,Jeudi,10:15,12:15,,1
+LA02,TSH,4,TC,Oui,TD,Jeudi,14:15,16:15,,2
+LA02,TSH,4,TC,Oui,TD,Vendredi,08:00,10:00,,3
+LA02,TSH,4,TC,Oui,TD,Vendredi,10:15,12:15,,4
+LA03,TSH,4,TC,Oui,TD,Mardi,08:00,10:00,,1
+LA03,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,2
+LA03,TSH,4,TC,Oui,TD,Mercredi,08:00,10:00,,3
+LA03,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,4
+LA03,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,5
+LA04,TSH,4,TC,Oui,TD,Mardi,08:00,10:00,,1
+LA04,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,2
+LA04,TSH,4,TC,Oui,TD,Mercredi,13:00,14:00,,1
+LA04,TSH,4,TC,Oui,TD,Jeudi,13:00,14:00,,2
+LA11,TSH,4,TC,Oui,TD,Jeudi,08:00,10:00,,1
+LA11,TSH,4,TC,Oui,TD,Jeudi,10:15,12:15,,2
+LA11,TSH,4,TC,Oui,TD,Mardi,09:00,10:00,,1
+LA11,TSH,4,TC,Oui,TD,Mardi,13:00,14:00,,2
+LA12,TSH,4,TC,Oui,TD,Lundi,16:30,18:30,,1
+LA12,TSH,4,TC,Oui,TD,Mardi,08:00,10:00,,2
+LA12,TSH,4,TC,Oui,TD,Mardi,16:30,18:30,,3
+LA12,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,4
+LA12,TSH,4,TC,Oui,TD,Mercredi,16:30,18:30,,5
+LA12,TSH,4,TC,Oui,TD,Mercredi,16:30,18:30,,6
+LA12,TSH,4,TC,Oui,TD,Jeudi,10:15,12:15,,7
+LA13,TSH,4,TC,Oui,TD,Lundi,10:15,12:15,,1
+LA13,TSH,4,TC,Oui,TD,Mardi,16:30,18:30,,10
+LA13,TSH,4,TC,Oui,TD,Mercredi,08:00,10:00,,11
+LA13,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,12
+LA13,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,13
+LA13,TSH,4,TC,Oui,TD,Mercredi,16:30,18:30,,14
+LA13,TSH,4,TC,Oui,TD,Jeudi,08:00,10:00,,15
+LA13,TSH,4,TC,Oui,TD,Jeudi,08:00,10:00,,16
+LA13,TSH,4,TC,Oui,TD,Jeudi,10:15,12:15,,17
+LA13,TSH,4,TC,Oui,TD,Jeudi,10:15,12:15,,18
+LA13,TSH,4,TC,Oui,TD,Jeudi,14:15,16:15,,19
+LA13,TSH,4,TC,Oui,TD,Lundi,10:15,12:15,,2
+LA13,TSH,4,TC,Oui,TD,Vendredi,10:15,12:15,,20
+LA13,TSH,4,TC,Oui,TD,Vendredi,10:15,12:15,,21
+LA13,TSH,4,TC,Oui,TD,Vendredi,14:15,16:15,,22
+LA13,TSH,4,TC,Oui,TD,Vendredi,14:15,16:15,,23
+LA13,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,3
+LA13,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,4
+LA13,TSH,4,TC,Oui,TD,Lundi,16:30,18:30,,5
+LA13,TSH,4,TC,Oui,TD,Lundi,16:30,18:30,,6
+LA13,TSH,4,TC,Oui,TD,Mardi,08:00,10:00,,7
+LA13,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,8
+LA13,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,9
+LA14,TSH,4,TC,Oui,Cours,Mercredi,13:00,14:00,,
+LA14,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,1
+LA14,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,2
+LA14,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,3
+LA14,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,4
+LA14,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,5
+LA14,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,6
+LA14,TSH,4,TC,Oui,TD,Jeudi,10:15,12:15,,7
+LA14,TSH,4,TC,Oui,TD,Jeudi,14:15,16:15,,8
+LA15,TSH,4,,,TD,Mardi,14:15,16:15,,
+LA20,TSH,4,TC,Oui,TD,Mercredi,08:00,10:00,,
+LA21,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,1
+LA21,TSH,4,TC,Oui,TD,Mardi,16:30,18:30,,2
+LA21,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,3
+LA21,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,4
+LA21,TSH,4,TC,Oui,TD,Mercredi,16:30,18:30,,5
+LA21,TSH,4,TC,Oui,TD,Jeudi,10:15,12:15,,6
+LA21,TSH,4,TC,Oui,TD,Jeudi,14:15,16:15,,7
+LA21,TSH,4,TC,Oui,TD,Jeudi,16:30,18:30,,8
+LA22,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,1
+LA22,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,2
+LA22,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,3
+LA22,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,4
+LA22,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,5
+LA22,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,6
+LA22,TSH,4,TC,Oui,TD,Jeudi,10:15,12:15,,7
+LA22,TSH,4,TC,Oui,TD,Jeudi,14:15,16:15,,8
+LA23,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,1
+LA23,TSH,4,TC,Oui,TD,Lundi,16:30,18:30,,2
+LA23,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,3
+LA23,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,4
+LA24,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,
+LA24,TSH,4,TC,Oui,TD,Lundi,13:00,14:00,,
+LA91,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,1
+LA91,TSH,4,TC,Oui,TD,Jeudi,10:15,12:15,,2
+LA91,TSH,4,TC,Oui,TD,Vendredi,10:15,12:15,,1
+LA91,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,2
+LA92,TSH,4,TC,Oui,TD,Lundi,08:00,10:00,,1
+LA92,TSH,4,TC,Oui,TD,Mardi,08:00,10:00,,2
+LA92,TSH,4,TC,Oui,TD,Mercredi,08:00,10:00,,3
+LA92,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,4
+LA92,TSH,4,TC,Oui,TD,Jeudi,08:00,10:00,,1
+LA92,TSH,4,TC,Oui,TD,Jeudi,08:00,10:00,,2
+LA92,TSH,4,TC,Oui,TD,Vendredi,08:00,10:00,,3
+LA92,TSH,4,TC,Oui,TD,Vendredi,14:15,16:15,,4
+LA93,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,1
+LA93,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,2
+LA93,TSH,4,TC,Oui,TD,Mercredi,16:30,18:30,,3
+LA93,TSH,4,TC,Oui,TD,Jeudi,10:15,12:15,,4
+LA93,TSH,4,TC,Oui,TD,Mardi,13:00,14:00,,1
+LA93,TSH,4,TC,Oui,TD,Jeudi,18:45,19:45,,2
+LA93,TSH,4,TC,Oui,TD,Vendredi,10:15,11:15,,3
+LA93,TSH,4,TC,Oui,TD,Vendredi,11:15,12:15,,4
+LA94,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,
+LA95,TSH,4,TC,Oui,TD,Vendredi,09:00,10:00,,
+LB24,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,
+LB24,TSH,4,TC,Oui,TD,Mardi,13:00,14:00,,
+LC14,TSH,4,TC,Oui,Cours,Mardi,13:00,14:00,,
+LC14,TSH,4,TC,Oui,TD,Lundi,08:00,10:00,,1
+LC14,TSH,4,TC,Oui,TD,Vendredi,14:15,16:15,,10
+LC14,TSH,4,TC,Oui,TD,Lundi,10:15,12:15,,2
+LC14,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,3
+LC14,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,4
+LC14,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,5
+LC14,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,6
+LC14,TSH,4,TC,Oui,TD,Jeudi,10:15,12:15,,7
+LC14,TSH,4,TC,Oui,TD,Jeudi,14:15,16:15,,8
+LC14,TSH,4,TC,Oui,TD,Vendredi,10:15,12:15,,9
+LC72,TSH,4,,,TD,Vendredi,10:15,12:15,,1
+LC72,TSH,4,,,TD,Vendredi,14:15,16:15,,2
+LC73,TSH,4,,,TD,Vendredi,10:15,12:15,,1
+LC73,TSH,4,,,TD,Vendredi,14:15,16:15,,2
+LC74,TSH,4,,,TD,Vendredi,08:00,10:00,,
+LD14,TSH,4,,,TD,Lundi,10:15,12:15,,1
+LD14,TSH,4,,,TD,Mardi,10:15,12:15,,2
+LD14,TSH,4,,,TD,Mardi,14:15,16:15,,3
+LD14,TSH,4,,,TD,Mardi,16:30,18:30,,4
+LD14,TSH,4,,,TP,Jeudi,13:00,14:00,,1
+LD14,TSH,4,,,TP,Jeudi,13:00,14:00,,2
+LG30,TSH,4,TC,Oui,TD,Mardi,08:00,10:00,,1
+LG30,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,2
+LG31,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,
+LG32,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,
+LG33,TSH,4,TC,Oui,TD,Mardi,16:30,18:30,,
+LG40,TSH,4,TC,Oui,TD,Mercredi,08:00,10:00,,1
+LG40,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,2
+LG41,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,
+LG42,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,
+LG50,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,1
+LG50,TSH,4,TC,Oui,TD,Vendredi,10:15,12:15,,2
+LG50,TSH,4,TC,Oui,TD,Vendredi,14:15,16:15,,3
+LG51,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,1
+LG51,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,2
+LG52,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,
+LG53,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,
+LG60,TSH,4,TC,Oui,TD,Lundi,08:00,10:00,,1
+LG60,TSH,4,TC,Oui,TD,Lundi,10:15,12:15,,2
+LG61,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,1
+LG61,TSH,4,TC,Oui,TD,Lundi,16:30,18:30,,2
+LG62,TSH,4,TC,Oui,TD,Lundi,10:15,12:15,,
+LG63,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,
+LH12,TSH,4,,,TD,Lundi,10:15,12:15,,1
+LH12,TSH,4,,,TD,Lundi,16:30,18:30,,2
+LH13,TSH,4,,,TD,Lundi,08:00,10:00,,1
+LH13,TSH,4,,,TD,Lundi,10:15,12:15,,2
+LH13,TSH,4,,,TD,Lundi,10:15,12:15,,3
+LH14,TSH,4,,,TD,Jeudi,14:15,16:15,,1
+LH14,TSH,4,,,TD,Jeudi,16:30,18:30,,2
+LH15,TSH,4,,,Cours,Jeudi,13:00,14:00,,
+LH15,TSH,4,,,TD,Lundi,10:15,12:15,,1
+LH15,TSH,4,,,TD,Lundi,14:15,16:15,,2
+LH16,TSH,4,,,TD,Lundi,10:15,12:15,,1
+LH16,TSH,4,,,TD,Lundi,14:15,16:15,,2
+LH17,TSH,4,,,Cours,Mardi,13:00,14:00,,
+LH17,TSH,4,,,TD,Lundi,10:15,12:15,,1
+LH17,TSH,4,,,TD,Lundi,16:30,18:30,,2
+LH20,TSH,4,,,TD,Lundi,08:00,10:00,,
+LH20,TSH,4,,,TD,Lundi,13:00,14:00,,
+LH21,TSH,4,,,TD,Mardi,10:15,12:15,,
+LH21,TSH,4,,,TD,Mardi,13:00,14:00,,
+MU01,TSH,4,TC,Oui,TD,Vendredi,10:15,12:15,,
+MU03,TSH,4,TC,Oui,TD,Jeudi,10:15,12:15,,
+PH01,TSH,4,TC,Oui,Cours,Mardi,09:00,10:00,,
+PH01,TSH,4,TC,Oui,TD,Mardi,10:15,12:15,,
+PH03,TSH,4,TC,Oui,Cours,Mardi,10:15,12:15,,
+PH03,TSH,4,TC,Oui,TD,Mardi,13:00,14:00,,1
+PH03,TSH,4,TC,Oui,TD,Mardi,14:15,15:15,,2
+PH04,TSH,4,TC,Oui,Cours,Mardi,10:15,12:15,,
+PH04,TSH,4,TC,Oui,TD,Mardi,14:15,15:15,,1
+PH04,TSH,4,TC,Oui,TD,Mardi,15:15,16:15,,2
+PH09,TSH,4,,,Cours,Lundi,14:15,16:15,,
+PH09,TSH,4,,,TD,Lundi,13:00,14:00,,1
+PH09,TSH,4,,,TD,Lundi,16:30,17:30,,2
+PH11,TSH,4,TC,Oui,Cours,Mercredi,09:00,10:00,,
+PH11,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,
+SA12,TSH,4,TC,Oui,TD,Jeudi,13:15,16:15,,1
+SA12,TSH,4,TC,Oui,TD,Jeudi,16:30,19:30,,2
+SC11,TSH,4,TC,Oui,Cours,Lundi,13:00,14:00,,
+SC11,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,
+SC12,TSH,4,TC,Oui,Cours,Mercredi,14:15,16:15,,
+SC12,TSH,4,TC,Oui,TD,Mercredi,16:30,17:30,,1
+SC12,TSH,4,TC,Oui,TD,Mercredi,17:30,18:30,,2
+SC21,TSH,4,TC,Oui,Cours,Mardi,14:15,16:15,,
+SC21,TSH,4,TC,Oui,TD,Mardi,16:30,17:30,,1
+SC21,TSH,4,TC,Oui,TD,Mardi,17:30,18:30,,2
+SC22,TSH,4,,,Cours,Mardi,13:00,14:00,,
+SC22,TSH,4,,,TD,Mardi,14:15,16:15,,
+SC23,TSH,4,TC,Oui,Cours,Mardi,13:00,14:00,,
+SC23,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,
+SC25,TSH,4,TC,Oui,Cours,Mardi,13:00,14:00,,
+SC25,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,1
+SC25,TSH,4,TC,Oui,TD,Mardi,16:30,18:30,,2
+SC27,TSH,4,TC,Oui,Cours,Mardi,13:00,14:00,,
+SC27,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,
+SH01,TSH,4,GI,,Cours,Vendredi,13:00,14:00,,
+SH01,TSH,4,GI,,TD,Vendredi,14:15,16:15,,1
+SH01,TSH,4,GI,,TD,Vendredi,16:30,18:30,,2
+SH10,TSH,4,,,TD,Vendredi,16:30,18:30,,2
+SH40,TSH,4,,,Cours,Vendredi,14:15,15:15,,
+SH40,TSH,4,,,TD,Vendredi,15:15,17:15,,
+SI02,TSH,4,,,Cours,Vendredi,09:00,10:00,,
+SI02,TSH,4,,,TD,Vendredi,10:15,12:15,,1
+SI02,TSH,4,,,TD,Vendredi,14:15,16:15,,2
+SI02,TSH,4,,,TD,Vendredi,16:30,18:30,,3
+SI11,TSH,4,TC,Oui,TD,Lundi,10:15,13:15,,1
+SI11,TSH,4,TC,Oui,TD,Lundi,10:15,13:15,,2
+SI11,TSH,4,TC,Oui,TD,Lundi,13:15,16:15,,3
+SI11,TSH,4,TC,Oui,TD,Lundi,13:15,16:15,,4
+SI11,TSH,4,TC,Oui,TD,Mardi,13:15,16:15,,5
+SI11,TSH,4,TC,Oui,TD,Mardi,16:30,19:30,,6
+SI20,TSH,4,,,Cours,Mercredi,13:00,14:00,,
+SI20,TSH,4,,,TD,Mercredi,14:15,16:15,,1
+SI20,TSH,4,,,TD,Mercredi,16:30,18:30,,2
+SI24,TSH,4,TC,Oui,Cours,Vendredi,09:00,10:00,,
+SI24,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,1
+SI24,TSH,4,TC,Oui,TD,Vendredi,10:15,12:15,,2
+SO04,TSH,4,TC,Oui,Cours,Lundi,13:00,14:00,,
+SO04,TSH,4,TC,Oui,TD,Lundi,10:15,12:15,,1
+SO04,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,2
+SO05,TSH,4,TC,Oui,Cours,Mardi,13:00,14:00,,
+SO05,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,1
+SO05,TSH,4,TC,Oui,TD,Mardi,16:30,18:30,,2
+SO08,TSH,4,TC,Oui,Cours,Mardi,13:00,14:00,,
+SO08,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,1
+SO08,TSH,4,TC,Oui,TD,Mardi,16:30,18:30,,2
+SP01,TSH,4,TC,Oui,Cours,Mardi,10:15,12:15,,
+SP01,TSH,4,TC,Oui,TD,Lundi,14:15,16:15,,1
+SP01,TSH,4,TC,Oui,TD,Mardi,14:15,16:15,,2
+SP22,TSH,4,,,Cours,Lundi,10:15,12:15,,
+SP22,TSH,4,,,TD,Lundi,14:15,16:15,,1
+SP22,TSH,4,,,TD,Lundi,16:30,18:30,,2
+WE01,TSH,4,TC,Oui,Cours,Mercredi,13:00,14:00,,
+WE01,TSH,4,TC,Oui,TD,Mercredi,14:15,16:15,,1
+WE01,TSH,4,TC,Oui,TD,Mercredi,16:30,18:30,,2
+WE01,TSH,4,TC,Oui,TD,Mercredi,10:15,12:15,,3
+ED01,CS,4,edhec,,TD,Vendredi,08:00,12:00,,
+ED02,CS,4,edhec,,TD,Lundi,10:15,13:15,,
+ED04,CS,6,edhec,,TD,Jeudi,10:15,13:15,,
+ED04,CS,6,edhec,,TD,Mercredi,09:30,12:30,,
+EI02,TSH,4,,,Cours,Vendredi,13:00,14:00,,
+EI02,TSH,4,,,TD,Vendredi,08:00,10:00,,1
+EI02,TSH,4,,,TD,Vendredi,10:15,12:15,,2
+ICX4,,,,,Cours,Mercredi,10:15,11:15,,
+ICX4,,,,,TD,Mercredi,11:15,13:15,,
+ICX6,,,,,Cours,Mercredi,18:30,19:30,,
+ICX6,,,,,TP,Mercredi,16:30,18:30,,
+ICX8,,,master,,TD,Jeudi,14:15,18:15,,
+IDC2,,,master,,Cours,Mercredi,10:15,12:15,,
+IDC2,,,master,,TD,Jeudi,16:30,18:30,,
+IDC3,,,master,,Cours,Lundi,16:30,17:30,,
+IDC3,,,master,,TD,Lundi,14:15,16:15,,
+IDC5,,,master,,Cours,Mardi,08:00,10:00,,
+IDC5,,,master,,TP,Mardi,16:30,18:30,,
+IDC6,,,master,,Cours,Mercredi,08:00,10:00,,
+IDC6,,,master,,TP,Mercredi,16:30,18:30,,
+ISC0,,,master,,Cours,Jeudi,14:15,16:15,,
+ISC0,,,master,,TD,Jeudi,16:30,18:30,,
+ISC1,,,master,,Cours,Jeudi,10:15,12:15,,
+ISC1,,,master,,TD,Mercredi,16:30,18:30,,
+ISC1,,,master,,TP,Mercredi,18:30,19:30,,
+ISC2,,,master,,Cours,Mercredi,08:00,10:00,,
+ISC2,,,master,,TD,Mercredi,10:15,12:15,,
+ISC3,TM,3,master,,Cours,Vendredi,08:00,10:00,,
+ISC3,TM,3,master,,TD,Lundi,14:15,16:15,,
+MTX2,CS,8,,,Cours,Jeudi,10:30,12:00,,1
+MTX2,CS,8,,,Cours,Lundi,10:30,12:00,,1
+MTX2,CS,8,,,Cours,Lundi,14:30,16:00,,2
+MTX2,CS,8,,,Cours,Mardi,10:30,12:00,,2
+MTX2,CS,8,,,TD,Mardi,08:00,10:00,,
+MTX2,CS,8,,,TD,Mercredi,14:15,16:15,,
+SF01,,,,,TD,Mardi,14:30,16:00,,1
+SF01,,,,,TD,Mardi,16:30,18:00,,2
+SF02,,,,,TD,Mardi,14:30,16:00,,1
+SF02,,,,,TD,Mardi,16:30,18:00,,2
+SH03,TSH,4,,,Cours,Vendredi,13:00,14:00,,
+SH03,TSH,4,,,TD,Vendredi,08:00,10:00,,
+SH06,TSH,4,,,Cours,Mercredi,09:00,10:00,,
+SH06,TSH,4,,,TD,Mercredi,10:15,12:15,,
+SH07,TSH,4,,,Cours,Mercredi,10:15,11:15,,
+SH07,TSH,4,,,TD,Mercredi,11:15,13:15,,1
+SH07,TSH,4,,,TD,Mercredi,14:15,16:15,,2
+SH10,TSH,4,,,Cours,Vendredi,13:00,14:00,,
+SH10,TSH,4,,,TD,Vendredi,14:15,16:15,,1
+SH26,TSH,4,,,Cours,Mercredi,10:15,11:15,,
+SH26,TSH,4,,,TD,Mercredi,11:15,13:15,,
+SH30,TSH,4,,,Cours,Vendredi,13:00,14:00,,
+SH30,TSH,4,,,TD,Vendredi,14:15,16:15,,1
+SH30,TSH,4,,,TD,Vendredi,16:30,18:30,,2
+TA03,TM,4,,,Cours,Mercredi,08:00,12:00,,
+TN15,TM,6,,,Cours,Jeudi,13:15,16:15,,
+UT01,TSH,4,,,Cours,Mardi,14:30,16:00,,
+UT01,TSH,4,,,TD,Mardi,16:30,18:30,,

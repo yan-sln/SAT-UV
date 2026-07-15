@@ -44,14 +44,43 @@ class Groupe {
 }
 
 class Enseignement {
-    constructor(code, cours = [], groupes = {}, categorie = "", ects = null) {
+    constructor(code, cours = [], groupes = {}, categorie = "", ects = null, branches = [], diplomante = null) {
         this.code = code;
         this.cours = cours; // Creneau[] imposés
         this.groupes = groupes; // { activite: Groupe[] }
         this.categorie = categorie; // ex: "Coeur", "Ouverture", ...
         this.ects = ects; // nombre de crédits ECTS (number ou null si inconnu)
+        this.branches = branches || []; // string[] : branches concernées (ex. ["TC"], ["GB", "GU"], ...)
+        // diplomante : null (inconnu), booléen (vrai pour toutes les branches),
+        // ou objet { brancheEnMinuscules: booléen } quand le statut diffère selon la branche.
+        this.diplomante = diplomante === undefined ? null : diplomante;
     }
     activitesAChoix() {
         return Object.entries(this.groupes);
+    }
+    // true/false si l'UV concerne la branche donnée (comparaison insensible à la casse).
+    // Si branche est vide/null, retourne true si l'UV a au moins une branche définie.
+    aBranche(branche) {
+        const liste = this.branches || [];
+        if (!branche) return liste.length > 0;
+        const cle = branche.toLowerCase();
+        return liste.some(b => b.toLowerCase() === cle);
+    }
+    // Statut "diplomante" pour une branche donnée (ou global si branche vide/null).
+    // Retourne true, false, ou null si inconnu/non applicable.
+    diplomantePour(branche = null) {
+        if (this.diplomante === null || this.diplomante === undefined) return null;
+        if (typeof this.diplomante === "boolean") return this.diplomante;
+        // objet par branche
+        if (branche) {
+            const cle = branche.toLowerCase();
+            return Object.prototype.hasOwnProperty.call(this.diplomante, cle) ? this.diplomante[cle] : null;
+        }
+        // aucune branche précisée : diplomante si au moins une branche l'est,
+        // non diplomante seulement si aucune branche ne l'est.
+        const valeurs = Object.values(this.diplomante);
+        if (valeurs.some(v => v === true)) return true;
+        if (valeurs.length > 0 && valeurs.every(v => v === false)) return false;
+        return null;
     }
 }

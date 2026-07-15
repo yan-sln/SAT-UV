@@ -29,6 +29,36 @@ function cleCreneau(l) {
     return `${l["Jour"]}|${l["Heure début"]}|${l["Heure fin"]}|${l["Semaine"]}`;
 }
 
+/**
+ * Colonne "Spécialité" : liste de branches séparées par des virgules
+ * (ex. "GB, GP, GU, IM, TC"), ou vide si non précisé.
+ */
+function parseBranches(specialiteBrute) {
+    if (!specialiteBrute) return [];
+    return specialiteBrute.split(",").map(s => s.trim()).filter(Boolean);
+}
+
+/**
+ * Colonne "Diplomante" : soit une valeur globale ("Oui" / "Non" / vide),
+ * soit un détail par branche ("GB: Oui, GP: Oui, ..., TC: Non") quand le
+ * statut diffère selon la branche (ex. UV de branche ouverte au tronc
+ * commun mais non diplomante pour celui-ci).
+ * Retourne null (inconnu), un booléen, ou un objet { brancheEnMinuscules: booléen }.
+ */
+function parseDiplomante(diplomanteBrute) {
+    const texte = (diplomanteBrute || "").trim();
+    if (texte === "") return null;
+    if (texte === "Oui") return true;
+    if (texte === "Non") return false;
+    const parBranche = {};
+    for (const partie of texte.split(",")) {
+        const [brancheBrute, valeurBrute] = partie.split(":");
+        if (brancheBrute === undefined || valeurBrute === undefined) continue;
+        parBranche[brancheBrute.trim().toLowerCase()] = valeurBrute.trim() === "Oui";
+    }
+    return Object.keys(parBranche).length > 0 ? parBranche : null;
+}
+
 function chargerBaseFromRows(rows) {
     const lignesParCode = new Map();
     for (const ligne of rows) {
@@ -86,14 +116,21 @@ function chargerBaseFromRows(rows) {
         const categorie = (lignes[0]["Type UV"] || "").trim();
         const ectsBrut = lignes[0]["ECTS"];
         const ects = ectsBrut !== undefined && ectsBrut !== "" && !isNaN(parseFloat(ectsBrut)) ? parseFloat(ectsBrut) : null;
-        enseignements[code] = new Enseignement(code, cours, groupes, categorie, ects);
+        const branches = parseBranches(lignes[0]["Spécialité"]);
+        const diplomante = parseDiplomante(lignes[0]["Diplomante"]);
+        enseignements[code] = new Enseignement(code, cours, groupes, categorie, ects, branches, diplomante);
     }
     codesExclus.sort();
     return { enseignements, codesExclus };
 }
 
 async function chargerBase(cheminCsv) {
-    const reponse = await fetch(cheminCsv);
+    // anti-cache : le CSV peut changer sans que le nom de fichier change,
+    // contrairement aux scripts JS versionnés via ?v=. On force donc une
+    // requête fraîche à chaque chargement (navigateur ET éventuel CDN).
+    const separateur = cheminCsv.includes("?") ? "&" : "?";
+    const url = `${cheminCsv}${separateur}t=${Date.now()}`;
+    const reponse = await fetch(url, { cache: "no-store" });
     if (!reponse.ok) throw new Error(`Impossible de charger ${cheminCsv} (HTTP ${reponse.status})`);
     const texte = await reponse.text();
     const resultat = Papa.parse(texte, { header: true, skipEmptyLines: true });

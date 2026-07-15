@@ -1,0 +1,7 @@
+{
+  "name": "sat-uv",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/"
+  }
+}
