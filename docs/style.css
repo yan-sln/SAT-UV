@@ -223,6 +223,16 @@ select:disabled {
     pointer-events: none;
 }
 
+.suggestion-item.suggestion-incompatible {
+    color: var(--couleur-texte-secondaire);
+    opacity: 0.55;
+}
+
+.suggestion-item.suggestion-incompatible:hover,
+.suggestion-item.suggestion-incompatible.active {
+    opacity: 0.8;
+}
+
 .filtre-boutons {
     display: flex;
     flex-wrap: wrap;
@@ -268,14 +278,21 @@ select:disabled {
 }
 
 .bouton-filtre:hover:not(:disabled) {
-    border-color: var(--couleur-primaire);
-    background: var(--couleur-fond);
+    border-color: #FCD51E;
+    background: #FCD51E;
+    color: #1f2937;
 }
 
 .bouton-filtre.actif {
     background: var(--couleur-primaire);
     border-color: var(--couleur-primaire);
     color: #fff;
+}
+
+.bouton-filtre.actif:hover:not(:disabled) {
+    background: #FCD51E;
+    border-color: #FCD51E;
+    color: #1f2937;
 }
 
 .bouton-filtre:disabled {

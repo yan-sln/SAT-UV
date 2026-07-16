@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Vérification compatibilités UVs</title>
-<link rel="stylesheet" href="style.css?v=10" />
+<link rel="stylesheet" href="style.css?v=13" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 </head>
 <body>
@@ -135,8 +135,8 @@
 
 <div class="conteneur-simulateur">
     <div class="carte" id="carteSimulateur">
-        <h2>3. Simulateur d'emploi du temps</h2>
-        <p class="aide">Essayez différentes combinaisons de créneaux pour votre sélection actuelle (bloc 1) et visualisez à quoi pourrait ressembler votre semaine si tous vos vœux étaient accordés.</p>
+        <h2>3. Simulateur d'emploi du temps provisoire</h2>
+        <p class="aide">Essayez différentes combinaisons de créneaux pour votre sélection actuelle et visualisez à quoi pourrait ressembler votre semaine si tous vos vœux étaient accordés.</p>
         <p class="sim-avertissement">Les horaires affichés ici sont provisoires : ils peuvent encore être modifiés par l'administration de l'UTC. De plus, le résultat final ne dépend pas que de vos propres choix - il dépend aussi des choix des autres étudiant·es et du nombre de places disponibles dans chaque TD/TP. Ce simulateur donne un aperçu, pas une garantie.</p>
         <div id="simulateurContenu">
             <p class="aide">Sélectionnez au moins un enseignement compatible dans le bloc 1 pour activer le simulateur.</p>
@@ -168,6 +168,8 @@ let selection = []; // codes principaux sélectionnés, dans l'ordre d'ajout
 let selectionRemplacement = []; // codes de remplacement testés, dans l'ordre d'ajout
 let validesPrincipal = []; // dernière sélection principale validée (pour le test de remplacement)
 let avertissementsPrincipal = []; // avertissements (codes inconnus/exclus) affichés avec le badge combiné
+let incompatiblesPrincipal = new Set(); // codes qui rendraient la sélection principale UNSAT (pour griser les suggestions)
+let incompatiblesRemplacement = new Set(); // idem pour (principal + remplacement)
 // Filtres partagés entre le mode principal et le mode remplacement (ils
 // restent identiques quand on bascule d'un mode à l'autre).
 let branchesSelectionnees = new Set(); // branches cochées, en minuscules
@@ -520,10 +522,15 @@ function creerControleurSelection(config) {
             config.suggestionsEl.hidden = true;
             return;
         }
+        const incompatibles = config.obtenirIncompatibles();
         suggestionsCourantes.forEach((code, i) => {
             const item = document.createElement("div");
-            item.className = "suggestion-item" + (i === suggestionIndex ? " active" : "");
+            const grise = incompatibles.has(code);
+            item.className = "suggestion-item"
+                + (i === suggestionIndex ? " active" : "")
+                + (grise ? " suggestion-incompatible" : "");
             item.textContent = libelleOption(code, branchesSelectionnees);
+            if (grise) item.title = "Incompatible avec la sélection actuelle (ajout possible, mais passera l'ensemble en UNSAT)";
             item.addEventListener("mousedown", (e) => {
                 e.preventDefault(); // évite que le blur ne ferme la liste avant le clic
                 choisir(code);
@@ -661,6 +668,10 @@ const controleurPrincipal = creerControleurSelection({
     definirListe: (v) => { selection = v; },
     exclureAutreListe: false, // une UV en remplacement peut toujours être "promue" en principal
     obtenirAutreListe: () => selectionRemplacement,
+    // Codes qui rendraient la sélection principale UNSAT s'ils étaient ajoutés
+    // (recalculé par calculerEtAfficher() à chaque changement de sélection) :
+    // utilisé pour griser ces suggestions plutôt que de les cacher.
+    obtenirIncompatibles: () => incompatiblesPrincipal,
     // Une UV ne peut pas être à la fois principale et "remplacement" en test :
     // si on la choisit côté principal, on la retire automatiquement des remplacements.
     onAjoutRetireDeLAutre: (code) => {
@@ -695,6 +706,8 @@ const controleurRemplacement = creerControleurSelection({
     definirListe: (v) => { selectionRemplacement = v; },
     exclureAutreListe: true, // on ne peut pas tester en remplacement une UV déjà principale
     obtenirAutreListe: () => selection,
+    // Codes qui rendraient (principal + remplacement) UNSAT s'ils étaient ajoutés.
+    obtenirIncompatibles: () => incompatiblesRemplacement,
     onApresChangement: () => apresChangementSelectionRemplacement(true),
 });
 
@@ -804,6 +817,8 @@ function calculerEtAfficher() {
         compatiblesTexte.value = "";
         incompatiblesTexte.value = "";
         validesPrincipal = [];
+        incompatiblesPrincipal = new Set();
+        controleurPrincipal.rafraichir();
         mettreAJourSimulateur([], false);
         calculerEtAfficherRemplacement();
         return;
@@ -824,6 +839,8 @@ function calculerEtAfficher() {
         resumeCompatibilite.textContent = "";
         compatiblesTexte.value = "";
         incompatiblesTexte.value = "";
+        // La base elle-même est déjà UNSAT : griser "en plus" n'a pas de sens
+        // (tout ajout resterait UNSAT), donc on ne modifie pas l'ensemble ici.
         mettreAJourSimulateur(valides, false);
         calculerEtAfficherRemplacement();
         return;
@@ -837,6 +854,9 @@ function calculerEtAfficher() {
     compatiblesTexte.value = compatibles.length ? compatibles.map(c => libelleOption(c, branchesSelectionnees)).join("\n") : "Aucun code encore compatible avec la sélection actuelle.";
     incompatiblesTexte.value = incompatibles.length ? incompatibles.map(c => libelleOption(c, branchesSelectionnees)).join("\n") : "Aucun code incompatible avec la sélection actuelle.";
 
+    incompatiblesPrincipal = new Set(incompatibles);
+    controleurPrincipal.rafraichir(); // reflète le nouveau grisage si le menu est ouvert
+
     mettreAJourSimulateur(valides, true);
     calculerEtAfficherRemplacement();
 }
@@ -849,6 +869,8 @@ function calculerEtAfficherRemplacement() {
         badge.textContent = "-";
         badge.className = "resultat-badge neutre";
         detailMessage.textContent = "Sélectionnez au moins un enseignement.";
+        incompatiblesRemplacement = new Set();
+        controleurRemplacement.rafraichir();
         return;
     }
     const combinaison = [...validesPrincipal, ...selectionRemplacement];
@@ -860,11 +882,17 @@ function calculerEtAfficherRemplacement() {
             ? "Cette combinaison n'est pas compatible avec votre sélection principale."
             : "L'ensemble sélectionné est déjà insatisfaisable : retirez un code pour continuer.");
         detailMessage.textContent = [texte, ...avertissementsPrincipal].join("\n");
+        // La base (principal + remplacement) est déjà UNSAT : pas de grisage
+        // supplémentaire pertinent (voir la même remarque dans calculerEtAfficher).
         return;
     }
     badge.textContent = "SAT";
     badge.className = "resultat-badge sat";
     detailMessage.textContent = avertissementsPrincipal.join("\n");
+
+    const { incompatibles } = calculerCompatibilites(enseignements, combinaison);
+    incompatiblesRemplacement = new Set(incompatibles);
+    controleurRemplacement.rafraichir(); // reflète le nouveau grisage si le menu est ouvert
 }
 </script>
 </body>

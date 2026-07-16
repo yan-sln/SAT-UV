@@ -185,6 +185,45 @@ test("retrait et 'tout supprimer' : la sélection principale peut être vidée s
     assert.equal(infoSelection.textContent, "Aucun enseignement sélectionné.");
 });
 
+test("suggestions grisées : une UV incompatible avec la sélection actuelle apparaît grisée dans le menu", () => {
+    const p = chargerPage();
+    p.obtenir("controleurPrincipal").ajouter(CODE_A);
+    p.appeler("calculerEtAfficher"); // court-circuite le debounce pour recalculer incompatiblesPrincipal
+
+    const ajoutUv = p.elementsById["ajoutUv"];
+    ajoutUv.value = "AC0"; // fait remonter AC02 (incompatible) et d'autres AC0x (compatibles) dans les suggestions
+    ajoutUv.focus();
+    p.obtenir("controleurPrincipal").rafraichir();
+
+    const suggestionsEl = p.elementsById["suggestionsAjout"];
+    const itemAC02 = suggestionsEl._children.find(el => el.textContent.startsWith(CODE_CONFLIT));
+    assert.ok(itemAC02, "AC02 doit apparaître dans les suggestions (juste grisée, pas cachée)");
+    assert.ok(itemAC02.classList.contains("suggestion-incompatible"), "AC02 doit porter la classe de grisage");
+
+    const itemIndependant = suggestionsEl._children.find(el => el.textContent.startsWith(CODE_INDEPENDANT));
+    assert.ok(itemIndependant, "AC03 doit aussi apparaître dans les suggestions");
+    assert.ok(!itemIndependant.classList.contains("suggestion-incompatible"), "AC03 est compatible : pas de grisage");
+});
+
+test("suggestions grisées : le grisage se recalcule après un changement de sélection", () => {
+    const p = chargerPage();
+    const ajoutUv = p.elementsById["ajoutUv"];
+    ajoutUv.value = "AC02";
+    ajoutUv.focus();
+    p.obtenir("controleurPrincipal").rafraichir();
+    let suggestionsEl = p.elementsById["suggestionsAjout"];
+    let itemAC02 = suggestionsEl._children.find(el => el.textContent.startsWith(CODE_CONFLIT));
+    assert.ok(!itemAC02.classList.contains("suggestion-incompatible"), "rien de sélectionné encore : AC02 n'est pas grisée");
+
+    p.obtenir("controleurPrincipal").ajouter(CODE_A);
+    p.appeler("calculerEtAfficher");
+    ajoutUv.focus();
+    p.obtenir("controleurPrincipal").rafraichir();
+    suggestionsEl = p.elementsById["suggestionsAjout"];
+    itemAC02 = suggestionsEl._children.find(el => el.textContent.startsWith(CODE_CONFLIT));
+    assert.ok(itemAC02.classList.contains("suggestion-incompatible"), "après ajout de AC01 : AC02 doit être grisée");
+});
+
 test("boutons copier/télécharger : désactivés seulement quand les DEUX listes sont vides", () => {
     const p = chargerPage();
     const btnCopier = p.elementsById["btnCopierSelection"];
