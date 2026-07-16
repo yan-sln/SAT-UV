@@ -68,16 +68,34 @@ test("chargerBaseFromRows : un seul créneau de Cours => imposé (this.cours)", 
     assert.equal(Object.keys(e.groupes).length, 0);
 });
 
-test("chargerBaseFromRows : plusieurs créneaux de Cours distincts => activité à choix, pas imposée", () => {
+test("chargerBaseFromRows : plusieurs créneaux de Cours sous des Lib. créneau DIFFÉRENTS => activité à choix, pas imposée", () => {
     const rows = [
-        ligne({ "Jour": "Lundi", "Heure début": "08:00", "Heure fin": "10:00" }),
-        ligne({ "Jour": "Mardi", "Heure début": "10:15", "Heure fin": "12:15" }),
+        ligne({ "Jour": "Lundi", "Heure début": "08:00", "Heure fin": "10:00", "Lib. créneau": "1" }),
+        ligne({ "Jour": "Mardi", "Heure début": "10:15", "Heure fin": "12:15", "Lib. créneau": "2" }),
     ];
     const { enseignements } = chargerBaseFromRows(rows);
     const e = enseignements["X01"];
     assert.equal(e.cours.length, 0, "le Cours ne doit plus être imposé");
     assert.ok(e.groupes["Cours"], "un groupe à choix 'Cours' doit exister");
-    assert.equal(e.groupes["Cours"].length, 2);
+    assert.equal(e.groupes["Cours"].length, 2, "deux groupes distincts, un par Lib. créneau");
+});
+
+test("RÉGRESSION : plusieurs créneaux de Cours sous le MÊME Lib. créneau => un seul groupe imposé à plusieurs séances (pas une fausse alternative)", () => {
+    // Cas réel qui a fait dérailler la détection de conflits pour de vrai
+    // (ex. AM14 : un seul Cours, mais deux séances par semaine, Lundi ET
+    // Mercredi, sous le même Lib. créneau). Traiter chaque séance comme une
+    // alternative indépendante donnerait à tort la liberté de n'en suivre
+    // qu'une seule, et masquerait de vrais conflits d'horaire.
+    const rows = [
+        ligne({ "Jour": "Lundi", "Heure début": "16:30", "Heure fin": "18:30", "Lib. créneau": "A" }),
+        ligne({ "Jour": "Mercredi", "Heure début": "14:15", "Heure fin": "18:15", "Lib. créneau": "A" }),
+    ];
+    const { enseignements } = chargerBaseFromRows(rows);
+    const e = enseignements["X01"];
+    assert.equal(e.groupes["Cours"], undefined, "toujours un seul groupe : ne doit pas devenir une activité à choix");
+    assert.equal(e.cours.length, 2, "les deux séances du même groupe doivent toutes les deux être imposées");
+    const jours = e.cours.map(c => c.jour).sort();
+    assert.deepEqual(jours, ["Lundi", "Mercredi"]);
 });
 
 test("chargerBaseFromRows : lignes de Cours strictement identiques => dédoublonnées (reste imposé)", () => {

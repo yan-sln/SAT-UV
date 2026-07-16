@@ -51,7 +51,7 @@ let simClesLibres = []; // clés encore à choix après réduction par point fix
 let simOptionsValides = {}; // clé -> Groupe[] restants
 let simGroupeFixe = {}; // clé -> Groupe imposé de fait
 let simCoursImposes = []; // Creneau[] toujours présents (Cours imposé de chaque UV)
-let simCoursImposesParCode = {}; // code -> Creneau (pour l'affichage "fixe")
+let simCoursImposesParCode = {}; // code -> Creneau[] (un Cours imposé peut compter plusieurs séances)
 let simBaseCoherente = true; // false si des éléments sans choix possible (Cours imposés
                               // et/ou groupes réduits à une seule option) se contredisent déjà entre eux
 
@@ -79,8 +79,8 @@ function simConstruireEtat(codes) {
         const e = enseignements[code];
         if (!e) continue;
         if (e.cours.length > 0) {
-            simCoursImposesParCode[code] = e.cours[0];
-            simCoursImposes.push(e.cours[0]);
+            simCoursImposesParCode[code] = e.cours; // un Cours imposé peut compter plusieurs séances (ex. 2×/semaine)
+            simCoursImposes.push(...e.cours);
         }
         for (const [activite, groupes] of e.activitesAChoix()) {
             const cle = code + "|" + activite;
@@ -188,9 +188,11 @@ function simConstruireControles(conteneur) {
         let html = `<div class="sim-uv-titre"><span class="sim-dot" style="background:${simCouleurs[code]}"></span>${code}</div>`;
 
         if (simCoursImposesParCode[code]) {
-            const c = simCoursImposesParCode[code];
+            const texte = simCoursImposesParCode[code]
+                .map(c => `${c.jour} ${simFmt(c.debut)}-${simFmt(c.fin)}${simLibelleFrequence(c.semaine)}`)
+                .join(" + ");
             html += `<div class="sim-champ"><label>Cours<span class="sim-tag-fixe">fixe</span></label>`
-                + `<div class="sim-info-fixe">${c.jour} ${simFmt(c.debut)}-${simFmt(c.fin)}${simLibelleFrequence(c.semaine)}</div></div>`;
+                + `<div class="sim-info-fixe">${texte}</div></div>`;
         }
 
         const clesDuCode = simCles.filter(cle => cle.startsWith(code + "|"));
@@ -276,8 +278,10 @@ function simConstruireSquelette(conteneur) {
 function simSelectionCourante() {
     // { code, activite, creneau, groupe|null, fixe: bool }[]
     const choisis = [];
-    for (const [code, creneau] of Object.entries(simCoursImposesParCode)) {
-        choisis.push({ code, activite: "Cours", creneau, fixe: true });
+    for (const [code, creneaux] of Object.entries(simCoursImposesParCode)) {
+        for (const creneau of creneaux) {
+            choisis.push({ code, activite: "Cours", creneau, fixe: true });
+        }
     }
     for (const cle of simCles) {
         const [code, activite] = cle.split("|");

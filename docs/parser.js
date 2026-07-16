@@ -16,8 +16,11 @@
  * 2. Certains enseignements proposent PLUSIEURS créneaux de Cours distincts
  *    (ex. MT02, MT03) : plusieurs séances au choix, une seule à suivre.
  *    Dans ce cas, le Cours n'est plus un créneau imposé mais une activité à
- *    choix comme les autres (une "Groupe" par créneau alternatif). Quand un
- *    seul créneau de Cours existe (cas standard), il reste imposé.
+ *    choix comme les autres, avec un "Groupe" par Lib. créneau — même règle
+ *    d'agrégation que pour TD/TP/Atelier (règle 1) : un groupe de Cours peut
+ *    lui-même compter plusieurs séances à suivre ensemble (ex. Cours "1" =
+ *    Jeudi ET Lundi). Quand un seul groupe de Cours existe (cas standard,
+ *    même s'il compte plusieurs séances), il reste imposé.
  */
 
 function parseHeure(hhmm) {
@@ -72,28 +75,37 @@ function chargerBaseFromRows(rows) {
     for (const [code, lignes] of lignesParCode.entries()) {
         const groupesParActivite = {};
 
-        // --- Cours : imposé s'il n'y a qu'un seul créneau, à choix sinon ---
+        // --- Cours : imposé s'il n'y a qu'UN SEUL groupe (Lib. créneau), à choix
+        // sinon. Même règle d'agrégation que les autres activités : un groupe de
+        // Cours peut compter plusieurs séances à suivre ensemble (ex. Cours "1"
+        // = Jeudi ET Lundi) — se fier au nombre de créneaux bruts plutôt qu'au
+        // nombre de groupes ferait croire, à tort, que ces séances jumelles sont
+        // des alternatives indépendantes (bug corrigé : ça masquait de vrais
+        // conflits d'horaire, ex. MT02 vs GE28/DI05).
         const lignesCours = lignes.filter(l => l["Activité"] === "Cours");
-        const coursUniques = [];
-        const clesVues = new Set();
+        const groupesCoursParLib = {};
+        const clesVuesParLib = {};
         for (const l of lignesCours) {
+            const lib = l["Lib. créneau"] || "";
             const cle = cleCreneau(l);
-            if (clesVues.has(cle)) continue; // dédoublonne les lignes strictement identiques
-            clesVues.add(cle);
-            coursUniques.push(l);
+            if (!clesVuesParLib[lib]) clesVuesParLib[lib] = new Set();
+            if (clesVuesParLib[lib].has(cle)) continue; // dédoublonne les lignes strictement identiques
+            clesVuesParLib[lib].add(cle);
+            if (!groupesCoursParLib[lib]) groupesCoursParLib[lib] = [];
+            groupesCoursParLib[lib].push(new Creneau(l["Jour"], parseHeure(l["Heure début"]), parseHeure(l["Heure fin"]), l["Semaine"]));
         }
+        const libsCours = Object.keys(groupesCoursParLib);
 
         let cours = [];
-        if (coursUniques.length <= 1) {
-            cours = coursUniques.map(l => new Creneau(l["Jour"], parseHeure(l["Heure début"]), parseHeure(l["Heure fin"]), l["Semaine"]));
+        if (libsCours.length <= 1) {
+            cours = libsCours.length ? groupesCoursParLib[libsCours[0]] : [];
         } else {
             groupesParActivite["Cours"] = {};
-            coursUniques.forEach((l, i) => {
-                const libSynthetique = `C${i + 1}`;
-                const groupe = new Groupe(code, "Cours", libSynthetique);
-                groupe.creneaux.push(new Creneau(l["Jour"], parseHeure(l["Heure début"]), parseHeure(l["Heure fin"]), l["Semaine"]));
-                groupesParActivite["Cours"][libSynthetique] = groupe;
-            });
+            for (const lib of libsCours) {
+                const groupe = new Groupe(code, "Cours", lib);
+                groupe.creneaux = groupesCoursParLib[lib];
+                groupesParActivite["Cours"][lib] = groupe;
+            }
         }
 
         // --- Toute autre activité (TD, TP, Atelier, Activités annexes, ...) : à choix ---

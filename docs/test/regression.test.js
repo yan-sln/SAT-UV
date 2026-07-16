@@ -52,6 +52,45 @@ test("RÉGRESSION : la combinaison CM11 + DI05 + MT02 + HT04 + SC22 est compatib
     assert.equal(resultat.satisfiable, true, resultat.message || "devrait être SAT");
 });
 
+test("RÉGRESSION : un Cours imposé à plusieurs séances (même Lib. créneau) n'est jamais scindé en fausses alternatives", () => {
+    // Bug trouvé via un écart avec l'outil officiel de la DSI : un enseignement
+    // ayant plusieurs créneaux de Cours DISTINCTS était toujours traité comme
+    // une activité à choix, même quand tous ces créneaux partageaient le même
+    // Lib. créneau (= une seule vraie séance répétée dans la semaine, pas des
+    // alternatives). Ça donnait au solveur une liberté qui n'existe pas dans
+    // la réalité, et masquait de vrais conflits d'horaire (ex. MT02 vs
+    // GE28/DI05 : le vrai conflit n'apparaissait qu'en forçant les deux
+    // séances du même groupe de Cours).
+    const { enseignements } = chargerBaseReelle();
+    for (const [code, e] of Object.entries(enseignements)) {
+        if (e.groupes["Cours"]) {
+            for (const g of e.groupes["Cours"]) {
+                assert.ok(g.lib, `${code} : un groupe de Cours à choix doit avoir un Lib. créneau identifiant (trouvé vide)`);
+            }
+        }
+    }
+});
+
+test("RÉGRESSION : la combinaison CM11 + MT02 + DI05 + HT04 + GE28 (et variantes) correspond à l'outil officiel de la DSI", () => {
+    // Résultats de référence obtenus sur https://webapplis.utc.fr/smeappli/testuvsetu/
+    const { ctx, enseignements } = chargerBaseReelle();
+    const cas = [
+        { codes: ["CM11", "MT02", "DI05", "HT04", "GE28"], satisfiable: false },
+        { codes: ["PS04", "MT02", "DI05", "HT04", "GE28"], satisfiable: false },
+        { codes: ["CM11", "PS04", "DI05", "HT04", "GE28"], satisfiable: true },
+        { codes: ["TN01", "MT02", "DI05", "HT04", "GE28"], satisfiable: false },
+        { codes: ["CM11", "TN01", "DI05", "HT04", "GE28"], satisfiable: true },
+        { codes: ["CM11", "MT02", "TN01", "HT04", "GE28"], satisfiable: true },
+        { codes: ["SC22", "GE28", "CM11", "MT02", "DI05"], satisfiable: false },
+        { codes: ["HT04", "SC22", "CM11", "MT02", "DI05"], satisfiable: true },
+    ];
+    for (const { codes, satisfiable } of cas) {
+        for (const c of codes) assert.ok(enseignements[c], `le code ${c} doit exister dans la base`);
+        const resultat = ctx.testeEnsemble(enseignements, codes);
+        assert.equal(resultat.satisfiable, satisfiable, `${codes.join(" ")} : attendu ${satisfiable ? "SAT" : "UNSAT"}, obtenu ${resultat.satisfiable ? "SAT" : "UNSAT"} (${resultat.message || ""})`);
+    }
+});
+
 test("chaque enseignement a au plus un Cours imposé OU un groupe de Cours à choix, jamais les deux", () => {
     const { enseignements } = chargerBaseReelle();
     for (const [code, e] of Object.entries(enseignements)) {
