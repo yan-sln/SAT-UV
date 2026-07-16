@@ -21,7 +21,7 @@
  * variable globale `enseignements` (définie dans index.html) est peuplée.
  */
 
-const SIM_DAYS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"];
+const SIM_DAYS = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"];
 const SIM_DAY_START = 8 * 60, SIM_DAY_END = 18 * 60 + 30;
 const SIM_PX_PER_MIN = 0.72;
 const SIM_SEUIL_ENUMERATION = 20000; // au-delà, on ne compte plus exactement (trop cher)
@@ -242,6 +242,7 @@ function simConstruireControles(conteneur) {
 
 function simConstruireSquelette(conteneur) {
     conteneur.innerHTML = "";
+    conteneur.style.gridTemplateColumns = `52px repeat(${SIM_DAYS.length}, 1fr)`;
     conteneur.style.gridTemplateRows = `28px ${(SIM_DAY_END - SIM_DAY_START) * SIM_PX_PER_MIN}px`;
     conteneur.appendChild(document.createElement("div")); // coin vide
     for (const jour of SIM_DAYS) {

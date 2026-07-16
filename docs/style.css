@@ -675,7 +675,7 @@ textarea#compatiblesTexte {
     border-radius: var(--rayon);
     padding: 1rem;
     flex: 1;
-    min-width: 560px;
+    min-width: 620px;
     overflow-x: auto;
 }
 
@@ -688,8 +688,8 @@ textarea#compatiblesTexte {
 
 .sim-cal {
     display: grid;
-    grid-template-columns: 52px repeat(5, 1fr);
-    min-width: 640px;
+    grid-template-columns: 52px repeat(6, 1fr);
+    min-width: 720px;
 }
 
 .sim-cal-entete {
