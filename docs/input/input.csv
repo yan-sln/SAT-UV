@@ -264,6 +264,19 @@ MT03,CS,5,TC,Oui,TD,Mardi,10:30,12:00,,6
 MT03,CS,5,TC,Oui,TD,Mardi,14:30,16:00,,7
 MT03,CS,5,TC,Oui,TD,Mardi,16:30,18:00,,8
 MT03,CS,5,TC,Oui,TD,Mercredi,08:30,10:00,,9
+MT09,CS,6,"GB, GP, GI, IM, GU",Oui,Cours,Mardi,16:30,18:30,,
+MT09,CS,6,"GB, GP, GI, IM, GU",Oui,TD,Mardi,08:00,10:00,,1
+MT09,CS,6,"GB, GP, GI, IM, GU",Oui,TD,Mercredi,10:15,12:15,,2
+MT09,CS,6,"GB, GP, GI, IM, GU",Oui,TD,Vendredi,10:15,12:15,,3
+MT09,CS,6,"GB, GP, GI, IM, GU",Oui,TD,Lundi,10:15,12:15,,4
+MT09,CS,6,"GB, GP, GI, IM, GU",Oui,TP,Lundi,14:15,16:15,B,1
+MT09,CS,6,"GB, GP, GI, IM, GU",Oui,TP,Lundi,14:15,16:15,A,1
+MT09,CS,6,"GB, GP, GI, IM, GU",Oui,TP,Jeudi,10:15,12:15,A,2
+MT09,CS,6,"GB, GP, GI, IM, GU",Oui,TP,Jeudi,10:15,12:15,B,2
+MT09,CS,6,"GB, GP, GI, IM, GU",Oui,TP,Jeudi,14:15,16:15,A,3
+MT09,CS,6,"GB, GP, GI, IM, GU",Oui,TP,Jeudi,14:15,16:15,B,3
+MT09,CS,6,"GB, GP, GI, IM, GU",Oui,TP,Mardi,10:15,12:15,,4
+MT09,CS,6,"GB, GP, GI, IM, GU",Oui,TP,Mardi,10:15,12:15,,5
 MT11,CS,6,"GB, GP, GI, IM",Oui,TD,Lundi,08:00,10:00,,1
 MT11,CS,6,"GB, GP, GI, IM",Oui,TD,Mercredi,14:15,16:15,,1
 MT11,CS,6,"GB, GP, GI, IM",Oui,TD,Lundi,10:15,12:15,,2
